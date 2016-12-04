@@ -2,6 +2,12 @@
 
 * Move as far as possible with capital letter
 
+## Movement
+
+	Y K U
+	H   L
+	B J N
+
 ## Keyboard Shortcuts
 
 * `S`: Save & Quit
