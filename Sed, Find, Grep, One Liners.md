@@ -19,3 +19,11 @@
 	sed -n 's/.*:\(.*\):.*/\1/p'`
 
 * `-n` suppresses outputting every line to only show matches.
+
+## Sort Xcode Test Output by Performance
+
+	grep "^Test Case.*passed" | sed -E 's/(.*)(\(.*\))/\2\1/' | sort -r
+
+## Add Hierarchy to Xcode Test Output
+
+	sed 's/^/			/' | sed 's/^			Test Suite/Test Suite/' | sed 's/^			Test Case/	Test Case/'
