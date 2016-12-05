@@ -1,0 +1,18 @@
+# Vim Movement
+
+## By Visual Line
+
+* `g0`: Beginning of display line
+* `g$`: End of display line
+* `gj`: Up display line
+* `gk`: Down display line
+
+## By Function
+
+* `[[` & `]]`: Next and previous function
+
+### By Character
+
+* `t{char}` & `T{char}`: To before next and previous character
+* `f{char}` & `F{char}`: To next and previous character
+* `;` & `'`: To next and previous of searched character
