@@ -7,6 +7,7 @@
 * `<C-r><C-a>`: Insert WORD under cursor
 * `<C-r>%`: Insert name of current file
 * `<C-c>` or `ESC`: Close command line and command line window
+* `<cfile>`: Another reference to the cursor file, this is particularly useful with `e <cfile>` to start create the file at the cursor (`<C-r><C-f>` can also be used in this case).
 
 ## Examples
 
