@@ -5,27 +5,27 @@
 ### Backwards
 
 - `M-{`: Backwards Paragraph
-- `C-A`: Backwards Line
-- `M-B`: Backwards Word
-- `C-B`: Backwards Character
+- `C-a`: Backwards Line
+- `M-b`: Backwards Word
+- `C-b`: Backwards Character
 
 ### Forwards
 
-- `C-F`: Forwards Character
-- `M-F`: Forwards Word
-- `C-E`: Forwards Line
+- `C-f`: Forwards Character
+- `M-f`: Forwards Word
+- `C-e`: Forwards Line
 - `M-}`: Forwards Paragraph
 
 ### Upwards
 
 - `M-<`: Up to beginning of document
-- `M-V`: Up one screen
-- `C-P`: Up one line
+- `M-v`: Up one screen
+- `C-p`: Up one line
 
 ### Downwards
 
-- `C-N`: Down one line
-- `C-V`: Down one screen
+- `C-n`: Down one line
+- `C-v`: Down one screen
 - `M->`: Down to end of document
 
 ### Delete
@@ -33,19 +33,19 @@
 #### Backwards
 
 - `DEL`: Backwards Character
-- `C-H`: Backwards Character
+- `C-h`: Backwards Character
 - `C-DEL`: Backwards Word
-- `C-W`: Backwards Word
+- `C-w`: Backwards Word
 
 #### Forwards
 
-- `C-D`: Forwards Character
-- `C-K`: Forwards Line
-- `M-D`: Forwards Word
+- `C-d`: Forwards Character
+- `C-k`: Forwards Line
+- `M-d`: Forwards Word
 
 ### Edit
 
-- `C-T`: Transpose Characters
-- `M-C`: Capitalize
-- `M-U`: Uppercase
-- `M-L`: Lowercase (this is dangerous in terminal!)
+- `C-t`: Transpose Characters
+- `M-c`: Capitalize
+- `M-u`: Uppercase
+- `M-l`: Lowercase (this is dangerous in terminal!)
