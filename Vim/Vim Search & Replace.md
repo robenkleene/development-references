@@ -25,6 +25,7 @@ The `quickfix` list.
 - `:v/pid/d` or `g!/foo/d`: Delete all other lines (`v` is for `in*v*erse`)
 - `:g/cfcfcf/p`: Print lines matching pattern
 - `:vim[grep] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
+- Use `{-}` instead of `*` for non-greedy with `\v`
 
 There's no way to delete s substring, so just use `%s///g`
 
