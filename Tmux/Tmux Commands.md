@@ -20,6 +20,7 @@
 * `<prefix>M-Up` / `<prefix>M-Down` / `<prefix>M-Left` / `<prefix>M-Right`: Resize pane
 * `<prefix>q`: Switch to numbered pane
 * `<prefix>!`: Switch a pane to window
+* `respawn-pane -k`: Restart current shell
 
 ### Move Panes
 
