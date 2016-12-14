@@ -32,3 +32,8 @@
 
 From the command line `<C-c>` (or `ESC`) will close the command line window and return to the buffer, so `<C-c><C-c>` also closes the command line window and returns to the buffer.
 
+## `wildmenu`
+
+- `<TAB>`: Show the wild menu
+- `<UP>`: Move up in hierarchy
+- `<DOWN>`: Move down in hierarchy

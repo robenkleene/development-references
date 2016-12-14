@@ -8,8 +8,8 @@
 
 ## Windows
 
-- `C-x 0`: Delete window
+- `C-x 0`: Close window
 - `C-x o`: Switch window
-- `C-x 1`: Delete other windows
+- `C-x 1`: Close other windows
 - `C-x 2`: Split window vertically
 - `C-x 3`: Split window horizontally
