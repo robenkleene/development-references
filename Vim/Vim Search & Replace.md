@@ -24,6 +24,7 @@ The `quickfix` list.
 - `:g/pid/d`: Delete lines matching pattern
 - `:v/pid/d` or `g!/foo/d`: Delete all other lines (`v` is for `in*v*erse`)
 - `:g/cfcfcf/p`: Print lines matching pattern
+- `:g/cfcfcf/yank A`: Yank matching lines to register `A`
 - `:vim[grep] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
 - Use `{-}` instead of `*` for non-greedy with `\v`
 

@@ -21,7 +21,7 @@
 - `C-s`: Forward
 - `C-r`: Backward
 - `C-g`: Cancel
-	
+
 ## Auto-complete
 
 - `M-/`: Auto-complete
