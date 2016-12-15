@@ -5,6 +5,7 @@
 - `C-x 5 2`: Create a new frame
 - `C-x 5 0`: Delete current frame
 - `C-x 5 o`: Cycle through frames
+- `C-x +`: Give frames equal width
 
 ## Windows
 
