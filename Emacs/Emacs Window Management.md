@@ -14,4 +14,4 @@
 - `C-x o`: Switch window
 - `C-x 1`: Close other windows
 - `C-x 2`: Split window vertically
-- `C-x 3`: Split window horizontally
+- `C-x 3`: Split window hotizontally (mnemonic make the window in the farthest left position)
