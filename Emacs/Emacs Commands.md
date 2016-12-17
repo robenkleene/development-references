@@ -3,7 +3,7 @@
 ## General
 
 - `C-x C-c`: Quit
-- `C-x d`: Enter dired mode
+- `C-x d` or `C-x C-j`: Enter dired mode, second version jumps to current file
 * `C-c <char>`: Bindings reserved for the user
 
 ## Files
