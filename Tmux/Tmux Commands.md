@@ -52,7 +52,3 @@
 * `<prefix>[`: Enter scroll mode
 * `q`: Quit scroll mode
 * `<prefix>Page Up`: Enter copy mode and page up one screen
-
-## Sessions
-
-* `<prefix>$`: Rename session
