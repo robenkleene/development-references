@@ -2,6 +2,7 @@
 
 `:` to enter `Command-line-mode`
 
+- `<C-b>` & `<C-e>`: Beginning and end of line
 * `<C-r><C-f>`: Insert file under cursor
 * `<C-r><C-w>`: Insert word under cursor
 * `<C-r><C-a>`: Insert WORD under cursor
