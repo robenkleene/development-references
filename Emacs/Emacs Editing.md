@@ -25,3 +25,8 @@
 - `M-{`: Backward by paragraph
 - `M-}`: Forward by paragraph
 
+## Macros
+
+- `C-x (`: Start recording a macro
+- `C-x )`: Finish recording a macro
+- `C-x e`: Replay macro
