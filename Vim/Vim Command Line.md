@@ -1,16 +1,22 @@
-# Vim Command Line
+# Vim Command-Line
 
 `:` to enter `Command-line-mode`
+- `<C-c>` or `ESC`: Close command line and command line window
+- `<C-n>` / `<C-p>`: Next/previous comment
 
-- `<C-b>` & `<C-e>`: Beginning and end of line
-* `<C-r><C-f>`: Insert file under cursor
-* `<C-r><C-w>`: Insert word under cursor
-* `<C-r><C-a>`: Insert WORD under cursor
-* `<C-r>%`: Insert name of current file
-* `<C-c>` or `ESC`: Close command line and command line window
-* `<cfile>`: Another reference to the cursor file, this is particularly useful with `e <cfile>` to start create the file at the cursor (`<C-r><C-f>` can also be used in this case).
+## Movement
 
-## Examples
+- `<C-b>` / `<C-e>`: Go to beginning/end of line
+
+### Inserting
+
+- `<C-r><C-f>`: Insert file under cursor
+- `<C-r><C-w>`: Insert word under cursor
+- `<C-r><C-a>`: Insert WORD under cursor
+- `<C-r>%`: Insert name of current file
+- `<cfile>`: Another reference to the cursor file, this is particularly useful with `e <cfile>` to start create the file at the cursor (`<C-r><C-f>` can also be used in this case).
+
+## Example Commands
 
 - `:!%`: Run current file
 - `:.w !bash`: Run current line in bash
@@ -18,7 +24,7 @@
 - `:'<,'>!sort`: Pipe visual selection through sort
 - `:read !ls`: Read the output of `ls` into the buffer
 
-## Command Line Window
+## Command-Line Window
 
 ### Opening
 
