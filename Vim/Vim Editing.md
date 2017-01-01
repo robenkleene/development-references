@@ -15,3 +15,7 @@
 
 - `u`: Undo
 - `⌃r`: Redo
+
+## Numbers
+
+- `C-a` / `C-x`: Increment/decrement number
