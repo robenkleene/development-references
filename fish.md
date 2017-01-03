@@ -1,5 +1,9 @@
 # fish
 
+## History
+
+* `history merge`: Merge history from all running sessions
+
 ## Iterate Directories
 
 Checkout master, reset, clean dead branches.
