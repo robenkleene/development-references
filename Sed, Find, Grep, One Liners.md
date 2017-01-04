@@ -1,5 +1,9 @@
 # One Liners
 
+## Find Multiple Patterns
+
+	grep -E "open class|open var"
+
 ## Find Matching Glob
 
 	find . -name '*.py'
