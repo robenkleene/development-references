@@ -17,3 +17,9 @@
 - `⌘J`: Show Focus Chooser
 - `⌥⌘backtick`: Switch focus between Assistant Editor
 - `⌘↩`: Close Assistant Editor
+
+# XCTest
+
+Where `XCTest` backing `NSUserDefaults` is stored:
+
+	~/Library/Preferences/xctest.plist
