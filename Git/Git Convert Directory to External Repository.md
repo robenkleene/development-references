@@ -1,4 +1,4 @@
-# Git Convert to External Repository
+# `git` Convert to External Repository
 
 For making submodules, Frameworks, etc...
 

@@ -1,4 +1,4 @@
-# Git Bisect
+# `git` Bisect
 
 1. Start:
 
