@@ -1,8 +1,18 @@
-# One Liners
+# `grep`, `find`, `sed`, One Liners
+
+## Find & Replace in Place
+
+	ack -i -l --print0 "foo" | xargs -0 sed -i '' "s/foo/bar/g"
+
+Add `-i ''` to sed to run
 
 ## Find Multiple Patterns
 
 	grep -E "open class|open var"
+
+## `grep` Quick Case Insensitive
+
+	[c|C]hecker
 
 ## Find Matching Glob
 
