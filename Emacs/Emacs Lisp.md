@@ -1,4 +1,4 @@
-# Emacs Lisp
+# `emacs` Lisp
 
 - `C-M-k`: Kill s-expression (works with quotes)
 

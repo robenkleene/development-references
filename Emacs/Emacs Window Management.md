@@ -1,4 +1,4 @@
-# Emacs Window Management
+# `emacs` Window Management
 
 ## Frames
 

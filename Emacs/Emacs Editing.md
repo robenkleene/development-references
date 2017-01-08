@@ -1,4 +1,4 @@
-# Emacs Editing
+# `emacs` Editing
 
 * `M-;`: Comment or uncomment selected region
 - `C-o`: Open empty line

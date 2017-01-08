@@ -1,4 +1,4 @@
-# Emacs Package Management
+# `emacs` Package Management
 
 - `M-x package-list-packages`: List Packages
 - `M-x package-autoremove`: Delete unused packages

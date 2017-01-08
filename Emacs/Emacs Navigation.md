@@ -1,4 +1,4 @@
-# Emacs Navigation
+# `emacs` Navigation
 
 ## Buffers
 

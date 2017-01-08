@@ -1,4 +1,4 @@
-# Emacs Find & Replace
+# `emacs` Find & Replace
 
 ## Search
 

@@ -1,4 +1,4 @@
-# Emacs Commands
+# `emacs` Commands
 
 - `C-x C-c`: Quit
 - `C-x d` or `C-x C-j`: Enter dired mode, second version jumps to current file
