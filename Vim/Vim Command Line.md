@@ -1,4 +1,4 @@
-# Vim Command-Line
+# `vim` Command-Line
 
 `:` to enter `Command-line-mode`
 - `<C-c>` or `ESC`: Close command line and command line window

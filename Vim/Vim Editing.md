@@ -1,4 +1,4 @@
-# Vim Editing
+# `vim` Editing
 
 ## Insert Mode
 

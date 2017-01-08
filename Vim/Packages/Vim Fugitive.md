@@ -1,4 +1,4 @@
-# Vim Fugitive
+# `vim` Fugitive
 
 * `:Glog`: Load revisions of a file into the quickfix list (`[q` & `]q` go through versions of the file)
 * `:Gstatus`: Git Status
@@ -18,7 +18,7 @@
 	* After doing `diffget` or `diffput`, you have to save (`:w`) the file to write it to the index
 	* `diffupdate`: Update the diff highlighting, for if you've "confused `vimdiff`"
 * `:Git diff`: Show diff output in pager
-* `:Git! diff`: Show diff output in Vim buffer
+* `:Git! diff`: Show diff output in `vim` buffer
 
 ## `:Gstatus`
 

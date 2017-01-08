@@ -1,4 +1,4 @@
-# Vim Debugging
+# `vim` Debugging
 
 ## Test a Key Code
 

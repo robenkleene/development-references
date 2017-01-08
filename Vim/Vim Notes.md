@@ -1,4 +1,4 @@
-# Vim Notes
+# `vim` Notes
 
 ## `.vimrc` Subtlety
 

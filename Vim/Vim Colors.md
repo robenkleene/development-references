@@ -1,4 +1,4 @@
-# Vim Colors
+# `vim` Colors
 
 ## Show Available Colors
 

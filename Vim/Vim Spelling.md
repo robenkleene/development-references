@@ -1,4 +1,4 @@
-# Vim Spelling
+# `vim` Spelling
 
 - `z=`: Replace current word
 - `]s` / `[s`: Go to next / previous spelling error

@@ -1,4 +1,4 @@
-# Vim Help
+# `vim` Help
 
 See `:help help-summary`.
 

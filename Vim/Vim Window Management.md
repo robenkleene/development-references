@@ -1,4 +1,4 @@
-# Vim Window Management
+# `vim` Window Management
 
 ## Windows
 

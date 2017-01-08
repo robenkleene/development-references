@@ -1,6 +1,6 @@
-# Vim Navigation
+# `vim` Navigation
 
-## Vim Marks
+## `vim` Marks
 
 - `ma`: Make mark called `a`
 - `<backtick>a`: Go to `x` (line and column)

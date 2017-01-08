@@ -1,4 +1,4 @@
-# Vim Search & Replace
+# `vim` Search & Replace
 
 ## Search
 

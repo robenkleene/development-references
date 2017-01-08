@@ -1,4 +1,4 @@
-# Vim Folds
+# `vim` Folds
 
 ## Folds
 
