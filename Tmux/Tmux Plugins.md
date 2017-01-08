@@ -1,4 +1,4 @@
-# Tmux Plugins
+# `tmux` Plugins
 
 ## Resurrect
 
