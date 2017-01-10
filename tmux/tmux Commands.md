@@ -29,13 +29,14 @@
 ## Windows
 
 * `<prefix>c`: New Window
+* `new-window -a`: New window to the right of this one
 * `<prefix>l`: Last Window
 * `<prefix>n`: Next Window
 * `<prefix>,`: Rename Window
 * `<prefix>&`: Kill window
 * `<prefix>0`, `<prefix>1`...: Switch to that window number
 * `<prefix>.`: Move window (Prompt to enter window number)
-* `<prefix>,`: Switch to window (Prompt to enter window number)	
+* `<prefix>'`: Switch to window (Prompt to enter window number)	
 * `:movew`: Move window to next unused window number
 * `swap-window -s 3 -t 1`: Move window index 3 to index 1
 * `swap-window -t 1`: Move current window to index 1
