@@ -18,3 +18,6 @@ There are two ways to get around this:
 ## New Line Characters
 
 The `g_` operator, goes to the end of the line without selecting the new line character. So to replace to the end of line without deleting the new line character, use `vg_`.
+
+* `v$`: Visual select to the end of the line, a `y` after this will include the new line
+* `y$`: Yank to the end of the line, this will *not* include the new line
