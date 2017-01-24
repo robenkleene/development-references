@@ -9,7 +9,7 @@
 5. Go to "http://mitm.it" to install the certificate
 6. Start generating traffic
 
-If your certificate is expired, delete the `.mitmproxy`.
+If your certificate is expired HTTPS won't work. To fix it, delete the `~/.mitmproxy` directory and re-install the certificate.
 
 ## Filter
 
