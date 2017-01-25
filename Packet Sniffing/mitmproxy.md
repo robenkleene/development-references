@@ -15,3 +15,4 @@ If your certificate is expired HTTPS won't work. To fix it, delete the `~/.mitmp
 
 * `f`: Enter filter mode, once in filter mode:
 	* `~d google`: Filter by domain
+* `b`: Export body
