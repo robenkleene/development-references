@@ -26,7 +26,7 @@ Add `-i ''` to sed to run
 
 ## Remove Spaces
 
-	sed s/ //g
+	sed 's/ //g'
 
 ## Print Group Match
 
