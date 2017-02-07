@@ -1,4 +1,4 @@
-# rg
+# `rg`
 
 * `-F`: Literal (no regular expression) search
 * `-g` or `--glob`: Filter by filename
