@@ -15,10 +15,11 @@ The `quickfix` list.
 - `:ccl[ose]`: Close `quickfix` window
 - `:cb[uffer]`: Populate the `quickfix` list from the results in the current window
 - `<CR>`: Go to match
--`:cdo`: Do command to each entry in the quickfix list, e.g., `:cdo s/this/that/g`
--`:cfdo`: Do command to each file in the quickfix list, e.g., `:cdo %s/this/that/g`
+- `:cdo`: Do command to each entry in the quickfix list, e.g., `:cdo s/this/that/g`
+- `:cfdo`: Do command to each file in the quickfix list, e.g., `:cdo %s/this/that/g`
+- `:vimgrep /delegate/ ##`: Search `args` (`##`) and populate the `quickfix` list with the results.
 
-## Grep
+## `grep`
 
 - `:%s/this/that/gc`: Replace this with that, asking for confirmation each time
 - `:g/pid/d`: Delete lines matching pattern
