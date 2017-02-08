@@ -9,6 +9,7 @@
 
 The `quickfix` list.
 
+- `:cc`: Go to currently selected `quickfix` item
 - `:cnext` & `:cprev`: Cycle through matches 
 	- `[q` & `]q`: Above with `vim-unimpaired`
 - `:copen`: Show `quickfix` window 
