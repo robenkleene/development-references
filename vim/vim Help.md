@@ -11,9 +11,9 @@ See `:help help-summary`.
 ### Prefixes
 
 - `c_`: prefix for command line (e.g., `:help c_%`)
-- `i_`: prefix for insert mode (e.g., `:help i_CTRL-[`)
-- `v_`: prefix for visual mode (e.g., `:help v_CTRL-]`)
-- No prefix for normal mode commands (e.g., `:help CTRL-]`).
+- `i_`: prefix for insert mode (e.g., `:help i_CTRL-[` or `:help i_^[`)
+- `v_`: prefix for visual mode (e.g., `:help v_CTRL-]` or `:help v_^]`)
+- No prefix for normal mode commands (e.g., `:help CTRL-]` or `:help ^]`).
 
 ### Less Used
 
