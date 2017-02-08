@@ -42,3 +42,7 @@
 Once files have been opened as arguments, `##` can be used to represent them in `ex` commands, e.g.:
 
 	:vimgrep /Lorem/ ##
+
+## Language Specific
+
+* `]m` & `[m`: Go to next or previous method
