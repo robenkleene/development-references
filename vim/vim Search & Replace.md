@@ -16,9 +16,8 @@ The `quickfix` list.
 - `:ccl[ose]`: Close `quickfix` window
 - `:cb[uffer]`: Populate the `quickfix` list from the results in the current window
 - `<CR>`: Go to match
-- `:cdo`: Do command to each entry in the quickfix list, e.g., `:cdo s/this/that/g`
-- `:cfdo`: Do command to each file in the quickfix list, e.g., `:cdo %s/this/that/g`
-- `:vimgrep /delegate/ ##`: Search `args` (`##`) and populate the `quickfix` list with the results.
+- `:cdo`: Do command to each entry in the `quickfix` list, e.g., `:cdo s/this/that/g`
+- `:cfdo`: Do command to each file in the `quickfix` list, e.g., `:cdo %s/this/that/g`
 
 ## `grep`
 
@@ -27,10 +26,15 @@ The `quickfix` list.
 - `:v/pid/d` or `g!/foo/d`: Delete all other lines (`v` is for `in*v*erse`)
 - `:g/cfcfcf/p`: Print lines matching pattern
 - `:g/cfcfcf/yank A`: Yank matching lines to register `A`
-- `:vim[grep] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
 - Use `{-}` instead of `*` for non-greedy with `\v`
 
-There's no way to delete s substring, so just use `%s///g`
+## `vimgrep`
+
+- `:vim[grep] {pattern} ##`: Search `args` (`##`) and populate the `quickfix` list with the results.
+- `:vim[grep] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
+- `:bufdo vimgrepa[dd] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
+
+Add `| copen` to the end of any of the above to show the `quickfix` list.
 
 ## Notes
 
