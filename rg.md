@@ -4,3 +4,4 @@
 * `-g` or `--glob`: Filter by filename
 * `--files`: Print each file but don't search
 * `--files -g`: Search for files matching glob.
+* `-l` & `--files-with-matches`: List files with matches
