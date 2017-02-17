@@ -35,11 +35,14 @@
 * `<prefix>,`: Rename Window
 * `<prefix>&`: Kill window
 * `<prefix>0`, `<prefix>1`...: Switch to that window number
-* `<prefix>.`: Move window (Prompt to enter window number)
 * `<prefix>'`: Switch to window (Prompt to enter window number)	
+
+### Window Movement
+
+* `swap-window -s 3 -t 1`: Move window index 3 to a used index
+* `swap-window -t 1`: Move current window to a used index
 * `:movew`: Move window to next unused window number
-* `swap-window -s 3 -t 1`: Move window index 3 to index 1
-* `swap-window -t 1`: Move current window to index 1
+* `<prefix>.`: Move window (Prompt to enter window number)
 
 ## Miscellaneous
 
