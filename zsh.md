@@ -6,6 +6,8 @@
 
 ## Customization
 
+### Colors
+
 List available colors:
 
 	for code in {000..255}; do print -P -- "$code: %F{$code}Test%f"; done
@@ -14,3 +16,14 @@ Named colors
 
 	autoload colors && colors
 	echo ${(o)color} # or which colors
+
+### Prompt
+
+* `man zshmisc`: `/SIMPLE PROMPT ESCAPES` has a list of escape sequences
+
+### Key Bindings
+
+* `man zshzle`: Some information about key bindings
+* `bindkey -l`: List key maps
+* `bindkey -M emacs`: List bindings for a key map
+* `bindkey -L`: List currently active bindings
