@@ -4,6 +4,12 @@
 
 * `man zshconrib`: Help for user contributions
 
+## Menu
+
+When the menu is visible to select various options.
+
+- `^g`: Cancel
+
 ## Customization
 
 ### Colors
