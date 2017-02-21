@@ -18,3 +18,7 @@ Checkout master, reset, clean dead branches.
        git-prune-remote-origin 
        cd ..
 	end
+
+## Debugging
+
+	`fish_key_reader`: Show key stroke code for bind
