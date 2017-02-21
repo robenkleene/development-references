@@ -42,6 +42,7 @@
 * `swap-window -s 3 -t 1`: Move window index 3 to a used index
 * `swap-window -t 1`: Move current window to a used index
 * `:movew`: Move window to next unused window number
+	* `:movew -r`: Move all windows to next unused window number
 * `<prefix>.`: Move window (Prompt to enter window number)
 
 ## Miscellaneous
