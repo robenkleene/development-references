@@ -47,3 +47,11 @@ Once files have been opened as arguments, `##` can be used to represent them in 
 
 * `]}` & `[{`: Go to next or previous brace (only works from inside a brace pair)
 * `]m` & `[m`: Go to next or previous method
+
+## View
+
+* `zz`: Center cursor
+* `zt`: Top cursor
+* `zb`: Bottom cursor
+* `zs`: Cursor end
+* `ze`: Cursor beginning
