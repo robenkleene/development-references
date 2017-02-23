@@ -1,5 +1,14 @@
 # `zsh`
 
+## Bindings
+
+* `ESC-.`: Enter last parameter of previous command
+
+## Options
+
+* `setopt`: List enabled options
+* `unsetopt`: List disabled options
+
 ## Help
 
 * `man zshconrib`: Help for user contributions
@@ -33,3 +42,7 @@ Named colors
 * `bindkey -l`: List key maps
 * `bindkey -M emacs`: List bindings for a key map
 * `bindkey -L`: List currently active bindings
+
+#### Key Maps
+
+* `bindkey -M menuselect`: Bindings for tab menu
