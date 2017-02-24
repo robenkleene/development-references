@@ -1,5 +1,13 @@
 # `zsh`
 
+## Line Editor
+
+* `^X^U`: undo
+* `^Xu`: undo
+* `^_`: undo
+* `!#:$`: Insert last parameter in current line
+* `!#:1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
+
 ## Bindings
 
 * `ESC-.`: Enter last parameter of previous command
