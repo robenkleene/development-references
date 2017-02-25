@@ -3,8 +3,13 @@
 ## Insert Mode
 
 - `cc`: Enter insert mode at correct indent level
-- `^n`: Autocomplete
-- `^y`: Accept from autocomplete list
+
+## Completion
+
+- `^n`: Start auto-complete
+- `^y`: Accept from auto-complete list
+- `^e`: Cancel auto-complete
+- `^x^f`: Complete path, after starting file path completion, `^f` selects a match and goes one deeper in the hierarchy.
 
 ## Selecting
 
