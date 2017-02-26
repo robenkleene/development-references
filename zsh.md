@@ -51,6 +51,8 @@ Named colors
 * `bindkey -M emacs`: List bindings for a key map
 * `bindkey -L`: List currently active bindings
 
+Simple way to get a key code: hit `^v` then the key.
+
 #### Key Maps
 
 * `bindkey -M menuselect`: Bindings for tab menu
