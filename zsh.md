@@ -10,7 +10,8 @@
 
 ## Bindings
 
-* `ESC-.`: Enter last parameter of previous command
+* `^[.`: Enter last parameter of previous command
+* `^[^-`: Insert previous word
 
 ## Options
 
