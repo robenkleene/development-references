@@ -12,6 +12,7 @@
 
 * `^[.`: Enter last parameter of previous command
 * `^[^-`: Insert previous word
+* `^-`: Undo
 
 ## Options
 
