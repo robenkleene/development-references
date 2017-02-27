@@ -24,3 +24,9 @@
 ## Numbers
 
 - `C-a` / `C-x`: Increment/decrement number
+
+## Quick Tabs to Spaces
+
+	set expandtab
+	set shiftwidth=2
+	" Retab document with `gg=G`
