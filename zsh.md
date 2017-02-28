@@ -14,6 +14,17 @@
 * `^[^-`: Insert previous word
 * `^-`: Undo
 
+### Bindings Configuration
+
+* `man zshzle`: Some information about key bindings
+* `zle -la`: List all available commands to bind
+* `bindkey -l`: List key maps
+* `bindkey -M emacs`: List bindings for a key map
+* `bindkey -M menuselect`: Bindings for tab menu
+* `bindkey -L`: List currently active bindings
+
+Simple way to get a key code: hit `^v` then the key.
+
 ## Options
 
 * `setopt`: List enabled options
@@ -45,16 +56,3 @@ Named colors
 ### Prompt
 
 * `man zshmisc`: `/SIMPLE PROMPT ESCAPES` has a list of escape sequences
-
-### Key Bindings
-
-* `man zshzle`: Some information about key bindings
-* `bindkey -l`: List key maps
-* `bindkey -M emacs`: List bindings for a key map
-* `bindkey -L`: List currently active bindings
-
-Simple way to get a key code: hit `^v` then the key.
-
-#### Key Maps
-
-* `bindkey -M menuselect`: Bindings for tab menu
