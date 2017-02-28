@@ -14,6 +14,12 @@
 * `^[^-`: Insert previous word
 * `^-`: Undo
 
+## Expanstion
+
+* `!!:n-$`: `n`'th argument to last from previous command
+* `!-i:n-$`: `n`'th argument to last from command `i` commands ago
+* `!!:1-$`: All argument from previous command
+
 ### Bindings Configuration
 
 * `man zshzle`: Some information about key bindings
