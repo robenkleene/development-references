@@ -67,3 +67,7 @@ Named colors
 ### Prompt
 
 * `man zshmisc`: `/SIMPLE PROMPT ESCAPES` has a list of escape sequences
+
+## Loops
+
+	cat repo-work.txt | while read i; do echo $i; done
