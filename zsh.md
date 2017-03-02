@@ -14,7 +14,7 @@
 * `^[^-`: Insert previous word
 * `^-`: Undo
 
-## Expanstion
+## Expansion
 
 * `!!:n-$`: `n`'th argument to last from previous command
 * `!-i:n-$`: `n`'th argument to last from command `i` commands ago
@@ -39,6 +39,7 @@ Simple way to get a key code: hit `^v` then the key.
 ## Help
 
 * `man zshconrib`: Help for user contributions
+* `^[h`: Get help for current command
 
 ## Menu
 
