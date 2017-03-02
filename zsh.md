@@ -31,6 +31,10 @@
 
 Simple way to get a key code: hit `^v` then the key.
 
+## Completion
+
+* `rehash`: Rebuild auto-complete index
+
 ## Options
 
 * `setopt`: List enabled options
