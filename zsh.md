@@ -1,28 +1,37 @@
 # `zsh`
 
-## Line Editor
+## Editing
 
 * `^X^U`: undo
 * `^Xu`: undo
 * `^_`: undo
-* `!#:$`: Insert last parameter in current line
-* `!#:1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
-
-## Bindings
-
 * `^[.`: Enter last parameter of previous command
 * `^[^-`: Insert previous word
 * `^-`: Undo
+* `^[h`: Get help for current command
 
-## Expansion
+### Substitutions
 
+* `!#:$`: Insert last parameter in current line
+* `!#:1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
 * `!!:n-$`: `n`'th argument to last from previous command
 * `!-i:n-$`: `n`'th argument to last from command `i` commands ago
 * `!!:1-$`: All argument from previous command
 
-### Bindings Configuration
+### Menu
 
-* `man zshzle`: Some information about key bindings
+When the menu is visible to select various options.
+
+- `^g`: Cancel
+
+## Commands
+
+* `rehash`: Rebuild auto-complete index
+* `setopt`: List enabled options
+* `unsetopt`: List disabled options
+
+### Bindings
+
 * `zle -la`: List all available commands to bind
 * `bindkey -l`: List key maps
 * `bindkey -M emacs`: List bindings for a key map
@@ -31,25 +40,10 @@
 
 Simple way to get a key code: hit `^v` then the key.
 
-## Completion
-
-* `rehash`: Rebuild auto-complete index
-
-## Options
-
-* `setopt`: List enabled options
-* `unsetopt`: List disabled options
-
 ## Help
 
 * `man zshconrib`: Help for user contributions
-* `^[h`: Get help for current command
-
-## Menu
-
-When the menu is visible to select various options.
-
-- `^g`: Cancel
+* `man zshzle`: Some information about key bindings
 
 ## Customization
 
@@ -67,7 +61,3 @@ Named colors
 ### Prompt
 
 * `man zshmisc`: `/SIMPLE PROMPT ESCAPES` has a list of escape sequences
-
-## Loops
-
-	cat repo-work.txt | while read i; do echo $i; done
