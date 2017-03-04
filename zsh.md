@@ -2,13 +2,11 @@
 
 ## Editing
 
-* `^X^U`: undo
-* `^Xu`: undo
-* `^_`: undo
-* `^[.`: Enter last parameter of previous command
+* `^_` or `^Xu` or `^X^U`: Undo
+* `^[.`: Insert last parameter of previous command
 * `^[^-`: Insert previous word
-* `^-`: Undo
-* `^[h`: Get help for current command
+* `^[h`: Help for current command (runs `man`)
+* `^[q`: Push current line (clears the line, execute one command and then return the line)
 
 ### Substitutions
 
