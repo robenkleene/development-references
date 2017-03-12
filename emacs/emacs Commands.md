@@ -4,7 +4,7 @@
 - `C-x d` or `C-x C-j`: Enter dired mode, second version jumps to current file
 - `C-c`: Bindings reserved for the user
 - `C-x z`: Repeat last command
-- `M-:`: Eval lisp
+- `M-:`: Evaluate lisp
 
 ## Universal Argument
 

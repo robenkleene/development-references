@@ -12,6 +12,6 @@
 - `M-%`: Find & replace
 - `C-M-%`: Regular Expression Find & replace
 
-## Compilation Errors & Grep
+## Compilation Errors & `grep`
 
-- `C-x <backtick>` or `M-g n` & `M-g p`: Next/previous Error
+- `C-x <backtick>` or `M-g n` / `M-g p`: Next/previous Error

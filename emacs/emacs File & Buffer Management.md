@@ -1,6 +1,6 @@
 # `emacs` File Management
 
-## Files
-
+- `C-x k`: Kill buffer
+- `C-x C-b`: List buffers
 - `C-x C-f`: Open file
 - `C-x C-s`: Save buffer
