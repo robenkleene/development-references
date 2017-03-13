@@ -9,3 +9,7 @@
 ## Show
 
 - `git show master:Cartfile`
+
+Combine with `vimdiff` like this:
+
+	vimdiff <(git show development:Cartfile) Cartfile
