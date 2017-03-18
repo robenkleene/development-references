@@ -18,8 +18,8 @@
 * `<C-]>`: Go to tag under cursor
 * `g]`: Chose from all matches for tag under cursor
 * `ts[elect] [indent]`: List all matches for tag `[ident]`
-* `gf`: Open file under cursor
 * `gx`: Open URL under cursor
+* `gf`: Open file under cursor
 - `<C-w>gf`:  Open the file under the cursor in a new tab
 - `<C-w>f`:  Open the file under the cursor in a new split
 
