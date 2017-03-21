@@ -6,10 +6,13 @@
 - `git log -G`: Output all commits whose contents match a regular expression
 - `git log -G <string> -p <path>`: Combining the above too flags, this will show the `diff` that contain a specific string, for a specific file
 
-## Show
+## Other Branches
 
-- `git show master:Cartfile`
+- `git show master:Cartfile`: Show contents of file from another branch
+- `git checkout master -- <path>`: Checkout a file from another branch, note this adds it to the index (`git reset` removes all files from the index)
 
-Combine with `vimdiff` like this:
+### File Substitution
+
+Using file substitution with with `vimdiff`:
 
 	vimdiff <(git show development:Cartfile) Cartfile
