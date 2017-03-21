@@ -20,10 +20,6 @@ Add `-i ''` to sed to run
 	# Case-Insensitive
 	find . -iname "*write*"
 
-## Delete Blank Lines
-
-	grep .
-
 ## Remove Spaces
 
 	sed 's/ //g'
