@@ -59,3 +59,16 @@ Named colors
 ### Prompt
 
 * `man zshmisc`: `/SIMPLE PROMPT ESCAPES` has a list of escape sequences
+
+## Redirection
+
+`1` is `stdout` and `2` is `stderr`.
+
+* `1>filename` or `>filename`: Redirect `stdout` to a file
+* `1>>filename` or `>>filename`: Redirect and append `stdout` to a file
+* `2>filename`: Redirect `stderr` to a file
+* `2>>filename`: Redirect and append `stderr` to a file
+* `&>filename`: Redirect `stdout` and `stderr` to a file
+* `2>&1`: redirect `stderr` to `stdout`
+* `>/dev/null 2>&1`: Discard `stdout` and `stderr`
+* `>/dev/null`: Discard `stdout`
