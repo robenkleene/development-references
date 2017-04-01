@@ -1,0 +1,35 @@
+# `vim` Regular Expressions
+
+## Pattern Modifiers
+
+* `/\v`: Very magic search makes most special characters take on their meaning.
+* `/\V`: `verynomagic` search, no special characters, everything is interpreted literally.
+* `/\c`: Ignore case
+* `/\C`: Case sensitive
+
+By default vim searches for the literal characters for most punctuation (excluding `[]`, `.`, `*`, others? These need to be normally need to be escaped).
+
+## Special Characters
+
+* `.`: Any character except new line
+* `\s`: Whitespace character
+* `\S`: Non-whitespace character
+* `\d`: Digit
+* `\D`: Non-digit
+* `\x`: Hex digit
+* `\X`: Non-hex digit
+* `\o`: Octal digit
+* `\O`: Non-octal digit
+* `\h`: Head of word character (a,b,c...z,A,B,C...Z and _)
+* `\H`: Non-head of word character
+* `\p`: Printable character
+* `\P`: Like \p, but excluding digits
+* `\w`: Word character
+* `\W`: Non-word character
+* `\a`: Alphabetic character
+* `\A`: Non-alphabetic character
+* `\l`: Lowercase character
+* `\L`: Non-lowercase character
+* `\u`: Uppercase character
+* `\U`: Non-uppercase character
+

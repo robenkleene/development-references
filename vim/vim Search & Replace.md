@@ -35,12 +35,3 @@ The `quickfix` list.
 - `:bufdo vimgrepa[dd] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
 
 Add `| copen` to the end of any of the above to show the `quickfix` list.
-
-## Notes
-
-By default vim searches for the literal characters for most punctuation (excluding `[]`, `.`, `*`, others? These need to be normally need to be escaped).
-
-* `/\v`: Very magic search makes most special characters take on their meaning.
-* `/\V`: `verynomagic` search, no special characters, everything is interpreted literally.
-* `/\c`: Ignore case
-* `/\C`: Case sensitive
