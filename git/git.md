@@ -25,3 +25,13 @@ Using file substitution with with `vimdiff`:
 
 * `--verbose` or `-v`: Print the full remote URL with additional info
 
+## Listing Files
+
+### `git ls-files`
+
+* `-m` or `--modified`: List modified files
+* `-o` or `--others`: List untracked and ignored files
+* `--exclude-standard`: Exclude ignored files
+
+So `git ls-files -o --exclude-standard` will list untracked files that aren't ignored.
+
