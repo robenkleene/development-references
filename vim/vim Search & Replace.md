@@ -23,6 +23,8 @@ Populating the `quickfix` window with an arbitrary command:
 
 	:cexpr system('rg --vimgrep pathForResource -g "*.swift" \| grep -v func')
 
+(Note a bug in `nvim` seemingly stops this from working multiple times in one session.)
+
 ## `grep`
 
 - `:%s/this/that/gc`: Replace this with that, asking for confirmation each time
