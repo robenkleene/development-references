@@ -21,7 +21,7 @@ The `quickfix` list.
 
 Populating the `quickfix` window with an arbitrary command:
 
-	:cexpr system('rg pathForResource -g "*.swift" \| grep -v func')
+	:cexpr system('rg --vimgrep pathForResource -g "*.swift" \| grep -v func')
 
 ## `grep`
 
