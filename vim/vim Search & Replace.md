@@ -19,6 +19,10 @@ The `quickfix` list.
 - `:cdo`: Do command to each entry in the `quickfix` list, e.g., `:cdo s/this/that/g`
 - `:cfdo`: Do command to each file in the `quickfix` list, e.g., `:cdo %s/this/that/g`
 
+Populating the `quickfix` window with an arbitrary command:
+
+	:cexpr system('rg pathForResource -g "*.swift" \| grep -v func')
+
 ## `grep`
 
 - `:%s/this/that/gc`: Replace this with that, asking for confirmation each time
