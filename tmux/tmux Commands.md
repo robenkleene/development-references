@@ -2,6 +2,7 @@
 
 ## Sessions
 
+* `:new`: Make new session
 * `<prefix>s`: Choose session
 * `tmux ls`: List sessions from terminal
 * `tmux attach`: Attach if there is only one session
