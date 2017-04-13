@@ -25,6 +25,10 @@ Using file substitution with with `vimdiff`:
 
 * `--verbose` or `-v`: Print the full remote URL with additional info
 
+### Branches
+
+* `git branch -r`: List remote branches (`git fetch` first to make sure all the branches are listed)
+
 ## Listing Files
 
 ### `git ls-files`
