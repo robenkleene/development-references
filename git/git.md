@@ -29,6 +29,10 @@ Using file substitution with with `vimdiff`:
 
 * `git branch -r`: List remote branches (`git fetch` first to make sure all the branches are listed)
 
+## Information
+
+* `git rev-parse HEAD`: Print current commit
+
 ## Listing Files
 
 ### `git ls-files`
