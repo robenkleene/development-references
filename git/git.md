@@ -28,6 +28,7 @@ Using file substitution with with `vimdiff`:
 ### Branches
 
 * `git branch -r`: List remote branches (`git fetch` first to make sure all the branches are listed)
+* `git branch -vv`: See which remote branch a local branch is tracking
 
 ## Listing Files
 
