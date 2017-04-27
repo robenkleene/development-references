@@ -40,3 +40,7 @@ Populating the `quickfix` window with an arbitrary command:
 - `:bufdo vimgrepa[dd] {pattern} %`: Populate the `quickfix` list with matches of the pattern in the current file
 
 Add `| copen` to the end of any of the above to show the `quickfix` list.
+
+## `windo`
+
+- `windo %s/foo/bar/g`: Replace in all open windows
