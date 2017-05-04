@@ -9,6 +9,7 @@
 * `tmux attach -t [target session]`: Attach to a specific session
 * `<prefix>$`: Rename session
 * `<prefix>d`: Detach
+* `<prefix>(` / `<prefix>)` : Next / Previous session
 
 ## Panes
 
