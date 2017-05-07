@@ -4,6 +4,6 @@
 
 ## Examples
 
-Convert title case filenames with spaces to lowercase filenames with hyphens:
+Rename file and directories using title case with spaces to lowercase with hyphens:
 
 	for i in *; do { mv $i `echo $i | tr 'A-Z' 'a-z' | tr " " "-"` } done
