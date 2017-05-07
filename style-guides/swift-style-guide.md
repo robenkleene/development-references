@@ -1,4 +1,4 @@
-# Swift
+# Swift Style Guide
 
 ## Naming Conventions
 
