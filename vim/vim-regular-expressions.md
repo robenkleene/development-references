@@ -1,5 +1,21 @@
 # `vim` Regular Expressions
 
+`h pattern`
+
+		\v		\m		\M		\V				matches~
+				'magic''nomagic'
+		$		$		$		\$				matchesend-of-line
+		.		.		\.		\.				matchesanycharacter
+		*		*		\*		\*				anynumberofthepreviousatom
+		~		~		\~		\~				latestsubstitutestring
+		()		\(\)	\(\)	\(\)			groupingintoanatom
+		|		\|		\|		\|				separatingalternatives
+		\a		\a		\a		\a				alphabeticcharacter
+		\\		\\		\\		\\				literalbackslash
+		\.		\.		.		.				literaldot
+		\{		{		{		{				literal'{'
+		a		a		a		a				literal'a'
+
 ## Pattern Modifiers
 
 * `/\v`: Very magic search makes most special characters take on their meaning.
