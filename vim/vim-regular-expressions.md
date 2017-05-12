@@ -2,19 +2,21 @@
 
 `h pattern`
 
-		\v		\m		\M		\V				matches~
-				'magic''nomagic'
-		$		$		$		\$				matchesend-of-line
-		.		.		\.		\.				matchesanycharacter
-		*		*		\*		\*				anynumberofthepreviousatom
-		~		~		\~		\~				latestsubstitutestring
-		()		\(\)	\(\)	\(\)			groupingintoanatom
-		|		\|		\|		\|				separatingalternatives
-		\a		\a		\a		\a				alphabeticcharacter
-		\\		\\		\\		\\				literalbackslash
-		\.		\.		.		.				literaldot
-		\{		{		{		{				literal'{'
-		a		a		a		a				literal'a'
+`magic` is the default setting, this means non-greedy is `{-}` and capture groups is `\(\)`.
+
+	\v    \m       \M         \V    matches
+	none  'magic'  'nomagic'  none
+	$     $        $          \$    matches_end-of-line
+	.     .        \.         \.    matches_any_character
+	*     *        \*         \*    any_number_of_the_previous_atom
+	~     ~        \~         \~    latest_substitute_string
+	()    \(\)     \(\)       \(\)  grouping_into_an_atom
+	|     \|       \|         \|    separating_alternatives
+	\a    \a       \a         \a    alphabetic_character
+	\\    \\       \\         \\    literal_backslash
+	\.    \.       .          .     literal_dot
+	\{    {        {          {     literal_'{'
+	a     a        a          a     literal_'a'
 
 ## Pattern Modifiers
 
