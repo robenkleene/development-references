@@ -3,7 +3,7 @@
 ## `vim` Marks
 
 - `ma`: Make mark called `a`
-- `<backtick>a`: Go to `x` (line and column)
+- ```a``: Go to `x` (line and column)
 - `'x`: Go to `x` (line only)
 - `:marks`: List marks
 
