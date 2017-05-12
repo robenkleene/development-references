@@ -2,7 +2,7 @@
 
 `h pattern`
 
-`magic` is the default setting, this means non-greedy is `{-}` and capture groups is `\(\)`.
+`magic` is the default setting, this means non-greedy is `\{-}` and capture groups is `\(\)`.
 
 	\v    \m       \M         \V    matches
 	none  'magic'  'nomagic'  none
