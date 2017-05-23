@@ -4,14 +4,17 @@ Useful for convert a single folder to a submodule or a Frameworks while preservi
 
 	# Startout with a fresh checkout:
 	git clone git@github.com:robenkleene/webconsole.git XCTestTemp
+
+	# cd to directory
+	# Checkout relevant branch if it's not the default
 	
 	# Extract a specific directory:
 	git filter-branch --prune-empty --subdirectory-filter Web\ Console/XCTestTemp master
 	
 	# Clean up unnecessary data
 	git reflog expire --expire=now --all
-	git repack -ad  # Remove dangling objects from packfiles
-	git prune       # Remove dangling loose objects
+	git repack -ad
+	git prune
 	
 	# Detach from origin
 	git remote remove origin
