@@ -24,7 +24,7 @@
 * `<prefix>!`: Switch a pane to window
 * `respawn-pane -k`: Restart current shell
 
-### Move Panes
+### Pane Movement
 
 * `<prefix>{` / `<prefix>{`: Move panes
 
@@ -56,6 +56,7 @@
 
 ## Scrolling
 
-* `<prefix>[`: Enter scroll mode
+* `<prefix>[`: Enter copy/scroll mode
+* `<prefix>]`: Paste
 * `q`: Quit scroll mode
 * `<prefix>Page Up`: Enter copy mode and page up one screen
