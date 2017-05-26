@@ -15,6 +15,7 @@
 * `!-1` or `!!`: Expand previous command
 
 #### Parameters
+
 * `!#:$`: Insert last parameter in current line
 * `!#:1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
 * `!!:n-$`: `n`'th argument to last from previous command
@@ -77,3 +78,7 @@ Named colors
 * `2>&1`: redirect `stderr` to `stdout`
 * `>/dev/null 2>&1`: Discard `stdout` and `stderr`
 * `>/dev/null`: Discard `stdout`
+
+## Functions
+
+* `whence -f git-copy-remote-url`: Print function
