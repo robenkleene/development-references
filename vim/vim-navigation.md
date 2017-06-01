@@ -17,6 +17,7 @@
 
 * `<C-]>`: Go to tag under cursor
 * `<C-w><C-]>`: Open tag under cursor in a new split
+* `<C-w>v<C-]>`: Open tag under cursor in a new vertical split
 * `g]`: Chose from all matches for tag under cursor
 * `ts[elect] [indent]`: List all matches for tag `[ident]`
 * `gx`: Open URL under cursor
