@@ -21,6 +21,8 @@ Using file substitution with with `vimdiff`:
 
 * `git ls-remote --get-url`: Print just the URL
 
+Update origin: `git remote rm origin` then `git remote add origin` with the new one.
+
 ### `git-remote`
 
 * `--verbose` or `-v`: Print the full remote URL with additional info
