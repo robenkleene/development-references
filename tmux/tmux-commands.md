@@ -27,6 +27,7 @@
 * `<prefix>x`: Kill pane
 * `<prefix>M-Up` / `<prefix>M-Down` / `<prefix>M-Left` / `<prefix>M-Right`: Resize pane
 * `respawn-pane -k`: Restart current shell
+* `break-pane -t :`: Move pane to new window
 
 ### Creating Panes
 
