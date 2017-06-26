@@ -14,6 +14,10 @@ Add `-i ''` to sed to run
 
 	[c|C]hecker
 
+## `grep` Delete blank lines
+
+	grep .
+
 ## Find Matching Glob
 
 	find . -name '*.py'
