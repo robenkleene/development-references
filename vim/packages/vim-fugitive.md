@@ -9,4 +9,5 @@ Fixing "Not an editor command": This happens if you open a file without first `c
 
 ## `Gdiff`
 
-* `<C-w><C-o>`: Exit a `Gdiff`
+* `<C-w><C-o>`: Exit a `Gdiff` (It appears that the working directory version of the file needs to be active first)
+
