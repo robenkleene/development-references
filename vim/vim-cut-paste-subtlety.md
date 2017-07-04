@@ -25,3 +25,7 @@ The `g_` operator, goes to the end of the line without selecting the new line ch
 ## Quoted Strings
 
 * `v2i"`: Quoted String Including Quotes Without Whitespace
+
+## Functions
+
+* `Va{ok`: In a function block, this is usually the easiest way to select the entire function. `Va{` starts a line-wise visual selection, `o` switches the side of the selection being modified, and `k` moves up a line.
