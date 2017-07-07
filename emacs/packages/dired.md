@@ -4,3 +4,4 @@
 	- `C-c C-c` or `C-x C-s`: Save changes
 	- `C-c ESC`: Abort changes
 - `^`: Up directory
+- `+`: Create directory
