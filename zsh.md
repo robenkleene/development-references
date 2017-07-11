@@ -7,6 +7,7 @@
 * `^[^-`: Insert previous word
 * `^[h`: Help for current command (runs `man`)
 * `^[q`: Push current line (clears the line, execute one command and then return the line)
+* `^y`: Yank (paste in emacs terminology)
 
 ### Substitutions
 
