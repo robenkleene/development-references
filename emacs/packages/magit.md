@@ -4,7 +4,7 @@
 
 ## Commit
 
-1. `C`: Start commit
+1. `c c`: Start commit (don't use `C`, that's what inserts an entry for the current file)
 2. `C-c C-c`: Finish commit
 3. `P p`: Git push
 
