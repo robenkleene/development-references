@@ -1,4 +1,4 @@
-# `vim` Search & Replace
+# `vim` Find & Replace
 
 ## Search
 
@@ -44,3 +44,8 @@ Add `| copen` to the end of any of the above to show the `quickfix` list.
 ## `windo`
 
 - `windo %s/foo/bar/g`: Replace in all open windows
+
+## Replace
+
+- `s/foo/bar`
+- `s#foo#bar`: Alternative syntax, very useful for replaces that involve a lot of slashes.

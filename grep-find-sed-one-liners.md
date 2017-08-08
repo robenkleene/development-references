@@ -18,6 +18,10 @@ Add `-i ''` to sed to run
 
 	grep .
 
+## Trim Leading & Trailing Whitespace
+
+	awk '{$1=$1};1'
+
 ## Find Matching Glob
 
 	find . -name '*.py'
