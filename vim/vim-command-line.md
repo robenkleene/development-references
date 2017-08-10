@@ -16,14 +16,6 @@
 - `<C-r>%`: Insert name of current file
 - `<cfile>`: Another reference to the cursor file, this is particularly useful with `e <cfile>` to start create the file at the cursor (`<C-r><C-f>` can also be used in this case).
 
-## Example Commands
-
-- `:!%`: Run current file
-- `:.w !bash`: Run current line in bash
-- `:%w !bash`: Run file in bash
-- `:'<,'>!sort`: Pipe visual selection through sort
-- `:read !ls`: Read the output of `ls` into the buffer
-
 ## Command-Line Window
 
 ### Opening
