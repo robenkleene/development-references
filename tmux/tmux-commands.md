@@ -29,6 +29,7 @@
 * `respawn-pane -k`: Restart current shell
 * `break-pane -t :`: Break pane out to new window
 * `join-pane -t :0`: Move pane to window 0
+* `respawn-pane -k`: Re-spawn pane, killing first (use on "stuck" panes)
 
 ### Creating Panes
 
