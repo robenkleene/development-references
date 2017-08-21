@@ -10,6 +10,7 @@
 - `zr (zR)`: Increment Fold Level (recursive)
 - `zm (zM)`: Decrement Fold Level (recursive)
 - `zf`: Create fold (for manual)
+- `zR`: Open all folds
 
 ### Navigate
 
@@ -19,4 +20,3 @@
 ### Combos
 
 - `zMzv`: Close all except cursor
-- `zCzO`: Open all folds
