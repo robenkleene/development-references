@@ -1,22 +1,28 @@
 # `vim` Window Management
 
-## Windows
+## Opening & Closing Windows
 
-- `<C-w>w`: Next window
-- `CTRL-W_w`: Previous window
-- `<C-w>p`: Last window
 - `<C-w>c`: Close the current window
 - `<C-w>o`: Close other windows
 - `<C-w>n` or `:new`: New empty horizontal split
-- `<C-w><C-s>`: New horizontal split with current file
-- `:vnew`: New vertical split
+- `:vnew`: New empty vertical split
 - `<C-w>v`: New vertical split with current file
-- `<C-w>=`: Size windows equally
-- `<C-w>t`: Switch to upper left window
-- `<C-w>t <C-w>K`: Switch to horizontal split
-- `<C-w>t <C-w>H`: Switch to vertical split
+- `<C-w><C-s>`: New horizontal split with current file
 
-## Navigating Windows by Direction
+## Switching Windows
+
+- `<C-w>w`: Next window
+- `<C-w>p`: Previous window
+
+## Resizing Windows
+
+- `<C-w>=`: Resize windows equally
+- `<C-w>>`: Resize vertical window larger
+- `<C-w><`: Resize vertical window smaller
+- `<C-w>+`: Resize horizontal window larger
+- `<C-w>-`: Resize horizontal window smaller
+
+### By Direction
 
 - `<C-w>h`: Move to window left
 - `<C-w>k`: Move to window up
