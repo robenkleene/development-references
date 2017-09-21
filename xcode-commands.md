@@ -17,6 +17,7 @@
 - `⌘J`: Show Focus Chooser
 - `⌥⌘backtick`: Switch focus between Assistant Editor
 - `⌘↩`: Close Assistant Editor
+- ``⌘` ``: Cycle editor focus
 
 # XCTest
 
