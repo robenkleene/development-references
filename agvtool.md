@@ -27,7 +27,7 @@ In the Target's in the Target's "General" settings:
 
 Print the current build number:
 
-	agvtool vers 
+	agvtool vers
 
 Print the current marketing version:
 
