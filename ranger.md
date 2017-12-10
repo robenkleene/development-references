@@ -1,0 +1,3 @@
+# Ranger
+
+`gh`: Show hidden
