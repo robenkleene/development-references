@@ -17,3 +17,7 @@ You might need to specify `nmap`, etc...
 ## Debugging Commands
 
 	verbose command Ag
+
+## Show all loaded `vim` Scripts
+
+	:scriptnames
