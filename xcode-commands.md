@@ -19,8 +19,6 @@
 - `⌘↩`: Close Assistant Editor
 - ``⌘` ``: Cycle editor focus
 
-# XCTest
+## Headers
 
-Where `XCTest` backing `NSUserDefaults` is stored:
-
-	~/Library/Preferences/xctest.plist
+* You can use "Open Quickly" (⇧⌘O) to look up a header for a Cocoa framework. When viewing a header, use the "Counterparts" menu to select the Swift version of the header.
