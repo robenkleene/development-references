@@ -9,7 +9,7 @@
 
 * `-l` & `--files-with-matches`: List files with matches
 * `-g` or `--glob`: Filter by filename
-	* To do a negative glob, precede with `!`, e.g., `rg -g "!*.html" import`
+	* To do a negative glob, precede with `!`, e.g., `rg -g "\!*.html" import`
 	* To match multiple file extensions, use a character group:
 		* `rg -g '*.[hm]'`
 		* `-g "*.{m,h,swift}"`
