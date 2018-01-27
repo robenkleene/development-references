@@ -4,6 +4,10 @@
 - `<C-c>` or `ESC`: Close command line and command line window
 - `<C-n>` / `<C-p>`: Next/previous comment
 
+## Normal
+
+- `normal dd`: Delete current line
+
 ## Movement
 
 - `<C-b>` / `<C-e>`: Go to beginning/end of line
