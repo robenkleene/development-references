@@ -49,3 +49,9 @@ Add `| copen` to the end of any of the above to show the `quickfix` list.
 
 - `s/foo/bar`
 - `s#foo#bar`: Alternative syntax, very useful for replaces that involve a lot of slashes.
+
+## Using `gn`
+
+**Visual Method**: After doing a search, type `gn` to select the next match, then type `n` to go to the next match, then `gn` again to select, then `.` to perform the previous operation.
+
+**Motion Method**: Do a motion edit like `cgn`, this will edit the next match, after the edit hit the `.` to perform the same operation on the next match automatically.
