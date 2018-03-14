@@ -25,3 +25,9 @@ Printing installation locations:
 Requires `gem-open`:
 
 	gem install gem-open 
+
+## Testing a Gem
+
+	gem unpack websonsole-0.0.1.gem
+
+Unpacks it in the current directory.
