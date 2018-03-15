@@ -26,7 +26,7 @@ See `:help help-summary`.
 After executing `help {subject}` command, the matches for the `{subject}` are stored on the `tag-matchlist`. Navigating to help tags adds those tags to the `tagstack`. 
 
 * `<C-]>`: Jump to definition of the keyword under the cursor (this adds it to the `tagstack`)
-* `<C-t>`: Jump to the backwards in the `tagstack` (`<C-o>` can usually also be used instead, which uses the `jumplist`)
+* `<C-t>`: Jump backward in the `tagstack` (`<C-o>` can usually also be used instead, which uses the `jumplist`)
 * `:[ta]g`: Jump to the next entry in the `tagstack`
 * `g]`: Show a list for matches of the item under the cursor
 * `:[ts]elect`: Show the matches in the `tag-matchlist`
