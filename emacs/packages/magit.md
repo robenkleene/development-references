@@ -13,3 +13,7 @@
 3. `P p`: Git push
 
 * `C-c C-k`: Cancel commit
+
+## Basic
+
+* `F p`: `git pull`
