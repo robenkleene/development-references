@@ -18,6 +18,8 @@ The `quickfix` list.
 - `<CR>`: Go to match
 - `:cdo`: Do command to each entry in the `quickfix` list, e.g., `:cdo s/this/that/g`
 - `:cfdo`: Do command to each file in the `quickfix` list, e.g., `:cdo %s/this/that/g`
+- `:colder`: Go to previous `quickfix` list
+- `:cnewer`: Go to next `quickfix` list
 
 Populating the `quickfix` window with an arbitrary command:
 
