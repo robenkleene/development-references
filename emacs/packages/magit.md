@@ -26,3 +26,5 @@
 
 * `l`: Brings up the log popup
 * `l=g`: Perform a git log search, e.g., `git log -G <string>`
+
+When viewing a commit, `<space>` scrolls forward in the commit and `<backspace>` scrolls backward.
