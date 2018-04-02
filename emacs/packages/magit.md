@@ -17,3 +17,7 @@
 ## Basic
 
 * `F p`: `git pull`
+
+## Branches
+
+* `b c`: Change branch
