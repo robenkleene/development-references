@@ -21,3 +21,8 @@
 ## Branches
 
 * `b c`: Change branch
+
+## Log
+
+* `l`: Brings up the log popup
+* `l=g`: Perform a git log search, e.g., `git log -G <string>`
