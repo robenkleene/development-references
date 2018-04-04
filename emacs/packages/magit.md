@@ -22,6 +22,10 @@
 
 * `b c`: Change branch
 
+## Diff
+
+* `d r <branch>`: Diff vs. a branch
+
 ## Log
 
 * `l`: Brings up the log popup
