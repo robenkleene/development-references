@@ -11,6 +11,7 @@
 - `zm (zM)`: Decrement Fold Level (recursive)
 - `zf`: Create fold (for manual)
 - `zR`: Open all folds
+- `zM`: Close all folds
 
 ### Navigate
 
