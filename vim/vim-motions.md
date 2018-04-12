@@ -1,4 +1,6 @@
-# `vim` Movement
+# `vim` Motions
+
+* `g_`: End of line without new line
 
 ## By Visual Line
 
