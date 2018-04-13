@@ -5,7 +5,7 @@
 	set expandtab
 	retab!
 
-Really simple solution for a selection:
+Through command line application:
 
 	!expand
 
@@ -13,3 +13,9 @@ Really simple solution for a selection:
 
 	set noexpandtab
 	retab!
+
+Through command line application:
+
+	!unexpand -t 2
+
+`2` is number of spaces per tab, default is `8`.
