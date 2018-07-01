@@ -2,6 +2,10 @@
 
 * `g_`: End of line without new line
 
+## By Edit
+
+* ```[`` / ```]``: Start or end of most recent edit
+
 ## By Visual Line
 
 * `g0`: Beginning of display line
