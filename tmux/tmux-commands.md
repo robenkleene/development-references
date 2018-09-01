@@ -12,6 +12,7 @@
 * `tmux ls`: List sessions from terminal
 * `tmux attach`: Attach if there is only one session
 * `tmux attach -t [target session]`: Attach to a specific session
+* `tmux kill-session`: Kill current session
 
 ### Creating Sessions
 
