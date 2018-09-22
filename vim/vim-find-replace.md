@@ -1,31 +1,11 @@
-# `vim` Find & Replace
+# `vim` Search, Find & Replace
+
+See [`vim-quickfix.md`](vim-quickfix.md) for more.
 
 ## Search
 
 - `n`: Next search
 - `N`: Previous search
-
-### Quick Fix
-
-The `quickfix` list.
-
-- `:cc`: Go to currently selected `quickfix` item
-- `:cnext` & `:cprev`: Cycle through matches 
-	- `[q` & `]q`: Above with `vim-unimpaired`
-- `:copen`: Show `quickfix` window 
-- `:ccl[ose]`: Close `quickfix` window
-- `:cb[uffer]`: Populate the `quickfix` list from the results in the current window
-- `<CR>`: Go to match
-- `:cdo`: Do command to each entry in the `quickfix` list, e.g., `:cdo s/this/that/g`
-- `:cfdo`: Do command to each file in the `quickfix` list, e.g., `:cdo %s/this/that/g`
-- `:colder`: Go to previous `quickfix` list
-- `:cnewer`: Go to next `quickfix` list
-
-Populating the `quickfix` window with an arbitrary command:
-
-	:cexpr system('rg --vimgrep pathForResource -g "*.swift" \| grep -v func')
-
-(Note a bug in `nvim` seemingly stops this from working multiple times in one session.)
 
 ## `grep`
 
