@@ -1,6 +1,8 @@
 # `vim` Regular Expressions
 
-`h pattern`
+- Find and replace whole words only, use `s/\<word\>/newword/g`.
+
+## Notes
 
 `magic` is the default setting, this means non-greedy is `\{-}` and capture groups is `\(\)`.
 
