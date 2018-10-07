@@ -4,21 +4,22 @@
 - `<C-c>` or `ESC`: Close command line and command line window
 - `<C-n>` / `<C-p>`: Next/previous comment
 
-## Normal
-
-- `normal dd`: Delete current line
-
 ## Movement
 
 - `<C-b>` / `<C-e>`: Go to beginning/end of line
 
-### Inserting
+## Editing
 
 - `<C-r><C-f>`: Insert file under cursor
 - `<C-r><C-w>`: Insert word under cursor
 - `<C-r><C-a>`: Insert WORD under cursor
 - `<C-r>%`: Insert name of current file
 - `<cfile>`: Another reference to the cursor file, this is particularly useful with `e <cfile>` to start create the file at the cursor (`<C-r><C-f>` can also be used in this case).
+
+## Types of Commands
+
+- `:normal dd`: Delete current line
+- `:echo expand('%')`: Echo result of running a VimScript command
 
 ## Command-Line Window
 
