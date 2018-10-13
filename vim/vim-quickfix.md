@@ -6,8 +6,8 @@
 - `:copen`: Show `quickfix` window 
 - `:ccl[ose]`: Close `quickfix` window
 - `:cb[uffer]`: Populate the `quickfix` list from the results in the current window
-- `:colder`: Go to previous `quickfix` list
-- `:cnewer`: Go to next `quickfix` list
+- `:col[der]`: Go to previous `quickfix` list
+- `:cnew[er]`: Go to next `quickfix` list
 
 ## Mass Edits
 
