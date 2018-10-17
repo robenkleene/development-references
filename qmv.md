@@ -12,3 +12,9 @@ Works great with `rg`:
 
 	rg --files -g "WCL*" -0  | xargs -0 qmv
 
+## Interactive Mode
+
+If there's a problem with the rename plan, interactive mode is entered.
+
+- `help`: Display help
+- `apply`: Do all the valid renames
