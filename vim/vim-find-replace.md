@@ -15,6 +15,7 @@ See [`vim-quickfix.md`](vim-quickfix.md) for more.
 - `:g/cfcfcf/p`: Print lines matching pattern
 - `:g/cfcfcf/yank A`: Yank matching lines to register `A`
 - `:%s#this#that#g`: Alternative find and replace separator for when the find and replace strings have slashes
+- `:g//norm gcc`: Perform a normal mode command on every matched search
 
 ## `vimgrep`
 
