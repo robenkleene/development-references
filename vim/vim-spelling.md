@@ -6,3 +6,7 @@
 - `zg`: Add current word to dictionary
 - `zw`: Remove current word from dictionary
 - `zug`: Revert add or remove for current word
+
+## Mote
+
+- `:spelldump`: Dump all words in the dictionary
