@@ -9,8 +9,8 @@
 - Log data is kept in a compress binary format `tracev3`
 - Logging has three basic levels: `Default`, `Info`, and `Debug`; and two special levels: `Fault`, and `Error`
 - Use `com.company.MyApp` for application-level logs and `com.company.MyApp.SomeFramework` for framework-level logs
-- "Don’t include symbol information or source file line numbers in messages. The system automatically captures this information."
-
+- "Don't include symbol information or source file line numbers in messages. The system automatically captures this information."
+- Log messages cannot be disabled from printing in Xcode console [source](https://stackoverflow.com/questions/41142848/how-do-you-disable-os-log-info-and-os-log-debug-messages-in-xcode-console?rq=1)
 ## A Swift Example
 
 Here's some sample code in Swift:
