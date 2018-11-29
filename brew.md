@@ -1,4 +1,6 @@
 # Homebrew
 
-* `brew deps neovim`: Show dependencies
-* `brew uses --installed gettext`: Show what's installed that depends on
+- `brew leaves`: Show top level installed packages
+- `brew deps --tree --installed`: Show a dependency graph
+- `brew deps neovim`: List dependencies of a package
+- `brew uses --installed gettext`: List packages that depend on a package
