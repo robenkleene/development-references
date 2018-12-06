@@ -1,0 +1,3 @@
+# Ubuntu
+
+- `sudo reboot`: Restart
