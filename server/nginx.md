@@ -1,7 +1,7 @@
 # `ngnix`
 
 - `sudo systemctl reload nginx`: Restart
-- `nginx -t -c /etc/nginx/nginx.conf`: Print configuration errors
+- `sudo nginx -t -c /etc/nginx/nginx.conf`: Print configuration errors
 
 ## Check if `ngnix` is Running
 
