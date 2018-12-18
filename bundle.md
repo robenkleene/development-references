@@ -10,9 +10,9 @@
 
 ### Updating Gems
 
-	bundle update
-	bundle cleanup
 	bundle install --standalone
+	bundle update
+	bundle clean
 
 Note that `bundle install --standalone` is necessary to update the `bundle/bundler/setup` to point to the new version of the gem.
 
