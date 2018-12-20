@@ -13,8 +13,9 @@
 	bundle install --standalone
 	bundle update
 	bundle clean
+	bundle install --standalone
 
-Note that `bundle install --standalone` is necessary to update the `bundle/bundler/setup` to point to the new version of the gem.
+Note the second `bundle install --standalone` is necessary to update the `bundle/bundler/setup` to point to the new version of the gem.
 
 ## Changing the Ruby Version
 
