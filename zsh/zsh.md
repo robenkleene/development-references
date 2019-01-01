@@ -1,5 +1,7 @@
 # `zsh`
 
+`^]` is meta.
+
 ## Editing
 
 * `^_` or `^Xu` or `^X^U`: Undo
