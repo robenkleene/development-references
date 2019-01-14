@@ -32,3 +32,8 @@
 * `l=g`: Perform a git log search, e.g., `git log -G <string>`
 
 When viewing a commit, `<space>` scrolls forward in the commit and `<backspace>` scrolls backward.
+
+## Movement
+
+- `N-p` / `N-n`: Next/previous section
+- `p` / `n`: Next/previous subsection

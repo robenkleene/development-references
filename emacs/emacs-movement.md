@@ -49,3 +49,8 @@
 - `M-c`: Capitalize
 - `M-u`: Uppercase
 - `M-l`: Lowercase (this is dangerous in terminal!)
+
+## View Only
+
+- `SPACE`: Page down
+- `BS`: Page up
