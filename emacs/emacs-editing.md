@@ -31,6 +31,10 @@
 - `C-x )`: Finish recording a macro
 - `C-x e`: Replay macro
 
+## Special
+
+- `M-q`: Wrap comment
+
 ## Spelling
 
 - `M-S-$`: Correct misspelled word
