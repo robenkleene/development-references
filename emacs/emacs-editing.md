@@ -1,6 +1,7 @@
 # `emacs` Editing
 
 * `M-;`: Comment or uncomment selected region
+* `C-x C-;`: Comment or uncomment line
 - `C-o`: Open empty line
 - `C-x C-o`: Delete empty blank lines
 
