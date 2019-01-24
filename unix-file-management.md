@@ -4,7 +4,8 @@
 
 - `mkdir <path>`: Make a directory
 - `mkdir -p <path>`: Make a directory including intermediary directories
-- `rmdir <path>`: Remove a directory
+- `rmdir <path>`: Remove an empty directory
+- `rm -r <path>`: Delete directory
 
 ## Two Parameters
 
