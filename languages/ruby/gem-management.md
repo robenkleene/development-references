@@ -1,5 +1,17 @@
 # Gem Management
 
+## The Problem
+
+If a Ruby script is run from the command-line that has a shebang that sets a different Ruby than the default Ruby, then this will cause an inconsistency between the Ruby binary and the gem configuration.
+
+Here's an example of a shebang line that overrides the default Ruby:
+
+	#!/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby
+
+## The Workaround
+
+The work around is to use a `.ruby-version` file to override the current version of Ruby. This should be done in any directory that has Ruby files with shebangs that override the default ruby.
+
 ## System Ruby
 
 Use system Ruby for Repla:
