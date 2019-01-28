@@ -20,13 +20,19 @@ Use system Ruby for Repla:
 
 When installing system gems, use `--user-install` to avoid cluttering the system Ruby space:
 
-	gem install --user-install test-unit
-
 This installs gems at `/Users/robenkleene/.gem/ruby/2.3.0`. (Note that this does not require `sudo`.)
 
-Since the default executable path is not setup by default, bundler must specify it when being installed:
+Since the default executable path is not setup by default, bundler and rake must specify it when being installed:
 
 	gem install --user-install bundler --bindir /usr/local/bin
+	gem install --user-install rake --bindir /usr/local/bin
+
+### Restoring Default `gems`
+
+These are probably supposed to be installed by default, if they get deleted, use these commands to restore them to `/Library/Ruby/Gems/2.3.0/`
+
+	sudo gem install test-unit
+	sudo gem install power_assert
 
 ## Correct Installation
 
