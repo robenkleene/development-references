@@ -7,7 +7,7 @@
 With the menu visible
 
 - `<C-y>`: Accept completion
-- `<C-e>` or `<ESC>`: Cancel completion
+- `<C-e>`: Cancel completion
 
 ## Types
 
