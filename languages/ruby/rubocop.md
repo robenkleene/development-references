@@ -1,4 +1,5 @@
 # `rubocop`
 
 - `rubocop`: Recursively lint all files
-- `rubocop --auto-correct, -a`: Autocorrect
+- `--auto-correct` / `-a`: Autocorrect
+- `-L` / `--list-target-files`: List files
