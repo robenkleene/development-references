@@ -17,6 +17,8 @@
 
 Note the second `bundle install --standalone` is necessary to update the `bundle/bundler/setup` to point to the new version of the gem.
 
+If a gem won't update, try specifying it explicitly, e.g., `bundle update repla`.
+
 ## Changing the Ruby Version
 
 1. Add `ruby '2.0.0'` to the `Gemfile`
