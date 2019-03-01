@@ -11,6 +11,13 @@
 * `^[q`: Push current line (clears the line, execute one command and then return the line)
 * `^y`: Yank (paste in emacs terminology)
 
+## History
+
+* `^[r`: Reverse history search
+* `^[s`: Reverse history search
+
+(Just use a movement command (like `^[a` or `^[e`) to dismiss the search.)
+
 ### Substitutions
 
 #### History
