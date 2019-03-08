@@ -11,3 +11,7 @@
 
 - `M-x package-autoremove`: Delete unused packages
 - `~`: Mark obsolete packages for deletion (then `x` to execute)
+
+## Troubleshooting
+
+If a package won't install, try `package-refresh-contents`.
