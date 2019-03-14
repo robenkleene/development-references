@@ -12,3 +12,7 @@ Debugger:
 
 - `d`: Step forward
 - `c`: Step over?
+
+Debugging Desktop Restore
+
+If there are problems restoring windows on startup (with the `(desktop-save-mode 1)` option on), then turn on debugging with `(setq debug-on-error t)`, then run `desktop-revert`, this should catch the error in the debugger.

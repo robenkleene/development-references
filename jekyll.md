@@ -19,3 +19,7 @@
 
 	bundle exec jekyll serve --drafts
 	bundle exec jekyll build --watch --drafts
+
+## Specify a Config
+
+	--config _config_local.yml
