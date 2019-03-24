@@ -17,7 +17,12 @@
 
 Note the second `bundle install --standalone` is necessary to update the `bundle/bundler/setup` to point to the new version of the gem.
 
-If a gem won't update, try specifying it explicitly, e.g., `bundle update repla`.
+### Troubleshooting
+
+If a gem won't update, the following can be tried:
+
+1. Specify the gem: `bundle update repla`
+2. Use the `--full-index` option: `bundle update repla --full-index`
 
 ## Changing the Ruby Version
 
