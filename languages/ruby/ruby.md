@@ -22,3 +22,7 @@ The analysis will get printed to `STDIN`.
 
 - `ruby -r profile`
 - `rake -r profile`
+
+## Quick Assertion
+
+	raise unless file_view.class == Window

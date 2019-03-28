@@ -21,3 +21,12 @@ You might need to specify `nmap`, etc...
 ## Show all loaded `vim` Scripts
 
 	:scriptnames
+
+## Profiling
+
+	:profile start ~/Downloads/profile.log
+	:profile func *
+	:profile file *
+	" Do something
+	:profile pause
+	:noautocmd qall!
