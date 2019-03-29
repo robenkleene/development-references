@@ -37,3 +37,7 @@ When viewing a commit, `<space>` scrolls forward in the commit and `<backspace>`
 
 - `N-p` / `N-n`: Next/previous section
 - `p` / `n`: Next/previous subsection
+
+## Advanced
+
+- To checkout an older version of a file, even if it has been deleted,even if it has been deleted, use `magit-file-checkout`. If the point is on a path to that file, the default path will be that path. Use `HEAD^` for a recently deleted file.
