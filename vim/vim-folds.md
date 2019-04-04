@@ -1,6 +1,12 @@
 # `vim` Folds
 
-## Folds
+## Basic Commands
+
+- `za`: Toggle current fold
+- `zR`: Toggle current fold
+- `zM`: Close all folds
+
+## Commands
 
 - `zi`: Toggle folding
 - `zv`: Reveal cursor
@@ -21,3 +27,9 @@
 ### Combos
 
 - `zMzv`: Close all except cursor
+
+## Working With Folds
+
+1. `zM`: Fold everything
+2. `zr`: Repeat until there's the right level of visibility
+3. `za`: Explore a single node
