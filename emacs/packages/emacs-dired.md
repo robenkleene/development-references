@@ -12,4 +12,11 @@
 	* `C-c C-c` or `C-x C-s`: Save changes
 	* `C-c ESC`: Abort changes
 
+## File Management
 
+### Copying or Moving Files
+
+- `R`: Rename or move file
+- `C`: Copy file
+
+With `(setq dired-dwim-target t)`, if two `dired` buffers are open use the other one as the default destination.
