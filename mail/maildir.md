@@ -1,3 +1,9 @@
 # `maildir`
 
-Deleted messages have a `T` appended to their filename, this stands for "trashed".
+
+## Filename Tags
+
+These appear at the end of filenames.
+
+- `T`: "Trashed" deleted messages
+- `S`: "Seen" read messages
