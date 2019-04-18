@@ -8,3 +8,7 @@ Command to do `less` like `git` pager:
 * `-X` / `--no-init`: Don't re-draw the screen after quit
 * `-R` / `--RAW-CONTROL-CHARS`: Allow color
 * `-S` / `--shop-long-lines`: Truncate long lines
+
+## Interactive
+
+- `-S`: Type and hit enter to toggle wrap
