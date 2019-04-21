@@ -43,6 +43,7 @@ When viewing a commit, `<space>` scrolls forward in the commit and `<backspace>`
 ### Checkout Older (Or Deleted) Version of a File
 
 - To checkout an older version of a file, even if it has been deleted, use `magit-file-checkout`. If the cursor is at a file path (e.g., like when the cursor is on the delete file in the log entry for a commit) then that will be used as the default path. You can then use `HEAD^` for a recently deleted file.
+- When viewing a diff, just hitting enter on the added or removed section will open the correct version of the file (e.g., you can accessed the version of the file that the hunk was removed *from* by hitting enter on the removed section)
 
 ### View a File on Another Branch
 
