@@ -55,3 +55,7 @@ So `git ls-files -o --exclude-standard` will list untracked files that aren't ig
 	* `y`: Stash this hunk
 	* `n`: Do not stash this hunk
 	* `q`: Quit and don't stash anymore
+
+## Merge Upstream
+
+	git merge upstream/master
