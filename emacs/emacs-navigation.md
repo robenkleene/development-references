@@ -7,3 +7,7 @@
 ## Code
 
 * `M-.`: Jump to function definition
+
+## Links
+
+To not follow links, long click on them until the cursor moves there.
