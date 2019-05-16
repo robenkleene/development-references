@@ -10,13 +10,13 @@
 
 	1491941793.M41[..]30E_0.mx1.example.com,S=10956:2,STln
 	^ Arrival timestamp
-											^ Size
-													^ File format version
-													  ^ Flags
-														S: Seen
-														T: Trashed
-														l: IMAP Tag
-														n: IMAP Tag
+	                                        ^ Size
+	                                                ^ File format version
+	                                                  ^ Flags:
+	                                                    S: Seen
+	                                                    T: Trashed
+	                                                    l: IMAP Tag
+	                                                    n: IMAP Tag
 
 ## Filename Tags
 
