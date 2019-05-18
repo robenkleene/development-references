@@ -4,6 +4,8 @@
 
 * `^`: Up directory
 * `+`: Create directory
+* `m`: Mark
+* `u`: Unmark
 * `C-x C-f`: Create a new file
 
 ## Dired Write Mode
