@@ -4,6 +4,10 @@ Enabled debugger:
 
 	(setq debug-on-error t)
 
+On startup:
+
+	emacs --debug-init
+
 Debug a function:
 
 	M-x debug-on-entry <function-name>
