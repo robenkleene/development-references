@@ -1,6 +1,6 @@
 # Bundler
 
-## Standalone 
+## Standalone
 
 1. Run `bundle init` to create a `Gemfile`
 2. Add `.bundle` to `.gitignore`
