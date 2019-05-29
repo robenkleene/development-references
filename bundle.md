@@ -1,5 +1,10 @@
 # Bundler
 
+## Details
+
+- `bundle install`: Will install to your gem path by default
+- `bundle install --deployment`: Will install gems locally
+
 ## Standalone
 
 1. Run `bundle init` to create a `Gemfile`
