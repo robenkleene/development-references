@@ -15,6 +15,7 @@
 
 * `^[r`: Reverse history search
 * `^[s`: Reverse history search
+* `history 0`: Dump full history
 
 (Just use a movement command (like `^[a` or `^[e`) to dismiss the search.)
 
