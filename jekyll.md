@@ -20,6 +20,18 @@
 	bundle exec jekyll serve --drafts
 	bundle exec jekyll build --watch --drafts
 
-## Specify a Config
+## Generating Faster
+
+### Local `_config.yml`
 
 	--config _config_local.yml
+
+This is useful to specify a local theme that doesn't need to get fetched from the server first:
+
+	# theme: minima
+	# remote_theme: robenkleene/cyclist
+	theme: cyclist
+
+### Limit posts
+
+	--limit_posts 5
