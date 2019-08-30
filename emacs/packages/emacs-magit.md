@@ -28,10 +28,9 @@
 
 ## Log
 
-* `l`: Brings up the log popup
+* `l`: Brings up the log pop-up
 * `l-G` (then `l` to execute): Perform a git log search, e.g., `git log -G <string>`
-
-When viewing a commit, `<space>` scrolls forward in the commit and `<backspace>` scrolls backward.
+* When a commit is selected, `<return>` focuses it, whereas `<space>` views it but commits the commit log focused (so you can view other commits). When viewing commits, use `<backspace>` scrolls backward.
 
 ## Movement
 
