@@ -39,5 +39,5 @@ From the command line `<C-c>` (or `ESC`) will close the command line window and 
 ## `wildmenu`
 
 - `<TAB>`: Show the wild menu
-- `<UP>`: Move up in hierarchy
-- `<DOWN>`: Move down in hierarchy
+- `<UP>`: Move up a directory
+- `<DOWN>`: Move down a directory
