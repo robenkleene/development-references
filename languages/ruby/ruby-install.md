@@ -1,5 +1,6 @@
 # `ruby-install`
 
+- `ruby-install --latest`: Refreshes the list of available Rubies
 - `ruby-install ruby`: Install the latest stable Ruby
 - `ruby-install ruby 2.3`: Install a specific Ruby
 - `ruby-install`: List available rubies to install
