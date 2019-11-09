@@ -36,3 +36,9 @@ If a gem won't update, the following can be tried:
 3. Delete the `bundle` directory
 4. Delete the `Gemfile.lock` file
 4. Run `bundle install --standalone`
+
+## `git` in Gemfile
+
+To point to a development version of a gem:
+
+	gem 'repla', github: 'repla-app/repla-ruby', branch: 'catalina'
