@@ -45,6 +45,12 @@ To point to a development version of a gem:
 
 Then the following will add the gem and remove the previous version:
 
-	bundle update
-	bundle clean
+	bundle update # Install them gem
+	bundle clean # Delete the old version of the gem
+	bundle install --standalone # Point the 
 
+### Adding to `git`
+
+Since Bundler checkouts the gem from git, if you then try to add the gem to git (e.g., with `git add .`), the add will fail with a message about recursively adding git repositories ("You've added another git repository inside your current repository."). In order to add it, you'll need to use `git add <full path to repository>`, e.g.:
+
+	git add Contents/Resources/bundle/ruby/2.4.0/bundler/gems/repla-ruby-4992e5e09082/ 
