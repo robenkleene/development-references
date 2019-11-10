@@ -42,3 +42,9 @@ If a gem won't update, the following can be tried:
 To point to a development version of a gem:
 
 	gem 'repla', github: 'repla-app/repla-ruby', branch: 'catalina'
+
+Then the following will add the gem and remove the previous version:
+
+	bundle update
+	bundle clean
+
