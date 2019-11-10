@@ -47,7 +47,7 @@ Then the following will add the gem and remove the previous version:
 
 	bundle update # Install them gem
 	bundle clean # Delete the old version of the gem
-	bundle install --standalone # Point the 
+	bundle install --standalone # Point the `bundle/bundler/setup` at the gem
 
 ### Adding to `git`
 
