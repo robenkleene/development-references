@@ -51,6 +51,8 @@ Then the following will add the gem and remove the previous version:
 
 ### Adding to `git`
 
-Since Bundler checkouts the gem from git, if you then try to add the gem to git (e.g., with `git add .`), the add will fail with a message about recursively adding git repositories ("You've added another git repository inside your current repository."). In order to add it, you'll need to use `git add <full path to repository>`, e.g.:
+Since Bundler checkouts the gem from git, if you then try to add the gem to git (e.g., with `git add .`), the add will fail with a message about recursively adding git repositories ("You've added another git repository inside your current repository."). In order to add it, you'll need to use `git add <full path to repository>/`, e.g.:
 
-	git add Contents/Resources/bundle/ruby/2.4.0/bundler/gems/repla-ruby-4992e5e09082/ 
+	git add Contents/Resources/bundle/ruby/2.4.0/bundler/gems/repla-ruby-4992e5e09082/
+
+Note that the trailing slash is important.
