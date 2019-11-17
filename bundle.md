@@ -15,6 +15,7 @@
 
 ### Updating Gems
 
+	bundle update <gem name> --full-index
 	bundle install --standalone
 	bundle update
 	bundle clean
