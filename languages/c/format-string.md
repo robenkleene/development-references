@@ -1,0 +1,22 @@
+# Format String
+
+## Integer
+
+	printf("INT_MAX = %d\n", INT_MAX);
+
+Or
+
+	printf("%i", r);
+
+## Character Array
+
+	char longest[MAXLINE];
+	printf("%s", longest);
+
+## Float
+
+	printf("%3d %6.1f\n", cel, cel * (9.0 / 5.0) + 32);
+
+## Unsigned Long Long
+
+	printf("ULLONG_MA = %llu\n", ULLONG_MAX);
