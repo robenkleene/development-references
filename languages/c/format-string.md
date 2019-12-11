@@ -8,7 +8,11 @@ Or
 
 	printf("%i", r);
 
-## Character Array
+## Char
+
+    printf("%c", s2[k]);
+
+## String (Character Array)
 
 	char longest[MAXLINE];
 	printf("%s", longest);
