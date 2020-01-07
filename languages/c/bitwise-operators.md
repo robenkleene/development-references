@@ -5,4 +5,4 @@
 - `^`: Exclusive OR
 - `<<`: Left shift, e.g., `0b100 << 2 = 0b10000`
 - `>>`: Right shift, e.g., `0b100 >> 2 = 0b1`
-- `~`: One's complement (unary)
+- `~`: One's complement (unary operator), inverts all `1` and `0`. E.g., `~00001 = 11110`
