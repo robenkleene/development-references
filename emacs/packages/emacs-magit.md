@@ -1,6 +1,7 @@
 # `magit`
 
 * `s`: `git add`
+* `k`: Discard change
 
 ## Status
 
