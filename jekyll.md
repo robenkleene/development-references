@@ -1,6 +1,20 @@
 # `jekyll`
 
-# Normal
+## Common Configurations
+
+Only recent:
+
+	bundle exec jekyll serve --watch --drafts --config _config_local.yml --limit_posts 5
+
+Everything:
+
+	bundle exec jekyll serve --watch --drafts --config _config_local.yml
+
+Everything No Configuration:
+
+	bundle exec jekyll serve --watch --drafts
+
+## Normal
 
 	jekyll build --watch
 	jekyll serve
