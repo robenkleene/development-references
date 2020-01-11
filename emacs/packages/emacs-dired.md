@@ -7,6 +7,7 @@
 * `m`: Mark
 * `u`: Unmark
 * `C-x C-f`: Create a new file
+* `D`: Delete file
 
 ## Dired Write Mode
 
