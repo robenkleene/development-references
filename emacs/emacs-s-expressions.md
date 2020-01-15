@@ -1,5 +1,6 @@
 # Emacs S-Expressions
 
+* `C-M-f` / `C-M-b`: Move forward / backward through s-expressions
 * `C-M-u` / `C-M-d`: Move up / down through s-expressions
 * `C-M-@`: Mark s-expression
 * `C-M-k`: Kill to end of s-expression

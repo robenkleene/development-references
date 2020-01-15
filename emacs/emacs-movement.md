@@ -41,6 +41,7 @@
 
 - `C-d`: Forwards Character
 - `C-k`: Forwards Line
+- `M-k`: Forward sentence
 - `M-d`: Forwards Word
 
 ### Edit
