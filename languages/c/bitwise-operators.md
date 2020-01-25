@@ -12,3 +12,4 @@
 - `0` is of course all zeros.
 - `~0` is an easy way to make all ones.
 - `~(~0 << n)` is `n` ones to the right and the rest zeros.
+- `-1431655766` is a 32-but number with alternating 1s and 0s, but easier way to write this is just `0b10101010101010101010101010101010`.
