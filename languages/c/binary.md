@@ -7,9 +7,15 @@
 - `>>`: Right shift, e.g., `0b100 >> 2 = 0b1`
 - `~`: One's complement (unary operator), inverts all `1` and `0`. E.g., `~00001 = 11110`
 
-## Interesting Numbers
+## Useful Operations
 
-- `0` is of course all zeros.
-- `~0` is an easy way to make all ones.
-- `~(~0 << n)` is `n` ones to the right and the rest zeros.
-- `-1431655766` is a 32-but number with alternating 1s and 0s, but easier way to write this is just `0b10101010101010101010101010101010`.
+- `0`: All zeros (of course).
+- `~0`: All ones.
+- `~0 << n`: All ones except the right-most `n` bits.
+- `~(~0 << n)`: All zeros except the right-most `n` bits.
+- `0b10101010101010101010101010101010`: The easiest way to write a number with alternating ones and zeros.
+
+### Tips
+
+- Using `~0 << n` or `~(~0 << n)` as bit fields are an easy way to capture to right- or left-most bits.
+- Use `~0 << n` and `~(~0 << n)`, then an `|`, to get the left- *and* right- most bits.
