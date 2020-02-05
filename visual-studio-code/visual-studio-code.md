@@ -1,3 +1,8 @@
 # Visual Studio Code
 
-- `⌘B`: Show/hide sidebar
+- `⌘B`: Toggle sidebar
+- `⌘J`: Toggle panel
+
+## Extensions
+
+- `Extensions: Show Installed Extensions`
