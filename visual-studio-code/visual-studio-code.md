@@ -1,14 +1,13 @@
 # Visual Studio Code
 
-- `⌘B`: Toggle sidebar
-- `⌘J`: Toggle panel
+## Commands
 
-## Extensions
-
-- `Extensions: Show Installed Extensions`
+- `⇧⌥F` / `Format Document`
 
 ## Window Management
 
+- `⌘B`: Toggle sidebar
+- `⌘J`: Toggle panel
 - `⌘⌥0`: Toggle between horizontal and vertical splits
 - `⌘\`: Split the editor vertically
 - `⌘K ⌘\`: Split editor horizontally
