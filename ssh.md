@@ -8,6 +8,6 @@ If a `.ssh/config` is setup, then this shorthand works:
 
 	ssh -L <LocalPort>:localhost:<RemotePort> <hostname>
 
-To server HTML files use:
+To server static HTML files use:
 
 	python -m http.server 3000
