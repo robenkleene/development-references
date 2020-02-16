@@ -6,4 +6,4 @@ Port forwarding:
 
 If a `.ssh/config` is setup, then this shorthand works:
 
-	ssh -L <LocalPort>:<hostname>:<RemotePort> <hostname>
+	ssh -L <LocalPort>:localhost:<RemotePort> <hostname>
