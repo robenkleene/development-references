@@ -4,6 +4,11 @@
 
 - `⇧⌥F` / `Format Document`
 
+## Navigation
+
+- `⌘T`: Go to symbol in project
+- `⌘⇧O`: Go to symbol in file
+
 ## Window Management
 
 - `⌘B`: Toggle sidebar
