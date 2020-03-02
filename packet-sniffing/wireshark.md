@@ -1,26 +1,17 @@
-# Wireshark & Packet Sniffing
-
-	wireshark-qt
-
-Fish:
-
-	sudo chgrp admin /dev/bpf* ;and sudo chmod g+rw /dev/bpf* ;and echo "ChmodBPF ran successfully."
-
-bash
-
-	chgrp admin /dev/bpf* && chmod g+rw /dev/bpf* && echo "ChmodBPF ran successfully."
+# Wireshark
 
 ## Filters
 
-	cp.port==443
-	tshark -Y 'http contains dowjones'
+### Port Number
+
+	cp.port == 443
+
+### Host
+
 	http.host contains "www.sbb.ch" 
 
+Filtering by hostname will not work unless "Preferences > Name Resolution > Resolve network (IP) addresses is turned on (Wireshark does not have to collect new data after this option is toggled on).
 
-## Analyzing `HTTPS` traffic to `iwap` URL
+### IP Address
 
-	tcpdump -s 0 -A -i en0 port 443 | grep iwap
-
-Or even better:
-
-	tcpdump -i en0 port 443
+	ip.addr == 104.31.87.73
