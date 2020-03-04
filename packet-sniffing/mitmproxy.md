@@ -1,5 +1,13 @@
 # `mitmproxy`
 
+## Desktop
+
+No certificate needs to be installed to sniff traffic on the desktop.
+
+If the server you want to sniff is on `http://localhost:4000`, then setup `mitmproxy` with:
+
+	mitmproxy --mode reverse:http://localhost:4000 -p 4001 
+
 ## iOS
 
 1. Make sure the device and computer are on the same Wi-Fi network.
