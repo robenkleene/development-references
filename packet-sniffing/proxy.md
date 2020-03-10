@@ -4,4 +4,4 @@ Many clients route their traffic through one server, and that conceals the ident
 
 ## Reverse Proxy
 
-A client routes all its traffic through one server and that gets routed to many servers.
+A client routes all its traffic through one server and that gets routed to many servers, so the client doesn't know which server it's connecting to.
