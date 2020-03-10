@@ -7,6 +7,20 @@
 - `>>`: Right shift, e.g., `0b100 >> 2 = 0b1`
 - `~`: One's complement (unary operator), inverts all `1` and `0`. E.g., `~00001 = 11110`
 
+## Two's Complement
+
+In two's complement, positive numbers are standard binary:
+
+- `0000`: `0`
+- `0001`: `1`
+- `0010`: `2`
+
+And negative numbers swap the roles of `0` and `1` and start from `-1` at `1111`, so:
+
+- `1111`: `-1`
+- `1110`: `-2`
+- `1101`: `-3`
+
 ## Useful Operations
 
 - `0`: All zeros (of course).
