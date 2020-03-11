@@ -1,12 +1,16 @@
 # `mitmproxy`
 
-## Desktop
+## Reverse Proxy
 
-No certificate needs to be installed to sniff traffic on the desktop.
+You can use a reverse proxy to sniff all traffic between a browser and a local server.
 
 If the server you want to sniff is on `http://localhost:4000`, then setup `mitmproxy` with:
 
 	mitmproxy --mode reverse:http://localhost:4000 -p 4001 
+
+Then visit `localhost:4001`.
+
+`mitmproxy` will show every request between the browser and `localhost:4000`.
 
 ## iOS
 
