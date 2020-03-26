@@ -1,6 +1,10 @@
-# `git` Remove Submodule
+# `git` Submodule
 
-## New Method
+## Add
+
+	git submodule add git@github.com:repla-app/HTML.replaplugin.git Repla/Packages/Server.replaplugin
+
+## Remove
 
 Just use the `git_submodule_delete` script which automates these steps:
 
