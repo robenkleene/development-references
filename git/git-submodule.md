@@ -2,7 +2,7 @@
 
 ## Add
 
-	git submodule add git@github.com:repla-app/HTML.replaplugin.git Repla/Packages/Server.replaplugin
+	git submodule add git@github.com:repla-app/HTML.replaplugin.git Repla/Packages/HTML.replaplugin
 
 ## Remove
 
