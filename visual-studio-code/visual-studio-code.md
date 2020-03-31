@@ -4,6 +4,12 @@
 
 - `⇧⌥F` / `Format Document`
 
+## Search
+
+- `F4`: Next search result
+- `⇧F4`: Previous search result
+- `⌘↓`: From the search field, focus search results
+
 ## Navigation
 
 - `⌘T`: Go to symbol in project
