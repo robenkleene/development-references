@@ -10,6 +10,8 @@ To print the hex sequence for a key use `xxd`.
 2. Hit `⌃v` then the key
 3. Hit return to separate the output visually, then hit `⌃d` for end of file.
 
+Running `sed -n l` and then typing the key is the same as the above method.
+
 ### Example Output
 
 For `⌃z`:
@@ -17,5 +19,7 @@ For `⌃z`:
 	% xxd
 	^Z
 	00000000: 1a0a
+
+
 
 Result is `1A` (`0a` is the line feed, same sequence for return).
