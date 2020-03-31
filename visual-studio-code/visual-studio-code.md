@@ -10,6 +10,10 @@
 - `⇧F4`: Previous search result
 - `⌘↓`: From the search field, focus search results
 
+## Editing
+
+- `F2`: Rename symbol
+
 ## Navigation
 
 - `⌘T`: Go to symbol in project
