@@ -18,6 +18,7 @@
 
 - `⌘T`: Go to symbol in project
 - `⌘⇧O`: Go to symbol in file
+- `⌘-click`: Open link
 
 ## Window Management
 
