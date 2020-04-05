@@ -23,6 +23,7 @@
 
 ## Window Management
 
+- `⌃backtick`: Toggle Terminal
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle panel
 - `⌘⌥0`: Toggle between horizontal and vertical splits
