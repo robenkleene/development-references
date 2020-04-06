@@ -12,6 +12,10 @@
 
 - `npm uninstall <package>`
 
+## Clean Up
+
+- `npm prune` is supposed to uninstall unused packages
+
 ## Update All Dependencies
 
 This requires the separate `npm` module `npm-check-updates` (usually installed globally).

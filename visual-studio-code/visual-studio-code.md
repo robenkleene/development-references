@@ -31,6 +31,7 @@
 - `⌘K ⌘\`: Split editor horizontally
 - `⌘⌥←` / `⌘⌥→`: Focus left / right editor
 - `⇧⌘[` / `⇧⌘]`: Focus left / right editor
+- `⇧⌘E`: Focus Explorer (files)
 
 After using `⌘P` to fuzzy open a file:
 
