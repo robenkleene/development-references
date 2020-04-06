@@ -5,7 +5,34 @@
 - `bundle install`: Will install to your gem path by default
 - `bundle install --deployment`: Will install gems locally
 
+## Install `vender/bundle`
+
+This is the preferred way to install gems because it does not clutter up the global gem space (which should only be used for globally available executable gems). Note that this is not the standard convention, it's personal preference.
+
+	bundle install --path vendor/bundle
+
+This will install gems locally to `vendor/bundle`, and setup a config at `.bundle/config`. Once a `.bundle/config` is setup to specify `BUNDLE_PATH: "vendor/bundle"`, all `bundle update` and `bundle clean` commands will operate based on that folder.
+
+## Update
+
+`bundle update` will update all gems.
+
+## Clean Up
+
+`bundle clean` will delete all old no longer referenced gems
+
+If there's not a config at `.bundle/config`, a message will be printed that this will delete all gems from the global gem space that aren't referenced by the local `Gemfile`.
+
+## Updating Global Gems
+
+In the directory with the global `Gemfile`:
+
+1. `bundle update`
+2. `bundle clean --force`
+
 ## Standalone
+
+Standalone is used to be able to run projects with `bundle exec`.
 
 1. Run `bundle init` to create a `Gemfile`
 2. Add `.bundle` to `.gitignore`
@@ -13,7 +40,7 @@
 4. Run `bundle install --standalone`
 5. Add `require_relative 'bundle/bundler/setup'` to the script
 
-### Updating Gems
+### Updating Standalone
 
 	bundle update <gem name> --full-index
 	bundle install --standalone
@@ -23,14 +50,14 @@
 
 Note the second `bundle install --standalone` is necessary to update the `bundle/bundler/setup` to point to the new version of the gem.
 
-### Troubleshooting
+#### Troubleshooting
 
 If a gem won't update, the following can be tried:
 
 1. Specify the gem: `bundle update repla`
 2. Use the `--full-index` option: `bundle update repla --full-index`
 
-## Changing the Ruby Version
+## Updating the Ruby Version
 
 1. Add `ruby '2.0.0'` to the `Gemfile`
 2. Delete the `.bundle` directory
