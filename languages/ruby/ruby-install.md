@@ -7,3 +7,7 @@
 - `rm -rf ~/.rubies/ruby-2.4.0`: Remove Ruby
 
 Use `chruby` to see installed ruby
+
+## Re-Install
+
+Just run `ruby-install ruby 2.5.3` to re-install
