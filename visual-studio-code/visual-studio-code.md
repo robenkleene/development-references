@@ -33,6 +33,11 @@
 - `⇧⌘[` / `⇧⌘]`: Focus left / right editor
 - `⇧⌘E`: Focus Explorer (files)
 
+## Explorer
+
+- `⌃↩`: Open file in a split
+- `␣`: Open file
+
 After using `⌘P` to fuzzy open a file:
 
 - `↩`: Opens in a new tab
