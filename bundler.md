@@ -15,7 +15,7 @@ This will install gems locally to `vendor/bundle`, and setup a config at `.bundl
 
 ## Update
 
-`bundle update` will update all gems.
+`bundle update` will update all gems. If there's a `BUNDLE_PATH` specified in `.bundle/config`, that directory will be used, otherwise it will update global gems.
 
 ## Clean Up
 
