@@ -32,7 +32,7 @@ In the directory with the global `Gemfile`:
 
 ## Standalone
 
-Standalone is used to be able to run projects with `bundle exec`.
+Standalone is used to be able to run projects without needing `bundle exec`, e.g., for environments where the `bundle` CLI may not be installed.
 
 1. Run `bundle init` to create a `Gemfile`
 2. Add `.bundle` to `.gitignore`
