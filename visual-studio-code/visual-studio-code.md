@@ -39,9 +39,13 @@
 - `⌃↩`: Open file in a split
 - `␣`: Open file
 
+## Quick Open
+
 After using `⌘P` to fuzzy open a file:
 
 - `↩`: Opens in a new tab
 - `⌘↩`: Opens in a new vertical split
 - `⌥↩`: Opens in a new vertical split
 - `⌃↩`: Opens in a new vertical split
+
+There does not appear to be a way to open a file from Quick Open in a horizontal split, as a workaround, first open the file in vertical split and then use `⌘⌥0` to swap the layout.
