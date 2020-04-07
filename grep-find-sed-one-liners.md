@@ -6,6 +6,10 @@
 
 Add `-i ''` to sed to run
 
+## Change file extension
+
+	find . -name "*.jade" -exec bash -c 'mv "$1" "${1%.jade}".pug' - '{}' \;
+
 ## Find Multiple Patterns
 
 	grep -E "open class|open var"
