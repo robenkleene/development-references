@@ -13,6 +13,7 @@
 ## Editing
 
 - `F2`: Rename symbol
+- `⇧⌥I`: Multiple cursors with selection
 
 ## Navigation
 
