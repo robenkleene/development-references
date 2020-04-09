@@ -14,6 +14,7 @@
 
 - `F2`: Rename symbol
 - `⇧⌥I`: Multiple cursors with selection
+- `⌘.`: Insert spelling replacement
 
 ## Navigation
 
