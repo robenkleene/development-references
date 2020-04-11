@@ -2,5 +2,6 @@
 
 With the hand tool selected:
 
-- Orbit with `⌥-click-drag`
-- Zoom with two finger drag
+- `⌥⌘drag`: Pan
+- `⌥drag`: Orbit
+- `two-finger-drag`: Zoom
