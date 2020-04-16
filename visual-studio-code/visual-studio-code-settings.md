@@ -2,6 +2,14 @@
 
 - "Preferences: Configure Language Specific Settings..."
 
+### Bindings
+
+Bindings can be added to the `Code/User/keybindings.json` by selecting "Code > Preferences > Keyboard Shortcuts" (`⌘K ⌘S`), and clicking the exiting short to add a new one.
+
+### Contextual Menus
+
+It appears that contextual menus options for existing commands can only be added by editing an extension's `package.json`.
+
 ## Extensions
 
 - `Extensions: Show Installed Extensions`
