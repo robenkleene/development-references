@@ -23,6 +23,7 @@
 - `⌘-click`: Open link
 - `⌃-` / `⇧⌃-`: Go to previous / next location
 - `⌃⇥`: See previous files
+- `⌘K ↩`: Take file out of preview mode, so choosing another file doesn't replace this one
 
 ## Window Management
 
