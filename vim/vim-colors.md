@@ -8,3 +8,8 @@
 
 	:so $VIMRUNTIME/syntax/hitest.vim
 	
+## Showing Syntax at Cursor
+
+Use my function:
+
+	EchoSyntaxGroups
