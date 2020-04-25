@@ -27,15 +27,23 @@
 
 ## Window Management
 
+- `⌘1` Focus editor
 - `⌃backtick`: Toggle Terminal
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle panel
+
+### Sidebar
+
+- `⌘0`: Focus currently active sidebar
+- `⇧⌘E`: Focus Explorer (files)
+
+### Splits
+
 - `⌘⌥0`: Toggle between horizontal and vertical splits
 - `⌘\`: Split the editor vertically
 - `⌘K ⌘\`: Split editor horizontally
 - `⌘⌥←` / `⌘⌥→`: Focus left / right editor
 - `⇧⌘[` / `⇧⌘]`: Focus left / right editor
-- `⇧⌘E`: Focus Explorer (files)
 
 ## Explorer
 
