@@ -30,7 +30,7 @@
 - `⌘1` Focus editor
 - `⌃backtick`: Toggle Terminal
 - `⌘B`: Toggle sidebar
-- `⌘J`: Toggle panel
+- `⌘J`: Toggle bottom panel
 
 ### Sidebar
 
