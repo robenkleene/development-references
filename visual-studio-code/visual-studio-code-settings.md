@@ -4,7 +4,7 @@
 
 ### Bindings
 
-Bindings can be added to the `Code/User/keybindings.json` by selecting "Code > Preferences > Keyboard Shortcuts" (`⌘K ⌘S`), and clicking the exiting short to add a new one. This works for either changing an existing shortcut, or adding a shortcut to a command that already has one. If you want to 
+Bindings can be added to the `Code/User/keybindings.json` by selecting "Code > Preferences > Keyboard Shortcuts" (`⌘K ⌘S`), and clicking the exiting short to add a new one. This works for either changing an existing shortcut, or adding a shortcut to a command that already has one.
 
 ### Contextual Menus
 
