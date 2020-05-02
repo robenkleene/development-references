@@ -1,5 +1,10 @@
 # `git`
 
+## Common
+
+* `git show <hash>`: Show a commit
+* `git clone --depth 1 <repo>`: Clone without history
+
 ## Log
 
 * `git log -p` (`-u`, `--patch`): Generate a patch for the commit, this is a lot like a combined `git log` and `git diff`
