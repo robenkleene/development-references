@@ -9,3 +9,5 @@
 	JEKYLL_NO_BUNDLER_REQUIRE=true rdebug-ide /Users/robenkleene/Development/Projects/Cocoa/Repla/Packages/Jekyll.replaplugin/Contents/Resources/bin/jekyll serve
 
 4. Hit the play button in VSCode, the script will stop on the first breakpoint
+
+It's nice to use the integrate terminal when debugging Ruby.
