@@ -31,3 +31,10 @@ Requires `gem-open`:
 	gem unpack websonsole-0.0.1.gem
 
 Unpacks it in the current directory.
+
+## Gem Cache
+
+Clear gem cache:
+
+	gem source --clean-all
+	gem source -c

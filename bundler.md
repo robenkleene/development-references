@@ -19,9 +19,11 @@ This will install gems locally to `vendor/bundle`, and setup a config at `.bundl
 
 ## Clean Up
 
-`bundle clean` will delete all old no longer referenced gems
+`bundle clean` will delete all old no longer referenced gems.
 
 If there's not a config at `.bundle/config`, a message will be printed that this will delete all gems from the global gem space that aren't referenced by the local `Gemfile`.
+
+It's a good idea to run `gem source -c` (`gem source --clean-all`), after doing a global bundler clean up, this will delete cached gem specs at `~/.gem/specs`.
 
 ## Updating Global Gems
 
