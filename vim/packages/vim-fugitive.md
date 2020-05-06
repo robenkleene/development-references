@@ -6,6 +6,7 @@ Fixing "Not an editor command": This happens if you open a file without first `c
 
 * `-`: Stage file
 * `cc`: `Gcommit`
+- `X`: Discard changes
 
 ## `Gdiff`
 
