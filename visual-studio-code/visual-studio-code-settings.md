@@ -21,4 +21,3 @@ To choose a formatter, use "Format Document With..." this appears to only be ava
 ## Colors
 
 To see the scope at the cursor, select "Developer: Inspect Editor Tokens and Scopes".
-
