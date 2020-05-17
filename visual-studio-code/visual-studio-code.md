@@ -3,6 +3,7 @@
 ## Commands
 
 - `⇧⌥F` / `Format Document`
+- `⌘K F` ("File" > "Close Folder"): Close folder
 
 ## Search
 
