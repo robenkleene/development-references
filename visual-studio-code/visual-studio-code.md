@@ -46,7 +46,8 @@
 - `⌘\`: Split the editor vertically
 - `⌘K ⌘\`: Split editor horizontally
 - `⌘⌥←` / `⌘⌥→`: Focus left / right editor
-- `⇧⌘[` / `⇧⌘]`: Focus left / right editor
+
+The tab navigation keys (`⇧⌘[` / `⇧⌘]`) also work to go between side-by-side splits.
 
 ## Explorer
 
