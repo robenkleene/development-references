@@ -46,14 +46,6 @@ When the menu is visible to select various options.
 * `setopt`: List enabled options
 * `unsetopt`: List disabled options
 
-### Bindings
-
-* `zle -la`: List all available commands to bind
-* `bindkey -l`: List key maps
-* `bindkey -M emacs`: List bindings for a key map
-* `bindkey -M menuselect`: Bindings for tab menu
-* `bindkey -L`: List currently active bindings
-
 Simple way to get a key code: hit `^v` then the key.
 
 ## Help
