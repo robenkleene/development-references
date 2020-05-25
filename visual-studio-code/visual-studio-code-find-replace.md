@@ -12,3 +12,5 @@
 3. Open find and replace with `⌥⌘F`
 4. Toggle on "Find in selection" with `⌥⌘L`
 5. Replace all with `⌘↩`
+
+Visual Studio Code has a "Auto Find in Selection" option, but this breaks using `⌘E` and `⌘G` to iterate through matches in a document.
