@@ -1,5 +1,10 @@
 # Visual Studio Code Find & Replace
 
+## Find & Replace in Multiple Files
+
+1. `⇧⌘H`: Find & replace
+2. `⌘⌥↩`: Replace all occurrences
+
 ## Find & Replace in Selection
 
 1. Select the term to replace and "Find with Selection" (`⌘E`)
