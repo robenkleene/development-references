@@ -1,5 +1,7 @@
 # Visual Studio Code Find & Replace
 
+- `⇧⌥F`: Find & replace in folder (when the Explorer has focus)
+
 ## Find & Replace in Multiple Files
 
 1. `⇧⌘H`: Find & replace
