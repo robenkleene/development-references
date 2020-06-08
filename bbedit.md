@@ -50,3 +50,7 @@ Splitting projects into multiple windows:
 ## Splits
 
 - Double-click or drag the little notch at the top of the scroll bars to split or unsplit the current window
+
+## Filter Through Unix Command
+
+"Text > Run Unix Command..."
