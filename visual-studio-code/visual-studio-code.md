@@ -36,6 +36,8 @@
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
 
+There's no shortcut to join editors, but "View: Single Column Editor Layout" is a command that does this.
+
 ### Sidebar
 
 - `⌘0`: Focus currently active sidebar
