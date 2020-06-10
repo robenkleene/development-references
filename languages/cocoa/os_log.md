@@ -1,6 +1,5 @@
 # `os_log`
 
-
 - It uses the `StaticString` data type:
 
 		let foo: StaticString = "Something happened."
