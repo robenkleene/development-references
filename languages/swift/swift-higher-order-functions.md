@@ -29,6 +29,8 @@
 
 ## `contains`
 
+Returns a boolean.
+
 	let hasNumbersLessThan5 = numbers.contains { $0 < 5 }
 
 ## `removeAll`
