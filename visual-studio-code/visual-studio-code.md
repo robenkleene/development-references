@@ -67,3 +67,8 @@ After using `⌘P` to fuzzy open a file:
 - `⌃↩`: Opens in a new vertical split
 
 There does not appear to be a way to open a file from Quick Open in a horizontal split, as a workaround, first open the file in vertical split and then use `⌘⌥0` to swap the layout.
+
+## Preview
+
+- Filenames in italics are in preview mode
+- To quickly preview lots of files from the sidebar, use `␣` to preserve the focus while previewing a file.
