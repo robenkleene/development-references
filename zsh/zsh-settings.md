@@ -1,4 +1,4 @@
-# `zsh` Bindings
+# `zsh` Settings
 
 ### Bindings
 

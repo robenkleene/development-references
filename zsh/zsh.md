@@ -1,20 +1,9 @@
 # `zsh`
 
-`^]` is meta.
-
-## Editing
-
-* `^_` or `^Xu` or `^X^U`: Undo
-* `^[.`: Insert last parameter of previous command
-* `^[^-`: Insert previous word
-* `^[h`: Help for current command (runs `man`)
-* `^[q`: Push current line (clears the line, execute one command and then return the line)
-* `^y`: Yank (paste in emacs terminology)
-
 ## History
 
-* `^[r`: Reverse history search
-* `^[s`: Reverse history search
+* `^r`: Reverse history search
+* `^s`: Reverse history search
 * `⇥`: Accept a history match, without executing it
 * `history 0`: Dump full history
 
