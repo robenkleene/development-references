@@ -1,4 +1,4 @@
-# `grep`, `find`, `sed`, One Liners
+# Shell One Liners
 
 ## Find & Replace in Place
 
@@ -35,6 +35,10 @@ Add `-i ''` to sed to run
 ## Remove Spaces
 
 	sed 's/ //g'
+
+## Remove New lines
+
+	tr -d '\n'
 
 ## Print Group Match
 
