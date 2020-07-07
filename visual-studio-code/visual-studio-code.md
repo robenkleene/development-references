@@ -5,6 +5,7 @@
 - `⇧⌥F` / `Format Document`: Format document
 - `⇧⌘H`: Find & replace in all files
 - `⌘K F` ("File" > "Close Folder"): Close folder
+- `⌘K ↩` / `View: Keep Editor`: Exit preview mode
 
 ## Search
 
