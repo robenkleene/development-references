@@ -6,6 +6,7 @@
 - `⌃backtick`: Toggle Terminal
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
+- `⌘K ⌘W`: Close all editors
 
 There's no shortcut to join editors, but "View: Single Column Editor Layout" is a command that does this.
 
