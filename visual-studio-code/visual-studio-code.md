@@ -5,7 +5,6 @@
 - `⇧⌥F` / `Format Document`: Format document
 - `⇧⌘H`: Find & replace in all files
 - `⌘K F` ("File" > "Close Folder"): Close folder
-- `⌘K ↩` / `View: Keep Editor`: Exit preview mode
 
 ## Search
 
@@ -21,46 +20,3 @@
 - `⌥↓` / `⌥↑`: Move line down / up
 - `⇧⌥↓` / `⇧⌥↑`: Copy line down / up
 
-## Window Management
-
-- `⌘1` Focus editor
-- `⌃backtick`: Toggle Terminal
-- `⌘B`: Toggle sidebar
-- `⌘J`: Toggle bottom panel
-
-There's no shortcut to join editors, but "View: Single Column Editor Layout" is a command that does this.
-
-### Sidebar
-
-- `⌘0`: Focus currently active sidebar
-- `⇧⌘E`: Focus Explorer (files)
-
-### Splits
-
-- `⌘⌥0`: Toggle between horizontal and vertical splits
-- `⌘\`: Split the editor vertically
-- `⌘K ⌘\`: Split editor horizontally
-- `⌘⌥←` / `⌘⌥→`: Focus left / right editor
-
-The tab navigation keys (`⇧⌘[` / `⇧⌘]`) also work to go between side-by-side splits.
-
-## Explorer
-
-- `⌃↩`: Open file in a split
-- `␣`: Open file
-
-## Quick Open
-
-After using `⌘P` to fuzzy open a file:
-
-- `↩`: Opens in a new tab
-- `⌘↩`: Opens in a new vertical split
-- `⌥↩`: Opens in a new vertical split
-- `⌃↩`: Opens in a new vertical split
-
-There does not appear to be a way to open a file from Quick Open in a horizontal split, as a workaround, first open the file in vertical split and then use `⌘⌥0` to swap the layout.
-
-## Preview
-
-- Filenames in italics are in preview mode
-- To quickly preview lots of files from the sidebar, use `␣` to preserve the focus while previewing a file.
