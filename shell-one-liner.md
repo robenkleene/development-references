@@ -36,6 +36,10 @@ Add `-i ''` to sed to run
 
 	sed 's/ //g'
 
+## Replace Multiple Spaces With One Space
+
+	sed "s/  */ /g"
+
 ## Remove New lines
 
 	tr -d '\n'
