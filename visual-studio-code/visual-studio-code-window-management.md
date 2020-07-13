@@ -7,6 +7,7 @@
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
 - `⌘K ⌘W`: Close all editors
+- `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
 
 There's no shortcut to join editors, but "View: Single Column Editor Layout" is a command that does this.
 
