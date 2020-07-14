@@ -6,7 +6,7 @@ A default `npm` project:
 
 Add `--ci` to disable opening the browser:
 
-	npm run storybook --ci
+	npm run storybook -- --ci
 
 A default `yarn` project:
 
