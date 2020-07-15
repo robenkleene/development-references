@@ -57,3 +57,7 @@ Add `-i ''` to sed to run
 ## Add Hierarchy to Xcode Test Output
 
 	sed 's/^/			/' | sed 's/^			Test Suite/Test Suite/' | sed 's/^			Test Case/	Test Case/' | sed 's/^				 Executed/Executed/'
+
+## Ruby HTTP Server
+
+	ruby -run -e httpd . -p 8000
