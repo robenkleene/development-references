@@ -1,10 +1,11 @@
 # Visual Studio Code Find & Replace
 
 - `⇧⌥F`: Find & replace in folder (when the Explorer has focus)
+- `⇧⌘H`: Find & replace in all files
 
 ## Find & Replace in Multiple Files
 
-1. `⇧⌘H`: Find & replace
+1. `⇧⌘H`: Find & replace in all files
 2. `⌘⌥↩`: Replace all occurrences
 
 ## Find & Replace in Selection

@@ -2,9 +2,6 @@
 
 ## Commands
 
-- `⇧⌥F` / `Format Document`: Format document
-- `⇧⌘H`: Find & replace in all files
-- `⌘K F` ("File" > "Close Folder"): Close folder
 
 ## Search
 

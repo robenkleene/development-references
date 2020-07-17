@@ -1,20 +1,20 @@
 # Visual Studio Code Window Management
 
-## Window Management
-
 - `⌘1` Focus editor
+- `⌘0`: Focus currently active sidebar
+
+## Bottom Panel
+
 - `⌃backtick`: Toggle Terminal
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
-- `⌘K ⌘W`: Close all editors
-- `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
-
-There's no shortcut to join editors, but "View: Single Column Editor Layout" is a command that does this.
 
 ### Sidebar
 
-- `⌘0`: Focus currently active sidebar
 - `⇧⌘E`: Focus Explorer (files)
+- `⌘K ⌘W`: Close all editors
+- `⌘K F` ("File" > "Close Folder"): Close folder in workspace (e.g., if there's only one open folder this will result in an empty document)
+- `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
 
 ### Splits
 
@@ -24,6 +24,8 @@ There's no shortcut to join editors, but "View: Single Column Editor Layout" is 
 - `⌘⌥←` / `⌘⌥→`: Focus left / right editor
 
 The tab navigation keys (`⇧⌘[` / `⇧⌘]`) also work to go between side-by-side splits.
+
+There's no shortcut to close splits, but "View: Single Column Editor Layout" is a command that does this.
 
 ## Explorer
 
