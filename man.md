@@ -1,5 +1,7 @@
 # `man`
 
+To access the second `man` page, e.g., `unlink(2)`, use `man 2 unlink`
+
 ## Example
 
        less -?
