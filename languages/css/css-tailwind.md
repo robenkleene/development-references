@@ -33,4 +33,7 @@
 
         <h1>Hello World!</h1>  
 
-9. Run a simple server from the public directory, e.g., `ruby -run -e httpd public -p 8000` and view the unstyled site at `localhost:8000`
+9. Run a simple server from the public directory, e.g., `ruby -run -e httpd public -p 8000` and view the un-styled site at `localhost:8000`.
+10. Try adding some utility classes by changing the `<H1>` line to:
+
+        <h1 class="text-4xl font-bold text-center text-blue-500">Hello World!</h1>
