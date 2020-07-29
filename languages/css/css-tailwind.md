@@ -1,5 +1,52 @@
 # CSS Tailwind
 
+## Basics
+
+### Text
+
+- `text-sm`: Smaller font size
+- `text-2xl`: Large font
+- `font-bold`: Bold
+- `font-semibold`: Semibold
+- `leading-none`: Tight line height
+- `leading-loose`: Tallest leading
+- `uppercase`: Uppercase
+- `tracking-wider`: Wider letter spacing
+
+#### Colors
+
+- `text-indigo-500`: An indigo
+
+### Layout
+
+- `inline-block`: Inline block
+
+### Size
+
+- `h` (e.g., `h-10`): Height
+
+### Padding
+
+- `p` (e.g., `p-8`): Padding
+- `px` (e.g., `px-8`): Horizontal padding
+- `py` (e.g., `py-12`): Vertical padding
+
+### Margins
+
+- `mt` (e.g., `mt-6`): Top margin
+
+### Border
+
+- `rounded`: Rounded corners
+- `rounded-sm`: Small rounded corners
+- `rounded-lg`: Large rounded corners
+
+### Effects
+
+- `shadow`: Shadow
+- `shadow-lg`: Large shadow
+
+
 ## Starting New Project
 
 1. In a new directory, e.g., `my-tailwind-project`, run `npm init -y` to create a basic `package.json`
