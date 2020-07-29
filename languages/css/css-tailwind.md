@@ -1,5 +1,11 @@
 # CSS Tailwind
 
+## Goals
+
+Why utility classes instead of inline CSS? With inline CSS there's no constraints on what values you choose. With utility classes "You can't just pick any value want; you have to choose from a curated list.
+
+Instead of 380 text colors, you end up with 10 or 12."
+
 ## Basics
 
 ### Text
