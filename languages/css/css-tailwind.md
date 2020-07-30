@@ -6,6 +6,10 @@ Why utility classes instead of inline CSS? With inline CSS there's no constraint
 
 Instead of 380 text colors, you end up with 10 or 12."
 
+## CLI
+
+- `npx tailwind init tailwind-full.confg`: Export a full Tailwind config
+
 ## Basics
 
 ### General
