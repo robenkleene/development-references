@@ -8,6 +8,20 @@ Instead of 380 text colors, you end up with 10 or 12."
 
 ## Basics
 
+### General
+
+- `sm`: Small
+- `md`: Medium
+- `lg`: Large
+- `p`: Padding
+- `max-w`: Max width
+- `x`: Horizontal
+- `y`: Vertical
+- `t`: Top
+- `b`: Bottom
+- `l`: Left
+- `r`: Right
+
 ### Text
 
 - `text-sm`: Smaller font size
@@ -25,6 +39,7 @@ Instead of 380 text colors, you end up with 10 or 12."
 
 ### Layout
 
+- `max-w-md`: Set a width
 - `inline-block`: Inline block
 
 ### Size
@@ -39,6 +54,7 @@ Instead of 380 text colors, you end up with 10 or 12."
 
 ### Margins
 
+- `mx-auto`: Set margins to auto
 - `mt` (e.g., `mt-6`): Top margin
 
 ### Border
