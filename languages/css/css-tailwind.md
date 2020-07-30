@@ -13,6 +13,7 @@ Instead of 380 text colors, you end up with 10 or 12."
 - `sm`: Small
 - `md`: Medium
 - `lg`: Large
+- `xl`: Extra Large
 - `p`: Padding
 - `max-w`: Max width
 - `x`: Horizontal
@@ -68,6 +69,13 @@ Instead of 380 text colors, you end up with 10 or 12."
 - `shadow`: Shadow
 - `shadow-lg`: Large shadow
 
+## Responsive
+
+Just add one of the size prefixes (`sm`, `md`, `lg`, `xl`) to a style to only apply it at that size:
+
+    sm:bg-green-500
+
+This adds a minimum width breakpoint for small sizes.
 
 ## Starting New Project
 
