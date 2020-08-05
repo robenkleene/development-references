@@ -1,4 +1,4 @@
-# React Gatsby
+# GatsbyJS
 
 GatsbyJS is a static web page framework where the content is in a GraphQL store which is accessed at render time.
 
