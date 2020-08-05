@@ -9,4 +9,10 @@ GraphiQL is a GraphQL IDE. To access it in your Gatsby project:
 
 ### Data
 
-You can explore the data in GraphQL by using the sidebar. For example, if you've added Markdown with `gatsby-transformer-remark` then that data will appear under `markdownRemark` (e.g., to see the compiled HTML by clicking "`markdownRemark` > `html`").
+You can explore the data in GraphQL by using the sidebar. For example, if you've added Markdown with `gatsby-transformer-remark` then that data will appear under `markdownRemark`. E.g., to see the compiled HTML by clicking the "`markdownRemark` > `html`" checkbox (ignore the `html:` with a disclosure triangle), and then running the resulting query:
+
+    query MyQuery {
+        markdownRemark {
+            html
+        }
+    }
