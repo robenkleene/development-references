@@ -16,3 +16,7 @@ You can explore the data in GraphQL by using the sidebar. For example, if you've
             html
         }
     }
+
+## Page Queries vs. Static Queries
+
+Page queries are a query for a 
