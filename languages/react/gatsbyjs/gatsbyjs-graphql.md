@@ -17,6 +17,29 @@ You can explore the data in GraphQL by using the sidebar. For example, if you've
         }
     }
 
-## Page Queries vs. Static Queries
+### Page Queries
 
-Page queries are a query for a 
+An example of querying for the site metadata description:
+
+    export const query = graphql`
+    # query will go here
+    query HomePageQuery {
+        site {
+        siteMetadata {
+            description
+        }
+        }
+    }
+    `
+
+An example of accessing that data in a component:
+
+    const HomePage = () => {
+    const HomePage = ({data}) => {
+        return (
+            <div>
+            Hello!
+            {data.site.siteMetadata.description}
+            </div>
+        )
+    }

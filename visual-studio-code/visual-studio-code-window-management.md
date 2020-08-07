@@ -14,6 +14,7 @@
 - `⇧⌘E`: Focus Explorer (files)
 - `⌘K ⌘W`: Close all editors
 - `⌘K F` ("File" > "Close Folder"): Close folder in workspace (e.g., if there's only one open folder this will result in an empty document)
+- `⌘K E`: Focus open editors
 - `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
 
 ### Splits
