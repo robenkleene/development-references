@@ -22,7 +22,6 @@ You can explore the data in GraphQL by using the sidebar. For example, if you've
 An example of querying for the site metadata description:
 
     export const query = graphql`
-    # query will go here
     query HomePageQuery {
         site {
         siteMetadata {
@@ -43,3 +42,5 @@ An example of accessing that data in a component:
             </div>
         )
     }
+
+`set.siteMetadata.description` is exactly where the data is in the hierarchy in the GraphiQL browser.
