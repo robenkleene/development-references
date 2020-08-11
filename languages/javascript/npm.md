@@ -22,3 +22,7 @@ This requires the separate `npm` module `npm-check-updates` (usually installed g
 
 1. `ncu --upgrade` / `ncu -u`
 2. `npm install`
+
+## Info
+
+    npm view yarn
