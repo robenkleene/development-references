@@ -2,11 +2,11 @@
 
 Each time this command is run:
 
-	repla server "bundle exec jekyll serve --watch --drafts --config _config_local.yml" 
+    repla server "bundle exec jekyll serve --watch --drafts --config _config_local.yml"
 
 This error is getting dumped to the console:
 
-	Ignoring commonmarker-0.17.13 because its extensions are not built. Try: gem pristine commonmarker --version 0.17.13
+    Ignoring commonmarker-0.17.13 because its extensions are not built. Try: gem pristine commonmarker --version 0.17.13
 
 This is probably related to having installed a bunch more Gems at `~/.gem/ruby/2.5.3/gems` to support the release notes blog.
 
