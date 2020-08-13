@@ -1,4 +1,6 @@
-# GatsbyJS GraphQL
+# React GraphQL
+
+## Query
 
 An example of querying for the site metadata description:
 
@@ -11,6 +13,21 @@ An example of querying for the site metadata description:
         }
     }
     `
+
+An example retrieving a specific item:
+
+    query MyQuery {
+      allMarkdownRemark(filter: {frontmatter: {title: {eq: "About"}}}) {
+        edges {
+          node {
+            id
+            rawMarkdownBody
+          }
+        }
+      }
+    }
+
+## Components
 
 An example of accessing that data in a component:
 

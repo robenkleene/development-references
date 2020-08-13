@@ -24,5 +24,24 @@ For each entry in the graph, there's two entries, e.g.:
 
 The first entry is how you access all of the data.
 
-### Accessing a Specific Item
+### Queries
 
+You can construct complex queries by clicking in the sidebar, for example to fetch the `allMarkdownRemark` item that has the `frontmatter` `title` `"about"`:
+
+1. Click open `allMarkdownRemark`
+2. Click `filter`
+3. Click `frontmatter`
+4. Click `title`
+5. Click `eq:` and enter `"About"`
+
+This constructs a query like this:
+
+    query MyQuery {
+      allMarkdownRemark(filter: {frontmatter: {title: {eq: "About"}}}) {
+        edges {
+          node {
+            id
+          }
+        }
+      }
+    }
