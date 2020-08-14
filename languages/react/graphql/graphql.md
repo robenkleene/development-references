@@ -7,9 +7,9 @@ An example of querying for the site metadata description:
     export const query = graphql`
     query HomePageQuery {
         site {
-        siteMetadata {
-            description
-        }
+            siteMetadata {
+                description
+            }
         }
     }
     `
