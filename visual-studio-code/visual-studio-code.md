@@ -1,8 +1,5 @@
 # Visual Studio Code
 
-## Commands
-
-
 ## Search
 
 - `F4`: Next search result
@@ -16,4 +13,3 @@
 - `⌘.`: Insert spelling replacement
 - `⌥↓` / `⌥↑`: Move line down / up
 - `⇧⌥↓` / `⇧⌥↑`: Copy line down / up
-
