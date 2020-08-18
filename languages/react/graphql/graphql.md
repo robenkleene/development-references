@@ -42,3 +42,7 @@ An example of accessing that data in a component:
     }
 
 `set.siteMetadata.description` is exactly where the data is in the hierarchy in the GraphiQL browser.
+
+You can inspect `data` in the React Developer Tools extension, just select the parent element, and it will appear in the `props` section of the sidebar.
+
+[![GraphyQL Debugging](assets/graphql-debugging.png)](assets/graphql-debugging.png)
