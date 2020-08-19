@@ -16,20 +16,17 @@ An example of querying for the site metadata description:
 
 An example retrieving a specific item:
 
-    query MyQuery {
-      allMarkdownRemark(filter: {frontmatter: {title: {eq: "About"}}}) {
-        edges {
-          node {
-            id
-            rawMarkdownBody
-          }
+    query AboutQuery {
+      allMarkdownRemark(filter: { frontmatter: { title: { eq: "About" } } }) {
+        nodes {
+          html
         }
       }
     }
 
 ## Components
 
-An example of accessing that data in a component:
+An example of accessing data in a component:
 
     const HomePage = () => {
     const HomePage = ({data}) => {
@@ -42,6 +39,16 @@ An example of accessing that data in a component:
     }
 
 `set.siteMetadata.description` is exactly where the data is in the hierarchy in the GraphiQL browser.
+
+Accessing data in a component from an array:
+
+    const IndexPage = ({ data }) => (
+      <Layout>
+        <div>{data.allMarkdownRemark.nodes[0].html}</div>
+      </Layout>
+    )
+
+### Debugging
 
 You can inspect `data` in the React Developer Tools extension, just select the parent element, and it will appear in the `props` section of the sidebar.
 
