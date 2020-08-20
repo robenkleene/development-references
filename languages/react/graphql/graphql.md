@@ -44,7 +44,7 @@ Accessing data in a component from an array:
 
     const IndexPage = ({ data }) => (
       <Layout>
-        <div>{data.allMarkdownRemark.nodes[0].html}</div>
+        <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.nodes[0].html }} />
       </Layout>
     )
 
