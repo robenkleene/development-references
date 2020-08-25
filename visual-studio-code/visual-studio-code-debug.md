@@ -1,5 +1,7 @@
 # Visual Studio Code Debug
 
+- `F5`: Continue or start debugging
+- `⇧F5`: Stop debugging
 - `F9`: Toggle breakpoint
 - `⇧F9`: Insert inline breakpoint
 
