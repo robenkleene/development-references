@@ -8,15 +8,26 @@ Components declared with `const` are "stateless components" (i.e., there's no pr
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.nodes[0].html }} />
-    <div>
-      <ExampleImage />
-    </div>
-    <ExampleList />
-    <ExampleButton />
+    <div
+      dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.nodes[0].html }}
+    />
   </Layout>
 )
+```
+
+Which is equivalent to:
+
+``` javascript
+const IndexPage = ({ data }) => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.allMarkdownRemark.nodes[0].html,
+        }}
+      />
+    </Layout>
+  )
+}
 ```
