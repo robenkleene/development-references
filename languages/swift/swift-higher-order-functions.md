@@ -2,7 +2,7 @@
 
 ## `map`
 
-	let squares5 = values.map { $0 * $0 }
+	let squares = values.map { $0 * $0 }
 
 ## `compactMap`
 
