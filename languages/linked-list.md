@@ -5,5 +5,4 @@
 
 ## Notes
 
-- Good use cases for linked lists are stacks and queues. *Why?*
 - Any linked list operation that can change the first node, e.g., to insert at index `0`, or remove the first element, needs to take a double pointer, rather than a pointer, because otherwise changing the first element wouldn't be possible.
