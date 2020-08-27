@@ -1,8 +1,8 @@
 # React
 
-## Stateless Functions
+## Stateless Components
 
-Components declared with `const` are "stateless components" (i.e., there's no properties on `this`).
+Components declared with `const` are "stateless" (i.e., there's no properties on `this`).
 
 ``` javascript
 const IndexPage = ({ data }) => (
