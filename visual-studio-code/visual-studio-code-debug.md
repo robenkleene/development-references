@@ -11,6 +11,8 @@
 
 ## Languages
 
+Generally, you can configure debugging by clicking `create a launch.json file` from the `Run` panel
+
 ### C
 
 Working configuration for C, which is just the default auto-generated configuration with `a.out` added.
@@ -30,3 +32,30 @@ Working configuration for C, which is just the default auto-generated configurat
     ]
 }
 ```
+
+### Node
+
+A working configuration for Node:
+
+``` json
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch via npm",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "start"]
+    }
+  ]
+}
+```
+
+It's unclear why this is hard-coded to open Chrome rather than the system default browser.
+
+If you close the browser window, you can usually open it again by checking the debug console for a URL (`⇧⌘Y`).

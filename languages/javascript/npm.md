@@ -26,3 +26,9 @@ This requires the separate `npm` module `npm-check-updates` (usually installed g
 ## Info
 
     npm view yarn
+
+## Scripts
+
+List available commands:
+
+    npm run
