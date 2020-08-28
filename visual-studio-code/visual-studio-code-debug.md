@@ -71,3 +71,9 @@ The following will open your default browser when the matched string is output.
         "action": "openExternally"
       }
 ```
+
+### Troubleshooting
+
+If a command is having trouble running in the Debug Console, e.g., if the full output isn't showing up, then running it in the integrated terminal instead can be helpful:
+
+    "console": "integratedTerminal",
