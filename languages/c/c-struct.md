@@ -21,10 +21,22 @@ A `struct` variable can be declared and initialized at once by providing memeber
 struct point maxpt = { 320, 200 };
 ```
 
+Member values can be accessead with dot notation:
 
 ``` c
-typedef struct node {
-    int val;
-    struct node *next;
-} node_t;
+printf("%d, %d\n", pt.x, pt.y);
+```
+
+Declaring a struct and a variable at the same time;
+
+``` c
+struct point {
+    int x;
+    int y;
+} myPoint;
+
+int main() {
+    myPoint.x = 5;
+    myPoint.y = 10;
+}
 ```
