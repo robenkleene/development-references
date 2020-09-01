@@ -53,3 +53,12 @@ int main() {
     point_t maxpt = { 320, 200 };
 }
 ```
+
+You can't use a `typedef` being defined within a struct itself, but you can't use a type name, resulting in the following:
+
+``` c
+typedef struct node {
+    int val;
+    struct node *next;
+} node_t;
+```
