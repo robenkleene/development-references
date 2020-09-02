@@ -36,3 +36,7 @@ Text cut with `^v` is `blockwise`, if you then paste it, the text will interleav
     set expandtab
     set shiftwidth=2
     " Retab document with `gg=G`
+
+## Tips
+
+- Use `cw` to change whitespace between words or `dw` to delete.

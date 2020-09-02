@@ -22,3 +22,4 @@ When running the `test` command, a scheme must also be specified.
 ## Other Commands
 
 * `xcodebuild -list`: List the schemes
+- `xcodebuild -find clangd`: Show the path to a CLI tool
