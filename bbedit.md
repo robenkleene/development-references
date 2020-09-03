@@ -54,3 +54,7 @@ Splitting projects into multiple windows:
 ## Filter Through Unix Command
 
 "Text > Run Unix Command..."
+
+## Clippings
+
+Use `F5` for autocomplete to expand clippings.
