@@ -7,3 +7,7 @@
 ## `#include <stddef.h>`
 
 - Declares `NULL`
+
+## `#include <stdlib.h>`
+
+- Declares `malloc`
