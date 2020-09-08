@@ -1,6 +1,7 @@
 # Visual Studio Code Editing
 
 - `⇧⌥F` / `Format Document`: Format document
+- `⇧⌘↩`: Insert new line above
 
 ## Multiple Cursors
 
