@@ -5,4 +5,4 @@
 
 ## Notes
 
-- Any linked list operation that can change the first node, e.g., to insert at index `0`, or remove the first element, needs to take a double pointer (e.g., `node_t **head`), instead of a pointer, because otherwise it wouldn't be possible to change the first element.
+- Any linked list operation that can change the first node, e.g., to insert at index `0`, or remove the first element, needs to take a double pointer (e.g., `node_t **head`), instead of a pointer, because otherwise it's not possible to change the first element.
