@@ -1,5 +1,7 @@
 # `emacs` Window Management
 
+- `C-x C-space` or `C-x C-@`: Return to previous position
+
 ## Frames
 
 - `C-x 5 2`: Create a new frame
