@@ -55,3 +55,4 @@
 
 - `SPACE`: Page down
 - `BS`: Page up
+- `e`: Switch to edit mode
