@@ -8,3 +8,26 @@ To suppress output of a command, precede it with an `@`:
 
     hello:
         @echo "hello world"
+
+## Functions
+
+    define test_message
+        remote=$$(git config --get remote.origin.url | tr -d '\n'); \
+        if [[ $${remote}  =~ (https://|git@)github.com[/:](.*) ]]; then \
+          remote_subpath="$${BASH_REMATCH[2]}"; \
+          remote_subpath=$${remote_subpath%.git}; \
+          remote_url="https://github.com/$${remote_subpath}/pulls"; \
+        else \
+          echo ""; \
+          exit 0; \
+        fi; \
+        echo "Hello $${remote_url} $1"
+    endef
+
+    run_test: test_start test_finish
+
+    test_start:
+        @$(call test_message,CISTARTED)
+
+    test_finish:
+        @$(call test_message,CIFINISHED)
