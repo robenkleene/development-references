@@ -3,6 +3,10 @@
 - `npm init`: Create a `package.json`
 - `npm publish`: Publish a new version
 
+## Notes
+
+- `--save` is not necessary because that's the default now, `--no-save` used to be the default.
+
 ## Other
 
 - `-g`: install globally, e.g., `npm install -g markdown-toc`
