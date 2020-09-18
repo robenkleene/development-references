@@ -1,5 +1,11 @@
 # `git`
 
+## New Repo
+
+    git remote add origin <remote-url>
+    git push origin master
+    git branch --set-upstream-to=origin/master master
+
 ## Common
 
 * `git show <hash>`: Show a commit
