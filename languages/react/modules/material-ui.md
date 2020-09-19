@@ -1,0 +1,3 @@
+# Material UI
+
+- Colors like `primary` and `secondary` are pulled from the default theme, as well as breakpoint settings for `xs`, `xl`, etc...
