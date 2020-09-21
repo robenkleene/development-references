@@ -2,6 +2,7 @@
 
 - `⇧⌥F` / `Format Document`: Format document
 - `⇧⌘↩`: Insert new line above
+- `⌘↩`: Insert new line below
 
 ## Multiple Cursors
 
