@@ -6,6 +6,10 @@ ProRes for editing and H.264 for sharing.
 
 Two codecs that support transparency are `Apple ProRes 4444` and `Animation`, both in the QuickTime container. In Adobe Media Encoder, select `Depth` to one of the `+ alpha` versions.
 
+PNG Image Sequences also support transparency.
+
+In my experience, which exports PNG Image Sequences are smaller than `Apple ProRes 4444` which is smaller than `Animation`.
+
 ## Examples
 
 ### Apple ProRes
