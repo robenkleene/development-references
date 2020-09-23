@@ -14,3 +14,8 @@
 - `⌘.`: Insert spelling replacement
 - `⌥↓` / `⌥↑`: Move line down / up
 - `⇧⌥↓` / `⇧⌥↑`: Copy line down / up
+
+## Lists
+
+- `space`: Toggle disclosure triangle
+- `⇧⌘↩`: Toggle selection
