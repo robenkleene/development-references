@@ -2,6 +2,12 @@
 
 ProRes for editing and H.264 for sharing.
 
+## Choosing
+
+- Use `MP4` / `H.264` for small file sizes, e.g., before uploading. This doesn't support transparency.
+- Use `QuickTime` / `ProRes` for lossless quality while editing. This supports transparency.
+- PNG image sequences are also good while editing. This supports transparency.
+
 ## Transparency
 
 Two codecs that support transparency are `Apple ProRes 4444` and `Animation`, both in the QuickTime container. In Adobe Media Encoder, select `Depth` to one of the `+ alpha` versions.
