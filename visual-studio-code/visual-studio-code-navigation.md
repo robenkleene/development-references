@@ -6,6 +6,7 @@
 - `⌃-` / `⇧⌃-`: Go to previous / next location
 - `⌃⇥`: See previous files
 - `⌘K ↩`: Take file out of preview mode, so choosing another file doesn't replace this one
+- `F12`: Go to definition
 
 ## Preview
 
