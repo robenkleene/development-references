@@ -74,6 +74,8 @@ The following will open your default browser when the matched string is output.
 
 Use `"action": "debugWithChrome"` to use Chrome with the debugger attached.
 
+This is the only way to make breakpoints work in VS Code while running in a browser. E.g., there's no way to use VS Code breakpoints with Safari.
+
 ### Troubleshooting
 
 If a command is having trouble running in the Debug Console, e.g., if the full output isn't showing up, then running it in the integrated terminal instead can be helpful:
