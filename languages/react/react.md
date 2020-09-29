@@ -2,6 +2,8 @@
 
 ## Stateless Components
 
+These are both also functional components, because they're defined with functions, rather than classes.
+
 Components declared with `const` are "stateless" (i.e., there's no properties on `this`).
 
 ``` javascript
@@ -15,7 +17,7 @@ const IndexPage = ({ data }) => (
 )
 ```
 
-This can also be written like this, which allows 
+This can also be written like this, which allows state.
 
 ``` javascript
 const IndexPage = ({ data }) => {
