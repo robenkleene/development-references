@@ -30,6 +30,7 @@ Checkout master, reset, clean dead branches.
 ## Debugging
 
 - `fish_key_reader`: Show key stroke code for bind
+- `fish --profile /tmp/fish.prof -ic exit`: Profiling
 
 ## Functions
 
