@@ -21,8 +21,9 @@ Checkout master, reset, clean dead branches.
 
 ## Debugging
 
-	`fish_key_reader`: Show key stroke code for bind
+- `fish_key_reader`: Show key stroke code for bind
 
 ## Functions
 
-* `funced`: Define an impromptu function
+- `type my_function`: Show definition of function
+- `funced`: Define an impromptu function
