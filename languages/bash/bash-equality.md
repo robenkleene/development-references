@@ -9,6 +9,8 @@ These are equivalent:
 
 ## String Comparison
 
+In Bash the right hand side is always a glob.
+
 This compares `$PWD` to a string with wildcards, this isn't comparing files, just strings:
 
     [[ $PWD/ = $HOME/*/* ]]
