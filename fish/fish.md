@@ -1,5 +1,7 @@
 # fish
 
+- Commands that start with a space, ` ls` will be hidden from history
+
 ## Scripting
 
 Numeric values don't need to be quoted:

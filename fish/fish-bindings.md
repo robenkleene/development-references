@@ -1,6 +1,7 @@
 # `fish`
 
-- `⌥E` and `⌥V`: Edit current line in editor
+- `⌥E` / `⌥V`: Edit current line in editor
+- `⌃C` / `⌃V`: Copy and paste current line
 - `→`: Accept completion
 - `^F`: Accept one word of completion
 
