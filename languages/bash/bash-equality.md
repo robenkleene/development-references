@@ -14,3 +14,11 @@ This compares `$PWD` to a string with wildcards, this isn't comparing files, jus
     [[ $PWD/ = $HOME/*/* ]]
 
 This exits `1` in `~` and `/`, but exits `0` in `~/Desktop`.
+
+This appears to be equivalent:
+
+    [[ $PWD = $HOME/* ]]
+
+As does this:
+
+    [[ $PWD =~ $HOME/.* ]]
