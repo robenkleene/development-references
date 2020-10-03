@@ -2,14 +2,6 @@
 
 - Commands that start with a space, ` ls` will be hidden from history
 
-## Scripting
-
-Numeric values don't need to be quoted:
-
-    if test $status -eq 0
-        echo -n (basename $git_path)
-    end
-
 ## History
 
 * `history merge`: Merge history from all running sessions
