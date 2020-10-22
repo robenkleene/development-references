@@ -13,8 +13,17 @@
 
 ### Specific
 
-The C/C++ for Visual Studio Code extension (`vscode-cpptools`) requires a different installer for remote, otherwise an error will pop-up that says:
+#### C/C++
+
+The "C/C++ for Visual Studio Code" extension (`vscode-cpptools`) requires a different installer for remote, otherwise an error will pop-up that says:
 
 > This MacOS version of the extension is incompatible with your OS. Please download and install the "cpptools-linux.vsix" version of the extension.
 
 The `cpptools-linux.vsix` file can be downloaded from `Releases` at the GitHub page, and then installed on the server by connecting to the sever and selecting `Extensions: Install from VSIX...`.
+
+#### `clangd`
+
+If `clangd` is not found in the path, the following message will appear:
+
+> The 'clangd' language server was not found on your PATH.
+> Would you like to download and install clangd 10.0.0?
