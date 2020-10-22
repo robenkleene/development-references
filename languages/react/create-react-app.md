@@ -1,5 +1,7 @@
 # Create React App
 
+The default port for `create-react-app` is `3000`.
+
 ## Getting Started
 
     npx create-react-app my-app
