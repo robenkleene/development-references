@@ -3,6 +3,10 @@
 - `npm init`: Create a `package.json`
 - `npm publish`: Publish a new version
 
+## Run
+
+- `npm run`: List available scripts
+
 ## Notes
 
 - `--save` is not necessary because that's the default now, `--no-save` used to be the default.
