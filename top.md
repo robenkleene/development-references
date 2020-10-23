@@ -2,6 +2,7 @@
 
 - `o`: Change primary sort order (e.g., then `cpu` to sort by CPU)
 - `⇧M`: Sort by memory
+- `top -o MEM`: Run sorted by memory (`top -o %MEM` on Linux)
 
 ## Interactive Sort
 
