@@ -60,6 +60,10 @@ It's unclear why this is hard-coded to open Chrome rather than the system defaul
 
 If you close the browser window, you can usually open it again by checking the debug console for a URL (`⇧⌘Y`).
 
+To disable opening a browser automatically with `npm start`, add:
+
+    "env": {"BROWSER": "none"},
+
 ### Opening Browser Windows
 
 The following will open your default browser when the matched string is output.
