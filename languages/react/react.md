@@ -34,3 +34,6 @@ const IndexPage = ({ data }) => {
   )
 }
 ```
+
+## `state` vs. `props`
+
