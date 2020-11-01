@@ -26,7 +26,7 @@ char *p = "abc";
 
 `p` is the memory address and `*p` is `a` (e.g., `printf("%c", *p);` prints `a`).
 
-But in memory, this string is stored as:
+But in memory, a string literal is actually stored as an array with with a null character (`\0`) as the last element:
 
     +---+      +-----+-----+-----+------+
     | p | ---> | 'a' | 'b' | 'c' | '\0' |
