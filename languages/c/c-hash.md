@@ -11,3 +11,5 @@ unsigned hash(char *s)
     return hashval % HASHSIZE;
 }
 ```
+
+This function takes a `char` pointer 

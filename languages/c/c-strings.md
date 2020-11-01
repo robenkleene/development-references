@@ -17,3 +17,19 @@ void hash_test(char *s) {
     }
 }
 ```
+
+A `char*` pointer in C points to a single memory address (like all pointers). E.g.,:
+
+``` c
+char *p = "abc";
+```
+
+`p` is the memory address and `*p` is `a` (e.g., `printf("%c", *p);` prints `a`).
+
+But in memory, this string is stored as:
+
+    +---+      +-----+-----+-----+------+
+    | p | ---> | 'a' | 'b' | 'c' | '\0' |
+    +---+      +-----+-----+-----+------+
+
+Some functions in C automatically handle strings, e.g., `printf(p)` will print `abc`. `printf("%s", p);` can also be used to print the entire string.
