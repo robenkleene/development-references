@@ -15,7 +15,7 @@ Declare a `struct` variable:
 struct point pt;
 ```
 
-A `struct` variable can be declared and initialized at once by providing memeber values:
+A `struct` variable can be declared and initialized at once by providing member values:
 
 ``` c
 struct point maxpt = { 320, 200 };
@@ -27,7 +27,7 @@ Member values can be accessed with dot notation:
 printf("%d, %d\n", pt.x, pt.y);
 ```
 
-Declaring a struct and a variable at the same time;
+Declaring a `struct1` and a variable at the same time;
 
 ``` c
 struct point {
@@ -41,7 +41,7 @@ int main() {
 }
 ```
 
-Declaring a struct with a `typedef`:
+Declaring a `struct` with a `typedef`:
 
 ``` c
 typedef struct {
@@ -54,7 +54,7 @@ int main() {
 }
 ```
 
-You can't use a `typedef` being defined within a struct itself, but you can't use a type name, resulting in the following:
+You can't use a `typedef` being defined within a `struct` itself, but you can't use a type name, resulting in the following:
 
 ``` c
 typedef struct node {
