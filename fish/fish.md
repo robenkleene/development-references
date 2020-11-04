@@ -17,6 +17,12 @@ Checkout master, reset, clean dead branches.
        cd ..
 	end
 
+## Process Substitution
+
+`cat <(cat file.txt)` does not work, use `psub` instead:
+
+    cat (cat file.txt | psub)
+
 ## Debugging
 
 - `fish_key_reader`: Show key stroke code for bind

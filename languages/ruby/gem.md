@@ -38,3 +38,11 @@ Clear gem cache:
 
 	gem source --clean-all
 	gem source -c
+
+## Local, Global & System
+
+Global gems are installed with `--system`, e.g., `gem install --system pry`.
+
+`gem list` lists globally installed gems.
+
+`bundle list` lists locally installed gems.
