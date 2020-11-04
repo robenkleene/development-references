@@ -1,5 +1,7 @@
 # C Strings
 
+## String Pointers vs. Arrays
+
 C has two ways of storing a string:
 
 - `char*`: A pointer
@@ -33,3 +35,19 @@ But in memory, a string literal is actually stored as an array with with a null 
     +---+      +-----+-----+-----+------+
 
 Some functions in C automatically handle strings, e.g., `printf(p)` will print `abc`. `printf("%s", p);` can also be used to print the entire string.
+
+## Converting `char` to `int`
+
+Characters are `int` which has a couple of implications.
+
+If `c` is a single-character digit, then the expression `c - '0'` will convert that digit to an `int`.
+
+``` c
+c - '0'
+```
+
+The ASCII value of a digit can be printed by using the `int` (`%i`) format specifier.
+
+``` c
+printf("%c = %i\n", *s, *s);
+```

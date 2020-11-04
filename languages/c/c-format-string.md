@@ -1,5 +1,7 @@
 # C Format String
 
+Format specifiers.
+
 ## Integer (also unsigned)
 
     printf("INT_MAX = %d\n", INT_MAX);
