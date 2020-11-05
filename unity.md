@@ -1,6 +1,7 @@
 # Unity
 
-- Play button up top to play
+- `Q`: Switch to hand tool
+- `W`: Switch to move tool
 
 With the hand tool selected:
 
