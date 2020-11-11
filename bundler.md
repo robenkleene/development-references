@@ -9,9 +9,15 @@
 
 This is the preferred way to install gems because it does not clutter up the global gem space (which should only be used for globally available executable gems). Note that this is not the standard convention, it's personal preference.
 
+This command is deprecated but still works:
+
 	bundle install --path vendor/bundle
 
-This will install gems locally to `vendor/bundle`, and setup a config at `.bundle/config`. Once a `.bundle/config` is setup to specify `BUNDLE_PATH: "vendor/bundle"`, all `bundle update` and `bundle clean` commands will operate based on that folder.
+The new command is:
+
+    bundle config set path 'vendor/bundle'
+
+This will install gems locally to `vendor/bundle`, and setup a configuration file at `.bundle/config`. Once a `.bundle/config` is setup to specify `BUNDLE_PATH: "vendor/bundle"`, all `bundle update` and `bundle clean` commands will operate based on that folder.
 
 ## Update
 
