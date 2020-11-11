@@ -46,3 +46,9 @@ Global gems are installed with `--system`, e.g., `gem install --system pry`.
 `gem list` lists globally installed gems.
 
 `bundle list` lists locally installed gems.
+
+## Dependencies
+
+List which gems depend on a gem:
+
+    gem dependency ffi
