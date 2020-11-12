@@ -33,3 +33,29 @@ And negative numbers swap the roles of `0` and `1` and start from `-1` at `1111`
 
 - Using `~0 << n` or `~(~0 << n)` as bit fields are an easy way to capture to right- or left-most bits.
 - Use `~0 << n` and `~(~0 << n)`, then an `|`, to get the left- *and* right- most bits.
+
+## Printing
+
+Functions for printing bits, it can be added to a header (`printbits.h`) and imported (`#include "printbits.h"`):
+
+``` c
+#include <stdio.h>
+
+void printbits(size_t const size, void const *const ptr) {
+    unsigned char *b = (unsigned char *)ptr;
+    unsigned char byte;
+    int i, j;
+
+    for (i = size - 1; i >= 0; i--) {
+        for (j = 7; j >= 0; j--) {
+            byte = (b[i] >> j) & 1;
+            printf("%u", byte);
+        }
+    }
+    puts("");
+}
+
+void qpb(int x) {
+    printbits(sizeof(x), &x);
+}
+```
