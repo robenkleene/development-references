@@ -8,3 +8,4 @@
 6. With `Magic_Orb` selected in the scene, click `Edit` in the `Inspector` to the right of `Visual Effect > General > Asset Template`.
 7. Dock the `Magic_Orb` edit panel to the right of the scene viewport by dragging its tab.
 8. In the `Magic_Orb` edit panel, toggle off the `Target GameObject` tab.
+9. Select the existing nodes and right-click to delete them.
