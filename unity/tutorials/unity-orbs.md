@@ -1,5 +1,7 @@
 # Unity Orbs
 
+## Setup
+
 1. Create a new project using the `Universal Project Template`.
 2. Select `Window > Package Manager` and install `Visual Effect Graph` and `Shader Graph`.
 3. Delete the `Example Assets`.
@@ -9,3 +11,7 @@
 7. Dock the `Magic_Orb` edit panel to the right of the scene viewport by dragging its tab.
 8. In the `Magic_Orb` edit panel, toggle off the `Target GameObject` tab.
 9. Select the existing nodes and right-click to delete them.
+
+## Graph
+
+1. Hover over the `Magic_Orb` panel and hit `␣` to add a `Simple Head & Trails (System)` node system.
