@@ -6,7 +6,7 @@
 
 ## Remove
 
-Just use the `git_submodule_delete` script which automates these steps:
+Just use the `git_submodule_delete -p <path>` script which automates these steps:
 
 1. `git submodule deinit -f path/to/submodule`: Remove the submodule entry from `.git/config`
 2. `rm -rf .git/modules/path/to/submodule`: Remove the submodule directory from `.git/modules`
