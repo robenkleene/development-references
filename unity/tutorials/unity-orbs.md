@@ -20,3 +20,4 @@
 4. Set `Initialize Particle Strip > Capacity: 1000`.
 5. Add a `float` property by clicking the `+` button then `float` in the properties panel.
 6. Rename the property to `TrailsSpawnRate`. Toggle the disclosure triangle, and turn on `Exposed`, and set `Value: 30`.
+7. Drag the `TrailsSpawnRate` property out to the nodes editor area to create a node, and connect its output to the `Spawn > Rate` input.
