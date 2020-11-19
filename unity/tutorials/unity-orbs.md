@@ -15,3 +15,8 @@
 ## Graph
 
 1. Hover over the `Magic_Orb` panel and hit `␣` to add a `Simple Head & Trails (System)` node system.
+2. Set `Spawn > Rate: 50`.
+3. Set `Initialize Particle > Capacity: 1000`.
+4. Set `Initialize Particle Strip > Capacity: 1000`.
+5. Add a `float` property by clicking the `+` button then `float` in the properties panel.
+6. Rename the property to `TrailsSpawnRate`.
