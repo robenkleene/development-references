@@ -19,4 +19,4 @@
 3. Set `Initialize Particle > Capacity: 1000`.
 4. Set `Initialize Particle Strip > Capacity: 1000`.
 5. Add a `float` property by clicking the `+` button then `float` in the properties panel.
-6. Rename the property to `TrailsSpawnRate`.
+6. Rename the property to `TrailsSpawnRate`. Toggle the disclosure triangle, and turn on `Exposed`, and set `Value: 30`.
