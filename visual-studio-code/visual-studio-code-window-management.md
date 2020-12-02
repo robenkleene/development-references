@@ -16,6 +16,7 @@
 - `⌘K F` (`File > Close Folder`): Close folder in workspace (e.g., if there's only one open folder this will result in an empty document)
 - `⌘K E`: Focus open editors
 - `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
+- `⌘K ⌘0`: Collapse folders in sidebar (note that this will not collapse search results unfortunately)
 
 ### Splits
 
