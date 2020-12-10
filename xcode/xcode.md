@@ -1,6 +1,5 @@
 # Xcode
 
-
 - `⌃6` / `View > Editor > Show Document Items`: Navigate symbols
 
 ## Notes
