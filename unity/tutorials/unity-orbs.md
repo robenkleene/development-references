@@ -22,3 +22,4 @@
 6. Rename the property to `TrailsSpawnRate`. Toggle the disclosure triangle, and turn on `Exposed`, and set `Value: 30`.
 7. Drag the `TrailsSpawnRate` property out to the nodes editor area to create a node, and connect its output to the `Spawn > Rate` input.
 8. In `Initialize Particle`, delete `Set Velocity Random (Per-component)` and `Set Color Random from Gradient` (with `⌘⌫`).
+9. Add a `Set Color (Attribute Set)` block above the `Set Lifetime Random (Uniform)` block.
