@@ -13,9 +13,11 @@
 
 Generally, you can configure debugging by clicking `create a launch.json file` from the `Run` panel
 
-### C
+### C & Swift
 
 Working configuration for C, which is just the default auto-generated configuration with `a.out` added.
+
+The binary must be compiled with `cc -g <source file>` for C and Swift with `swiftc -o a.out -g <source file>`.
 
 ``` json
 {
