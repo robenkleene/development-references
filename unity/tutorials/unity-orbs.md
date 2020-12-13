@@ -26,3 +26,4 @@
 10. Add a `Color` property and rename it to `Color` and move it above `TrailsSpawnRate`. Click the `Color` disclosure triangle and toggle on `Exposed`.
 11. Drag the property to the left of the `Set Color` block and connect the output of the `Color` property to the input of the `Set Color` block.
 12. Double-click the color well in the properties panel to open the color picker and choose a light blue color and increase the intensity slightly.
+13. Add a `Position (Sphere)` below the `Set Color`.
