@@ -8,7 +8,7 @@
 
 ## Extensions
 
-- There's a command `Remote: Install Local Extensions in <host>...`
+- There's a command `Remote: Install Local Extensions in <host>...` (use the top checkbox to install all)
 - To update an extension in development, connect to the remote machine then use `Extensions: Install from VSIX...`.
 
 ### Specific
