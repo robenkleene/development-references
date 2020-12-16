@@ -28,3 +28,4 @@
 12. Double-click the color well in the inspector to open the color picker and choose a light blue color and increase the intensity slightly.
 13. Add a `Position (Sphere)` below the `Set Color`.
 14. Add a float to the inspector and rename it to `Size`, toggle on `Exposed` and set `Value: 1`.
+15. Add a `Multiply (Operator Math Arithmetic)`
