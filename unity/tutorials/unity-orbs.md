@@ -27,4 +27,4 @@
 11. Drag the property to the left of the `Set Color` block and connect the output of the `Color` property to the input of the `Set Color` block.
 12. Double-click the color well in the inspector to open the color picker and choose a light blue color and increase the intensity slightly.
 13. Add a `Position (Sphere)` below the `Set Color`.
-14. Add a float to the inspector and rename it to `Size`.
+14. Add a float to the inspector and rename it to `Size`, toggle on `Exposed` and set `Value: 1`.
