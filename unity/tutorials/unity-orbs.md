@@ -33,10 +33,11 @@
 ### Position
 
 1. Add a `Position (Sphere)` below the `Set Color`.
-.  Add a `float` property to the inspector and rename it to "Size", toggle on `Exposed` and set `Value: 1`.
-2. Add a `Multiply (Operator Math Arithmetic)`, connect the output of `Size` to its top input, and connect its output to the `Position (Sphere) > Arc Sphere > Sphere > Radius` input.
+2. Add a `float` property to the inspector and rename it to "Size", toggle on `Exposed` and set `Value: 1`.
+3. Drag the `Size` property onto the canvas. Add a `Multiply (Operator Math Arithmetic)`, connect the output of `Size` to its top input, and connect its output to the `Position (Sphere) > Arc Sphere > Sphere > Radius` input.
 
 ### Trails
 
 1. Add a `float` property to the inspector and rename it to "Trails Lifetime". Toggle on `Exposed` and set `Value: 1`.
-2. 
+2. Drag the `Trails LIfetime` property onto the canvas. Add a `Multiply (Operator Math Arithmetic)`, connect the output of `Trails Lifetime` to its top input, and connect its output to the `Set Lifetime Random (Uniform) > A` input.
+3. Add a second `Multiply (Operator Math Arithmetic)`, also connect the output of `Trails Lifetime` to its top input, and connect its output to the `Set Lifetime Random (Uniform) > B` input. Set the `B: 3`. (`A` is the minimum and `B` is the maximum, so this sets the trails lifetime range to `n < x < n * 3`.)
