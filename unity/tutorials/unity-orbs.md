@@ -22,10 +22,21 @@
 6. Rename the property to `TrailsSpawnRate`. Toggle the disclosure triangle, and turn on `Exposed`, and set `Value: 30`.
 7. Drag the `TrailsSpawnRate` property out to the nodes editor area to create a node, and connect its output to the `Spawn > Rate` input.
 8. In `Initialize Particle`, delete `Set Velocity Random (Per-component)` and `Set Color Random from Gradient` (with `⌘⌫`).
-9. Add a `Set Color (Attribute Set)` block above the `Set Lifetime Random (Uniform)` block.
-10. Add a `Color` property and rename it to `Color` and move it above `TrailsSpawnRate`. Click the `Color` disclosure triangle and toggle on `Exposed`.
-11. Drag the property to the left of the `Set Color` block and connect the output of the `Color` property to the input of the `Set Color` block.
-12. Double-click the color well in the inspector to open the color picker and choose a light blue color and increase the intensity slightly.
-13. Add a `Position (Sphere)` below the `Set Color`.
-14. Add a float to the inspector and rename it to `Size`, toggle on `Exposed` and set `Value: 1`.
-15. Add a `Multiply (Operator Math Arithmetic)`, connect the output of `Size` to its top input, and connect its output to the `Position (Sphere) > Arc Sphere > Sphere > Radius` input.
+
+### Color
+
+1. Add a `Set Color (Attribute Set)` block above the `Set Lifetime Random (Uniform)` block.
+2. Add a `Color` property and rename it to "Color" and move it above `TrailsSpawnRate`. Click the `Color` disclosure triangle and toggle on `Exposed`.
+3. Drag the property to the left of the `Set Color` block and connect the output of the `Color` property to the input of the `Set Color` block.
+4. Double-click the color well in the inspector to open the color picker and choose a light blue color and increase the intensity slightly.
+
+### Position
+
+1. Add a `Position (Sphere)` below the `Set Color`.
+.  Add a `float` property to the inspector and rename it to "Size", toggle on `Exposed` and set `Value: 1`.
+2. Add a `Multiply (Operator Math Arithmetic)`, connect the output of `Size` to its top input, and connect its output to the `Position (Sphere) > Arc Sphere > Sphere > Radius` input.
+
+### Trails
+
+1. Add a `float` property to the inspector and rename it to "Trails Lifetime". Toggle on `Exposed` and set `Value: 1`.
+2. 
