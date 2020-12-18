@@ -45,4 +45,5 @@
 ### Sphere
 
 1. Add a `Conform to Sphere (Force)` block below `Turbulence`.
-2. Drag another copy of the `Size` property onto the canvas to the left of the `Conform to Sphere` block. Add another `Multiply (Operator Math Arithmetic)`, and connect the output of the `Size` to its `A` input. Set `B: 1.5`. Connect the output of the `Multiply (float)` to the radius input.
+2. Drag another copy of the `Size` property onto the canvas to the left of the `Conform to Sphere` block. Add another `Multiply (Operator Math Arithmetic)`, and connect the output of the `Size` to its `A` input. Set `B: 1.5`. Connect the output of the `Multiply (float)` to the `Sphere > Radius` input.
+3. Set `Conform to Sphere > Attraction Force: 10`
