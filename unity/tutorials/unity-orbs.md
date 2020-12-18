@@ -41,3 +41,8 @@
 1. Add a `float` property to the inspector and rename it to "Trails Lifetime". Toggle on `Exposed` and set `Value: 1`.
 2. Drag the `Trails LIfetime` property onto the canvas. Add a `Multiply (Operator Math Arithmetic)`, connect the output of `Trails Lifetime` to its top input, and connect its output to the `Set Lifetime Random (Uniform) > A` input.
 3. Add a second `Multiply (Operator Math Arithmetic)`, also connect the output of `Trails Lifetime` to its top input, and connect its output to the `Set Lifetime Random (Uniform) > B` input. Set the `B: 3`. (`A` is the minimum and `B` is the maximum, so this sets the trails lifetime range to `n < x < n * 3`.)
+
+### Sphere
+
+1. Add a `Conform to Sphere (Force)` block below `Turbulence`.
+2. Drag another copy of the `Size` property onto the canvas to the left of the `Conform to Sphere` block. Add another `Multiply (Operator Math Arithmetic)`, and connect the output of the `Size` to its `A` input. Set `B: 1.5`. Connect the output of the `Multiply (float)` to the radius input.
