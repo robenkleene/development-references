@@ -51,4 +51,4 @@
 ### Lifetime
 
 1. Delete the `Initialized Particle Strip > Set Lifetime` block, and replace it with a `Inherit Source Lifetime (Set)` block.
-2. Add a `Set Size (Attribuate Set)` above `Output ParticleStrip Quad > Set size over Life`.
+2. Add a `Set Size (Attribuate Set)` above `Output ParticleStrip Quad > Set size over Life`, and uncheck the toggle for `Inherit Source Lifetime (Set)` to disable it. 
