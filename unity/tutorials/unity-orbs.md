@@ -54,3 +54,4 @@
 2. Add a `Set Size (Attribuate Set)` above `Output ParticleStrip Quad > Set size over Life`, and uncheck the toggle for `Inherit Source Lifetime (Set)` to disable it. 
 3. Drag out the `Size` property from the inspector to the left of `Output ParticleStrip Quad > Set Size`.
 4. Add two `Multiply (Operator Math Arithmetic)` nodes, and connect the output of `Size` to their `A` input. Set the `B` for the top node to `0.001`, and `B` for the second node to `0.02`.
+5. Add a `Random Number (Operator Random)`, and connect output of the top `Multiply (float)` to its `Min` input, and the output of bottom `Multiply (float)` to its `Max` input. Connect the `Random Number` output to the `Output ParticleStrip Quad > Set Size > Size` input.
