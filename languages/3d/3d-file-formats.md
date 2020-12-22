@@ -19,4 +19,4 @@ Includes a scene graph (multiple models laid out in a graph), usually includes m
 
 ## Universal Scene Description
 
-Supports above features, and has features for collaboration
+Supports above features, and has features for collaboration.
