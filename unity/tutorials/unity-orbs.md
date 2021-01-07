@@ -56,3 +56,11 @@
 4. Add two `Multiply (Operator Math Arithmetic)` nodes, and connect the output of `Size` to their `A` input. Set the `B` for the top node to `0.001`, and `B` for the second node to `0.02`.
 5. Add a `Random Number (Operator Random)`, and connect output of the top `Multiply (float)` to its `Min` input, and the output of bottom `Multiply (float)` to its `Max` input. Connect the `Random Number` output to the `Output ParticleStrip Quad > Set Size > Size` input.
 6. Click the checkbox to the far left of `Set Size over Life` to toggle it on, and in the Inspector, set `Composition: Add`.
+
+## Group
+
+1. Select all the nodes and right-click and select `Group Selection`, rename the group to `TRAILS`.
+
+## New Particle System
+
+1. Create a new `Empty Particle System (System)` off to the right by hitting `␣`.
