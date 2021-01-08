@@ -64,4 +64,4 @@
 ## New Particle System
 
 1. Create a new `Empty Particle System (System)` off to the right by hitting `␣`.
-2. Select the first block, `Spawn`, and right-click and select `Create Block`, and choose `Periodic Burst (Spawn)`.
+2. Select the first block, `Spawn`, and right-click and select `Create Block`, and choose `Periodic Burst (Spawn)`. Set `Count: 1` and `Delay: 1`.
