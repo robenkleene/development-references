@@ -65,3 +65,6 @@
 
 1. Create a new `Empty Particle System (System)` off to the right by hitting `␣`.
 2. Select the first block, `Spawn`, and right-click and select `Create Block`, and choose `Periodic Burst (Spawn)`. Set `Count: 1` and `Delay: 1`.
+3. Make some space by dragging `Update Particle` and `Output Particle Quad` down.
+4. Create a `Add Lifetime (Attribute Set)` block under `Initialize Particle`.
+5. Under `Output Particle Quad > Main Texture`, click the circle to the right, and choose the `Default-Particle` texture.
