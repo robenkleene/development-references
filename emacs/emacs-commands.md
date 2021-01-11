@@ -9,4 +9,3 @@
 ## Universal Argument
 
 - `C-u 2` or `M-2`: Perform an action passing `2` as the argument
-
