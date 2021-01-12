@@ -68,4 +68,11 @@
 3. Make some space by dragging `Update Particle` and `Output Particle Quad` down.
 4. Create a `Add Lifetime (Attribute Set)` block under `Initialize Particle`.
 5. Under `Output Particle Quad > Main Texture`, click the circle to the right, and choose the `Default-Particle` texture.
-6. Add a `Add Size (Attribute Set)` at the bottom of the `Output Particle Quad`.
+
+### Size
+
+1. Add a `Add Size (Attribute Set)` at the bottom of the `Output Particle Quad`.
+2. Drag the `Size` property out to the left of the `Set Size`, and add a `Multiply (Operator Math Arithmetic)` node.
+3. Connect the output of `Size` to the `A` input of `Multiply (float)`, set `B: 10`, and connect the output of the `Multiply` to the input `Add Size > Size` input.
+4. Add a `Set Color (Attribute Set)` above the `Set Size`.
+5. Drag the `Color` property to the left of the `Set Color` and connect its output to the `Set Color > Color` input.
