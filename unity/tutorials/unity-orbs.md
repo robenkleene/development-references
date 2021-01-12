@@ -68,3 +68,4 @@
 3. Make some space by dragging `Update Particle` and `Output Particle Quad` down.
 4. Create a `Add Lifetime (Attribute Set)` block under `Initialize Particle`.
 5. Under `Output Particle Quad > Main Texture`, click the circle to the right, and choose the `Default-Particle` texture.
+6. Add a `Add Size (Attribute Set)` at the bottom of the `Output Particle Quad`.
