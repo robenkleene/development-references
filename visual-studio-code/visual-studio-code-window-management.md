@@ -23,7 +23,8 @@
 - `⌘⌥0`: Toggle between horizontal and vertical splits
 - `⌘\`: Split the editor vertically
 - `⌘K ⌘\`: Split editor horizontally
-- `⌘⌥←` / `⌘⌥→`: Focus left / right editor
+- `⌥⌘←` / `⌥⌘→`: Focus left / right editor
+- `^⌘←` / `^⌘→`: Move a split left / right
 
 The tab navigation keys (`⇧⌘[` / `⇧⌘]`) also work to go between side-by-side splits.
 
