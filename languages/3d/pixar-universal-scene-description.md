@@ -15,4 +15,4 @@
 ## Important Features
 
 - **Variants**: Non-destructive variants of scenes and models.
-- **Composition Arcs**: Combine layers.
+- **Composition Arcs**: Combine layers to create variations.
