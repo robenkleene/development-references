@@ -2,6 +2,11 @@
 
 - `\\`: Integer division
 
+## Naming Conventions
+
+- Method names are `snake_case`.
+- Preceding a method name with an underscore is a convention for indicating it's intended to be a private method (although it's not actually enforced).
+
 ## Print
 
 `print("arr =", arr)` automatically inserts a separator, to disable this behavior, use the `sep` parameter:
