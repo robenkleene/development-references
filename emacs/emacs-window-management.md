@@ -15,8 +15,8 @@
 - `C-x o`: Next window
 - `C-- C-x o`: Previous Window (note that `C--` doesn't seem to work on OS X Terminal, but `M--` is mapped to the same function `negative-argument`)
 - `C-x 1`: Close other windows
-- `C-x 2`: Split window vertically
-- `C-x 3`: Split window hotizontally (mnemonic make the window in the farthest left position)
+- `C-x 2`: Split window horizontally
+- `C-x 3`: Split window vertically
 - `C-x +`: Make window equal size
 
 ## Window Configurations
