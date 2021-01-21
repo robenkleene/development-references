@@ -5,6 +5,7 @@
 ## Naming Conventions
 
 - Method names are `snake_case`.
+- Variable names are `snake_case`.
 - Preceding a method name with an underscore is a convention for indicating it's intended to be a private method (although it's not actually enforced).
 
 ## Print
