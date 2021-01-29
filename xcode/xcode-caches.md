@@ -8,6 +8,11 @@ This is just used to symbolicate logs, it can be deleted and there's no official
 
 ## Simulators
 
-Command to delete old simulators:
+Command to delete unavailable simulators:
 
     xcrun simctl delete unavailable
+
+To delete simulators data from `~/Library/Developer/CoreSimulator/Devices/`:
+
+    xcrun simctl delete <uuid>
+
