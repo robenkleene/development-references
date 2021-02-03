@@ -17,6 +17,10 @@ Checkout master, reset, clean dead branches.
        cd ..
 	end
 
+## Path
+
+Fish variables are not usually configured on startup, there's a function in `.config/fish/functions` that configures the path.
+
 ## Process Substitution
 
 `cat <(cat file.txt)` does not work, use `psub` instead:
