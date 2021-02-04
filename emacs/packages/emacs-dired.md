@@ -5,7 +5,7 @@
 * `^`: Up directory
 * `+`: Create directory
 * `m`/ `u`: Mark / Remove mark
-* `C-x C-f`: Create a new file (`ido-mode` interferes with this, just hit `C-f` to disable `ido-mode` to enter a filename. Although it doesn't actually appear to be necessary to disable `ido-mode` just hit enter to confirm creating a new file)
+* `C-x C-f`: Create a new file (`ido-mode` interferes with inserting spaces in a filename, to get around those use `C-f` to drop down to the default `find-file` interface)
 * `D`: Delete file
 
 ## Dired Write Mode
