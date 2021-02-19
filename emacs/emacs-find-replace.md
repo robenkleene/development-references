@@ -15,3 +15,8 @@
 ## Compilation Errors & `grep`
 
 - `C-x <backtick>` or `M-g n` / `M-g p`: Next/previous Error
+
+## Special
+
+- `highlight-regex`: Highlight regular expression
+- `highlight-phrase`: Highlight case-insensitive with spaces
