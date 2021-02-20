@@ -1,5 +1,6 @@
 # Yasnippets
 
-* `M-x yas-visit-snippet-file`: Edit snippet
-* `M-x yas-new-snippet`: Make new snippet
-* `M-x yas-describe-tables`: see available snippets for the current mode
+- `yas-visit-snippet-file`: Edit snippet
+- `yas-new-snippet`: Make new snippet
+- `yas-describe-tables`: See snippets for current mode
+- `yas-reload-all`: Reload all snippets
