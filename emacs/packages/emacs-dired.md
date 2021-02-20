@@ -7,6 +7,7 @@
 * `m`/ `u`: Mark / Remove mark
 * `C-x C-f`: Create a new file (`ido-mode` interferes with inserting spaces in a filename, to get around those use `C-f` to drop down to the default `find-file` interface)
 * `D`: Delete file
+- `s`: Toggle between alphabetical and date sorting
 
 ## Dired Write Mode
 
