@@ -76,3 +76,4 @@
 3. Connect the output of `Size` to the `A` input of `Multiply (float)`, set `B: 10`, and connect the output of the `Multiply` to the input `Add Size > Size` input.
 4. Add a `Set Color (Attribute Set)` above the `Set Size`.
 5. Drag the `Color` property to the left of the `Set Color`, add a `Divide (Operator Math Arithmetic)`. Connect the output of the `Color` property to the input of the `Divide (Vector4)` and set its `B: 4`. Connect the output of the `Divide (Vector4)` to the `Set Color > Color` input.
+6. Set the `Output Particle Quad > Blend Mode: Additive`
