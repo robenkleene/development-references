@@ -80,4 +80,5 @@
 
 ## Particle Lifetime
 
-1. In `Output Particle Quad`, add an `Add Color over Life (Gradient) [Attribute Curve]` above `Set Color`,
+1. In `Output Particle Quad`, add an `Add Color over Life (Gradient) [Attribute Curve]` above `Set Color`.
+2. Edit the `Add Color over Life` deleting all of the gradient stops except for the farthest left, and set the `Alpha: 255` for the remaining top stop.
