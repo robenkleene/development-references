@@ -82,3 +82,7 @@
 
 1. In `Output Particle Quad`, add an `Add Color over Life (Gradient) [Attribute Curve]` above `Set Color`.
 2. Edit the `Add Color over Life` gradient, so there are three stops, one at each end with `Alpha: 0`, and one in the middle with `Alpha: 255`. This fades the particles in and out.
+
+## Group
+
+1. Select all of the nodes on the right, then right-click and select `Group Selection`. Rename the group to `BEAM`.
