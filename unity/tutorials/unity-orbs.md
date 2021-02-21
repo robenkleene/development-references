@@ -86,3 +86,8 @@
 ## Group
 
 1. Select all of the nodes on the right, then right-click and select `Group Selection`. Rename the group to `BEAM`.
+
+## Particle System
+
+1. Insert a `Simple Particle System (System)` node.
+2. Under `Output Particle Quad` click the icon next to `Texture`, and select `Default-Particle` (you can search for it at the top). Then set `Blend Mode: Additive`.
