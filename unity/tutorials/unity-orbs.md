@@ -78,7 +78,7 @@
 5. Drag the `Color` property to the left of the `Set Color`, add a `Divide (Operator Math Arithmetic)`. Connect the output of the `Color` property to the input of the `Divide (Vector4)` and set its `B: 4`. Connect the output of the `Divide (Vector4)` to the `Set Color > Color` input.
 6. Set the `Output Particle Quad > Blend Mode: Additive`
 
-## Particle Lifetime
+## Fading In and Out Particles
 
 1. In `Output Particle Quad`, add an `Add Color over Life (Gradient) [Attribute Curve]` above `Set Color`.
-2. Edit the `Add Color over Life` deleting all of the gradient stops except for the farthest left, and set the `Alpha: 255` for the remaining opacity stop.
+2. Edit the `Add Color over Life` gradient, so there are three stops, one at each end with `Alpha: 0`, and one in the middle with `Alpha: 255`. This fades the particles in and out.
