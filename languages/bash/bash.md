@@ -11,10 +11,6 @@ Use the following to work with a variable:
 
     var=".test"; echo "$var ${var#.}"
 
-This is probably better:
-
-    env var=.test echo "$var ${var#.}"
-
 ## `set`
 
 - `set -e`: Exit on non-zero exit status
