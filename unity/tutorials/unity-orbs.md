@@ -93,3 +93,4 @@
 2. Under `Output Particle Quad` click the icon next to `Texture`, and select `Default-Particle` (you can search for it at the top). Then set `Blend Mode: Additive`.
 3. Under `Initialize Particle`, above `Set Lifetime Random (Uniform)`, insert a `Position (Sphere) [Position]`.
 4. Drag the `Size` out from the properties panel to the left of `Position (Sphere) > Arc Sphere > Sphere > Radius`. Insert a `Multiply` node between the `Size` property and `Radius` input, connect the `Size` output to the `Multiply (float) > A` input. Connect the `Multiply` output to `Radius`. Set ``Multiply (float) > B: 2`.
+5. In `Set Velocity Random (Per-Component)` set all the values under `A` to `-0.5` and `B` to `0.5`.
