@@ -97,3 +97,5 @@
 6. Set `Initialize Particle > Capacity: 1000000`
 7. In the property inspector, click the `+` button and add a new `float` rename it to `SpawnRate`. Toggle on `Exposed` and give it a default value of `5000`.
 8. Drag the `SpawnRate` property to the left of `Spawn > Constant Spawn Rate`, and connect its output to the `Rate` input.
+9. Under `Output Particle Quad`, add a `Set Size` below `Set Size over Life`. Disable `Set Size over Life` by toggling off its checkbox.
+10. Add a `Random Number (Operator Random)` to the left of `Set Size`, set `Min: 0.01` and `Max: 0.02` and connect its output to the input of `Set Size`.
