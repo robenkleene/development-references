@@ -95,3 +95,5 @@
 4. Drag the `Size` out from the properties panel to the left of `Position (Sphere) > Arc Sphere > Sphere > Radius`. Insert a `Multiply` node between the `Size` property and `Radius` input, connect the `Size` output to the `Multiply (float) > A` input. Connect the `Multiply` output to `Radius`. Set ``Multiply (float) > B: 2`.
 5. In `Set Velocity Random (Per-Component)` set all the values under `A` to `-0.5` and `B` to `0.5`.
 6. Set `Initialize Particle > Capacity: 1000000`
+7. In the property inspector, click the `+` button and add a new `float` rename it to `SpawnRate`. Toggle on `Exposed` and give it a default value of `5000`.
+8. Drag the `SpawnRate` property to the left of `Spawn > Constant Spawn Rate`, and connect its output to the `Rate` input.
