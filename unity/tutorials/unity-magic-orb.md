@@ -100,3 +100,9 @@
 9. Under `Output Particle Quad`, add a `Set Size` below `Set Size over Life`. Disable `Set Size over Life` by toggling off its checkbox.
 10. Add a `Random Number (Operator Random)` to the left of `Set Size`, set `Min: 0.01` and `Max: 0.02` and connect its output to the input of `Set Size`.
 11. Add a `Set Color (Attribute Set)` above `Set Color over Life`. Disable `Set Color over Life` by toggling off its checkbox. Drag the `Color` property from the properties panel to the left of `Set Color`, and connect the output of the `Color` property to the `Set Color` input.
+
+### Turbulence
+
+1. Move down `Update Particle` and `Output Particle Quad` to make room to add some blocks in `Update Particle`.
+2. Add a `Turbulence (Force)` in `Update Particle`.
+3. In the property inspector, set `SpawnRate > Value: 50000`.
