@@ -1,4 +1,4 @@
-# Unity Orbs
+# Unity Magic Orb
 
 ## Setup
 
