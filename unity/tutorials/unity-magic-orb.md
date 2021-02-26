@@ -106,3 +106,5 @@
 1. Move down `Update Particle` and `Output Particle Quad` to make room to add some blocks in `Update Particle`.
 2. Add a `Turbulence (Force)` in `Update Particle`.
 3. In the property inspector, set `SpawnRate > Value: 50000`.
+4. In `Update Particle`, add a `Conform to Sphere` below `Turbulence`.
+5. Drag the `Size` property out from the property inspector, to the left of `Conform to Sphere`. Add a `Multiply (Operator Math Arithmetic)`, and set its `B: 2`, connect the output of `Size` to its `A` input, and connect its output to `Update Particle > Conform to Sphere > Sphere > Radius`.
