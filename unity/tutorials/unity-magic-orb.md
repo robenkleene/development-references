@@ -108,3 +108,10 @@
 3. In the property inspector, set `SpawnRate > Value: 50000`.
 4. In `Update Particle`, add a `Conform to Sphere` below `Turbulence`.
 5. Drag the `Size` property out from the property inspector, to the left of `Conform to Sphere`. Add a `Multiply (Operator Math Arithmetic)`, and set its `B: 2`, connect the output of `Size` to its `A` input, and connect its output to `Update Particle > Conform to Sphere > Sphere > Radius`.
+
+## Perlin Noise
+
+1. Move the entire farthest right set of nodes (that displays the sphere) to the right to make room
+2. Add a `Perlin Curl Noise 2D (Operator Noise)` to the left of `Update Particle`
+3. Connect the `Perlin Curl Noise 2D` `X` and `Y` to the `Conform to Sphere > Sphere > Center` `X` and `Y`
+4. Add a `Get Attribute: Position (Operator Attribute)`, an `Add (Operator Math Arithmetic)`, and a `Total Time (Game) (Operator BuiltIn)`. Connect the `Get Attribute: position (Current) > Position` output to the `Add (Vector3) > A` input and the `Total Time (Game) > Total Time` to the `Add (Vector3) > B` input. Connect the `Add (Vector3)` `X` and `Y` outputs to the `Perlin Curl Noise 2D > Coordinate` `X` and `Y` output.
