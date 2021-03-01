@@ -117,3 +117,8 @@
 4. Add a `Get Attribute: Position (Operator Attribute)`, an `Add (Operator Math Arithmetic)`, and a `Total Time (Game) (Operator BuiltIn)`. Connect the `Get Attribute: position (Current) > Position` output to the `Add (Vector3) > A` input and the `Total Time (Game) > Total Time` to the `Add (Vector3) > B` input. Connect the `Add (Vector3)` `X` and `Y` outputs to the `Perlin Curl Noise 2D > Coordinate` `X` and `Y` output.
 5. Add a `Remap (Operator Math Remap)`, connect the `Perlin Curl Noise 2D > Noise` output to its `input` input. Set `Old Range Min: -6`, `Old Range Max: 6`, `New Range Min: -1`, and `New Range Max: 1`. Replace the `X` and `Y` input of `Conform to Sphere` with the `X` and `Y` output from `Remap (Vector2)`. Also connect the `X` and `Y` output of `Remap (Vector2)` to `Update Particle > Turbulence > Field Transform > Position` `X` and `Y`.
 6. Set `Update Particle > Turbulence` set `Intensity: 5`, `Drag: 5`, and `Octaves: 3`.
+
+## Final Tweaks
+
+1. In the properties inspector, set `SpawnRate > Value: 100000`.
+2. In the properties inspector, add a color and rename it to `Color2`, and choose a different bright color. Drag this color out to the left of `Trails > Initialize Particle > Set Color`, and replace the `Color` input with the output of `Color02`.
