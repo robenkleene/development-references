@@ -10,3 +10,7 @@
 ## Organizing
 
 1. Under `Project > Assets`, right-click and make a new folder called `ParticleSystems`. Inside that folder, create another folder called `Orb_Electric`.
+2. Make a glowing circle in Photoshop and export it as `Circle.png`, and then drag it into the `Orb_Electric` folder to add it to the project
+3. Create a material by right-clicking the `Orb_Eletric` folder and choosing `Create > Material`.
+4. Set `Shader` to `Mobile > Particles > Additive`.
+5. Drag the `Circle` image asset onto the `None Texture Select` box for the `Circle` material
