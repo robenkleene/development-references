@@ -15,4 +15,4 @@
 4. Set `Shader` to `Mobile > Particles > Additive`.
 5. Drag the `Circle` image asset onto the `None Texture Select` box for the `Circle` material
 6. Drag the `Circle` material onto the `Hierarchy > SampleScene > PS_OrbElectric > Circle`, the particle system should start animating now, as long as `Hierarchy > SampleScene > PS_OrbElectric > Circle` is selected.
-7. With `Hierarchy > SampleScene > PS_OrbElectric > Circle` selected, under `Particle System` in the inspector, set `Max Particles: 3` and `Start Speed: 0`, also click `Particle System > Circle`, and toggle off `Shape`.
+7. With `Hierarchy > SampleScene > PS_OrbElectric > Circle` selected, under `Particle System` in the inspector, set `Max Particles: 3`, `Duration: 2`, `Start Lifetime: 4`, and `Start Speed: 0`, also click `Particle System > Circle`, and toggle off `Shape`.

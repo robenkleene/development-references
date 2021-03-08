@@ -6,6 +6,7 @@
 ## Bottom Panel
 
 - `⌃backtick`: Toggle Terminal
+- `⌥⌘M`: Show Problems
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
 
