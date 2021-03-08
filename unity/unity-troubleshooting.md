@@ -1,4 +1,8 @@
-# Unity Issues
+# Unity Troubleshooting
+
+## Unity Package Manager Error
+
+- Unity Hub downloads two versions of Unity, 
 
 ## Failed to Load Window Layout
 
