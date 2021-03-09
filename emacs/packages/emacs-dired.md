@@ -23,3 +23,5 @@
 - `C`: Copy file
 
 With `(setq dired-dwim-target t)`, if two `dired` buffers are open use the other one as the default destination.
+
+To move a file to a new directory, do a rename, but just specify a directory as a path, and the file will be moved with the existing file name.
