@@ -16,4 +16,5 @@
 5. Drag the `Circle` image asset onto the `None Texture Select` box for the `Circle` material
 6. Drag the `Circle` material onto the `Hierarchy > SampleScene > PS_OrbElectric > Circle`, the particle system should start animating now, as long as `Hierarchy > SampleScene > PS_OrbElectric > Circle` is selected.
 7. With `Hierarchy > SampleScene > PS_OrbElectric > Circle` selected, under `Particle System` in the inspector, set `Max Particles: 3`, `Duration: 5`, `Start Lifetime: 5`, `Start Size: 5`, and `Start Speed: 0`.
-8. Click`Particle System > Circle`, and toggle off `Shape`, and set `Emission > Rate Over Time: 1`. Toggle on `Size over Lifetime` and click the `Size` graph. Click the linear growth, i.e., `O` to `1`, graph preset (this might already be the default), then move the left side to `0.6`.
+8. Click `Particle System > Circle`, toggle off `Shape`, and set `Emission > Rate Over Time: 1`. Toggle on `Size over Lifetime` and click the `Size` graph. Click the linear growth, i.e., `O` to `1`, graph preset (this might already be the default), then move the left side to `0.6`.
+9. Click `Particle System > Circle` and toggle on `Color over Lifetime`, click the `Color` bar, and make a gradient that has `0` alpha on each side and `255` alpha in the center.
