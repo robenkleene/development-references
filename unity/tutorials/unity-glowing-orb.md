@@ -24,5 +24,6 @@
 
 1. Add a new particle system under `PS_OrbElectric` and rename it to `Particles`
 2. With `Hierarchy > Sample Scene > PS_OrbElectric > Particles` selected, click `Particles` and under `Shape` set `Shape: Sphere`
-3. Change `Start Speed` to a `Random Between Two Constants` by clicking the disclosure arrow to its right. Set the values to `0.1 1.2`.
-4. Change `Start Size` to a `Random Between Two Constants` by clicking the disclosure arrow to its right. Set the values to `0.1 0.5`.
+3. Change `Start Speed` to a `Random Between Two Constants` by clicking the disclosure arrow to its right. Set the values to `0.1 1.2`
+4. Change `Start Size` to a `Random Between Two Constants` by clicking the disclosure arrow to its right. Set the values to `0.1 0.5`
+5. Select `Hierarchy > PS_OrbElectric > Circle`, `Particle System > Circle` and click `Renderer` to add it to the panel. Under `Renderer` in the panel, set `Max Particle Size: 3`
