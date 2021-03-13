@@ -32,3 +32,4 @@
 8. Set the `Start Color` to a purple
 10. To stop the particles from disappearing instantly, click `Particle System > Particles` and toggle on `Color over Lifetime`, click the `Color` bar, and make a gradient that has `0` alpha on each side and `255` alpha in the center.
 11. Click `Particle System > Particles` and toggle on `Size over Lifetime`, and set the graph to an ease in ease out from `1.0` to `0.5`
+12. Set `Emission > Rate over Time: 50`
