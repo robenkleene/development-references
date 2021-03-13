@@ -17,7 +17,7 @@
 6. Drag the `Circle` material onto the `Hierarchy > SampleScene > PS_OrbElectric > Circle`, the particle system should start animating now, as long as `Hierarchy > SampleScene > PS_OrbElectric > Circle` is selected.
 7. With `Hierarchy > SampleScene > PS_OrbElectric > Circle` selected, under `Particle System` in the inspector, set `Max Particles: 3`, `Duration: 5`, `Start Lifetime: 5`, `Start Size: 5`, and `Start Speed: 0`.
 8. Click `Particle System > Circle`, toggle off `Shape`, and set `Emission > Rate Over Time: 1`. Toggle on `Size over Lifetime` and click the `Size` graph. Click the linear growth, i.e., `O` to `1`, graph preset (this might already be the default), then move the left side to `0.6`.
-9. Click `Particle System > Circle` and toggle on `Color over Lifetime`, click the `Color` bar, and make a gradient that has `0` alpha on each side and `255` alpha in the center.
+9. To stop the circles from disappearing instantly, click `Particle System > Circle` and toggle on `Color over Lifetime`, click the `Color` bar, and make a gradient that has `0` alpha on each side and `255` alpha in the center.
 10. Set the `Start Color` for the circle to a purple.
 
 ## More Particles
@@ -28,3 +28,7 @@
 4. Change `Start Size` to a `Random Between Two Constants` by clicking the disclosure arrow to its right. Set the values to `0.1 0.5`
 5. Select `Hierarchy > PS_OrbElectric > Circle`, `Particle System > Circle` and click `Renderer` to add it to the panel. Under `Renderer` in the panel, set `Max Particle Size: 3`
 6. Select `Hierarchy > PS_OrbElectric > Particles` again and set `Start Lifetime` to `Random Between Two Constants`, and `Start Lifetime: 2 5`
+7. Set the `Start Size: 0.05`
+8. Set the `Start Color` to a purple
+10. To stop the particles from disappearing instantly, click `Particle System > Particles` and toggle on `Color over Lifetime`, click the `Color` bar, and make a gradient that has `0` alpha on each side and `255` alpha in the center.
+11. Click `Particle System > Particles` and toggle on `Size over Lifetime`, and set the graph to an ease in ease out from `1.0` to `0.5`
