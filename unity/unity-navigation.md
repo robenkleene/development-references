@@ -13,7 +13,7 @@ With the `Hand Tool` selected:
 
 ### Tips
 
-- Select an object and hit `F` to center it and rotate around it with `⌥drag`.
+- Select an object and hit `F` (or double-click it in the hierarchy) to center it and rotate around it with `⌥drag`.
 
 ### Arrow Keys
 
