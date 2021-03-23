@@ -13,4 +13,4 @@ After setting up a Unity project for VR (e.g., installing `XR Plugin Management`
 3. Delete the `Main Camera`.
 4. Right-click and choose `Create Empty`, and rename it to `VR Rig`, click `Add Component` and add a `XR Rig`.
 5. Right-click `XR Rig` and choose `Create Empty`, rename it to `Camera Offset`.
-6. Right-click `Camera Offset` and choose `Camera`, rename it to `VR Camera`.
+6. Right-click `Camera Offset` and choose `Camera`, rename it to `VR Camera`. Click `Add Component` and add a `Tracked Pose Driver`.
