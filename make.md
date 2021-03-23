@@ -35,12 +35,14 @@ To suppress output of a command, precede it with an `@`:
 ## Variables
 
     NAME = robenkleene_macos
+    ERGODOX_SRC = $(shell pwd)/ergodox_ez$(NAME)
+    PLANCK_SRC = $(shell pwd)/planck$(NAME)
     ERGODOX_DIR = ../qmk_firmware/keyboards/ergodox_ez/keymaps/
     PLANCK_DIR = ../qmk_firmware/keyboards/planck/keymaps/
-    ERGODOX = $(ERGODOX_DIR)$(NAME)
-    PLANCK = $(PLANCK_DIR)$(NAME)
+    ERGODOX_DEST = $(ERGODOX_DIR)$(NAME)
+    PLANCK_DEST = $(PLANCK_DIR)$(NAME)
 
     link:
-        ln -s ergodox_ez/$(NAME) $(ERGODOX_DIR)
-        ln -s planck/$(NAME) $(PLANCK_DIR)
+        ln -s $(ERGODOX_SRC) $(ERGODOX_DIR)
+        ln -s $(PLANCK_SRC) $(PLANCK_DIR)
 
