@@ -31,3 +31,16 @@ To suppress output of a command, precede it with an `@`:
 
     test_finish:
         @$(call test_message,CIFINISHED)
+
+## Variables
+
+    NAME = robenkleene_macos
+    ERGODOX_DIR = ../qmk_firmware/keyboards/ergodox_ez/keymaps/
+    PLANCK_DIR = ../qmk_firmware/keyboards/planck/keymaps/
+    ERGODOX = $(ERGODOX_DIR)$(NAME)
+    PLANCK = $(PLANCK_DIR)$(NAME)
+
+    link:
+        ln -s ergodox_ez/$(NAME) $(ERGODOX_DIR)
+        ln -s planck/$(NAME) $(PLANCK_DIR)
+
