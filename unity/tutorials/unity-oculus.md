@@ -11,7 +11,7 @@
 
 ### Project
 
-- Oculus development requires the  `XR Plug-in Management` installed with the project (under `Edit > Project Settings...`), this installs the following packages:
+- Oculus development requires the `XR Plugin Management` package be installed with the project. Go to `Window > Package Manager`, choose `Packages: Unity Registry`, then search for "XR", and install `XR Plugin Management`. This installs the following packages:
     - `XR Legacy Input Helpers`
     - `XR Plugin Management`
     - `Subsystem Registration`
