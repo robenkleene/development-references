@@ -24,4 +24,5 @@ Make sure developer mode is turned on on the device.
 
 With the device plugged in, and turned on and after confirming `Allow USB Debugging`:
 
-1. Go to `File > Build Settings...` and set `Android > Run Device > Oculus Quest`
+1. Go to `File > Build Settings...` and set `Android > Run Device > Oculus Quest 2`
+2. Click `Refresh` (note that devices aren't added live to this list, even after closing and re-opening the panel, so always click `Refresh`)
