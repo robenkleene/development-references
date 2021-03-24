@@ -32,3 +32,5 @@ With the device plugged in, and turned on and after confirming `Allow USB Debugg
 
 1. Go to `File > Build Settings...` and set `Android > Run Device > Oculus Quest 2`
 2. Click `Refresh` (note that devices aren't added live to this list, even after closing and re-opening the panel, so always click `Refresh`)
+3. The app will run on the platform with the Unity icon next to it, so if `Android` doesn't have the unity icon next to it then select `Android` and click `Switch Platform`.
+4. Click `Build And Run`
