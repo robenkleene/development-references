@@ -6,6 +6,8 @@
 - `⌃⌘R`: Show current file in sidebar
 - `⌥⌘⇥`: Focus sidebar
 - `⌘↓`: Open current file in sidebar
+- `⌥`: Start multiple cursors
+    - `⇧⇧`: Exit multiple cursors
 
 ## Markdown
 
