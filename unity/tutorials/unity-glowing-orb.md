@@ -49,3 +49,4 @@
 1. Create a new material under `Project > ParticleSystems > Assets > Orb_Electric` named `Beam`
 2. In the inspector, choose `Shader: Additive (Legacy Shaders/Particles/Additive`
 3. Drag and drop the point of light PNG into `Assets > ParticleSystems > Orb_Electric`, then drag and drop it from there into the `Beam` inspectors `Name (Texture)` box
+4. Drag and drop the `Beam` material onto `Hierarchy > SampleScene > PS_OrbElectric > Particles`
