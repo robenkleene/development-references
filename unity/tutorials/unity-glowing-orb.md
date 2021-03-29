@@ -33,3 +33,19 @@
 10. To stop the particles from disappearing instantly, click `Particle System > Particles` and toggle on `Color over Lifetime`, click the `Color` bar, and make a gradient that has `0` alpha on each side and `255` alpha in the center.
 11. Click `Particle System > Particles` and toggle on `Size over Lifetime`, and set the graph to an ease in ease out from `1.0` to `0.5`
 12. Set `Emission > Rate over Time: 50`
+
+## Point of Light
+
+### Photoshop
+
+1. Create an 500x500 image
+2. Give a layer an inner glow from the center of a purple color
+3. Use another layer as a clipping mask that removes the center
+    - To make the Clipping Mask layer itself (the base layer) transparent, right-click the base layer and select `Blending Options...` and toggle off `Blending Options > Advanced Blending > Blend Clipped Layers as Group`, then set the base layers `Fill: 0`.
+4. Export as PNG
+
+### Unity
+
+1. Create a new material under `Project > ParticleSystems > Assets > Orb_Electric` named `Beam`
+2. In the inspector, choose `Shader: Additive (Legacy Shaders/Particles/Additive`
+3. Drag and drop the point of light PNG into `Assets > ParticleSystems > Orb_Electric`, then drag and drop it from there into the `Beam` inspectors `Name (Texture)` box
