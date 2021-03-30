@@ -21,3 +21,4 @@ At this point `Build and Run` to test on device will work.
 ## Hand Tracking
 
 1. Create two empties under `SampleScene > VR Rig > Camera Offset` called `Left Hand` and `Right Hand`
+2. Select both hands and click `Add Component`, add a `XR Controller (Device-Based)` *`XR Controller (Device-Based)` is being phased out in favor of `XR Controller (Action-Based)`, so that should be used for future projects*
