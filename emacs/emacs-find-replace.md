@@ -9,6 +9,10 @@
 - `C-r`: Backward
 - `C-g`: Cancel
 
+## Incremental Search
+
+- `M-e`: Edit the current incremental search
+
 ## Replace
 
 - `M-%`: Find & replace
