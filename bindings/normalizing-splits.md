@@ -4,7 +4,6 @@
 - `⌥⌘V`: Split left
 - `⌥⌘C`: Close split
 - `⌥⌘O`: Close other splits
-- `⌥⌘.` / `⇧⌘⌥.`: Focus next / previous split
 
 ## Ideas
 
@@ -16,6 +15,10 @@
 Don't use this, because this conflicts with add multiple cursor below, which is a very useful shortcut.
 
 - `⌥⌘←` / `⌥⌘→` / `⌥⌘↑` / `⌥⌘↓`: Focus split in direction
+
+Remove this for now in favor of `⌃backtick`:
+
+- `⌥⌘.` / `⇧⌘⌥.`: Focus next / previous split
 
 ## Folding
 
