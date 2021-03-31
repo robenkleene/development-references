@@ -40,3 +40,5 @@ At this point you should be able to run and see blocks for hands in VR.
 2. Create a `Sphere` and put it above, put not on, the table
 3. Make a new material called `Red` to make the `Sphere` red
 4. Add a `RigidBody` component to the sphere
+
+At this point you should be able to run and touch the sphere with your block hands in VR.
