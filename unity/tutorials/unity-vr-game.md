@@ -34,7 +34,7 @@ At this point `Build and Run` to test on device will work.
 
 At this point you should be able to run and see blocks for hands in VR.
 
-## Table
+## Ball & Table
 
 1. Create a `Cube` and make a table from it
 2. Create a `Sphere` and put it above, put not on, the table
@@ -42,3 +42,7 @@ At this point you should be able to run and see blocks for hands in VR.
 4. Add a `RigidBody` component to the sphere
 
 At this point you should be able to run and touch the sphere with your block hands in VR.
+
+## Grab Sphere
+
+1. Add an `XR Grab Interactable` component to the sphere
