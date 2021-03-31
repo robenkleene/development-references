@@ -21,4 +21,4 @@ The arrow keys can move around when the viewport has focus.
 
 ### WASD
 
-The WASD keys can be used for movement like a game while the left mouse button is held down.
+The WASD keys can be used for movement like a game while the right mouse button is held down *is this possible with a trackpad?*

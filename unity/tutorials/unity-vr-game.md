@@ -26,4 +26,5 @@ At this point `Build and Run` to test on device will work.
 
 ### Hand Models
 
-1. Create an empty under `SampleScene` and name it `Controller`. Create a cube as a child of the `Controller` (right-click and choose `3D Object > Cube`)
+1. Create an empty under `SampleScene` and name it `Controller`.
+2. Create a cube as a child of the `Controller` (right-click and choose `3D Object > Cube`). Use the scale tool (`R`) to scale it down to about `0.05`
