@@ -47,3 +47,4 @@ At this point you should be able to run and touch the sphere with your block han
 
 1. Add an `XR Grab Interactable` component to the sphere
 2. Select both `Left Hand` and `Right Hand` and add an `XR Direct Interactor` component to them
+3. Also add a `Sphere Collider` component to both hands and set its `Radius: 0.2` and toggle on `Is Trigger`.
