@@ -23,3 +23,7 @@ At this point `Build and Run` to test on device will work.
 1. Create two empties under `SampleScene > VR Rig > Camera Offset` called `Left Hand` and `Right Hand`
 2. Select both hands and click `Add Component`, add a `XR Controller (Device-Based)` *`XR Controller (Device-Based)` is being phased out in favor of `XR Controller (Action-Based)`, so that should probably be used for future projects*
 3. Set `Right Hand` `Controller Node: Right Hand`, and the same for the left.
+
+### Hand Models
+
+1. Create an empty under `SampleScene` and name it `Controller`. Create a cube as a child of the `Controller` (right-click and choose `3D Object > Cube`)
