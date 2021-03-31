@@ -30,3 +30,4 @@ At this point `Build and Run` to test on device will work.
 2. Create a cube as a child of the `Controller` (right-click and choose `3D Object > Cube`). Use the scale tool (`R`) to scale it down to about `0.06`. Set `Z: 0.116`.
 3. Create a material, and make sure it's color is white (it should be by default), drag this material onto the cube.
 4. To make the `Controller` into a prefab, drag it into the `Assets` panel. After doing so, right-click and delete `Controller` from under `SampleScene`.
+5. Drag the `Controller` prefab to `Left Controller > Inspector > Model Prefab`, and the same for the right controller.
