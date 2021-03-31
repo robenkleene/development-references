@@ -31,3 +31,5 @@ At this point `Build and Run` to test on device will work.
 3. Create a material, and make sure it's color is white (it should be by default), drag this material onto the cube.
 4. To make the `Controller` into a prefab, drag it into the `Assets` panel. After doing so, right-click and delete `Controller` from under `SampleScene`.
 5. Drag the `Controller` prefab to `Left Controller > Inspector > Model Prefab`, and the same for the right controller.
+
+At this point you should be able to run and see blocks for hands in VR.
