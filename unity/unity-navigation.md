@@ -7,8 +7,8 @@
 
 With the `Hand Tool` selected:
 
-- `⌥⌘drag`, `three-finger-drag`: Pan
-- `⌥drag`: Orbit
+- `⌥⌘`-drag or `three-finger-drag` (when the `Hand Tool` is active): Pan
+- `⌥`-drag: Orbit
 - `two-finger-drag`: Zoom
     - `⌥-two-finger-drag`: This seems to zoom slightly differently, but it's unclear what the difference is exactly
 

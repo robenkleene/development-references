@@ -33,3 +33,9 @@ At this point `Build and Run` to test on device will work.
 5. Drag the `Controller` prefab to `Left Controller > Inspector > Model Prefab`, and the same for the right controller.
 
 At this point you should be able to run and see blocks for hands in VR.
+
+## Table
+
+1. Create a `Cube` and make a table from it
+2. Create a `Sphere` and put it on the table
+3. Make a new material called `Red` to make the `Sphere` red
