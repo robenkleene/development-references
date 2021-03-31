@@ -10,6 +10,7 @@ With the `Hand Tool` selected:
 - `⌥⌘drag`, `three-finger-drag`: Pan
 - `⌥drag`: Orbit
 - `two-finger-drag`: Zoom
+    - `⌥-two-finger-drag`: This seems to zoom slightly differently, but it's unclear what the difference is exactly
 
 ### Tips
 
