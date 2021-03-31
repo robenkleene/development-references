@@ -37,5 +37,6 @@ At this point you should be able to run and see blocks for hands in VR.
 ## Table
 
 1. Create a `Cube` and make a table from it
-2. Create a `Sphere` and put it on the table
+2. Create a `Sphere` and put it above, put not on, the table
 3. Make a new material called `Red` to make the `Sphere` red
+4. Add a `RigidBody` component to the sphere
