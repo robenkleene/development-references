@@ -50,3 +50,11 @@ At this point you should be able to run and touch the sphere with your block han
 3. Also add a `Sphere Collider` component to both hands and set its `Radius: 0.2` and toggle on `Is Trigger`.
 
 At this point you should be able to build and run to grab the ball *I wasn't able to get this to work*
+
+## Fixing Clipping
+
+Fix the camera clipping objects when they get to close.
+
+1. Set `VR Camera > Inspector > Camera > Near: 0.1`
+
+The rest of this tutorial creates a bowling alley, which we're skipping.
