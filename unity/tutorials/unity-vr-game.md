@@ -62,3 +62,5 @@ Fix the camera clipping objects when they get to close.
 The rest of this tutorial creates a bowling alley, which we're skipping.
 
 ## Part 2
+
+1. Create a new empty called `Hand Presence`, set its position to `0 0 0`
