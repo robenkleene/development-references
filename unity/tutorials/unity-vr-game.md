@@ -64,3 +64,4 @@ The rest of this tutorial creates a bowling alley, which we're skipping.
 ## Part 2
 
 1. Create a new empty called `Hand Presence`, set its position to `0 0 0`
+2. Add component to `Hand Presence`, search for `HandPresence` and click `New Script`, then `Create and Add`
