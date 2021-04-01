@@ -18,6 +18,12 @@
 - `M-%`: Find & replace
 - `C-M-%`: Regular Expression Find & replace
 
+### Active Replace
+
+- `!`: Replace to the end of the file
+- `␣` or `Y`: One replacement
+- `q` or `↩`: Exit
+
 ## Compilation Errors & `grep`
 
 - `C-x <backtick>` or `M-g n` / `M-g p`: Next/previous Error
