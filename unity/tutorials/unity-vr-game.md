@@ -65,3 +65,24 @@ The rest of this tutorial creates a bowling alley, which we're skipping.
 
 1. Create a new empty called `Hand Presence`, set its position to `0 0 0`
 2. Add component to `Hand Presence`, search for `HandPresence` and click `New Script`, then `Create and Add`
+3. Double-click the `HandPresence` script to edit it in a text editor
+
+### `HandPresence.cs`
+
+Add to imports at the top:
+
+    using UnityEngine.XR;
+
+Replace `Start()` method:
+
+    void Start()
+    {
+        List<InputDevice> devices = new List<InputDevice>();
+        InputDevice.getDevices(devices);
+
+        foreach (var item in devices)
+        {
+            Debug.Log(item.name + item.characteristics)
+        }
+    }
+
