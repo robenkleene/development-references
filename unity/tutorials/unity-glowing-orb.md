@@ -44,7 +44,7 @@
     - To make the Clipping Mask layer itself (the base layer) transparent, right-click the base layer and select `Blending Options...` and toggle off `Blending Options > Advanced Blending > Blend Clipped Layers as Group`, then set the base layers `Fill: 0`.
 4. Export as PNG
 
-### Unity
+## Beam
 
 1. Create a new material under `Project > ParticleSystems > Assets > Orb_Electric` named `Beam`
 2. In the inspector, choose `Shader: Additive (Legacy Shaders/Particles/Additive`
@@ -54,3 +54,7 @@
 6. Add `Velocity over Lifetime` from the `Particles` drop-down menu in the inspector. Under the `Velocity over Lifetime` attribute, choose `Random Between Two Constants` for `Linear`. Set `-1` to `1` for X, Y, and Z.
 7. Toggle on `Noise` and `Trails` in the inspector for `Particles`. In the `Renderer` section set the `Trail Material: Beam`
 8. Under `Noise`, set `Strength: 5` and `Frequency: 2.3`
+
+## Electric Beam
+
+1. Create a new `Particle System` under `PS_OrbElectric`, and name it `ElectricBeam`
