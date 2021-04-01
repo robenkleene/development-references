@@ -53,3 +53,4 @@
 5. Select `Hierarchy > SampleScene > PS_OrbElectric > Particles` and choose `Start Rotation: Random Between Two Constants` and set `0` and `360` (this probably isn't necessary if your point of light is circularly symmetrical).
 6. Add `Velocity over Lifetime` from the `Particles` drop-down menu in the inspector. Under the `Velocity over Lifetime` attribute, choose `Random Between Two Constants` for `Linear`. Set `-1` to `1` for X, Y, and Z.
 7. Toggle on `Noise` and `Trails` in the inspector for `Particles`. In the `Renderer` section set the `Trail Material: Beam`
+8. Under `Noise`, set `Strength: 5` and `Frequency: 2.3`
