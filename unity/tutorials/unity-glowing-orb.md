@@ -57,4 +57,4 @@
 
 ## Electric Beam
 
-1. Create a new `Particle System` under `PS_OrbElectric`, and name it `ElectricBeam`
+1. Create a new `Particle System` under `PS_OrbElectric`, and name it `ElectricBeam`. Set its `Position: 0 0 0` and `Rotation: -90 0 0`. Set its `Max Particles: 1`
