@@ -58,4 +58,4 @@
 ## Electric Beam
 
 1. Create a new `Particle System` under `PS_OrbElectric`, and name it `ElectricBeam`. Set its `Position: 0 0 0` and `Rotation: -90 0 0`. Set its `Max Particles: 1` and `Start Speed: 0`. Toggle off `Shape`.
-2. Create a new material and name it `ElectricCenter`. Set its `Shader` to `Legacy Shaders > Particles > Additive`
+2. Create a new material and name it `ElectricCenter`. Set its `Shader` to `Legacy Shaders > Particles > Additive`. Drag and drog the point of light PNG from `Project` panel to the `Texture` well.
