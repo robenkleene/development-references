@@ -60,4 +60,4 @@
 1. Create a new `Particle System` under `PS_OrbElectric`, and name it `ElectricBeam`. Set its `Position: 0 0 0` and `Rotation: -90 0 0`. Set its `Max Particles: 1` and `Start Speed: 0`. Toggle off `Shape`.
 2. Create a new material and name it `ElectricCenter`. Set its `Shader` to `Legacy Shaders > Particles > Additive`. Drag and drog the point of light PNG from `Project` panel to the `Texture` well.
 3. Drag and drop the `ElectricCenter` material from the `Project` panel to the `ElectricBeam` in the `SampleScene`.
-4. Select `SampleScene > ElectricBeam` and in the inspector set `Particle System > ElectricBeam > Start Size` to `Random Between Two Constants` `0.5` `4.72`, set `Max Particles: 16`.
+4. Select `SampleScene > ElectricBeam` and in the inspector set `Particle System > ElectricBeam > Start Size` to `Random Between Two Constants` `0.5` `4.72`, set `Max Particles: 16`. Set `Emission > Rate over Time: 1`. Set the `Start Rotation` `Random Between Two Constants` `0` `360`. Set the same `Color over Lifetime` as before, a gradient transparent at both ends and opaque in the middle.
