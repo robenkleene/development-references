@@ -1,17 +1,19 @@
 # Unity Navigation
 
-- `⌘1`: Scene View
-- `⌘2`: Game View
-
-## View
+## Basic
 
 With the `Hand Tool` selected:
 
-- `⌥⌘`-drag or `three-finger-drag` (when the `Hand Tool` is active): Pan
-- `⌥`-drag: Orbit
-- `two-finger-drag`: Zoom
+- **Pan:** `Drag` (with the hand tool active, hold `⌥⌘` to activate momentarily)
+- **Orbit:** `⌥Drag`
+- **Zoom:**: `Scroll`
     - Hold `⇧` to zoom more slowly
-    - `⌥-two-finger-drag`: This seems to zoom slightly differently, but it's unclear what the difference is exactly
+    - `⌥Scroll`: This seems to zoom slightly differently, but it's unclear what the difference is exactly
+
+## Shortcuts
+
+- `⌘1`: Scene View
+- `⌘2`: Game View
 
 ### Tips
 
