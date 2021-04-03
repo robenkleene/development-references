@@ -65,4 +65,4 @@
 ## Light
 
 1. Create a `Point Light` in `SampleScene`, rename it to `BeamLight`, in the inspector, set `Range: 4`. Make it a prefab by dragging and dropping it into the `Orb_Electric` folder in the project. Then delete it.
-2. Select `ElectricBeam`, and toggle on `Lights`. In the `Lights` section in the inspector, drag `BeamLight` to the `Light` field. Set `Ratio: 1`.
+2. Select `ElectricBeam`, and toggle on `Lights`. In the `Lights` section in the inspector, drag `BeamLight` to the `Light` field. Set `Ratio: 1`. This won't show 
