@@ -1,6 +1,7 @@
 # `emacs` Find & Replace
 
 - `M-s .` (`isearch-forward-symbol-at-point`): Search for symbol at point
+    - These searches go to a different ring than regular searches, to get a previous symbol search, start the search with `M-s _`
 
 ## Search
 
