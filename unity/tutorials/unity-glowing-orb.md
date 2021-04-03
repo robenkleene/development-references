@@ -67,3 +67,11 @@
 1. Create a `Point Light` in `SampleScene`, rename it to `BeamLight`, in the inspector, set `Range: 4`. Make it a prefab by dragging and dropping it into the `Orb_Electric` folder in the project. Then delete it.
 2. Select `ElectricBeam`, and toggle on `Lights`. In the `Lights` section in the inspector, drag `BeamLight` to the `Light` field. Set `Ratio: 1`. (This won't show up unless you add a surface under the orb for the light to shine onto.)
 3. Set the `BeamLight` `Color` to a blue, then select `Circle` in the hierarchy and copy its pink color (by right-clicking), and paste it to `ElectricBeam > Start Color`.
+4. Select `EletricBeam` and in the inspector set `Lights > Maximum Lights: 3`
+
+## Smoke
+
+1. Create a new `Particle System` under `PS_OrbElectric` and rename it to `SmokeOutside`. In the inspect set `Shape > Shape: Sphere`. Set `Start Speed: 0.31`, `Max Particles: 50`, and `Emission > Rate over Time: 25`.
+2. Download a smoke PNG from Google and drag it into the `Orb_Electric` assets folder.
+3. Create a new material in `Orb_Electric` and rename it to `SmokeOutside`. Choose `Shader: Additive (Legacy Shaders/Particles/Additive`.
+4. Drag the smoke PNG image to the `SmokeOutside` material well, and drag the material itself to `SmokeOutside`.
