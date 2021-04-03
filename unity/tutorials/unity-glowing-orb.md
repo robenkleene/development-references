@@ -61,3 +61,8 @@
 2. Create a new material and name it `ElectricCenter`. Set its `Shader` to `Legacy Shaders > Particles > Additive`. Drag and drog the point of light PNG from `Project` panel to the `Texture` well.
 3. Drag and drop the `ElectricCenter` material from the `Project` panel to the `ElectricBeam` in the `SampleScene`.
 4. Select `SampleScene > ElectricBeam` and in the inspector set `Particle System > ElectricBeam > Start Size` to `Random Between Two Constants` `0.5` `4.72`, set `Max Particles: 16`. Set `Emission > Rate over Time: 1`. Set the `Start Rotation` `Random Between Two Constants` `0` `360`. Set the same `Color over Lifetime` as before, a gradient transparent at both ends and opaque at the center. Set the `Size over Lifetime` to a linear graph, then move the left edge up to about `0.5`. Turn on `Rotation over Lifetime`.
+
+## Light
+
+1. Create a `Point Light` in `SampleScene`, rename it to `BeamLight`, in the inspector, set `Range: 4`. Make it a prefab by dragging and dropping it into the `Orb_Electric` folder in the project. Then delete it.
+2. Select `ElectricBeam`, and toggle on `Lights`. In the `Lights` section in the inspector, drag `BeamLight` to the `Light` field.
