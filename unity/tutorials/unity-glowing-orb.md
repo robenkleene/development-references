@@ -75,3 +75,4 @@
 2. Download a smoke PNG from Google and drag it into the `Orb_Electric` assets folder.
 3. Create a new material in `Orb_Electric` and rename it to `SmokeOutside`. Choose `Shader: Additive (Legacy Shaders/Particles/Additive`.
 4. Drag the smoke PNG image to the `SmokeOutside` material well, and drag the material itself to `SmokeOutside`.
+5. Select `SmokeOutside` and set `Shape > Radius: 1.85`. Set `Start Lifetime: 1 4`, `Start Speed: 0.05 0.25`, `Start Rotation: 0 360`.
