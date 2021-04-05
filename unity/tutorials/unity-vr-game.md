@@ -139,6 +139,15 @@ There was a section here with adding support for a bunch of different types of c
 
 1. Drag the `Oculus Hands.unitypackage` package to `Assets`
 2. Drag `SampleScene > Hand Presence` to `Assets` to create a prefab, then delete it from the `SampleScene`.
+3. Duplicate the `Hand Presence` prefab
+4. Add a public variable to `HandPresence.cs`:
 
+        public class HandPresence : MonoBehaviour
+        {
+            public InputDeviceCharacteristics controllerCharacteristics;
 
-- Drag the `Hand Presence` prefab onto the `Right Hand` and `Left Hand` inspector `Model Prefab`.
+    This will expose a variable to the prefab inspector where the characteristics can be configured.
+
+3. Choose `Right Hand Presence` and set `Controller Characteristics`, toggling on `Right` and `Controller`, do the same for `Left Hand Presence`
+4. Drag the `Right Hand Presence` prefab onto the `Right Hand`, and the same for the left hand.
+
