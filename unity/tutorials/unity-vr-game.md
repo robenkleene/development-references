@@ -156,4 +156,4 @@ There was a section here with adding support for a bunch of different types of c
 
 1. Create an `Animator Controller` under `Assets` (right-click `Create > Animator Controller`) and rename it to `Right Hand Animator`
 2. Drag the `Right Hand Animator` as the `Controller` in the `Right Hand Model` inspector
-3. With `Right Hand Animator` selected, open the `Animator` (`Window > Animation > Animator`)
+3. With `Right Hand Animator` selected, open the `Animator` (`Window > Animation > Animator`). In the `Animator`, switch to the `Parameters` tab. Use the `+` button to two `float` and call them `Grip` and `Trigger`.
