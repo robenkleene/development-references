@@ -150,4 +150,4 @@ There was a section here with adding support for a bunch of different types of c
 
 3. Choose `Right Hand Presence` and set `Controller Characteristics`, toggling on `Right` and `Controller`, do the same for `Left Hand Presence`
 4. Drag the `Right Hand Presence` prefab onto the `Right Hand`, and the same for the left hand.
-
+5. For the left and right hand presence, click the target to the right of `Hand Model Prefab` and choose the appropriate model (e.g., `Right Hand Model`).
