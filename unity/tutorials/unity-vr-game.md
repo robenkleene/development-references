@@ -129,4 +129,4 @@ And update:
         }
     }
 
-This prints when the primary button is being pressed to the log.
+This prints values based when the primary button, mini joystick, or trigger are used.
