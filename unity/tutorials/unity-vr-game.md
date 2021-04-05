@@ -155,3 +155,4 @@ There was a section here with adding support for a bunch of different types of c
 ### Animating Hands
 
 1. Create an `Animator Controller` under `Assets` (right-click `Create > Animator Controller`) and rename it to `Right Hand Animator`
+2. Drag the `Right Hand Animator` as the `Controller` in the `Right Hand Model` inspector
