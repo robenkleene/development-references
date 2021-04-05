@@ -61,13 +61,15 @@ Fix the camera clipping objects when they get to close.
 
 The rest of this tutorial creates a bowling alley, which we're skipping.
 
-## Part 2
+## Controller Script
 
 1. Create a new empty called `Hand Presence`, set its position to `0 0 0`
 2. Add component to `Hand Presence`, search for `HandPresence` and click `New Script`, then `Create and Add`
 3. Double-click the `HandPresence` script to edit it in a text editor
 
 ### `HandPresence.cs`
+
+#### 1
 
 Add to imports at the top:
 
@@ -87,3 +89,35 @@ Replace `Start()` method:
     }
 
 At this point, you can run on the device and it will print out controller information to the console (use `adb -d logcat -s Unity` to log the console to standard out).
+
+#### 2
+
+Replace start:
+
+    void Start()
+    {
+        List<InputDevice> devices = new List<InputDevice>();
+        InputDeviceCharacteristics rightControllerCharacteristics = InputDeviceCharacteristics.Right | InputDeviceCharacteristics.Controller;
+        InputDevices.GetDevicesWithCharacteristics(rightControllerCharacteristics, devices);
+
+        foreach (var item in devices)
+        {
+            Debug.Log(item.name + item.characteristics);
+        }
+
+        if (devices.Count > 0) {
+            targetDevice = devices[0];
+        }
+    }
+
+And update:
+
+    void Update()
+    {
+        targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
+        if (primaryButtonValue) {
+            Debug.Log("Pressing primary button");
+        }
+    }
+
+This prints when the primary button is being pressed to the log.
