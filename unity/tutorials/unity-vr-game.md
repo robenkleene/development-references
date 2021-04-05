@@ -138,3 +138,7 @@ There was a section here with adding support for a bunch of different types of c
 ### Adding Hands
 
 1. Drag the `Oculus Hands.unitypackage` package to `Assets`
+2. Drag `SampleScene > Hand Presence` to `Assets` to create a prefab, then delete it from the `SampleScene`.
+
+
+- Drag the `Hand Presence` prefab onto the `Right Hand` and `Left Hand` inspector `Model Prefab`.
