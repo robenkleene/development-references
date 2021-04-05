@@ -85,3 +85,5 @@ Replace `Start()` method:
             Debug.Log(item.name + item.characteristics);
         }
     }
+
+At this point, you can run on the device and it will print out controller information to the console (use `adb -d logcat -s Unity` to log the console to standard out).
