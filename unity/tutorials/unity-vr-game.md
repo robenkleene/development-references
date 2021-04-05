@@ -130,3 +130,11 @@ And update:
     }
 
 This prints values based when the primary button, mini joystick, or trigger are used.
+
+### Skipped
+
+There was a section here with adding support for a bunch of different types of controllers.
+
+### Adding Hands
+
+1. Drag the `Oculus Hands.unitypackage` package to `Assets`
