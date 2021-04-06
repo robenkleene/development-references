@@ -199,3 +199,7 @@ There was a section here with adding support for a bunch of different types of c
                 handAnimator.SetFloat("Grip", 0);
             }
         }
+
+    Call it in the `Update()` function:
+
+        UpdateHandAnimation();
