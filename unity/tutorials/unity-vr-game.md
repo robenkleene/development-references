@@ -158,4 +158,4 @@ There was a section here with adding support for a bunch of different types of c
 2. Drag the `Right Hand Animator` as the `Controller` in the `Right Hand Model` inspector
 3. With `Right Hand Animator` selected, open the `Animator` (`Window > Animation > Animator`). In the `Animator`, switch to the `Parameters` tab. Use the `+` button to two `float` and call them `Grip` and `Trigger`.
 4. Create a `Blend Tree` node (right-click `Create State > From New Blend Tree`).
-5. Double-click into the `Blend Tree` node and click the `Blend Tree` there, and in the inspector set `Blend Type: 2D Freeform Cartesian`.
+5. Double-click into the `Blend Tree` node and click the `Blend Tree` there, and in the inspector set `Blend Type: 2D Freeform Cartesian`, `Parameters: Grip Trigger`
