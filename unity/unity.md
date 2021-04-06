@@ -6,6 +6,7 @@
 
 ## Assets
 
+- `⌘D`: Duplicate
 - Drag the icon size slider at the bottom of the `Assets` panel all the way to the left to use a list view
 
 ## Background
