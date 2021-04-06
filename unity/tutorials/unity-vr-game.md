@@ -229,3 +229,7 @@ In `update()` add:
     {
         // Put previous contents of `update()` here.
     }
+
+## Teleportation
+
+1. Select the `VR Rig` and add two components: `Locomotion System` and `Teleportation Provider`.
