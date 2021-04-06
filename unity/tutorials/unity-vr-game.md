@@ -203,3 +203,7 @@ There was a section here with adding support for a bunch of different types of c
     Call it in the `Update()` function:
 
         UpdateHandAnimation();
+
+### Activating Controllers
+
+To fix the script so controllers become activated after launching.
