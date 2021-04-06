@@ -159,8 +159,8 @@ There was a section here with adding support for a bunch of different types of c
 3. With `Right Hand Animator` selected, open the `Animator` (`Window > Animation > Animator`). In the `Animator`, switch to the `Parameters` tab. Use the `+` button to two `float` and call them `Grip` and `Trigger`.
 4. Create a `Blend Tree` node (right-click `Create State > From New Blend Tree`).
 5. Double-click into the `Blend Tree` node and click the `Blend Tree` there, and in the inspector set `Blend Type: 2D Freeform Cartesian`, `Parameters: Grip Trigger`.
-6. In the inspector, add four `Motion` fields (using the `+` button), set them to:
-    - `0 0`
-    - `0 1`
-    - `1 0`
-    - `1 1`
+6. In the inspector, add four `Motion` fields (using the `+` button), set them to the following values, and drag the models matching the corresponding states:
+    - `0 0`: Default
+    - `0 1`: Pinch
+    - `1 0`: Grip
+    - `1 1`: Grip (Pinch & Grip Simultaneously)
