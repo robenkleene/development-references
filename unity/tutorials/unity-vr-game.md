@@ -167,3 +167,22 @@ There was a section here with adding support for a bunch of different types of c
 7. To get the preview to work, show the inspector for the `Take 001` and drag the `Right Hand Model` prefab onto the preview area.
 8. In `Assets`, duplicate `Right Hand Animator` and rename it to `Left Hand Animator`. Select the `Left Hand Model` prefab and in the inspector set `Animator > Controller: Left Hand Animator`.
 9. Open the `Left Hand Animator` in the `Animator` and replace the models with the left hand versions.
+10. Update the `HandPresence.cs` script, add a new function:
+
+    Add a new variable:
+
+        private Animator handAnimator;
+
+    Add a new function:
+
+        void UpdateHandAnimation()
+        {
+            if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+            {
+                handAnimator.SetFloat("Trigger", triggerValue);
+            }
+            else
+            {
+                handAnimator.SetFloat("Trigger", 0);
+            }
+        }
