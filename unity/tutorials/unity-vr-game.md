@@ -232,4 +232,5 @@ In `update()` add:
 
 ## Teleportation
 
-1. Select the `VR Rig` and add two components: `Locomotion System` and `Teleportation Provider`.
+1. Select the `VR Rig` and add two components: `Locomotion System` and `Teleportation Provider`. (The `Locomotion System > XR Rig` and `Teleportation Provider > System` both automatically get set when running so do not have to set manually.)
+2. Create a `XR > Ray Interactor (Action-Based)` under `SampleScene > VR Rig > Camera Offset`.
