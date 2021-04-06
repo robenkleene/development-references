@@ -164,3 +164,4 @@ There was a section here with adding support for a bunch of different types of c
     - `0 1`: Pinch
     - `1 0`: Grip
     - `1 1`: Grip (Pinch & Grip Simultaneously)
+7. To get the preview to work, show the inspector for the `Take 001` and drag the `Right Hand Model` prefab onto the preview area.

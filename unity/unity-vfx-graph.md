@@ -10,4 +10,4 @@
 
 ## Navigation
 
-- **Pan**: Hold `⌥` and click and drag (three-finger with a touchpad).
+- **Pan**: `⌥Drag`
