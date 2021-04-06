@@ -207,3 +207,25 @@ There was a section here with adding support for a bunch of different types of c
 ### Activating Controllers
 
 To fix the script so controllers become activated after launching.
+
+Add a new function and move the contents of `Start()` into it:
+
+    void TryInitialize()
+
+Replace `start()` with:
+
+    void Start()
+    {
+        TryInitialize();
+    }
+
+In `update()` add:
+
+    if (!targetDevice.isValid)
+    {
+        TryInitialize();
+    }
+    else
+    {
+        // Put previous contents of `update()` here.
+    }
