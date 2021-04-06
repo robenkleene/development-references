@@ -189,4 +189,13 @@ There was a section here with adding support for a bunch of different types of c
             {
                 handAnimator.SetFloat("Trigger", 0);
             }
+
+            if (targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
+            {
+                handAnimator.SetFloat("Grip", gripValue);
+            }
+            else
+            {
+                handAnimator.SetFloat("Grip", 0);
+            }
         }
