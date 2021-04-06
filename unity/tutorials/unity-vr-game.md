@@ -173,6 +173,10 @@ There was a section here with adding support for a bunch of different types of c
 
         private Animator handAnimator;
 
+    Instantiate the `handAnimator`:
+
+        handAnimator = spawnedHandModel.GetComponent<Animator>();
+
     Add a new function:
 
         void UpdateHandAnimation()
