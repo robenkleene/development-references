@@ -253,3 +253,7 @@ The teleportation anchor teleports exactly to the anchor.
 1. Create a `XR > Teleportation Anchor` under `SampleScene`. Scale down the plane and place it next to the `Teleportation Area` plane.
 
 At this point you should be able to run and teleport around the plane, or to the anchor.
+
+## Tweaks
+
+1. To have the teleport happen on trigger rather than grip, set `Right Teleport Ray > XR Controller (Device-based) > Select Usage: Trigger`.
