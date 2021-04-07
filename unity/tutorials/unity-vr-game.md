@@ -262,4 +262,6 @@ At this point you should be able to run and teleport around the plane, or to the
 
 ### Bowling Ball
 
-By default, the teleport also allows interacting with the `Bowling Ball`.
+By default, the teleport also allows interacting with the `Bowling Ball` (the beam turns white why pointed at the ball, and pulling the trigger brings it to your hand). To prevent this, add a layer to the `Bowling Ball`.
+
+1. Select the `Bowling Ball` and in the inspector, choose `Layer > Add Layer`. In the layer inspector that comes up, name `User Layer 8` to `Grab`. Select the `Bowling Ball` and set `Layer: Grab`.
