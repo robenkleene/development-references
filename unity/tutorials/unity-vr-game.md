@@ -256,4 +256,5 @@ At this point you should be able to run and teleport around the plane, or to the
 
 ## Tweaks
 
-1. To have the teleport happen on trigger rather than grip, set `Right Teleport Ray > XR Controller (Device-based) > Select Usage: Trigger`.
+1. To have the teleport happen on trigger rather than grip, set `Right Teleport Ray > XR Controller (Device-based) > Select Usage: Trigger`. Also set `Axis To Press Threshold: 0.2`.
+2. Use a cube to create a wall on the `Teleportation Area` to illustrate that the ray does not allow teleporting through walls.
