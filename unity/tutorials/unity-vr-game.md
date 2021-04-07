@@ -239,4 +239,8 @@ At this point it should be able to build and run and see a red bar extending fro
 
 There are two types of teleportation, teleport area, and teleport anchor.
 
+### Teleport Area
+
+1. Create a `XR > Teleportation Area` under `SampleScene`.
+
 ### Teleport Anchor
