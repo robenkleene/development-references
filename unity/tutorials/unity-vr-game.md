@@ -282,4 +282,7 @@ By default, the teleport also allows interacting with the `Bowling Ball` (the be
 To create a destination reticle.
 
 1. Create a `Cylinder` under `SampleScene`, and rename it to `Teleport Reticle`. Remove the `Capsule Collider` component. Scale it down on all axes to `0.6`. Scale it down on the Y axis to `0.1`.
-2. Create a new material and rename it to `Reticle Base`.
+2. Create a new material and rename it to `Reticle Base`. Ideally, this should be a color and transparent, but there doesn't appear to be a built-in shader with both those qualities, so setting `Shader > Unlit/Color` lets us set a color. Choose a blue for `Main Color`.
+3. Drag the `Teleport Reticle` to the `Right Teleport Ray > XR Interactor Line Visual: Teleport Reticle`
+
+Building and running now should show the reticle when hovering over a valid teleportation target
