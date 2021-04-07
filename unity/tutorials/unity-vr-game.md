@@ -286,3 +286,7 @@ To create a destination reticle.
 3. Drag the `Teleport Reticle` to the `Right Teleport Ray > XR Interactor Line Visual: Teleport Reticle`
 
 Building and running now should show the reticle when hovering over a valid teleportation target
+
+#### VFX Graph Reticle
+
+1. Create a new cylinder as a child of the `Teleport Reticle`, Remove the `Capsule Collider` component, just like for the previous cylinder.
