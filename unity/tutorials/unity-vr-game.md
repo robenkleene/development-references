@@ -236,3 +236,7 @@ In `update()` add:
 2. Create a `XR > Device-based > Ray Interactor` (this tutorial uses the `Device-based` but the `Action-Based` is the preferred method) under `SampleScene > VR Rig > Camera Offset`, and rename it to `Right Teleport Ray`. Set `Position: 0 0 0`. In the inspector, make sure `XR Controller (Device-Based): Right Hand` is set.
 
 At this point it should be able to build and run and see a red bar extending from the right hand.
+
+There are two types of teleportation, teleport area, and teleport anchor.
+
+### Teleport Anchor
