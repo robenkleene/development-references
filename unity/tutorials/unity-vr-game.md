@@ -272,3 +272,5 @@ By default, the teleport also allows interacting with the `Bowling Ball` (the be
 1. To make it so you can trigger in an invalid zone, then move to a valid zone and release, set `Right Teleport Ray > XR Ray Interactor > Selection Configuration: State Change` (the default is `State`)
 
 ## Updating the Teleport UI
+
+1. Under `Right Teleport Ray > XR Ray Interactor`, set `Line Type: Projectile Curve`, `Velocity: 8`
