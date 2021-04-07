@@ -276,4 +276,10 @@ By default, the teleport also allows interacting with the `Bowling Ball` (the be
 1. Under `Right Teleport Ray > XR Ray Interactor`, set `Line Type: Projectile Curve`, `Velocity: 8`
 2. To play a haptic when hovering a valid teleportation target, toggle on `XR Ray Interactor > Haptic Events > On Haptic Entered`, set `Haptic Intensity: 0.1` and `Duration: 0.1`.
 3. To play a haptic when teleporting, toggle toggle on `XR Ray Interactor > Haptic Events > Play Haptic On Select Enter`, set `Haptic Select Enter Intensity: 0.3` and `Haptic Select Enter Duration: 0.1`.
-4. To create a destination reticle, create a `Cylinder` under `SampleScene`, and rename it to `Teleport Reticle`. Remove the `Capsule Collider` component. Scale it down to `0.6`.
+
+### Reticle
+
+To create a destination reticle.
+
+1. Create a `Cylinder` under `SampleScene`, and rename it to `Teleport Reticle`. Remove the `Capsule Collider` component. Scale it down on all axes to `0.6`. Scale it down on the Y axis to `0.1`.
+2. Create a new material and rename it to `Reticle Base`.
