@@ -251,3 +251,5 @@ The teleportation area allows teleporting to anywhere.
 The teleportation anchor teleports exactly to the anchor.
 
 1. Create a `XR > Teleportation Anchor` under `SampleScene`. Scale down the plane and place it next to the `Teleportation Area` plane.
+
+At this point you should be able to run and teleport around the plane.
