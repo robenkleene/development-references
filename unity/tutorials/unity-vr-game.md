@@ -265,3 +265,8 @@ At this point you should be able to run and teleport around the plane, or to the
 By default, the teleport also allows interacting with the `Bowling Ball` (the beam turns white why pointed at the ball, and pulling the trigger brings it to your hand). To prevent this, add a layer to the `Bowling Ball`.
 
 1. Select the `Bowling Ball` and in the inspector, choose `Layer > Add Layer`. In the layer inspector that comes up, name `User Layer 8` to `Grab`. Select the `Bowling Ball` and set `Layer: Grab`.
+2. Under `Right Teleport Ray > XR Ray Interactor > Raycast Mask`, toggle off the `Grab` layer.
+
+### More
+
+1. To make it so you can trigger in an invalid zone, then move to a valid zone and release, set `Right Teleport Ray > XR Ray Interactor > Selection Configuration: State Change` (the default is `State`)
