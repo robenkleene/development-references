@@ -241,9 +241,13 @@ There are two types of teleportation, teleport area, and teleport anchor.
 
 ### Teleport Area
 
+The teleportation area allows teleporting to anywhere.
+
 1. Create a `XR > Teleportation Area` under `SampleScene`, and offset it from the camera, and raise it up slightly so it isn't intersecting with the existing ground plane. The plane can be teleported to.
 2. Add a cube to `SampleScene` and put it somewhere near the plane. Add a `Teleportation Area` component to the cube. This is to setup the cube as a teleportation destination as well, but it needs a collider to be set in order to work. By default it will just use the exiting `Box Collider` on the cube, so it does not need to be set now.
 
 ### Teleport Anchor
+
+The teleportation anchor teleports exactly to the anchor.
 
 1. Create a `XR > Teleportation Anchor` under `SampleScene`. Scale down the plane and place it next to the `Teleportation Area` plane.
