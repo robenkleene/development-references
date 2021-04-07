@@ -275,3 +275,4 @@ By default, the teleport also allows interacting with the `Bowling Ball` (the be
 
 1. Under `Right Teleport Ray > XR Ray Interactor`, set `Line Type: Projectile Curve`, `Velocity: 8`
 2. To play a haptic when hovering a valid teleportation target, toggle on `XR Ray Interactor > Haptic Events > On Haptic Entered`, set `Haptic Intensity: 0.1` and `Duration: 0.1`.
+3. To play a haptic when teleporting, toggle toggle on `XR Ray Interactor > Haptic Events > Play Haptic On Select Enter`, set `Haptic Select Enter Intensity: 0.3` and `Haptic Select Enter Duration: 0.1`.
