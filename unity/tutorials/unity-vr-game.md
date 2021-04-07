@@ -289,4 +289,4 @@ Building and running now should show the reticle when hovering over a valid tele
 
 #### VFX Graph Reticle
 
-1. Create a new cylinder as a child of the `Teleport Reticle`, Remove the `Capsule Collider` component, just like for the previous cylinder.
+1. Create a new cylinder as a child of the `Teleport Reticle`, Remove the `Capsule Collider` component, just like for the previous cylinder. Position the cylinder like a cup on top of a cup holder relative to the `Teleport Reticle` (so longer, and smaller radius).
