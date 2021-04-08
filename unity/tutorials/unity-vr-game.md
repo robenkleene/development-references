@@ -291,3 +291,5 @@ Building and running now should show the reticle when hovering over a valid tele
 
 1. Create a new cylinder as a child of the `Teleport Reticle`, Remove the `Capsule Collider` component, just like for the previous cylinder. Position the cylinder like a cup on top of a cup holder relative to the `Teleport Reticle` (so longer, and smaller radius).
 2. Create a `Unlit Graph` shader and rename it to `Color Ramp`. With the `Color Ramp` selected click `Open Shader Editor`.
+3. In the `Graph Inspector`, set `Surface: Transparent`, and `Two Sided`.
+4. Add a `Color` property and rename it to `TopColor`.
