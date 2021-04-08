@@ -2,7 +2,7 @@
 
 ## Part 1: Head & Hand Tracking
 
-After setting up a Unity project for VR (e.g., installing `XR Plugin Management`).
+After setting up a Unity project for VR (e.g., installing `XR Plugin Management`). Note that later parts of this process also require the Universal Render Pipeline, so the `Universal Render Pipeline` template should probably be used.
 
 ### Packages
 
@@ -282,7 +282,7 @@ By default, the teleport also allows interacting with the `Bowling Ball` (the be
 To create a destination reticle.
 
 1. Create a `Cylinder` under `SampleScene`, and rename it to `Teleport Reticle`. Remove the `Capsule Collider` component. Scale it down on all axes to `0.6`. Scale it down on the Y axis to `0.1`.
-2. Create a new material and rename it to `Reticle Base`. Ideally, this should be a color and transparent, but there doesn't appear to be a built-in shader with both those qualities, so setting `Shader > Unlit/Color` lets us set a color. Choose a blue for `Main Color`.
+2. Create a new material and rename it to `Reticle Base`. Set `Shader > Universal Render Pipeline/Unlit`, set `Surface Type: Transparent`. Choose a blue for `Surface Inputs > Base Map`.
 3. Drag the `Teleport Reticle` to the `Right Teleport Ray > XR Interactor Line Visual: Teleport Reticle`
 
 Building and running now should show the reticle when hovering over a valid teleportation target
@@ -290,3 +290,4 @@ Building and running now should show the reticle when hovering over a valid tele
 #### VFX Graph Reticle
 
 1. Create a new cylinder as a child of the `Teleport Reticle`, Remove the `Capsule Collider` component, just like for the previous cylinder. Position the cylinder like a cup on top of a cup holder relative to the `Teleport Reticle` (so longer, and smaller radius).
+2. Create a `Unlit Graph` shader and rename it to `Color Ramp`. With the `Color Ramp` selected click `Open Shader Editor`.
