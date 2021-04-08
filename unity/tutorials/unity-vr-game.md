@@ -293,3 +293,4 @@ Building and running now should show the reticle when hovering over a valid tele
 2. Create a `Unlit Graph` shader and rename it to `Color Ramp`. With the `Color Ramp` selected click `Open Shader Editor`.
 3. In the `Graph Inspector`, set `Surface: Transparent`, and `Two Sided`.
 4. Add two `Color` properties and rename them to `TopColor` and `BottomColor`.
+5. Add a `Position` node.
