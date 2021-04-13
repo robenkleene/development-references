@@ -1,5 +1,7 @@
 # Visual Studio Code Remote
 
+- To connect use `Remote-SSH: Connect to Host...`
+
 ## Shell
 
 - `Preferences: Open Remote Settings (SSH: <hostname>)`, add the line:
