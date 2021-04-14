@@ -309,3 +309,4 @@ Building and running now should show the reticle when hovering over a valid tele
 ###### Alpha
 
 1. Edit the `Color Ramp` shader graph, add a `Split` node, connect the `Lerp > Out` output to the `Split > In` input. Connect the `Split > A` output to the `Fragment > Alpha` input.
+2. Select `Shader Graphs_Color Ramp` and set `TopColor` to transparent black, and bottom color to an opaque blue.
