@@ -319,3 +319,15 @@ Building and running now should show the reticle when hovering over a valid tele
 4. Select `Teleport Reticle` the Hierarchy and in the inspector set `Lighting > Casts Shadows: Off`.
 
 At this point you should be able to build and run and see the reticle used for teleporting.
+
+#### Fishing Pole
+
+Customize the fishing pole line.
+
+##### Photoshop
+
+1. Make a texture PNG that's a white stripe with transparency on either side, and call it `White Trait.png`
+
+##### Sprite
+
+1. Drag `White Trait.png` to the `Assets` panel in Unity, and set its `Texture Type: Sprite (2D and UI)` in the inspector.
