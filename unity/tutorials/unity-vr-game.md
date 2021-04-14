@@ -291,7 +291,16 @@ Building and running now should show the reticle when hovering over a valid tele
 
 1. Create a new cylinder as a child of the `Teleport Reticle`, Remove the `Capsule Collider` component, just like for the previous cylinder. Position the cylinder like a cup on top of a cup holder relative to the `Teleport Reticle` (so longer, and smaller radius).
 2. Create a `Unlit Graph` shader and rename it to `Color Ramp`. With the `Color Ramp` selected click `Open Shader Editor`.
-3. In the `Graph Inspector`, set `Surface: Transparent`, and `Two Sided`.
-4. Add two `Color` properties and rename them to `TopColor` and `BottomColor`.
-5. Add a `Position` node, and set `Space: Object`.
-6. Create a `Split` node and connect the `Position > Out` output to its `In` input. Drag out the `TopColor` and `BottomColor`. Create a `Lerp` node, and connect `TopColor` to its `A` input, `BottomColor` to its `B` input, and the `Split > G` output to its `T` input.
+
+##### Shader Editor
+
+1. In the `Graph Inspector`, set `Surface: Transparent`, and `Two Sided`.
+2. Add two `Color` properties and rename them to `TopColor` and `BottomColor`.
+3. Add a `Position` node, and set `Space: Object`.
+4. Create a `Split` node and connect the `Position > Out` output to its `In` input. Drag out the `TopColor` and `BottomColor`. Create a `Lerp` node, and connect `TopColor` to its `A` input, `BottomColor` to its `B` input, and the `Split > G` output to its `T` input.
+5. Drag the `Lerp > Out` output to the `Fragment > Base Color` input.
+
+###### Material
+
+1. Right-click the `Color Ramp` in the assets panel and choose `Create > Material`.
+
