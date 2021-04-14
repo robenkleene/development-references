@@ -330,4 +330,4 @@ Customize the fishing pole line.
 
 ##### Sprite
 
-1. Drag `White Trait.png` to the `Assets` panel in Unity, and set its `Texture Type: Sprite (2D and UI)` in the inspector.
+1. Drag `White Trait.png` to the `Assets` panel in Unity. In the inspector, set its `Texture Type: Sprite (2D and UI)` and `Wrap Mode: Repeat`.
