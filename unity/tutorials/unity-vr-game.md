@@ -297,10 +297,11 @@ Building and running now should show the reticle when hovering over a valid tele
 1. In the `Graph Inspector`, set `Surface: Transparent`, and `Two Sided`.
 2. Add two `Color` properties and rename them to `TopColor` and `BottomColor`.
 3. Add a `Position` node, and set `Space: Object`.
-4. Create a `Split` node and connect the `Position > Out` output to its `In` input. Drag out the `TopColor` and `BottomColor`. Create a `Lerp` node, and connect `TopColor` to its `A` input, `BottomColor` to its `B` input, and the `Split > G` output to its `T` input.
+4. Create a `Split` node and connect the `Position > Out` output to its `In` input. Drag out the `TopColor` and `BottomColor`. Create a `Lerp` node, and connect `BottomColor` to its `A` input, `TopColor` to its `B` input, and the `Split > G` output to its `T` input.
 5. Drag the `Lerp > Out` output to the `Fragment > Base Color` input.
 
 ###### Material
 
-1. Right-click the `Color Ramp` in the assets panel and choose `Create > Material`.
+1. Right-click the `Color Ramp` in the assets panel and choose `Create > Material`, this will create a new material called `Shader Graphs_Color Ramp`.
+2. Drag `Shader Graphs_Color Ramp` to the `Teleport Reticle > Cylinder` in the scene view to apply the material to it..
 

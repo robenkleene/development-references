@@ -11,3 +11,7 @@
 ## Navigation
 
 - **Pan**: `⌥Drag`
+
+## Tips
+
+- Note when the Shader Editor tab has an asterisk that means it has unsaved changes, clicking `Save Asset` resolves this.
