@@ -341,3 +341,7 @@ Customize the fishing pole line.
 2. Add a `Sample Texture 2D` node, drag in the `Texture` property and connect its output to  the `Simple Texture 2D > Texture` input. Connect the `Sample Texture 2D > RGBA` output to the `Fragment > Base Color` input.
 3. Drag the `Time` property in, and create a `Time` node. Add a `Multiply` node, and connect the `Time > Time` output to its `A` input. Connect the `Speed` to its `B` input.
 4. Add a `Tiling And Offset` node, and connect the `Multiply > Out` output to its `Offset` input. Connect its `Out` output to the `Sample Texture 2D > UV` input.
+
+##### Material
+
+1. Right-click the `Dotted Line` in the `Assets` folder and choose `Create > Material`.
