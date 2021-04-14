@@ -338,4 +338,4 @@ Customize the fishing pole line.
 1. Add two properties:
     - `Texture 2D` named `Texture`
     - `Vector 2` named `Speed`
-2. Add a `Sample Texture 2D` node
+2. Add a `Sample Texture 2D` node, drag in the `Texture` property and connect its output to  the `Simple Texture 2D > Texture` input. Connect the `Sample Texture 2D > RGBA` output to the `Fragment > Base Color` input.
