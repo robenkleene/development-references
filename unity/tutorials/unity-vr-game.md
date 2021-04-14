@@ -353,3 +353,12 @@ Customize the fishing pole line.
 To improve the color of the dashed lines.
 
 1. In the Hierarchy, select `SampleScene > VR Rig > Camera Offset > Right Teleport Ray`, and in the inspector, under `XR Interactor Line Visual` set `Valid Color Gradient` and `Invalid Color Gradient` to nice values. They look good with the farthest left value set to transparent, and the farthest right to opaque.
+
+#### Both Hands
+
+1. In the hierarchy, duplicate `SampleScene > VR Rig > Camera Offset > Right Teleport Ray` (`⌘D`) and rename it to `Left Teleport Ray`. In the inspector, under `XR Controller (Device-based)` set `Controller Node > Left Hand`.
+
+#### Intermittent Teleport
+
+1. Add a script to the `SampleScene > VR Rig` called `LocomotionController`.
+2. Edit `LocomotionController.cs`
