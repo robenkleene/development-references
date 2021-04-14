@@ -363,8 +363,10 @@ To improve the color of the dashed lines.
 1. Add a script to the `SampleScene > VR Rig` called `LocomotionController`.
 2. Edit `LocomotionController.cs` and add the following:
 
+        // Add this import
         using UnityEngine.XR.Interaction.Toolkit;
 
+        // Replace the contents of `LocomotionController` with this
         public class LocomotionController : MonoBehaviour
         {
             public XRController leftTeleportRay;
