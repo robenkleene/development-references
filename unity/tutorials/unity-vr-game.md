@@ -394,3 +394,5 @@ To improve the color of the dashed lines.
                 return isActivated;
             }
         }
+
+3. Select the `VR Rig` in the hierarchy, and under `Locomotion Controller (Script)`, drag `Left Teleport Ray` to the `Left Teleport Ray` variable field, and the same for the right.
