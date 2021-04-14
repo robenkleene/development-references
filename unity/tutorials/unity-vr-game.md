@@ -347,3 +347,9 @@ Customize the fishing pole line.
 
 1. Right-click the `Dotted Line` in the `Assets` folder and choose `Create > Material`, and drag the `White Trait` into its texture well.
 2. In the Hierarchy, select `SampleScene > VR Rig > Camera Offset > Right Teleport Ray` and in the inspector, drag `Shader Graphs_Dotted Line` to `Line Renderer > Materials > Element 0`. In the inspector, under `Shader Graphs_Dotted Line`, set `Speed: -2 0 0 0` and set `Line Renderer > Texture Mode: Tile`.
+
+##### Color
+
+To improve the color of the dashed lines.
+
+1. In the Hierarchy, select `SampleScene > VR Rig > Camera Offset > Right Teleport Ray`, and in the inspector, under `XR Interactor Line Visual` set `Valid Color Gradient` and `Invalid Color Gradient` to nice values. They look good with the farthest left value set to transparent, and the farthest right to opaque.
