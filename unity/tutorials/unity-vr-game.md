@@ -361,4 +361,34 @@ To improve the color of the dashed lines.
 #### Intermittent Teleport
 
 1. Add a script to the `SampleScene > VR Rig` called `LocomotionController`.
-2. Edit `LocomotionController.cs`
+2. Edit `LocomotionController.cs` and add the following:
+
+        using UnityEngine.XR.Interaction.Toolkit;
+
+        public class LocomotionController : MonoBehaviour
+        {
+            public XRController leftTeleportRay;
+            public XRController rightTeleportRay;
+            public InputHelpers.Button teleportActivationButton;
+            public float activationThreshold = 0.1f;
+
+            // Update is called once per frame
+            void Update()
+            {
+                if (leftTeleportRay)
+                {
+                    leftTeleportRay.gameObject.SetActive(CheckIfActivated(leftTeleportRay));
+                }
+
+                if (rightTeleportRay)
+                {
+                    rightTeleportRay.gameObject.SetActive(CheckIfActivated(rightTeleportRay));
+                }
+            }
+
+            public bool CheckIfActivated(XRController controller)
+            {
+                InputHelpers.IsPressed(controller.inputDevice, teleportActivationButton, out bool isActivated, activationThreshold);
+                return isActivated;
+            }
+        }
