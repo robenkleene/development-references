@@ -331,7 +331,7 @@ Customize the fishing pole line.
 ##### Sprite
 
 1. Drag `White Trait.png` to the `Assets` panel in Unity. In the inspector, set its `Texture Type: Sprite (2D and UI)` and `Wrap Mode: Repeat`.
-2. Right-click in assets and choose `Create > Shader > Universal Render Pipeline > Sprite Unlit Shader Graph`, and rename it to `Dotted Line`, and open the Shader Editor.
+2. Right-click in assets and choose `Create > Shader > Universal Render Pipeline > Sprite Unlit Shader Graph` *it appears this doesn't work using `Unlit` and `Lit` should be used instead*, and rename it to `Dotted Line`, and open the Shader Editor.
 
 ##### Shader Editor
 
