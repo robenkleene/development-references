@@ -314,3 +314,4 @@ Building and running now should show the reticle when hovering over a valid tele
 ###### Particle Effect
 
 1. In the Hierarchy, right-click `Teleport Reticle` and choose `Effects > Particle System`.
+2. Resize the `Teleport Reticle > Particle System` so it fits within the beam, and rotate it so it points straight up. Set `Start Lifetime: 1` and `Start Speed: 2` in the inspector.
