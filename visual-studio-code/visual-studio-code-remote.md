@@ -1,6 +1,9 @@
 # Visual Studio Code Remote
 
-- To connect use `Remote-SSH: Connect to Host...`
+## Connecting
+
+- `Remote-SSH: Connect to Host...`: Connect with new window
+- `Remote-SSH: Connect Current Window to Host...`: Connect with current window
 
 ## Shell
 
