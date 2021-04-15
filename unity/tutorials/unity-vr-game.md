@@ -402,7 +402,7 @@ At this point you should be able to build and run, the teleportation UI won't ap
 ## Continuous Movement
 
 1. Add a script to the `VR Rig` called `ContinuousMovement`.
-2. Add to the top of the script:
+2. Add to the top of the `ContinuousMovement.cs` script:
 
         using UnityEngine.XR;
         using UnityEngine.XR.Interaction.Toolkit;
@@ -415,3 +415,33 @@ At this point you should be able to build and run, the teleportation UI won't ap
             public XRNode inputSource;
 
 3. With `VR Rig` selected, in the inspector, under `Continuous Movement` set `Input Source: Left Hand`.
+4. Back in `ContinuousMovement.cs`, set `class ContinuousMovement` to the following:
+
+        public class ContinuousMovement : MonoBehaviour
+        {
+            public float speed = 1;
+            public XRNode inputSource;
+            private Vector2 inputAxis;
+            private CharacterController character;
+
+            // Start is called before the first frame update
+            void Start()
+            {
+                character = GetComponent<CharacterController>();
+
+            }
+
+            // Update is called once per frame
+            void Update()
+            {
+                InputDevice device = InputDevices.GetDeviceAtXRNode(inputSource);
+                device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
+            }
+
+            private void FixedUpdate()
+            {
+                Vector3 direction = new Vector3(inputAxis.x, 0, inputAxis.y);
+
+                character.Move(direction * Time.fixedDeltaTime * speed);
+            }
+        }
