@@ -402,3 +402,16 @@ At this point you should be able to build and run, the teleportation UI won't ap
 ## Continuous Movement
 
 1. Add a script to the `VR Rig` called `ContinuousMovement`.
+2. Add to the top of the script:
+
+        using UnityEngine.XR;
+        using UnityEngine.XR.Interaction.Toolkit;
+
+    And add an `XRNode` variable:
+
+        public class ContinuousMovement : MonoBehaviour
+        {
+            // Add this:
+            public XRNode inputSource;
+
+3. With `VR Rig` selected, in the inspector, under `Continuous Movement` set `Input Source: Left Hand`.
