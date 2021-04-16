@@ -488,3 +488,34 @@ You should be able to build and run now, and the movement will follow the direct
         public LayerMask groundLayer;
         private float fallingSpeed;
 
+    Implement gravity:
+
+        private void FixedUpdate()
+        {
+            Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
+            Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
+
+            character.Move(direction * Time.fixedDeltaTime * speed);
+
+            // Everything below here is new
+            bool isGrounded = CheckIfGrounded();
+            if (isGrounded)
+                fallingSpeed = 0;
+            else
+                fallingSpeed += gravity * Time.fixedDeltaTime;
+
+            character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime);
+        }
+
+        bool CheckIfGrounded()
+        {
+            Vector3 rayStart = transform.TransformPoint(character.center);
+            float rayLength = character.center.y + 0.01f;
+            bool hasHit = Physics.SphereCast(rayStart, character.radius, Vector3.down, out RaycastHit hitInfo, rayLength, groundLayer);
+            return hasHit;
+        }
+
+### Ground Layer
+
+In order for `CheckIfGrounded()` needs to know the `groundLayer`. We could select `VR Rig`, and set `Continuous Movement > Ground Layer: Everything`, but it's better to make a new ground layer.
+
