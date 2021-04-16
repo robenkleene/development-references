@@ -470,8 +470,10 @@ To set the movement direction towards where we are facing.
         }
 
     Use it in `FixedUpdate()`:
-    
+
         // Get the `headYaw`:
         Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
         // Update the direction by multiplying by it:
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
+
+You should be able to build and run now, and the movement will follow the direction your head is pointed in.
