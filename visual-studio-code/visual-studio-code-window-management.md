@@ -53,4 +53,4 @@ To quickly preview files in succession, when the Explorer has focus use `␣` to
 
 ### Untitled in Split
 
-A trick to get an untitled window in a split, first use `⌘N` to create a new untitled file, then use 
+A trick to get an untitled window in a split, first use `⌘N` to create a new untitled file, then use `Move Editor into Below Group` to move it to a horizontal split.
