@@ -446,4 +446,4 @@ At this point you should be able to build and run, the teleportation UI won't ap
             }
         }
 
-5. Add a `Character Controller` component to the `VR Rig`.
+5. Add a `Character Controller` component to the `VR Rig`. This is the "Capsule Collider" that defines how 
