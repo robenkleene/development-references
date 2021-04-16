@@ -517,5 +517,8 @@ You should be able to build and run now, and the movement will follow the direct
 
 ### Ground Layer
 
-In order for `CheckIfGrounded()` needs to know the `groundLayer`. We could select `VR Rig`, and set `Continuous Movement > Ground Layer: Everything`, but it's better to make a new ground layer.
+In order for `CheckIfGrounded()` needs to know the `groundLayer`. We could select `VR Rig`, and in the inspector set `Continuous Movement > Ground Layer: Everything`, but it's better to make a new ground layer.
 
+1. In the upper right toolbar, choose `Layer > Add Layer`. Name a free layer `Ground`.
+2. In the hierarchy, select each object that should be ground, and in the inspector set `Layer: Ground`.
+3. Select `VR Rig` and in the inspector set `Continuous Movement > Ground Layer: Everything`
