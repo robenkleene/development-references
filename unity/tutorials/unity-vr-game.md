@@ -445,3 +445,5 @@ At this point you should be able to build and run, the teleportation UI won't ap
                 character.Move(direction * Time.fixedDeltaTime * speed);
             }
         }
+
+5. Add a `Character Controller` component to the `VR Rig`.
