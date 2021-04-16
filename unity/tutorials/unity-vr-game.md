@@ -476,4 +476,4 @@ To set the movement direction towards where we are facing.
         // Update the direction by multiplying by it:
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
 
-You should be able to build and run now, and the movement will follow the direction your head is pointed in.
+You should be able to build and run now, and the movement will follow the direction your head is pointed in. Notably, this will not include gravity, you can add a plane as a ramp and walk off of it to illustrate this.
