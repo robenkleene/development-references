@@ -554,3 +554,6 @@ To improve stuttering, the settings under `Edit > Project Settings... > Time` ca
 
 ### Rotate
 
+To rotate with the right joystick.
+
+1. To the `VR Rig`, add a `Snap Turn Provider (Device-based)` and add a controller under `Controllers`, and set it to `Right Hand`.
