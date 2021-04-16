@@ -521,4 +521,30 @@ In order for `CheckIfGrounded()` needs to know the `groundLayer`. We could selec
 
 1. In the upper right toolbar, choose `Layer > Add Layer`. Name a free layer `Ground`.
 2. In the hierarchy, select each object that should be ground, and in the inspector set `Layer: Ground`.
-3. Select `VR Rig` and in the inspector set `Continuous Movement > Ground Layer: Everything`
+3. Select `VR Rig` and in the inspector set `Continuous Movement > Ground Layer: Everything`.
+
+### Character Collider
+
+The character collider needs to be tied to the player if they move in VR without using the joystick.
+
+1. Edit `ContinuousMovement.cs`:
+
+    Add a new public variable:
+
+        public float additionalHeight = 0.2f;
+
+    Create a `CapsuleFollowHeadset()` method:
+
+        void CapsuleFollowHeadset()
+        {
+            character.height = rig.cameraInRigSpaceHeight + additionalHeight;
+            Vector3 capsuleCenter = transform.InverseTransformPoint(rig.cameraGameObject.transform.position);
+            character.center = new Vector3(capsuleCenter.x, character.height / 2 + character.skinWidth, capsuleCenter.z);
+        }
+
+    Call it at the start of `FixedUpdate()`:
+
+        private void FixedUpdate()
+        {
+            CapsuleFollowHeadset();
+
