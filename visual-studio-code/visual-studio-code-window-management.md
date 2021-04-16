@@ -50,3 +50,7 @@ There does not appear to be a way to open a file from Quick Open in a horizontal
 ## Tips
 
 To quickly preview files in succession, when the Explorer has focus use `␣` to open the file. The Explorer will maintain focus and you can go to the next file with the arrow keys, and hit `␣` to open a different file.
+
+### Untitled in Split
+
+A trick to get an untitled window in a split, first use `⌘N` to create a new untitled file, then use 
