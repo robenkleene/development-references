@@ -548,3 +548,6 @@ The character collider needs to be tied to the player if they move in VR without
         {
             CapsuleFollowHeadset();
 
+### Tweaks
+
+To improve stuttering, the settings under `Edit > Project Settings... > Time` can be changed.
