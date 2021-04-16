@@ -447,3 +447,5 @@ At this point you should be able to build and run, the teleportation UI won't ap
         }
 
 5. Add a `Character Controller` component to the `VR Rig`. This is the "Capsule Collider" that defines how the player interacts with obstacles. For the `Character Controller`, set `Radius: 0.15` and `Center: 0 1 0`. This makes the capsule tall and thin, starting from the ground.
+
+You should be able to build and run now, and move with the left joystick (but not turn). But teleport also appears to be broken now?
