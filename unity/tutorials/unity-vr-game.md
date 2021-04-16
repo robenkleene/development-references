@@ -449,3 +449,29 @@ At this point you should be able to build and run, the teleportation UI won't ap
 5. Add a `Character Controller` component to the `VR Rig`. This is the "Capsule Collider" that defines how the player interacts with obstacles. For the `Character Controller`, set `Radius: 0.15` and `Center: 0 1 0`. This makes the capsule tall and thin, starting from the ground.
 
 You should be able to build and run now, and move with the left joystick (but not turn). But teleport also appears to be broken now?
+
+### Fixing Direction
+
+To set the movement direction towards where we are facing.
+
+1. Edit `ContinuousMovement.cs`:
+
+    Add a new variable to `class ContinuousMovement`:
+
+        private XRRig rig;
+
+    Set it in start:
+
+        void Start()
+        {
+            character = GetComponent<CharacterController>();
+            // Add this line:
+            rig = GetComponent<XRRig>();
+        }
+
+    Use it in `FixedUpdate()`:
+    
+        // Get the `headYaw`:
+        Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
+        // Update the direction by multiplying by it:
+        Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
