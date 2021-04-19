@@ -36,6 +36,10 @@ There's no shortcut to close splits, but "View: Single Column Editor Layout" is 
 - `⌃↩`: Open file in a split
 - `␣`: Open file
 
+## Terminals
+
+- `⇧^backtick`: Make new Terminal (there are not default keybindings to switch between these)
+
 ## Quick Open
 
 After using `⌘P` to fuzzy open a file:
