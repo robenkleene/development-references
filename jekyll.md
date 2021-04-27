@@ -34,6 +34,10 @@ Everything No Configuration:
 	bundle exec jekyll serve --drafts
 	bundle exec jekyll build --watch --drafts
 
+## `serve` Flags
+
+- `-P` / `--port`: Specify a port
+
 ## Generating Faster
 
 ### Local `_config.yml`
