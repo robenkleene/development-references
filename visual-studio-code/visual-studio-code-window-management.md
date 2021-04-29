@@ -13,6 +13,7 @@
 ### Sidebar
 
 - `⇧⌘E`: Focus Explorer (files)
+    - There's a `File: Reveal Active File in Sidebar` command, but there's no default shortcut for it
 - `⌘K ⌘W`: Close all editors
 - `⌘K F` (`File > Close Folder`): Close folder in workspace (e.g., if there's only one open folder this will result in an empty document)
 - `⌘K E`: Focus open editors
