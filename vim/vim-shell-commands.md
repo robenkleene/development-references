@@ -1,8 +1,9 @@
 # `vim` Shell Commands
 
 - `:!%`: Run current file
-- `:.w !bash`: Run current line in bash
-- `:%w !bash`: Run file in bash
+- `:.w !bash`: Run current line in bash (or another command)
+- `:w !bash`: Run file in bash (or another command)
+- `:%w !bash`: Run file in bash (or another command)
 - `:'<,'>w !bash`: Run visual selection in bash
 - `:'<,'>!sort`: Pipe visual selection through sort
 - `:%!sort`: Pipe file through sort
