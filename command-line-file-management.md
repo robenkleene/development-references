@@ -11,7 +11,7 @@
 
 - `cp <source> <destination>`: Copy a file
 - `cp <source> <destination>/`: Copy a file into a directory
-- `cp -R <source> <destination>`: Copy a directory
+- `cp -R <source> <destination>`: Duplicate a directory
 - `cp -R <source> <destination>/`: Copy a directory into a directory
 - `cp -R <source>/ <destination>/`: Copy the contents of a directory into a directory
 - `mv <source> <destination>`: Move or rename a file or directory
