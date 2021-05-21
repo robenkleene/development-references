@@ -53,3 +53,9 @@ This is useful to specify a local theme that doesn't need to get fetched from th
 ### Limit posts
 
 	--limit_posts 5
+
+## Overriding Themes
+
+Overriding themes works simply: To override any file from a theme (including theme gems), just put a file to override the default in the site as same relative path from the theme root. For example, to override `assets/main.scss` in the theme, add that same path to the site.
+
+`.scss` files have a major caveat here: `.scss` in the assets folder will only be processed if the file starts with two lines of `---`. If those two lines don't exist, the `.scss` file will simply be copied to the assets directory, without being processed, and without overriding the default `.scss` file.
