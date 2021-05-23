@@ -16,7 +16,7 @@ Use the following to work with a variable:
 - `set -e`: Exit on non-zero exit status
 - `set -o pipefail`: Fail if any command fails when using pipes, not just the last one
 - `set -x`: Print each command
-- `set -u`: Error on unset variables
+- `set -u`: Error on unset variables (to test for a variable with this setting on use `${CODESPACES-}`)
 
 ## `getopts`
 
