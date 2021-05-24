@@ -18,6 +18,12 @@
 * `--files`: Print each file but don't search
 * `--files -g`: Search for files matching glob.
 
+## Examples
+
+- `rg -U --multiline-dotall "string1.*string2" -g "*.m"`
+    - `-U`: Enable multiline search
+    - `--multiline-dotall`: Allow `.` to match newlines
+
 ## Special Characters
 
 ### ASCII Character Classes
