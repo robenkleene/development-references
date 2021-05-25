@@ -1,5 +1,9 @@
 # Blink Shell
 
+## Theme
+
+Use the theme `Blazer` from the gallery.
+
 ## Resizing
 
 When a keyboard toolbar appears, Blink resizes the terminal, for example, when using an app with a keyboard toolbar in slide over. You can stop Blink from resizing when this toolbar appears by three-finger tapping and toggling on "Lock".
