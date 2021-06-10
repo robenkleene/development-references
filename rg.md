@@ -50,6 +50,7 @@
 * `\s`: Whitespace
 * `\S`: Not whitespace
 * `\w`: Word character
+* `\b`: Not word character
 * `\W`: Not word character
 
 ### Empty Matches
