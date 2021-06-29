@@ -3,4 +3,4 @@
 ## Sounds
 
 - For `Succeeds` use `Glass`
-- For `Fails` use `Morse` or `Submarine`
+- For `Fails` use `Morse` or `Submarine` (default)
