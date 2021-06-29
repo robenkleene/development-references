@@ -1,5 +1,7 @@
 # Xcode Settings
 
+- `Editor > Show Editor Only`: Hide minimap
+
 ## Sounds
 
 - For `Succeeds` use `Glass`
