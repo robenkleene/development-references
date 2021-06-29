@@ -13,6 +13,40 @@
 
 Generally, you can configure debugging by clicking `create a launch.json file` from the `Run` panel
 
+### Live Server
+
+Just a basic configuration to load HTML.
+
+``` json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Live Server",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "live-server",
+      "args": [ "--no-browser"],
+      "serverReadyAction": {
+        "pattern": "https?://127.0.0.1:([0-9]+)",
+        "uriFormat": "http://localhost:%s"
+      }
+    },
+    {
+      "name": "Debug With Chrome",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "live-server",
+      "args": [ "--no-browser"],
+      "serverReadyAction": {
+        "pattern": "https?://127.0.0.1:([0-9]+)",
+        "action": "debugWithChrome",
+        "uriFormat": "http://localhost:%s"
+      }
+    }
+  ]
+}
+```
 ### C & Swift
 
 Working configuration for C, which is just the default auto-generated configuration with `a.out` added.
