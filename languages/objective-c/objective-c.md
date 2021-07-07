@@ -25,3 +25,7 @@ int main() {
     return 0;
 }
 ```
+
+## Nullable Checks
+
+To get rid off a null check between `nullable` and `nonnull` just add a cast like `(NSURL *)` which `null_unspecified`.
