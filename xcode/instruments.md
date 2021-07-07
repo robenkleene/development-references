@@ -1,4 +1,4 @@
-# Xcode Instruments
+# Instruments
 
 ## Instruments & Tests
 
