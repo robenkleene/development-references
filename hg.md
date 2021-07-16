@@ -60,3 +60,7 @@
 - `hg shelve -d default`: Drop default stash
 - `hg shelve --list`: List stashed changes
 - `hg unshelve`: Pop from stash
+
+## Rebase
+
+- `hg histedit`: Interactive history re-order
