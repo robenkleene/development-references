@@ -76,3 +76,7 @@ So `git ls-files -o --exclude-standard` will list untracked files that aren't ig
 This will make one commit that reverts to a previous commit:
 
     git revert --no-commit 0cb64eb7eff0827d3fea1e6c4d172b9fe85b852b..HEAD
+
+## From a Path
+
+- `-C`: Run a git command from a path
