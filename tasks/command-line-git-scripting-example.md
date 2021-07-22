@@ -12,4 +12,4 @@
 ## Modification
 
 1. `rg -l --hidden --multiline "runs-on: macos-latest\n    steps" -0 | xargs -0 sd -p 'runs-on: macos-latest\n' 'runs-on: macos-latest\n    timeout-minutes: 20\n'`: Preview the modification, then remove the `-p` to execute
-2. `for v in (dirname (fd --hidden -p ".github/workflows/.*.yml")); git -C $v diff --quiet || echo $v; end`: Print the modified repos
+2. `for v in (dirname (fd --hidden -p ".github/workflows/.*.yml")); ! git -C $v diff --quiet && test (git -C $v branch --show-current) = "add-timeout" && echo $v; end`: Print the modified repositories on the specified branch
