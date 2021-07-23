@@ -58,9 +58,9 @@
 
 ## Stash
 
-- `hg shelve -d default`: Drop default stash
 - `hg shelve --list`: List stashed changes
 - `hg unshelve`: Pop from stash
+- `hg shelve -d default`: Drop default stash
 
 ## Rebase
 
