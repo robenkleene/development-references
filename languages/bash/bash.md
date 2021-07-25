@@ -21,3 +21,7 @@ Use the following to work with a variable:
 ## `getopts`
 
 In `while getopts ":a:bh" option`, the first `:` runs `getopts` in "silent error checking mode", e.g., if you want to handle error messages yourself. In `a:`, it means the `a` flag can have arguments.
+
+## Variables
+
+- `${parameter:-word}`: Set the default value for a variable
