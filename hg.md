@@ -4,6 +4,7 @@
 - `hg commit`: Commit (`hg` has no staging)
 - `hg amend`: Amend last commit (`hg` has no staging)
 - `hg id -i`: Print commit ID
+- `hg update`: Checkout a commit
 
 ## Files
 
