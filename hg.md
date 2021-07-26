@@ -48,6 +48,7 @@
 - `hg purge --files`: Delete all untracked files (marked by `?`)
 - `hg checkout . --clean`: Checkout all changed files
 - `hg revert -r <rev> filename`: Checkout version of a file from a different branch
+- `hg revert filename`: Checkout a locally deleted file
 
 ## Squashing
 
