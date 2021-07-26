@@ -1,10 +1,14 @@
 # `hg`
 
 - `hg status`
-- `hg commit`: Commit (`hg` has no staging)
 - `hg amend`: Amend last commit (`hg` has no staging)
 - `hg id -i`: Print commit ID
 - `hg update`: Checkout a commit
+
+## Commit
+
+- `hg commit`: Commit (`hg` has no staging)
+- `hg commit <file>`: Commit just a specific file
 
 ## Files
 
