@@ -72,3 +72,13 @@
 ## Rebase
 
 - `hg histedit`: Interactive history re-order
+
+## Move
+
+To clean up a `addremove` that should be a move:
+
+1. `hg revert <oldfile>`: Checkout the old version
+2. `hg rm <newfile>`: Delete the new file
+3. `hg amend`: Clean up
+4. `hg mv <oldfile> <newfile`
+5. `hg amend`
