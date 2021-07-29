@@ -13,3 +13,4 @@
 
 1. `rg -l --hidden --multiline "runs-on: macos-latest\n    steps" -0 | xargs -0 sd -p 'runs-on: macos-latest\n' 'runs-on: macos-latest\n    timeout-minutes: 20\n'`: Preview the modification, then remove the `-p` to execute
 2. `for v in (dirname (fd --hidden -p ".github/workflows/.*.yml") | sort | uniq); ! git -C $v diff --quiet && test (git -C $v branch --show-current) = "add-timeout" && echo $v && git -C $v status; end`: Print the modified repositories on the specified branch
+3. `for v in (git_root (fd --hidden -p ".github/workflows/.*.yml") | sort | uniq); test (git -C $v branch --show-current) = "add-timeout" && cd $v && hub pull-request -m "Add timeout" && cd -; end`: Create the pull requests
