@@ -18,3 +18,4 @@
 ## Merging
 
 1. `for v in (git_root (fd --hidden -p ".github/workflows/.*.yml") | sort | uniq); test (git -C $v branch --show-current) = "add-timeout" && scwp -C $v; end`
+2. `for v in (git_root (fd --hidden -p ".github/workflows/.*.yml") | sort | uniq); test (git -C $v branch --show-current) = "add-timeout" && gprpr -C $v; end`
