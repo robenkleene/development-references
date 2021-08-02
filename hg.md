@@ -23,7 +23,8 @@
 
 ## Rebase
 
-- `hg rebase -d master`: Get branch up-to-date with master (`arc pull` is better)
+- `hg rebase -d master`: Get branch up-to-date with master
+- `hg rebase -s . -d master`: Rebase current diff onto master
 
 ## Patch
 
