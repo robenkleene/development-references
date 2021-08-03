@@ -21,8 +21,8 @@
 ## Examples
 
 - `rg -U --multiline-dotall "string1.*string2" -g "*.m"`
-    - `-U`: Enable multiline search
-    - `--multiline-dotall`: Allow `.` to match newlines
+- `-U`: Enable multiline search
+- `--multiline-dotall`: Allow `.` to match newlines (alternatively, `(?s:.)` can be replace `.` to match new lines)
 
 ## Special Characters
 
