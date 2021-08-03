@@ -2,7 +2,8 @@
 
 ## Tabs
 
-- Double-click tab to keep that tab (changes from italic)
+- `⌥⌘O` or double-click tab to keep that tab (changes from italic)
+
 
 ## Panels
 
