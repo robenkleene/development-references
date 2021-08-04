@@ -1,5 +1,7 @@
 # `sed`
 
+- `-i`: Replace in files, note that for macOS this needs to be `-i ''`
+
 ## Remove Spaces
 
 	sed 's/ //g'
