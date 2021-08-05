@@ -8,3 +8,9 @@ To make a conditional breakpoint, double-click the breakpoint and set something 
 
     expr dict = [dict mutableCopy]
     expr  dict[@"key"] = @"string"
+
+## `lldb`
+
+Put aliases in `.lldbinit`:
+
+    command alias my_po expression --object-description
