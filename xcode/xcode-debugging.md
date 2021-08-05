@@ -14,3 +14,9 @@ To make a conditional breakpoint, double-click the breakpoint and set something 
 Put aliases in `.lldbinit`:
 
     command alias my_po expression --object-description
+
+Load with:
+
+    command source ~/.lldbinit
+
+Aliases can't use `po` instead replace it with `expression -O -l swift --` or `expression -O -l objective-c --` depending on the language.
