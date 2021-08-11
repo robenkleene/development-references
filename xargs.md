@@ -6,3 +6,7 @@
 ## Placeholder
 
     dirname (fd --hidden -p ".github/workflows/.*.yml") | sort | uniq | xargs -I{} echo {}
+
+### Multiple Commands
+
+    dirname (fd --hidden -p ".github/workflows/.*.yml") | sort | uniq | xargs -I{} sh -c "echo; echo {}; git -C {} status"
