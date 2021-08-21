@@ -4,6 +4,7 @@
 - `fd -t d`: Specify only directories
 - `-p` / `--full-path`: Search the full path, not just the filename, e.g., `fd --hidden -p "workflows" -e yml`
 - `-H` / `--hidden`: Search hidden files
+- `-I` / `--no-ignore`: Include ignored files
 
 ## One Liners
 
