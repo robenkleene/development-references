@@ -2,7 +2,7 @@
 
 - `-e`: Search by file extension
 - `fd -t d`: Specify only directories
-- `-p` / `--full-path`: Search the full path, not just the filename, e.g., `fd --hidden -p "workflows" -e yml`
+- `-p` / `--full-path`: Search the full path, not just the filename, e.g., `fd --hidden -p "workflows" -e yml` (This seems to be incompatible with the `-g` glob flag, e.g., `fd --full-path -g "name*json"` will not work)
 - `-H` / `--hidden`: Search hidden files
 - `-I` / `--no-ignore`: Include ignored files
 
