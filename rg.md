@@ -24,6 +24,7 @@
 - `rg -U --multiline-dotall "string1.*string2" -g "*.m"`
 - `-U`: Enable multiline search
 - `--multiline-dotall`: Allow `.` to match newlines (alternatively, `(?s:.)` can be replace `.` to match new lines)
+- `rg -IN -m 1 ".*import.*"`: Print matching lines, max 1 per file, good for quickly remembering how to do something
 
 ## Special Characters
 
