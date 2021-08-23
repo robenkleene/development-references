@@ -7,7 +7,13 @@ To make a conditional breakpoint, double-click the breakpoint and set something 
 ## Expressions
 
     expr dict = [dict mutableCopy]
-    expr  dict[@"key"] = @"string"
+    expr dict[@"key"] = @"string"
+
+### Troubleshooting
+
+`"cast the message send to the method's return type"`, add casting, e.g.:
+
+    expr (NSString *)[value method] == (NSString *)dict[@"key"]
 
 ## `lldb`
 
