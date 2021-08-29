@@ -1,5 +1,9 @@
 # Blink Shell
 
+## Bindings
+
+- To make `⌃␣` work, e.g., as for `set-mark-command` in Emacs, add it as `Preference > Keyboard > Custom Presses`, `⌃␣` to `⌃␣`
+
 ## Theme
 
 Use the theme `Blazer` from the gallery.
