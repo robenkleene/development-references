@@ -3,6 +3,7 @@
 ## Bindings
 
 - To make `⌃␣` work, e.g., as for `set-mark-command` in Emacs, add it as `Preference > Keyboard > Custom Presses`, `⌃␣` to `⌃␣`
+    - For this to work you also have to disable the iOS Emoji keyboard `Settings > General > Keyboard > Keyboards`
 
 ## Theme
 
