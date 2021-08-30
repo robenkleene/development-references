@@ -28,6 +28,7 @@
 ## Compilation Errors & `grep`
 
 - `C-x <backtick>` or `M-g n` / `M-g p`: Next/previous Error
+- You can clear the current grep search by `kill-this-buffer` on the `*grep*` buffer
 
 ## Special
 
