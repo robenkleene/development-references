@@ -5,6 +5,10 @@ GraphiQL is a GraphQL IDE. To access it in your Gatsby project:
 1. Start the development server if it's not already running (`gatsby develop`).
 2. Visit `http://localhost:8000/___graphql` in a browser
 
+## Tips
+
+- Hover a field to see it's parameters, and click for more details in the sidebar
+
 ## Explorer
 
 You can explore the data in GraphQL by using the sidebar. For example, if you've added Markdown with `gatsby-transformer-remark` then that data will appear under `markdownRemark`. E.g., to see the compiled HTML by clicking the "`markdownRemark` > `html`" checkbox (ignore the `html:` with a disclosure triangle), and then running the resulting query:
