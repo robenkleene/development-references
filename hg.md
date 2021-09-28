@@ -83,3 +83,7 @@ To clean up a `addremove` that should be a move:
 3. `hg amend`: Clean up
 4. `hg mv <oldfile> <newfile`
 5. `hg amend`
+
+## Other
+
+- `hg cat --rev=<rev> <file path>`: Get file contents on another branch
