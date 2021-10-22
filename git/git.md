@@ -10,6 +10,7 @@
 
 - `git show <hash>`: Show a commit
 - `git clone --depth 1 <repo>`: Clone without history
+- `git clean -df`: Remove untracked
 
 ## Log
 
