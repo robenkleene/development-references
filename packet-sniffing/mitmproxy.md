@@ -33,4 +33,5 @@ If your certificate is expired HTTPS won't work. To fix it, delete the `~/.mitmp
 ## macOS Setup
 
 1. run `mitmproxy`, this starts a proxy server at `127.0.0.1`
-2. Under `System Preferences > Network > Advanced`, toggle on both `Web Proxy (HTTP)` and `Secure Web Proxy (HTTPS)` (make sure both addresses are set to `127.0.0.1:8080`)
+2. Under `System Preferences > Network > Advanced`, toggle on both `Web Proxy (HTTP)` and `Secure Web Proxy (HTTPS)` (make sure both addresses are set to `127.0.0.1:8080`). (Remember you have to hit both `OK` then `Apply` before the settings take effect.)
+3. Visit `http://mitm.it` and follow the instructions
