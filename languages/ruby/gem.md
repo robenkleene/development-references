@@ -52,3 +52,11 @@ Global gems are installed with `--system`, e.g., `gem install --system pry`.
 List which gems depend on a gem:
 
     gem dependency ffi
+
+## Uninstall
+
+To uninstall all gems without prompting:
+
+    gem uninstall -aIx
+
+This usually errors out with some gems you'll have to install manually, then re-run the command.
