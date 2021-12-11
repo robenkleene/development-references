@@ -17,3 +17,5 @@ To fix:
 Get the `BUNDLED WITH` version from `Gemfile.lock` and run:
 
     gem install bundler -v <version>
+
+A better solution is probably just to delete the `Gemfile.lock` and run `bundle install` again.
