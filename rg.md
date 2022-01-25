@@ -5,6 +5,7 @@
 - `-F`: Literal (no regular expression) search
 - `--null`: Use `NUL` byte terminator
 - `--no-ignore`: Include ignored files
+- There's no option to print full paths, but `rg <search term> $PWD` works as a workaround
 
 ## Filenames
 
