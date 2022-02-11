@@ -51,10 +51,6 @@
 - `hg revert -r <rev> filename`: Checkout version of a file from a different branch
 - `hg revert filename`: Checkout a locally deleted file
 
-## Squashing
-
-- `hg histedit`: Delete
-
 ## Conflicts
 
 - `hg resolve --all`: Resolve all merge conflicts
@@ -70,9 +66,19 @@
 - `hg unshelve`: Pop from stash
 - `hg shelve -d default`: Drop default stash
 
-## Rebase
+## `histedit`
+
+To squash or rebase
 
 - `hg histedit`: Interactive history re-order
+
+### Split a Commit
+
+Or edit
+
+1. Use `hg histedit` and mark a commit as edit
+2. Use `hg record` to selectively commit changes, including making edits before hand or making multiple commits
+3. Use `hg histedit --continue` to finish
 
 ## Move
 
