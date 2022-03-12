@@ -15,7 +15,7 @@ Debug a function:
 Debugger:
 
 - `d`: Step forward
-- `c`: Step over?
+- `c`: Continue
 
 Debugging Desktop Restore
 
