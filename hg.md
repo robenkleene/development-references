@@ -53,6 +53,7 @@
 - `hg revert -r <rev> filename`: Checkout version of a file from a different branch
 - `hg revert filename`: Checkout a locally deleted file
 - `hg up -C remote/master`: Checkout and discard all local changes
+- `hg update --clean fbobjc/stable`
 
 ## Conflicts
 
