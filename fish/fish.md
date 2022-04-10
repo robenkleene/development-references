@@ -1,6 +1,8 @@
 # fish
 
+- `⌥↑`: Insert last argument of previous command
 
+## Tips
 
 - Commands that start with a space, ` ls` will be hidden from history
 
