@@ -1,5 +1,7 @@
 # fish
 
+
+
 - Commands that start with a space, ` ls` will be hidden from history
 
 ## Iterate Directories
