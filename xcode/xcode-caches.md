@@ -16,6 +16,8 @@ To delete simulators data from `~/Library/Developer/CoreSimulator/Devices/`:
 
     xcrun simctl delete <uuid>
 
+Use a disk space scanning application like DaisyDisk to find the UUID (directory name) of simulators to delete.
+
 ## System Information
 
 `About this Mac > Storage > Manage`, `Developer` has an option to select and delete "Xcode Caches".
