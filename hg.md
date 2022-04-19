@@ -70,6 +70,11 @@
 - `hg unshelve`: Pop from stash
 - `hg shelve -d default`: Drop default stash
 
+## Troubleshooting
+
+- `hg purge`: Delete untracked
+- `hg reset --clean master`: Reset to branch
+
 ## `histedit`
 
 To squash or rebase
