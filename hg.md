@@ -55,6 +55,10 @@
 - `hg up -C remote/master`: Checkout and discard all local changes
 - `hg update --clean fbobjc/stable`
 
+### Reverting Reverts
+
+- `hg backout <reverting diff>`
+
 ## Conflicts
 
 - `hg resolve --all`: Resolve all merge conflicts
