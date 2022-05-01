@@ -7,6 +7,7 @@ See `:help help-summary`.
 - `:h :command`: Used for `cmdline` commands (e.g., `:help :help`)
 - `:h 'option'`: Options (e.g., `:help 'incsearch'`)
 - `:h function()`: Functions (e.g., `bufnr()`)
+- `K`: Help for keyword under the cursor
 
 ### Prefixes
 
