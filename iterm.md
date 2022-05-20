@@ -1,5 +1,9 @@
 # iTerm
 
+## Settings
+
+- Turn on `Edit > Selection Respects Soft Boundaries` this is necessary to get iTerm to work well with tmux panes
+
 ## Sync
 
 - iTerm supports storing settings in Dropbox, but it doesn't actually support syncing. The only solution is to quit iTerm, then overwrite the settings file with the correct settings, then re-open iTerm.
