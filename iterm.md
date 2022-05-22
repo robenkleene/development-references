@@ -6,7 +6,7 @@
 
 ## Sync
 
-- iTerm supports storing settings in Dropbox, but it doesn't actually support syncing. The only solution is to quit iTerm, then overwrite the settings file with the correct settings, then re-open iTerm.
+- iTerm supports storing settings in a synced folder (e.g., Dropbox), but it doesn't actually support syncing. The only solution is to quit iTerm, then overwrite the settings file with the correct settings, then re-open iTerm.
 
 ## Minimal Menu Bar
 
