@@ -1,5 +1,8 @@
 # iTerm
 
+- `⌘⇧D`: New vertical split
+- `⌘D`: New horizontal split
+
 ## Settings
 
 - Turn on `Edit > Selection Respects Soft Boundaries` this is necessary to get iTerm to work well with tmux panes
