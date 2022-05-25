@@ -1,5 +1,10 @@
 # `emacs` Debugging
 
+- `(debug)`: Pause in debugger when this is called
+- `check-parens` to check document parens
+- `C-M-x`: Eval defun
+- `C-u C-M-x`: edebug defun
+
 Enabled debugger:
 
 	(setq debug-on-error t)
