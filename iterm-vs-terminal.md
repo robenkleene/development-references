@@ -10,3 +10,4 @@
 - iTerm can be configured to not open a new terminal window when it activates.
 - The hot key window.
 - iTerm selection interferes with built-in selection in Vim, Emacs, and tmux
+- Some of the customizations, like hiding the window title completely, are pretty cool
