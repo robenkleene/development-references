@@ -19,6 +19,10 @@
 - `zR`: Open all folds
 - `zM`: Close all folds
 
+## Visual
+
+- `zo` / `zc`: Open / close visually selected folds
+
 ### Navigate
 
 - `zj`: Next fold
