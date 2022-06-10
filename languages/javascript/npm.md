@@ -33,6 +33,7 @@ This requires the separate `npm` module `npm-check-updates` (usually installed g
 ### Clean Up
 
 - `npm prune` is supposed to uninstall unused packages
+    - Note that `npm` only ever includes one version of a dependency, so there are no old versions to clean up, just unused dependencies
 
 ## Running Actions
 
