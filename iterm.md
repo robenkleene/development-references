@@ -6,6 +6,7 @@
 ## Settings
 
 - Turn on `Edit > Selection Respects Soft Boundaries` this is necessary to get iTerm to work well with tmux panes
+    - The setting to open a new window if none are open is under `Preferences > Advanced` and is called `Open a new window when you click the dock icon and now windows are already open, and also on app launch when no other windows are open?`
 
 ## Sync
 
