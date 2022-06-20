@@ -1,8 +1,5 @@
 # iTerm
 
-- `⌘⇧D`: New vertical split
-- `⌘D`: New horizontal split
-
 ## Settings
 
 - Turn on `Edit > Selection Respects Soft Boundaries` this is necessary to get iTerm to work well with tmux panes
@@ -11,6 +8,7 @@
 ## Sync
 
 - iTerm supports storing settings in a synced folder (e.g., Dropbox), but it doesn't actually support syncing. The only solution is to quit iTerm, then overwrite the settings file with the correct settings, then re-open iTerm.
+- Setting an arbitrary location makes iTerm store preferences as plain text, otherwise they're stored as a binary `plist`.
 
 ## Minimal Menu Bar
 
