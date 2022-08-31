@@ -12,6 +12,14 @@ List any manually set bindings:
 
 	:verbose map <leader>c
 
+A command:
+
+    :verbose :com Fnext
+
+A function:
+
+    :verbose function GitFiles
+    
 You might need to specify `nmap`, etc...
 
 ## Debugging Commands
