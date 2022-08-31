@@ -19,7 +19,7 @@ A command:
 A function:
 
     :verbose function GitFiles
-    
+
 You might need to specify `nmap`, etc...
 
 ## Debugging Commands
