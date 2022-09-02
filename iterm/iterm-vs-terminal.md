@@ -11,3 +11,7 @@
 - The hot key window.
 - iTerm selection interferes with built-in selection in Vim, Emacs, and tmux
 - Some of the customizations, like hiding the window title completely, are pretty cool
+
+## kitty
+
+- kitty has a problem if Emacs is in a `tmux` pane and clicking between it and another pane triggers mouse selection.
