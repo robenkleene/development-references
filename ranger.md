@@ -1,3 +1,3 @@
-# Ranger
+e Ranger
 
 `gh`: Show hidden
