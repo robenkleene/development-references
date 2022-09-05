@@ -15,3 +15,7 @@
 ## kitty
 
 - kitty has a problem if Emacs is in a `tmux` pane and clicking between it and another pane triggers mouse selection.
+
+## Alacritty
+
+- Alacritty has no option to disable passing through the first mouse click (so clicking a window focuses it and sends the click event to the terminal)
