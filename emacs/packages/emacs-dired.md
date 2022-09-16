@@ -9,6 +9,12 @@
 * `D`: Delete file
 - `s`: Toggle between alphabetical and date sorting
 
+## Sorting
+
+- `s`: Toggle sort by name or date
+    - `(`: Toggle showing details
+- `C-u s`: Set specific flags to pass to `ls`
+
 ## Dired Write Mode
 
 * `C-x C-q` or `dired-toggle-read-only`: Change to writable mode
