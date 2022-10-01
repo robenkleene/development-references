@@ -9,6 +9,10 @@
 * `D`: Delete file
 - `s`: Toggle between alphabetical and date sorting
 
+## Multiple Files
+
+- Use `m` to mark and then another command, e.g., `R` to move all
+
 ## Sorting
 
 - `s`: Toggle sort by name or date

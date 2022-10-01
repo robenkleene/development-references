@@ -1,5 +1,9 @@
 # Emacs Eshell
 
+## Keyboard Shortcuts
+
+- `C-c C-u`: Clear line
+
 ## Alias
 
 Add:
