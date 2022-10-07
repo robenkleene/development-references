@@ -2,11 +2,11 @@
 
 ## General
 
-* `^`: Up directory
-* `+`: Create directory
-* `m`/ `u`: Mark / Remove mark
-* `C-x C-f`: Create a new file (`ido-mode` interferes with inserting spaces in a filename, to get around those use `C-f` to drop down to the default `find-file` interface)
-* `D`: Delete file
+- `^`: Up directory
+- `+`: Create directory
+- `m`/ `u`: Mark / Remove mark
+- `C-x C-f`: Create a new file (`ido-mode` interferes with inserting spaces in a filename, to get around those use `C-f` to drop down to the default `find-file` interface)
+- `D`: Delete file
 - `s`: Toggle between alphabetical and date sorting
 
 ## Multiple Files
@@ -21,9 +21,9 @@
 
 ## Dired Write Mode
 
-    * `C-x C-q` or `dired-toggle-read-only`: Change to writable mode
-	* `C-c C-c` or `C-x C-s`: Save changes
-	* `C-c ESC`: Abort changes
+- `C-x C-q` or `dired-toggle-read-only`: Change to writable mode
+	- `C-c C-c` or `C-x C-s`: Save changes
+	- `C-c ESC`: Abort changes
 
 ## File Management
 
