@@ -54,3 +54,7 @@ After using `s` to select a term.
 
 - `␣f`: Fuzzy find file in project (by source control)
 - `␣F`: Fuzzy find file from current file 
+
+## Window Management
+
+- `gn` / `gp`: Goto next / previos buffer
