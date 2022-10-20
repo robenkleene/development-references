@@ -28,7 +28,15 @@
 - `A-s`: Split selection on new lines (e.g., make a cursor on each line)
 - `,`: Remove multiple cursors
 - `C`: Add cursor to "next suitable line"
-- `s`: With an active selection, search for a phrase in the selection and select it, e.g., to change multiple occurences
+- `s`: With an active selection, search for a phrase in the selection and select it, e.g., to change multiple occurrences
+- `S`: With an active selection, make multiple cursors for each occurrence
+
+### Select Mode
+
+After using `s` to select a term.
+
+- `(` / `)`: Jump between matches
+- `A-,`: Remove a match
 
 ## Search & Multiple Cursors
 
