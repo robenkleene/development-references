@@ -1,5 +1,9 @@
 # Helix
 
+## Movement
+
+- `<number>G`: Go to line number
+
 ## Deletion
 
 - `d`: Delete current character
@@ -16,6 +20,7 @@
 - `t` / `T`: Select up to character
 - `A-.`: Extend last `f` or `t` command
 - `R`: Replace selection with yanked text
+- `%`: Select whole file
 
 ## Editing
 
