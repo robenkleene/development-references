@@ -18,3 +18,7 @@
 - `mv <source> <destination>`: Rename a file or directory
 - `mv <source> <destination>/`: Move a file or directory into another directory
 - `mv <source>/* <destination>`: Move contents of a directory
+
+## Other
+
+- `df -h`: Show available disk space

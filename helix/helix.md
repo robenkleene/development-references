@@ -12,12 +12,32 @@
 - `x`: Select current line (hit `x` againt to select the next line)
 - `ma"`: Select around delimiter
 - `mi"`: Select in delimiter
+- `f` / `F`: Select to character
+- `t` / `T`: Select up to character
+- `A-.`: Extend last `f` or `t` command
+- `R`: Replace selection with yanked text
+
+## Editing
+
+- `>`: Indent
+- `<`: Outdent
+- `C-a` / `C-x`: Increment / decrement
 
 ## Multiple Cursors
 
+- `A-s`: Split selection on new lines (e.g., make a cursor on each line)
 - `,`: Remove multiple cursors
 - `C`: Add cursor to "next suitable line"
 - `s`: With an active selection, search for a phrase in the selection and select it, e.g., to change multiple occurences
+
+## Search & Multiple Cursors
+
+1. Select text to search for
+2. Hit `*` to put it in the search register
+3. Hit `v` to enter select mode
+4. Hit `n` to select more instances
+5. Hit `c` (or `r`) to replace all selected instances
+
 ## Tree Sitter
 
 - `⌥↑` / `⌥↓`: Move up / down through syntax tree
