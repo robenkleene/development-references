@@ -15,6 +15,7 @@
 
 ## Multiple Cursors
 
+- `,`: Remove multiple cursors
 - `C`: Add cursor to "next suitable line"
 - `s`: With an active selection, search for a phrase in the selection and select it, e.g., to change multiple occurences
 ## Tree Sitter
@@ -23,5 +24,5 @@
 
 ## Fuzzy Find
 
-- `␣f`: Fuzzy findd file in project (by source control)
-- `␣F`: Fuzzy findd file from current file 
+- `␣f`: Fuzzy find file in project (by source control)
+- `␣F`: Fuzzy find file from current file 
