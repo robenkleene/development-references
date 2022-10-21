@@ -3,6 +3,10 @@
 ## Movement
 
 - `<number>G`: Go to line number
+- `gg`: Start of file
+- `ge`: End of file
+- `gl`: End of line
+- `gs`: Start of line
 
 ## Deletion
 
