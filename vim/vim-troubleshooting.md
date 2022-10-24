@@ -13,3 +13,5 @@ If a binding with modifiers doesn't work, try entering it using `^v` followed by
 ## Startup Time
 
 - `vim --startuptime /dev/stdout +qall`: Dump startup time to `STDOUT` (the total is at the bottom)
+    - The imported files don't seem listed this way? `vim --startuptime vim.log` lists the files
+- `hyperfine "nvim --headless +qa" --warmup 5`: Is another method using `hyperfine`
