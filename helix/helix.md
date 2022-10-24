@@ -8,6 +8,13 @@
 - `gl`: End of line
 - `gs`: Start of line
 
+### Pairs
+
+- `[p` / `]p`: Previous / next paragraph
+- `[f` / `]f`: Previous / next file
+- `[c` / `]c`: Previous / next class
+- `[a` / `]a`: Previous / next function argument
+
 ## Deletion
 
 - `d`: Delete current character
