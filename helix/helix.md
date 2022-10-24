@@ -69,7 +69,8 @@ After using `s` to select a term.
 ## Fuzzy Find
 
 - `␣f`: Fuzzy find file in project (by source control)
-- `␣F`: Fuzzy find file from current file 
+- `␣F`: Fuzzy find file from working directory
+- `␣'`: Re-open last fuzzy finder
 
 ## Window Management
 
