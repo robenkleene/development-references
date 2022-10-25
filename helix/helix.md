@@ -54,6 +54,11 @@ After using `s` to select a term.
 - `(` / `)`: Jump between matches
 - `A-,`: Remove a match
 
+## Clipboard
+
+- `<space>p`: Paste from system clipboard after
+- `<space>P`: Paste from system clipboard before
+
 ## Search & Multiple Cursors
 
 1. Select text to search for
