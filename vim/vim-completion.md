@@ -13,6 +13,7 @@ With the menu visible
 
 All in insert mode.
 
+- `<C-p>` / `<C-n>`: Complete from a previous / following word
 - `<C-x C-l>`: Line
 - `<C-x C-i>`: Current and included files
 - `<C-x C-]>`: Tags
