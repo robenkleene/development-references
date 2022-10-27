@@ -1,6 +1,8 @@
 # fish
 
 - `⌥↑`: Insert last argument of previous command
+- `⌥→`, `⌥f`: Accept part of completion
+- `→`, `⌃f`: Accept full completion
 
 ## Tips
 
