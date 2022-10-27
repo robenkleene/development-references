@@ -2,7 +2,7 @@
 
 * `M-;`: Comment or uncomment selected region
 * `C-x C-;`: Comment or uncomment line
-- `C-o`: Open empty line
+- `C-o`: Open empty line above
 - `C-x C-o`: Delete empty blank lines
 
 ## Undo & Redo
@@ -10,7 +10,13 @@
 - `C-x u` or `C-/` or `C-_`: Undo
   - `C-g`: Followed by an undo binding to redo, to do this repeatedly, then use `C-x z` to repeat, followed by tapping `z` over and over again to keep repeating.
 
-### Selection
+## Editing
+
+- `M-l`: Lowercase word
+- `M-u`: Uppercase word
+- `M-c`: Capitalize word
+
+## Selection
 
 - `C-SPC`: Select
 - `M-w`: Copy
