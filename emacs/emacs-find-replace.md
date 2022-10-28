@@ -10,9 +10,11 @@
 - `C-r`: Backward
 - `C-g`: Cancel
 
-## Incremental Search
+### Incremental Search
 
 - `M-e`: Edit the current incremental search
+- `C-g`: Cancel the current incremental search
+- `↩`: Go to the current match
 
 ## Replace
 
