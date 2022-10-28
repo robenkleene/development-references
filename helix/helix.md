@@ -39,6 +39,7 @@
 - `<`: Outdent
 - `C-a` / `C-x`: Increment / decrement
 - `u` / `U`: Undo / redo
+
 ## Multiple Cursors
 
 - `A-s`: Split selection on new lines (e.g., make a cursor on each line)
