@@ -60,7 +60,11 @@ After using `s` to select a term.
 - `<space>p`: Paste from system clipboard after
 - `<space>P`: Paste from system clipboard before
 
-## Search & Multiple Cursors
+## Search
+
+- `*`: Copy the selection to the search register
+
+### Search & Multiple Cursors
 
 1. Select text to search for
 2. Hit `*` to put it in the search register
