@@ -10,6 +10,7 @@
 
 - `fd --hidden "release.yml" --exec fish -c "cd {//}; pwd; git status"`: Perform commands
 - `fd -e "md" . ./raster/`: Search a specific path without supplying a pattern (note the `.` as a pattern that matches everything)
+- `fd --type executable` / `fd -t executable`: Find all executable files
 
 ## Troubleshooting
 
