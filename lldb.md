@@ -8,3 +8,14 @@ Note that `b` is *not* simply shorthand for `breakpoint`, these commands require
 - `breakpoint enable 1`
 - `breakpoint disable 1`
 - `breakpoint delete`: Delete all breakpoints
+
+## Debug Builds
+
+### Linux
+
+- `file`: Will say `not stripped` if it's a debug build
+- `objdump --syms`: Dumps debug symbols
+
+### macOS
+
+- `otool -Iv`
