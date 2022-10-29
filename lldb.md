@@ -5,6 +5,7 @@
 - `(lldb) process launch`: Start program
 - `(lldb) run`: Start program
 - `(lldb) r`: Start program
+- `⌃D`: Quit
 
 ## Breakpoints
 
