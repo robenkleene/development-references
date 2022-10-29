@@ -19,6 +19,7 @@
 ## Selection
 
 - `C-SPC`: Select
+- `C-x SPC`: Block select
 - `M-w`: Copy
 - `C-w`: Cut
 - `C-y`: Paste
