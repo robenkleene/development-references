@@ -1,5 +1,14 @@
 # `lldb`
 
+- `lldb <path-to-program>`: Load program
+- `(lldb) file <path-to-program`: Load program
+- `(lldb) process launch`: Start program
+- `(lldb) run`: Start program
+- `(lldb) r`: Start program
+
+
+## Breakpoints
+
 Note that `b` is *not* simply shorthand for `breakpoint`, these commands require `breakpoint`.
 
 - `breakpoint set --file test.c --line 12` / `b test.c:12`
