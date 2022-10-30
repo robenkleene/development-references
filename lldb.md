@@ -15,10 +15,14 @@
 - `s`: Step over
 - `n`: Step in
 - `↩`: Repeat the last command (e.g., `next`)
-- `frame variable` / `fr v`: Show all variables in the current frame
-- `print <variable>`: Print a variable
 - `source list`: Display source code for the current target process
 - `source info <file path>`: Display source line information for the current target process
+
+## Variables
+
+- `frame variable` / `fr v`: Show all variables and arguments in the current frame
+- `frame variable --no-args` / `fr v a`: Show only all variables in the current frame
+- `print <variable>`: Print a variable
 
 ## Breakpoints
 
