@@ -7,6 +7,17 @@
 - `(lldb) r`: Start program
 - `⌃D`: Quit
 
+## Commands
+
+- `step`
+- `next`
+- `continue`
+- `s`: Step over
+- `n`: Step in
+- `↩`: Repeat the last command (e.g., `next`)
+- `frame variable` / `fr v`: Show all variables in the current frame
+- `print <variable>`: Print a variable
+
 ## Breakpoints
 
 Note that `b` is *not* simply shorthand for `breakpoint`, these commands require `breakpoint`.
