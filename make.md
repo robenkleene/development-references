@@ -1,6 +1,17 @@
 # Make
 
+- `-d`: Print debug information
+- `make --debug=b`: Run with basic debugging information
+
+## Notes
+
+### Parameters
+
 In `Makefile`, it's really difficult to pass a parameter to a `make` command, e.g., `make force_deploy -f`. This is because in `make` parlance the arguments are all supposed to be files to run the command on, so it breaks the paradigm. Instead to solve this just make a separate shell script.
+
+### Deleting Targets
+
+- If `.DELETE_ON_ERROR` appears as a target, then if the build fails, the target will be deleted. The `-i` / `--ignore-errors` option can often be used to keep an executable.
 
 ## Tips
 
