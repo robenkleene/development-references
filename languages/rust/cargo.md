@@ -2,6 +2,7 @@
 
 - `cargo new <project>`: Create a new project
 - `cargo run`: Run current project (from the root directory)
+- `cargo test`: Run tests for current project (from the root directory)
 - `cargo check`: Validate current project
 
 ## Running Single Files
