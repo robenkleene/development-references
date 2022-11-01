@@ -6,7 +6,7 @@
 - `cargo run --bin <filename>`: Run file in `src/bin`
 - `cargo test --bin <filename>`: Run tests for file in `src/bin`
 - `cargo check`: Validate current project
-- `cargo run -- <arg1> <arg2>`: Run with arguments
+- `cargo run -- <arg1> <arg2>`: Run with arguments (the `--` is optional)
 
 ## Tests
 
