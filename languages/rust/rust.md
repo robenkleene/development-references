@@ -7,3 +7,6 @@
 - `&String` can be coerced to `&str` but not vice-versa (making `&str` an ideal parameter)
 - `&str` is a read-only reference to a string slice
 
+## `vec` & Arrays
+
+- `vec` is a growable array
