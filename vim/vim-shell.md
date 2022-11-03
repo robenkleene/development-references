@@ -9,7 +9,7 @@ Note that the space after `w` is mandatory!
 - `:.w !bash`: Current line
 - `:w !bash`: File
 - `:%w !bash`: File
-- `:'<,'>w !bash`: Visual selection
+- `:'<,'>w !bash`: Visual selection (note this only works for *line-wise* selection, sub-line selection will not work! This is because `:` `ex` commands are all line based)
 
 ### Replacing Selection
 
