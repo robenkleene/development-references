@@ -13,6 +13,10 @@
 * `gj`: Up display line
 * `gk`: Down display line
 
+## By Change
+
+- `'[` / `']` (or backtick brace): Start / end of last change
+
 ## By Function
 
 * `[[` & `]]`: Next and previous function
