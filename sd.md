@@ -13,3 +13,9 @@ Remove `-p` to execute
 
 - `-U` / `--multiline`
 - `rg -l --hidden -U "runs-on: macos-latest\n    steps" -0 | xargs -0 sd -p 'runs-on: macos-latest\n' 'runs-on: macos-latest\n    timeout-minutes: 20\n'`
+
+## Rename Files
+
+With `fish`, `fd` and `sd`:
+
+    for f in (fd "delta"); echo $f (mv $f | sd "delta" "prism"); end
