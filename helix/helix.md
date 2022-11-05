@@ -7,7 +7,6 @@
 - `ge`: End of file
 - `gl`: End of line
 - `gs`: Start of line
-- `[p` / `]p`: Move by paragraph
 
 ### Pairs
 
