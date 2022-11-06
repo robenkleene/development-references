@@ -1,6 +1,6 @@
 # fish
 
-- `⌥↑`: Insert last argument of previous command
+- `⌥↑` / `⌥.`: Insert last argument of previous command
 - `⌥→`, `⌥f`: Accept part of completion
 - `→`, `⌃f`: Accept full completion
 - `cdh`: Visit `cd` history
