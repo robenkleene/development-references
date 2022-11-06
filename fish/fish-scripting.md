@@ -1,5 +1,11 @@
 # Fish Scripting
 
+## String Interpolation
+
+Use `$(<command>)` to make a subshell within a string:
+
+    mkdir "$(today) nvim"
+
 ## Quoting
 
 Numeric values don't need to be quoted:
