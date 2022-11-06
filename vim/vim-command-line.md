@@ -4,6 +4,13 @@
 - `<C-c>` or `ESC`: Close command line and command line window
 - `<C-n>` / `<C-p>`: Next/previous comment
 
+## Variables
+
+The way to print environment variables like `$VIMRUNTIME` is to start a subshell:
+
+```
+`:!echo $VIMRUNTIME`
+```
 ## Movement
 
 - `<C-b>` / `<C-e>`: Go to beginning/end of line
