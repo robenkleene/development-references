@@ -1,4 +1,4 @@
-# `vim` Shell
+# `vim` Shell Commands
 
 ## Common
 
@@ -18,7 +18,8 @@ Note that the space after `w` is mandatory!
 
 ### Appending Output to Current Buffer
 
-- `:r !ls`: Read the output of `ls` into the buffer
+- `:r !ls`: Input the result of a shell command below the current line
+- `:0r !ls`: Input the result of a shell command at the beginning of the document
 
 ## Special
 
