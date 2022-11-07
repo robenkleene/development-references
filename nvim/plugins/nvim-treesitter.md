@@ -8,3 +8,4 @@
 ## Troubleshooting
 
 - Don't run `TSInstall all`, that installs all parsers
+- The required parsers should just be auto-installed on startup
