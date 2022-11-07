@@ -9,3 +9,4 @@
 
 - Don't run `TSInstall all`, that installs all parsers
 - The required parsers should just be auto-installed on startup
+- Using `TSInstall <language>` to re-install a parser can help
