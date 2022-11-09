@@ -49,3 +49,13 @@ Format specifiers.
 ### Unsigned Long Long
 
     printf("ULLONG_MA = %llu\n", ULLONG_MAX);
+
+## Portable Format Specifiers
+
+- `PRIu64`: Unsigned
+
+### Usage
+
+```
+printf("foo is equal to %" PRIu64 "!\n", foo);
+```
