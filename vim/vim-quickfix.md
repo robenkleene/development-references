@@ -19,6 +19,7 @@
 On each entry in the `quickfix` list:
 
 - `:cdo s/this/that/g`: Replace `this` with `that` on each entry
+    - Add the `e` flag (e.g., `s/this/that/ge`) to suppress errors for lines that contain no matches
 - `:cdo norm @q`: Perform the macro in register `q` on each entry
 - `:cdo norm gcc`: Comment out each entry
 
