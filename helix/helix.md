@@ -67,7 +67,7 @@ After using `s` to select a term.
 ### Search & Multiple Cursors
 
 1. Select text to search for
-2. Hit `*` to put it in the search register
+2. Hit `*` to put it in the search register (to replace in the whole document, skip 2-5 and hit `%` then `s` then `enter`)
 3. Hit `v` to enter select mode
 4. Hit `n` to select more instances
 5. Hit `c` (or `r`) to replace all selected instances
