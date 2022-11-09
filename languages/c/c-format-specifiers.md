@@ -1,4 +1,4 @@
-# C Format String
+# C Format Specifiers
 
 Format specifiers.
 
