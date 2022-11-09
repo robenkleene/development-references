@@ -72,6 +72,9 @@ After using `s` to select a term.
 4. Hit `n` to select more instances
 5. Hit `c` (or `r`) to replace all selected instances
 
+
+Use `(` / `)` to jump between matches, and `A-,` to remove a match
+
 ## Tree Sitter
 
 - `⌥↑` / `⌥↓`: Move up / down through syntax tree
