@@ -21,4 +21,5 @@
 
 ## Tree Sitter
 
-- `⌥↑` / `⌥↓`: Move up / down through syntax tree
+- `A-up` / `A-down` / `A-p` / `A-n`: Move up / down through syntax tree
+- `A-left` / `A-right` / `A-o` / `A-i`: Move left / right through syntax tree
