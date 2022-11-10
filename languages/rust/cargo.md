@@ -22,3 +22,9 @@ cargo test -- --nocapture
 
 1. Add a `src/bin` directory and add single `<filename>.rs` files in it
 2. To run them, use `cargo run --bin <filename>`
+
+## Installing
+
+```
+cargo install [--path <path-to-dir>]
+```
