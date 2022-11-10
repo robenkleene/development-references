@@ -13,6 +13,7 @@
 - `%`: Select whole file
 - `*`: Copy the selection to the search register
 - `A-;`: Swap cursor and anchor
+- `t<ret>`
 
 ### Select Mode
 
