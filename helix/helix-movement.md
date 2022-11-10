@@ -5,7 +5,7 @@
 - `ge`: End of file
 - `gl`: End of line
 - `gs`: Start of line
-- ``
+- `f↩` / `t↩`: Select to the end of the line
 
 ## Line
 

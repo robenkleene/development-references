@@ -13,7 +13,7 @@
 - `%`: Select whole file
 - `*`: Copy the selection to the search register
 - `A-;`: Swap cursor and anchor
-- `t<ret>`
+- `f↩` / `t↩`: Select to the end of the line
 
 ### Select Mode
 
