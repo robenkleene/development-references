@@ -15,3 +15,9 @@
 5. Hit `c` (or `r`) to replace all selected instances
 
 Use `(` / `)` to jump between matches, and `A-,` to remove a match
+
+## Processing Shell Output
+
+1. With shell content on the clipboard, open a new document with `hx`
+2. Use `<space>R` to replace the contents of the buffer with the clipboard contents
+3. The text should already be selected, so use `A-s` to start editing with multiple cursors
