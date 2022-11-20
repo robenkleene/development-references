@@ -16,6 +16,9 @@
 cargo test -- --nocapture
 ```
 
+- `cargo test <test-function-name>`: Run a single test
+
+
 ## Running Single Files
 
 `cargo new <project>` will have created a directory structure with `Cargo.toml` and `src/` directory.
