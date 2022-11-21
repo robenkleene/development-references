@@ -7,14 +7,20 @@
 - `(lldb) r`: Start program
 - `⌃D`: Quit
 
+## Shorthand
+
+- `n`: Step over
+- `s`: Step in
+- `c`: Continue
+- `↩`: Repeat the last command (e.g., `next`)
+- `b test.c:12`
+- `fr s`: Print current line
+
 ## Commands
 
 - `step`
 - `next`
 - `continue`
-- `s`: Step over
-- `n`: Step in
-- `↩`: Repeat the last command (e.g., `next`)
 - `frame select 0` / `fr s 0`: Print the current frame information (e.g., current source code line)
 - `source list`: Display source code for the current target process
 - `source info <file path>`: Display source line information for the current target process
