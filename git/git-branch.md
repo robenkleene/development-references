@@ -1,5 +1,13 @@
 # `git` Branch
 
+## Rebase
+
+Rebase from the first common ancestor of `<features>` branch and `<master>`:
+
+```
+git rebase -i `git merge-base <feature> <master>`
+```
+
 ## Log
 
 - `git log master..`: list all the commits on the current branch that aren't on master
