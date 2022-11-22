@@ -9,6 +9,7 @@
 
 ## Shorthand
 
+- `r <parameters>`: Run passing parameters to the executable
 - `n`: Step over
 - `s`: Step in
 - `c`: Continue
@@ -18,6 +19,7 @@
 
 ## Commands
 
+- `run <parameters>`: Run passing parameters to the executable
 - `step`
 - `next`
 - `continue`
