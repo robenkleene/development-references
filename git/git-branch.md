@@ -2,10 +2,10 @@
 
 ## Rebase
 
-Rebase from the first common ancestor of `<features>` branch and `<master>`:
+Rebase from the first common ancestor of the current branch (`HEAD`) and `<master>`:
 
 ```
-git rebase -i `git merge-base <feature> <master>`
+git rebase -i `git merge-base HEAD <master>`
 ```
 
 ## Log
