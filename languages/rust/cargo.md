@@ -7,6 +7,7 @@
 - `cargo test --bin <filename>`: Run tests for file in `src/bin`
 - `cargo check`: Validate current project
 - `cargo run -- <arg1> <arg2>`: Run with arguments (the `--` is optional)
+- `cargo add <crate>`: Add a dependency and update the `Cargo.toml` file
 
 ## Tests
 
