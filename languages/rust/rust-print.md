@@ -8,4 +8,18 @@ Or:
 
     println!("foo = {foo}");
 
-Print a variable:
+Debug print:
+
+    println!("foo = {:?}", foo);
+
+Or:
+
+    println!("foo = {foo:?}");
+
+Pretty print debug:
+
+    println!("foo = {:#?}", foo);
+
+Or:
+
+    println!("foo = {foo:#?}");
