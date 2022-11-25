@@ -1,5 +1,8 @@
 # `git diff`
 
+- `git diff --relative`: Relative diff
+
+
 ## Branch Comparison Strategy
 
 - Use `git diff --name-status master` to list the files that have been added, changed, or removed.

@@ -5,12 +5,6 @@
 - `hg id -i`: Print commit ID
 - `hg update`: Checkout a commit
 
-## Commit
-
-- `hg commit`: Commit (`hg` has no staging)
-- `hg commit <file>`: Commit just a specific file
-- `hg metaedit -m`: Amend commit message
-
 ## Files
 
 - `hg add`: Add all untracked files
@@ -26,24 +20,6 @@
 
 - `hg rebase -d master`: Get branch up-to-date with master
 - `hg rebase -s . -d master`: Rebase current diff onto master
-
-## Patch
-
-- `hg import --prefix . --no-commit -`: Import commit from STDIN
-    - `hg import -`: Read a patch from STDIN
-    - `hg import --no-commit -`: Read a patch from STDIN without creating a commit
-- `hg diff`: Print a patch
-
-## Diff
-
-- `hg diff -r bottom^`: Diff master
-- `hg diff -r bottom^ --stat`: Diff stats, including just change filenames
-- `hg diff -pr .^1`: Diff of last commit plus local changes
-- `hg log -pr .^1`: Diff master
-- `hg status --change .`: List uncommitted changed files
-- `hg status --change bottom^`: List changed files on current branch
-- `hg status --rev bottom^`: List all changed files on current branch
-    - `hg status --rev bottom^ -n`: Omit the per file statuses
 
 ## Reverting
 

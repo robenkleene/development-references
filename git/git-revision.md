@@ -1,11 +1,13 @@
-# `git` Ref
+# `git` Revision
 
-## Special Refs
+- `git rev-parse HEAD`: Print current revision
+
+## Special Revisions
 
 - `HEAD`: Current commit
 - `ORIG_HEAD`: Head before a drastic change
 
-## Relative Refs
+## Relative Revisions
 
 - `HEAD~2`: Two commits back from `HEAD` (or grandparent)
 - `HEAD^2`:
