@@ -4,6 +4,11 @@
 
 - `-B` / `--base`: Specify the branch you want your code merged into
 
+## Basic
+
+- `gh pr create`: Create PR
+- `gh pr merge`: Merge PR
+
 ## Examples
 
 Create a pull request into `master`:
