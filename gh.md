@@ -7,7 +7,7 @@
 ## Basic
 
 - `gh pr create`: Create PR
-- `gh pr merge`: Merge PR
+- `gh pr merge`: Merge PR (while on the current branch to be merged)
 
 ## Examples
 
