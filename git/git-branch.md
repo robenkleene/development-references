@@ -1,16 +1,8 @@
 # `git` Branch
 
-## Rebase
-
-Rebase from the first common ancestor of the current branch (`HEAD`) and `<master>`:
-
-```
-git rebase -i `git merge-base HEAD <master>`
-```
-
 ## Log
 
-- `git log master..`: list all the commits on the current branch that aren't on master
+- `git log main..`: list all the commits on the current branch that aren't on main
 
 ## Checking out files
 
