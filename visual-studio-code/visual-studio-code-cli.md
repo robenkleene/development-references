@@ -2,6 +2,10 @@
 
 - `-r` / `--reuse-window`: Re-use an existing window
 
+## Extensions
+
+- `code --list-extensions`: List extensions
+
 ## Opening at Line Number
 
 	code -g
