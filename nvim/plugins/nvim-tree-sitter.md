@@ -1,4 +1,4 @@
-# `nvim` Treesitter
+# `nvim` Tree-Sitter
 
 ## Customizing Colors
 
@@ -11,3 +11,7 @@
 - The required parsers should just be auto-installed on startup
 - Using `TSInstall <language>` to re-install a parser can help
 - `:checkhealth nvim-treesitter` gives some diagnostic information
+
+### Installation Directory
+
+- Tree-Sitter parsers are installed to `~/.local/share/nvim/site/pack/packer/start/nvim-treesitter`
