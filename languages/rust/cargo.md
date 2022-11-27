@@ -19,7 +19,6 @@ cargo test -- --nocapture
 
 - `cargo test <test-function-name>`: Run a single test
 
-
 ## Running Single Files
 
 `cargo new <project>` will have created a directory structure with `Cargo.toml` and `src/` directory.
@@ -33,3 +32,7 @@ cargo test -- --nocapture
 ```
 cargo install [--path <path-to-dir>]
 ```
+
+## Troubleshooting
+
+- `cargo clean` and try again
