@@ -1,5 +1,9 @@
 # Command-Line File Management
 
+## Rename
+
+- `for f in *.md; mv "$f" "$(echo $f | sd " " "-")"; end`: Batch rename in Fish Shell using `sd`
+
 ## One Parameter
 
 - `mkdir <path>`: Make a directory
