@@ -2,7 +2,7 @@
 
 ## Bindings
 
-- `<space>k`: Documentation for symbol
+- `<space>k`: Documentation for symbol (this shows the type information)
 - `<space>G`: Show analyzer warnings in project
 - `<space>a`: Run code action (e.g., fix issues)
 - `gr`: Open references
