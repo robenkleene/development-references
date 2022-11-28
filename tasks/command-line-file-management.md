@@ -3,6 +3,7 @@
 ## Rename
 
 - `for f in *.md; mv "$f" "$(echo $f | sd " " "-")"; end`: Batch rename in Fish Shell using `sd`
+- `for f in *.md; mv “$f” “$(echo $f | tr ‘[:upper:]’ ‘[:lower:]’)”; end`: Uppercase to lowercase
 
 ## One Parameter
 

@@ -1,6 +1,7 @@
 # `tr`
 
 * `tr 'A-Z' 'a-z'`: Convert uppercase to lowercase
+* `tr ‘[:upper:]’ ‘[:lower:]’` Uppercase to lowercase
 * `tr -d '\n'`: Remove line endings
 
 ## Examples
