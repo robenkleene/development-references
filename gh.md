@@ -1,5 +1,7 @@
 # `gh`
 
+- `BROWSER= gh pr view --web`: View on webg
+
 ## `pr create`
 
 - `-B` / `--base`: Specify the branch you want your code merged into
