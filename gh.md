@@ -1,17 +1,11 @@
 # `gh`
 
-- `BROWSER= gh pr view --web`: View on webg
-
-## `pr create`
-
-- `-B` / `--base`: Specify the branch you want your code merged into
-
-## Basic
-
+- `BROWSER= gh pr view --web`: View on web
 - `gh pr create`: Create PR
 - `gh pr merge`: Merge PR (while on the current branch to be merged)
+- `gh pr checks`: Show status checks
 
-## Examples
+## Pull Requests
 
 Create a pull request into `master`:
 
