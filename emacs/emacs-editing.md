@@ -34,6 +34,10 @@
 - `M-{`: Backward by paragraph
 - `M-}`: Forward by paragraph
 
+## Deleting
+
+- `M-0 C-k`: Delete to beginning of line
+
 ## Macros
 
 - `C-x (`: Start recording a macro
