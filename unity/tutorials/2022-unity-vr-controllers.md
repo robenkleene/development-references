@@ -6,7 +6,7 @@ After following Unity VR Head Tracking:
 
 1. In the `Hierarchy`, right-click `OVRCameraRig > Right-Click CenterEyeAnchor > 3D Object > Text TextMeshPro`
 2. Rename it to `DisplayMessages`
-3. Set `Pos Z: 0.5`, `Scale: 0.01 0.01 0.01`
+3. Set `Pos Z: 1.0`, `Scale: 0.01 0.01 0.01`
 4. Optional change `Text Input` to `Message to Display`
 
 Run the project and `Message to Display` should show.
