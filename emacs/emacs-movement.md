@@ -15,6 +15,7 @@
 - `M-f`: Forwards Word
 - `C-e`: Forwards Line
 - `M-}`: Forwards Paragraph
+- `M-m`: Move to first non-whitespace character on line
 
 ### Upwards
 
