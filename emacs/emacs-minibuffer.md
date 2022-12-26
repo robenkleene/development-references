@@ -1,6 +1,6 @@
 # `emacs` Minibuffer
 
-- `M-p` & `M-n`: Previous command
+- `M-p` / `M-n`: Previous / next command
 - `C-g`: Cancel minibuffer
 
 ## Stuck Minibuffer
