@@ -15,3 +15,13 @@
 - `Q`: Query replace in each of the marked buffers.
 - `I`: As above, with a regular expression.
 - `0`: Run occur on the marked buffers.
+
+## Sort
+
+- `,`: Rotate through sorting option
+- `s i`: Reverse sorting order
+- `s a`: Sort the buffers alphabetically
+- `s f`: Sort the buffers by file name
+- `s v`: Sort the buffers by last viewed
+- `s s`: Sort the buffers by size
+- `s m`: Sort the buffers by major mode
