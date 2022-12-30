@@ -12,3 +12,7 @@ Making a table from a string:
 
 - `'Nushell 0.80' | parse '{shell} {version}'`: From whitespace
 - `'where all data is structured!' | parse --regex '(?P<subject>\w*\s?\w+) is (?P<adjective>\w+)'`: From regex
+
+## Real Example
+
+- `hg diff -r "bottom^" --root . | diff_to_grep | lines | split column ':'`
