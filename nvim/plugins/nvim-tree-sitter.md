@@ -14,9 +14,13 @@
 
 ### Fixing Query Node Errors
 
+Check which paths parsers are installed at:
+
 ```
 :echo nvim_get_runtime_file('parser', v:true)
 ```
+
+If any parsers are in a directory that's not owned by the treesitter plugin, than those parsers must also be installed by treesitter so the plugin finds the override versions.
 
 ### Installation Directory
 
