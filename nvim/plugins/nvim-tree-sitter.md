@@ -12,6 +12,12 @@
 - Using `TSInstall <language>` to re-install a parser can help
 - `:checkhealth nvim-treesitter` gives some diagnostic information
 
+### Fixing Query Node Errors
+
+```
+:echo nvim_get_runtime_file('parser', v:true)
+```
+
 ### Installation Directory
 
 - Tree-Sitter parsers are installed to `~/.local/share/nvim/site/pack/packer/start/nvim-treesitter`
