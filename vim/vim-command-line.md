@@ -2,7 +2,7 @@
 
 `:` to enter `Command-line-mode`
 - `<C-c>` or `ESC`: Close command line and command line window
-- `<C-n>` / `<C-p>`: Next/previous comment
+- `<C-n>` / `<C-p>`: Next / previous comment
 
 ## Variables
 
