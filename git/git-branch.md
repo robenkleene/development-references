@@ -1,5 +1,10 @@
 # `git` Branch
 
+## Rename
+
+- `git branch -m <newname>`: Rename the current branch
+- `git branch -m <oldname> <newname>`: Rename a specific branch by name
+
 ## Log
 
 - `git log main..`: list all the commits on the current branch that aren't on main
@@ -13,4 +18,3 @@
 
 - `git branch -r`: List remote branches (`git fetch` first to make sure all the branches are listed)
 - `git branch -vv`: See which remote branch a local branch is tracking
-- `git branch -m <oldname> <newname>`: Rename a branch, `<oldname>` defaults to the current branch so can be omitted.
