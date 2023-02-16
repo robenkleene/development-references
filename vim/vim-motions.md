@@ -21,6 +21,10 @@
 
 * `[[` & `]]`: Next and previous function
 
+## By Sentence
+
+- `(` / `)`: Next / preview sentence
+
 ### By Character
 
 * `t{char}` & `T{char}`: To before next and previous character
