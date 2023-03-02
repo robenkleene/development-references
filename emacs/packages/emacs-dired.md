@@ -1,19 +1,18 @@
  Dired
 
-## Mark
-
-- `m` / `u`: Mark / Remove mark
-- `U`: Unmark all
-- `t`: Invert marked
-
-## General
-
 - `^`: Up directory
 - `+`: Create directory
 - `C-x C-f`: Create a new file (`ido-mode` interferes with inserting spaces in a filename, to get around those use `C-f` to drop down to the default `find-file` interface)
 - `D`: Delete file
 - `s`: Toggle between alphabetical and date sorting
 - `R`: Rename (or move) file
+- `0 w` / `direct-c
+
+## Mark
+
+- `m` / `u`: Mark / Remove mark
+- `U`: Unmark all
+- `t`: Invert marked
 
 ## Multiple Files
 
