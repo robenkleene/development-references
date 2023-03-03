@@ -6,7 +6,7 @@
 - `D`: Delete file
 - `s`: Toggle between alphabetical and date sorting
 - `R`: Rename (or move) file
-- `0 w` / `direct-c
+- `0 w` / `dired-copy-filename-as-kill`: Kill path to file
 
 ## Mark
 
