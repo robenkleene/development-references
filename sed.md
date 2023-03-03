@@ -20,6 +20,19 @@ Another example:
 
 Note that the `-E` flag inverts whether the parentheses need to be escaped.
 
+## Insert a line
+
+Note the `\` and new line are necessary:
+
+    sed -i '' "307i\
+    @@ -468,7 +468,7 @@" markdown-markup.patch
+
+In a script:
+
+    line_fix='307i\
+    @@ -468,7 +468,7 @@'
+    sed -i '' "${line_fix}" markdown-markup.patch
+
 ## Files
 
 ### With `rg`
