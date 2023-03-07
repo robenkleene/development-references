@@ -33,6 +33,13 @@ In a script:
     @@ -468,7 +468,7 @@'
     sed -i '' "${line_fix}" markdown-markup.patch
 
+Appending to the last line of a file:
+
+    line_fix='$a\
+    \\ No newline at end of file
+    '
+    sed -i '' "${line_fix}" patch.patch
+
 ## Files
 
 ### With `rg`
