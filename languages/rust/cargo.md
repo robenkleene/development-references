@@ -9,6 +9,10 @@
 - `cargo run -- <arg1> <arg2>`: Run with arguments (the `--` is optional)
 - `cargo add <crate>`: Add a dependency and update the `Cargo.toml` file
 
+## Removing
+
+- To remove a dependency, just delete its line from `Cargo.toml` and run `cargo build` (which should remove it from `Cargo.lock`)
+
 ## Tests
 
 - When running tests, output is suppressed for successful tests, this can be disabled by passing the `--nocapture` option, which oddly has to be prefixed with `--` resulting in:
