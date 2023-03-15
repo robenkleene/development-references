@@ -1,8 +1,6 @@
 # `vim` Shell Commands
 
-## Common
-
-### Output in Echo Area
+## Output in Echo Area
 
 Note that the space after `w` is mandatory!
 
@@ -11,15 +9,19 @@ Note that the space after `w` is mandatory!
 - `:%w !bash`: File
 - `:'<,'>w !bash`: Visual selection (note this only works for *line-wise* selection, sub-line selection will not work! This is because `:` `ex` commands are all line based)
 
-### Replacing Selection
+## Replacing Selection
 
 - `:'<,'>!sort`: Pipe visual selection through sort
 - `:%!sort`: Pipe file through sort
 
-### Appending Output to Current Buffer
+## Appending Output to Current Buffer
 
 - `:r !ls`: Input the result of a shell command below the current line
 - `:0r !ls`: Input the result of a shell command at the beginning of the document
+
+## Output in a New Buffer
+
+- There's no nice way to do this, it's easier to just create a new buffer (`:new`) paste the current document if you need it then run the command
 
 ## Special
 
