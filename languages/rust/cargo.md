@@ -33,9 +33,8 @@ cargo test -- --nocapture
 
 ## Installing
 
-```
-cargo install [--path <path-to-dir>]
-```
+- `cargo install --path .`: Install crate from current directory
+- `cargo install --path <path-to-crate>`: Install current directory
 
 ## Troubleshooting
 
