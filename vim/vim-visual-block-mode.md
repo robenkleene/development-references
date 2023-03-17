@@ -15,4 +15,4 @@ Just make selection and hit `x`
 
 ## Deleting Text to the End of the Line
 
-Difficult with visual block mode, but `<range>norm!` can be used in a pinch, e.g., `%norm! ED` to delete everything after the first big word on each line in the file.
+Difficult with visual block mode, but `<range>norm!` (the `!` ignores mappings) can be used in a pinch, e.g., `%norm! ED` to delete everything after the first big word on each line in the file.
