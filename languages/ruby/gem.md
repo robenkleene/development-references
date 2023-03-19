@@ -24,7 +24,7 @@ Printing installation locations:
 
 Requires `gem-open`:
 
-	gem install gem-open 
+	gem install gem-open
 
 ## Testing a Gem
 
