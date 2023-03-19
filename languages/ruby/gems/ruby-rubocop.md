@@ -1,4 +1,4 @@
-# `rubocop`
+# Ruby `rubocop`
 
 - `rubocop`: Recursively lint all files
 - `--auto-correct` / `-a`: Autocorrect
