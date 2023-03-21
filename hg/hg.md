@@ -88,3 +88,4 @@ To clean up a `addremove` that should be a move:
 ## Other
 
 - `hg cat --rev=<rev> <file path>`: Get file contents on another branch
+- `hg log -r "<commit>::."`: Check if a commit (`<commit>`) is an ancestor of the current commit (`.`)
