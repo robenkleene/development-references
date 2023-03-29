@@ -8,3 +8,7 @@
 3. Collect logs from Oculus Developer Hub (these will be organized by App ID)
 
     ![](assets/ovr-metrics-tool-recorded-metrics.png)
+
+## Notes
+
+- `Quick-set Enable Stats`: Click `Basic` to quickly get FPS
