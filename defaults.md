@@ -3,4 +3,4 @@
 To delete an apps preferences:
 
 	defaults delete "com.domain.AppName"
-    defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled
+    defaults delete NSGlobalDomain NSAutomaticWindowAnimationsEnabled
