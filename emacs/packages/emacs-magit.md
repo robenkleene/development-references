@@ -2,6 +2,8 @@
 
 - `s`: `git add`
 - `k`: Discard change
+- `g`: Refresh all
+- `G`: Refresh
 
 ## Status
 
