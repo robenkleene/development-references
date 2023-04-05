@@ -2,6 +2,10 @@
 
 To accept a match that doesn't exist, use `M-RET` (`vertico-exit-input`), or use `<up>` to highlight the prompt line itself.
 
+## `embark`
+
+- Use embark to `find-file-other-window`
+
 ## `rg`
 
 - Flags after `#TODO -- -g *.el`
