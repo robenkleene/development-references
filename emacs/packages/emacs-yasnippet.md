@@ -9,3 +9,7 @@
 
 - `C-c C-c`: Save snippet
 
+## Modes
+
+Put a file called `.yas-parents` in a directory that contains a list of parent modes, e.g., `text-mode js-mode`.
+
