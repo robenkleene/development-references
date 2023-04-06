@@ -8,7 +8,7 @@
 
 ## Help Mode
 
-- `help-go-back`: Go to previous help topic
-- `help-go-forward`: Go to next help topic
+- `l` / `C-c C-b` / `help-go-back`: Go to previous help topic
+- `r` / `C-c C-b` / `help-go-forward`: Go to next help topic
 - `<TAB>` or `forward-button`: Go to next button
 - `S-<TAB>` or `back-button`: Go to next button
