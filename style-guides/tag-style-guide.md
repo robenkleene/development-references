@@ -9,4 +9,5 @@
 
 - `buy-later`: For something I'd like to buy
 - `watch-later`: For something to watch later
-
+- `visit-later`: For restaurants, museums or other outings
+- `app`: For all software
