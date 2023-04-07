@@ -12,6 +12,7 @@
 - The required parsers should just be auto-installed on startup
 - Using `TSInstall <language>` to re-install a parser can help
 - `:checkhealth nvim-treesitter` gives some diagnostic information
+- If parsers are constantly being re-compiled, run `:checkhealth` and search for `packer`, if packer is also there, that path should probably be deleted
 
 ### Fixing Query Node Errors
 
