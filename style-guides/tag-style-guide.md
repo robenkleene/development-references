@@ -2,8 +2,9 @@
 
 - Use the singular, except when talking about a concept, e.g., `tools` for the idea of tools, vs. `tool` for a tool.
 - For Bookmarks, don't double up the URL information, for example, it it is a link to "Reddit", don't add a `reddit` tag, "Reddit" will already appear in a search.
-- Be broad instead of specific, `html` rather than `html5`.
+- Be broad instead of specific, `html` rather than `html5`
 - Use all lowercase (too many programs enforce this)
+- Use acronyms where available, e.g., `ai` instead of `artificial-intelligence`
 
 ## Common Tags
 
