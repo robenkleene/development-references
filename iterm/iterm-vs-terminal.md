@@ -3,6 +3,8 @@
 ## Terminal
 
 - Mouse reporting is more accurate
+- Colors always require additional work
+- Clicking the window once focuses, again moves the mouse cursor
 
 ## iTerm
 
@@ -11,6 +13,7 @@
 - The hot key window.
 - iTerm selection interferes with built-in selection in Vim, Emacs, and tmux
 - Some of the customizations, like hiding the window title completely, are pretty cool
+- Clicking the window once focuses, again moves the mouse cursor
 
 ## kitty
 
