@@ -1,4 +1,4 @@
-# iTerm vs. Terminal
+# iTerm vs. Terminal vs. Kitty vs. Alacritty
 
 ## Terminal
 
