@@ -1,5 +1,12 @@
 # `fish` Variables
 
+- `set -lx VAR world`: Local exported variable
+- `set -e VAR`: Erase variable
+
+## One Liner
+
+- `key=value echo $key`
+
 ## Universal Variables
 
 - Stored in `~/.config/fish_variables` and preserved across restarts (`abbr` are also stored in this file)
