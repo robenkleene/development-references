@@ -5,7 +5,7 @@
 
 ## One Liner
 
-- `key=value echo $key`
+- `key=value echo $key`: Set variable for one command
 
 ## Universal Variables
 
