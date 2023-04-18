@@ -8,7 +8,7 @@
 
 ## Piping
 
-- `$ echo "Hello World" >> #<*echo output*>`: Output to a new buffer name `*echo output*`
+- `$ echo "Hello World" > #<*echo output*>`: Output to a new buffer name `*echo output*`
 
 ## Alias
 
