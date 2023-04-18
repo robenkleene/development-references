@@ -4,6 +4,12 @@
 - `C-c C-p` / `C-c C-n`: Go to previous / next prompt
 - `C-c C-o`: Kill output of previous command
 
+- `C-c M-b`: Choose a buffer and enter it, e.g., `$ echo "Hello World" >>` then `C-c M-b`, choose buffer name to pipe to that buffer
+
+## Piping
+
+- `$ echo "Hello World" >> #<*echo output*>`: Output to a new buffer name `*echo output*`
+
 ## Alias
 
 - `alias a 'rg_custom $*'`: Example alias
