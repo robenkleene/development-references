@@ -6,6 +6,7 @@
 
 - `C-x 5 2`: Create a new frame
 - `C-x 5 0`: Delete current frame
+- `C-x 5 1` / `delete-other-frames`: Delete all frames except the current
 - `C-x 5 o`: Cycle through frames
 - `C-x ←` or `C-x →`: Next or previous buffer
 
