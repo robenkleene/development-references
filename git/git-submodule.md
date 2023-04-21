@@ -2,7 +2,8 @@
 
 ## Add
 
-- `git submodule add git@<submodule-url> <submodule-install-path>`
+- `git submodule add <submodule-url> <submodule-install-path-including-repo-name>`
+- Usually using `https` is better to facilitate downloading dependencies without authenticating
 
 ## Remove
 
