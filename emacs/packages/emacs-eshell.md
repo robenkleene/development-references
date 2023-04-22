@@ -3,8 +3,11 @@
 - `C-c C-u`: Clear line
 - `C-c C-p` / `C-c C-n`: Go to previous / next prompt
 - `C-c C-o`: Kill output of previous command
+- `C-p` / `C-n`: Go to previous / next line
 
-- `C-c M-b`: Choose a buffer and enter it, e.g., `$ echo "Hello World" >>` then `C-c M-b`, choose buffer name to pipe to that buffer
+## Buffers
+
+- `C-c M-b`: Choose a buffer and insert it, e.g., `$ echo "Hello World" >>` then `C-c M-b`, choose buffer name to pipe to that buffer
 
 ## Piping
 
