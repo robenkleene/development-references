@@ -6,6 +6,10 @@
 - `cdh`: Visit `cd` history
 - `⌃C`: Cancel current line
 
+## Navigation
+
+- `⌥←` / `⌥→`: Go lower / higher in directory hierarchy
+
 ## Tips
 
 - Commands that start with a space, ` ls` will be hidden from history
