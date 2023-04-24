@@ -3,6 +3,7 @@
 ## Buffers
 
 - `C-x b`: Switch to previous buffer (or select another previous buffer)
+- `C-x <left>` / `C-x <right>`: Go to previous / next buffer
 
 ## Code
 

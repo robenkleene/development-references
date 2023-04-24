@@ -2,6 +2,10 @@
 
 - `C-x C-space` or `C-x C-@`: Return to previous position
 
+## Buffers
+
+- `C-x <left>` / `C-x <right>`: Go to previous / next buffer
+
 ## Frames
 
 - `C-x 5 2`: Create a new frame
