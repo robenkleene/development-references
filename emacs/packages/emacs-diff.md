@@ -6,4 +6,5 @@
 
 ## Hunks
 
-- `C-c C-a`: Apply hunk
+- `C-c C-a`: Apply hunk (if the hunk is already applied, this offers to remove it)
+- `C-u C-c C-a`: Un-Apply hunk
