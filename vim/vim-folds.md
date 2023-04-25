@@ -1,12 +1,6 @@
 # `vim` Folds
 
-## Basic Commands
-
-- `za`: Toggle current fold
-- `zR`: Toggle current fold
-- `zM`: Close all folds
-
-## Commands
+## Folding
 
 - `zi`: Toggle folding
 - `zv`: Reveal cursor
@@ -18,15 +12,12 @@
 - `zf`: Create fold (for manual)
 - `zR`: Open all folds
 - `zM`: Close all folds
-
-## Visual
-
 - `zo` / `zc`: Open / close visually selected folds
 
-### Navigate
+### Navigation
 
-- `zj`: Next fold
-- `zk`: Previous fold
+- `zk` / `zj`: Next / previous fold
+- `[z` / `z]`: Start / end of fold
 
 ### Combos
 
