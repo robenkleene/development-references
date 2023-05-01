@@ -1,5 +1,8 @@
 # Cargo `lldb`
 
+1. `lldb target/debug/reap`
+2. `process launch` (or `process launch -i tests/data/grep.txt`)
+
 ## Tests
 
 To run a test in `lldb` we first need the path to the compiled test binary, which is printed out when `cargo test` is run, it looks like this:
