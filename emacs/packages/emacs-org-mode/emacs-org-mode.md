@@ -22,3 +22,4 @@
 ## Misc
 
 - `C-c C-x C-s`: Archive item
+- `C-c ^` / `org-sort`: Sort (then `d` to sort by deadline)
