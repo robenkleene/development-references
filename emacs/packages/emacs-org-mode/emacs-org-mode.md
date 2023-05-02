@@ -8,8 +8,8 @@
 
 ## Todo
 
-- `C-c C-t`: Make items todos
 - `S-<left>` / `S-<right>`: Switch between `TODO` states
+- `C-c C-t`: Make items todos
 - `C-c C-d` / `C-u C-c C-d`: Insert / remove deadline
 - `C-c C-s` / `C-u C-c C-s`: Insert / remove schedule
 - `C-c .`: Change date
