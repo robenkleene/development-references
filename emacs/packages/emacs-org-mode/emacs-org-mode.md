@@ -14,6 +14,7 @@
 - `C-c C-d` / `C-u C-c C-d`: Insert / remove deadline
 - `C-c C-s` / `C-u C-c C-s`: Insert / remove schedule
 - `C-c .`: Change date
+- `S-<left>` / `S-<right>` on a date changes the date by one day
 
 ### Date Picker
 
