@@ -7,6 +7,7 @@
 - `s`: Toggle between alphabetical and date sorting
 - `R`: Rename (or move) file
 - `0 w` / `dired-copy-filename-as-kill`: Kill path to file
+- `C-x C-h`: Cycle through human readable file sizes
 
 ## Mark
 
