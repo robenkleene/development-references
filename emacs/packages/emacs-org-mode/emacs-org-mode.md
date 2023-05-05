@@ -9,15 +9,16 @@
 
 ## Todo
 
-- `S-<left>` / `S-<right>`: Switch between `TODO` states
-- `C-c C-t`: Make items todos
+- `S-<left>` / `S-<right>`: Cycle todo states (`DONE` / `TODO`)
+- `C-c C-t`: Cycle todo state
 - `C-c C-d` / `C-u C-c C-d`: Insert / remove deadline
 - `C-c C-s` / `C-u C-c C-s`: Insert / remove schedule
 - `C-c .`: Change date
 
 ### Date Picker
 
-- `M-p` / `M-n`: Move date back / forward one week
+- `S-<left>` / `S-<right>`: Move day left / right
+- `S-<up>` / `S-<down>`: Move week backward / forward
 - `+1` / `+1d`: Schedule date to tomorrow
 
 ## Misc
