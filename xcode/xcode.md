@@ -1,5 +1,6 @@
 # Xcode
 
+- `⇧⌘O`: Open quickly
 - `⌃6` / `View > Editor > Show Document Items`: Navigate symbols
 - `^I`: Format selection
 
