@@ -5,6 +5,7 @@
 - `M-RET`: New list item at current level
 - `M-left` / `M-right`: Demote / promote item
 - `M-up` / `M-down`: Move item up / down
+- `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
 
 ## Todo
 
