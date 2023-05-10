@@ -7,6 +7,10 @@
 - `M-up` / `M-down`: Move item up / down
 - `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
 
+## URL
+
+- `C-c C-l`: Add URL (just `C-y` after to paste from clipboard)
+
 ## Todo
 
 - `S-<left>` / `S-<right>`: Cycle todo states (`DONE` / `TODO`)
