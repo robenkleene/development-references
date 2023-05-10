@@ -13,6 +13,7 @@
 
 ## Todo
 
+- `C-S-<ret>` / `M-S-<ret>`: Add todo at current level
 - `S-<left>` / `S-<right>`: Cycle todo states (`DONE` / `TODO`)
 - `C-c C-t`: Cycle todo state
 - `C-c C-d` / `C-u C-c C-d`: Insert / remove deadline
