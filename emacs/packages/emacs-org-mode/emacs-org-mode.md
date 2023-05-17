@@ -27,6 +27,7 @@
 - `S-<left>` / `S-<right>`: Move day left / right
 - `S-<up>` / `S-<down>`: Move week backward / forward
 - `+1` / `+1d`: Schedule date to tomorrow
+- `.`: Go to today
 
 ## Misc
 
