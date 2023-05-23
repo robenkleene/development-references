@@ -2,10 +2,15 @@
 
 ## Outline
 
-- `M-RET`: New list item at current level
+### Editing
+
+- `M-RET` / `C-RET`: New list item at current level before / after children (hold `⇧` to make the new item a todo)
+- `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
+
+### Moving
+
 - `M-left` / `M-right`: Demote / promote item
 - `M-up` / `M-down`: Move item up / down
-- `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
 
 ## URL
 
@@ -14,7 +19,7 @@
 
 ## Todo
 
-- `C-S-<ret>` / `M-S-<ret>`: Add todo at current level
+- `M-S-<ret>` / `C-S-<ret>`: Add todo at current level before / after children
 - `S-<left>` / `S-<right>`: Cycle todo states (`DONE` / `TODO`)
 - `C-c C-t`: Cycle todo state
 - `C-c C-d` / `C-u C-c C-d`: Insert / remove deadline
