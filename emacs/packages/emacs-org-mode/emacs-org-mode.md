@@ -4,7 +4,9 @@
 
 ### Editing
 
-- `M-RET` / `C-RET`: New list item at current level before / after children (hold `⇧` to make the new item a todo)
+- `M-RET` / `C-RET`: New list item at current level before / after children
+    - Hold `⇧` to make the new item a todo
+    - The best way to add a child is to just hit tab after adding a new item at the same level
 - `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
 
 ### Moving
