@@ -40,3 +40,7 @@
 
 - `C-c C-x C-s`: Archive item
 - `C-c ^` / `org-sort`: Sort (then `d` to sort by deadline)
+
+## Column View
+
+- `C-c C-x C-c` / `C-c C-c`: Turn on / off column view for the current subtree
