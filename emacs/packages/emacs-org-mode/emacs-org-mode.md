@@ -4,9 +4,7 @@
 
 ### Editing
 
-- `M-RET` / `C-RET`: New list item at current level before / after children
-    - Hold `⇧` to make the new item a todo
-    - The best way to add a child is to just hit tab after adding a new item at the same level
+- `M-RET` / `C-RET`: New list item at current level before / after children (hold `⇧` to make the new item a todo)
 - `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
 
 ### Moving
@@ -28,6 +26,7 @@
 - `C-c C-s` / `C-u C-c C-s`: Insert / remove schedule
 - `C-c .`: Change date
 - `S-<left>` / `S-<right>` on a date changes the date by one day
+- To make a weekly repeating todo, just add `+7d` to the end of the date, e.g., `2023-05-29 Mon +7d`
 
 ### Date Picker
 
