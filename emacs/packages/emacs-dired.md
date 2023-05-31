@@ -26,6 +26,10 @@
     - `(`: Toggle showing details
 - `C-u s`: Set specific flags to pass to `ls`
 
+## Shell Commands
+
+- `!`: Do shell command on file
+
 ## Dired Write Mode
 
 - `C-x C-q` or `dired-toggle-read-only`: Change to writable mode
