@@ -61,7 +61,7 @@
 ### Switching Windows
 
 * `<prefix>0`, `<prefix>1`...: Switch to that window number
-* `<prefix>'`: Switch to window (Prompt to enter window number)	
+* `<prefix>'`: Switch to window (Prompt to enter window number)
 * `<prefix>l`: Last Window
 * `<prefix>n` / `<prefix>p`: Next Window
 

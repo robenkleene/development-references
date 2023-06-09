@@ -1,5 +1,8 @@
 # `ps`
 
+- `ps -fp <pid>`: Show info about process
+- Just pipe to `cat` to stop `ps` from truncating, e.g., `ps -fp <pid> | cat`
+
 ## `ps aux`
 
 - `a`: All users

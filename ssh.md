@@ -7,6 +7,7 @@ Port forwarding:
 If a `.ssh/config` is setup, then this shorthand works:
 
 	ssh -L <LocalPort>:localhost:<RemotePort> <hostname>
+    ssh -L 8080:localhost:8080 aresdev
 
 To server static HTML files use:
 
