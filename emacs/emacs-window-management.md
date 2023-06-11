@@ -24,6 +24,10 @@
 - `C-x 3`: Split window vertically
 - `C-x +`: Make window equal size
 
+## Other Window
+
+- `C-M-v` / `S-C-M-v`: Page down / up in other window (note page up doesn't work in terminal Emacs)
+
 ## Window Configurations
 
 - `C-c ←` or `C-c →`: With `winner-mode` enabled, previous/next configuration
