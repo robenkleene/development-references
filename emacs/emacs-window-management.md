@@ -27,6 +27,7 @@
 ## Other Window
 
 - `C-M-v` / `S-C-M-v`: Page down / up in other window (note page up doesn't work in terminal Emacs)
+- `C-u - C-M-v` / `M-- C-M-v`: Page up in other window (works in terminal emacs)
 
 ## Window Configurations
 
