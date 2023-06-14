@@ -11,6 +11,7 @@
 
 - `M-left` / `M-right`: Demote / promote item
 - `M-up` / `M-down`: Move item up / down
+- `C-c C-w`: Move item to a category
 
 ## URL
 
