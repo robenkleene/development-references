@@ -1,6 +1,7 @@
 # `adb`
 
-- `adb reboot`
+- `adb reboot`: Reboot
+- `adb devices`: List devices
 
 ## `adb shell`
 
