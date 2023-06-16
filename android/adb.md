@@ -1,7 +1,6 @@
 # `adb`
 
-- `adb shell ps -A`: List all running processes
-- `adb reboot:` Reboot
+- `adb reboot`
 
 ## `adb shell`
 
