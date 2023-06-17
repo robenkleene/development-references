@@ -1,9 +1,5 @@
-# Neovim
+# `nvim`
 
 ## General
 
 - `:CheckHealth`: Status check
-
-## Terminal
-
-- `<C-\><C-n>`: Enter insert mode
