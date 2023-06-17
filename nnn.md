@@ -20,3 +20,6 @@
 
 - `P`: Copy to new location
 - `V`: Move to new location
+- `N`: Create new
+    - `D`: Directory
+    - `F`: File
