@@ -20,6 +20,7 @@
 ## Operations
 
 - `E`: Edit file (e.g., an empty file that can't be edited with return)
+- `^R`: Rename file
 - `P`: Copy to new location
 - `V`: Move to new location
 - `N`: Create new
