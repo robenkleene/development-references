@@ -11,6 +11,7 @@
 - `⎋`: Exit prompt (e.g., a filter)
 - `^L`: Toggle last filter
 - `^N`: Type to nav
+- `.`: Toggle show hidden files
 
 ## Help
 
