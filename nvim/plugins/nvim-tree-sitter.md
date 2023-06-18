@@ -19,6 +19,8 @@
 
 ### Fixing Query Node Errors
 
+First try `:TSUpdate`, then:
+
 Check which paths parsers are installed at:
 
 ```
