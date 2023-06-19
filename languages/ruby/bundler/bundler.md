@@ -7,7 +7,7 @@
 
 ## Install `vender/bundle`
 
-This is the preferred way to install gems because it does not clutter up the global gem space (which should only be used for globally available executable gems). E.g., consider the case of having several blogs all on different versions of Jekyll: All this versions need to be installed globally, and when they get updated, the old versions will all sit around forever. Note that this is not the standard convention, it's personal preference.
+This is the preferred way to install gems because it does not clutter up the global gem space (which should only be used for globally available executable gems). E.g., consider the case of having several blogs all on different versions of Jekyll: All this versions need to be installed globally, and when they get updated, the old versions will all sit around forever. Globally installed executables usually don't have this problem, because they are often run without a project requiring a specific version. Note that this is not the standard convention, it's personal preference.
 
 This command is deprecated but still works:
 
