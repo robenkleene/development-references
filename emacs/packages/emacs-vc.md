@@ -6,3 +6,8 @@
 ## Log View
 
 - `d`: In log to open diff
+
+## Dir View
+
+- `D`: View diff of entire directory
+- `=`: View diff of current file
