@@ -92,3 +92,10 @@ Since Bundler checkouts the gem from git, if you then try to add the gem to git 
 	git add Contents/Resources/bundle/ruby/2.4.0/bundler/gems/repla-ruby-4992e5e09082/
 
 Note that the trailing slash is important.
+
+## Running `gem` Commands
+
+Running `gem` commands with `bundle exec` works (but this probably won't solve your problem):
+
+    bundle exec gem install ffi --version "1.15.5" -- --disable-system-libffi
+    bundle exec gem uninstall ffi
