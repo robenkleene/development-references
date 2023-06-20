@@ -1,7 +1,7 @@
 # `git diff`
 
 - `git diff --relative`: Relative diff
-
+- `git diff --word-diff`: Diff by words
 
 ## Branch Comparison Strategy
 
