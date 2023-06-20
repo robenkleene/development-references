@@ -26,6 +26,7 @@
 - `N`: Create new
     - `D`: Directory
     - `F`: File
+- `!`: Spawn new shell on top of `nnn` (use `exit` to get back to `nnn`)
 
 ## Plugins
 
