@@ -5,6 +5,7 @@
 ## Buffers
 
 - `C-x <left>` / `C-x <right>`: Go to previous / next buffer
+- `C-x k`: Kill buffer
 
 ## Frames
 
