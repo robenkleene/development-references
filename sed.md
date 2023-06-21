@@ -20,7 +20,11 @@ Another example:
 
 Note that the `-E` flag inverts whether the parentheses need to be escaped.
 
-## Insert a line
+## Delete a Line
+
+    sed -i `1d` ~/.ssh/known_hosts
+
+## Insert a Line
 
 Note the `\` and new line are necessary:
 
