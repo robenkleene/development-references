@@ -5,7 +5,7 @@
 
 ## Log View
 
-- `d`: In log to open diff
+- `d` / `=`: In log to open diff
 
 ## Dir View
 
