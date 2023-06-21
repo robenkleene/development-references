@@ -6,6 +6,7 @@
 ## Log View
 
 - `d` / `=`: In log to open diff
+- `<return>`: See more info about a commit including the hash
 
 ## Dir View
 
