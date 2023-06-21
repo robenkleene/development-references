@@ -26,6 +26,7 @@
 - `M-y`: Cycle through matches (after a `C-y`)
 - `C-x C-x`: Restore previous region
 - `C-M-]`: Select s-expression
+- `C-x h`: Select whole buffer
 
 ## Movement
 
