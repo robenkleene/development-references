@@ -48,6 +48,7 @@
 ## Special
 
 - `M-q`: Wrap comment
+- `M-^`: Join line with line above
 
 ## Spelling
 
