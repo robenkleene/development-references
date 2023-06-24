@@ -19,15 +19,16 @@
 
 ## Operations
 
-- `E`: Edit file (e.g., an empty file that can't be edited with return)
-- `X` / `^X`: Delete file
+- `o`: Choose program to open with
+- `e`: Edit file (e.g., an empty file that can't be edited with return)
+- `x` / `^X`: Delete file
 - `^R`: Rename file
 - `^R`: Duplicate file (hit enter when prompted to rename and it will ask for a new name to copy to)
-- `P`: Copy to new location
-- `V`: Move to new location
-- `N`: Create new
-    - `D`: Directory
-    - `F`: File
+- `p`: Copy to new location
+- `v`: Move to new location
+- `n`: Create new
+    - `d`: Directory
+    - `f`: File
 - `!` / `^]`: Spawn new shell on top of `nnn` (use `exit` to get back to `nnn`, `echo $NNNLVL` will show the current level)
 - `]`: Open native shell prompt to enter shell commands
 
