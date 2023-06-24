@@ -34,3 +34,8 @@
 
 - `;`: Run a plugin (followed by assigned key) or `↩` to select a plugin to run
 - `⌥<key>`: Can also be used to run a plugin
+
+## Selection
+
+- `a`: Select all
+- `A`: Invert selection
