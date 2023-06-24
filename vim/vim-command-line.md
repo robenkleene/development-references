@@ -4,6 +4,10 @@
 - `<C-c>` or `ESC`: Close command line and command line window
 - `<C-n>` / `<C-p>`: Next / previous comment
 
+## Files
+
+- `<cfile>` can be used to reference the file at the cursor, e.g., what would be used for `gf`
+
 ## Variables
 
 The way to print environment variables like `$VIMRUNTIME` is to start a subshell:
