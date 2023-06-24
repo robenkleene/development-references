@@ -22,6 +22,7 @@
 - `E`: Edit file (e.g., an empty file that can't be edited with return)
 - `X` / `^X`: Delete file
 - `^R`: Rename file
+- `^R`: Duplicate file (hit enter when prompted to rename and it will ask for a new name to copy to)
 - `P`: Copy to new location
 - `V`: Move to new location
 - `N`: Create new
