@@ -45,6 +45,11 @@
 - `M-k`: Forward sentence
 - `M-d`: Forwards Word
 
+### Special
+
+- `M-m`: Go to first character on line
+
+
 ### Edit
 
 - `C-t`: Transpose Characters
