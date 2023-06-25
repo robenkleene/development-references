@@ -15,6 +15,8 @@
 - `M-l`: Lowercase word
 - `M-u`: Uppercase word
 - `M-c`: Capitalize word
+- `M-\` / `C-u M-\` : Delete whitespace forward / backward next non-whitespace character
+- `M-z` / `C-u M-z`: Delete to character forward / backward
 
 ## Selection
 
