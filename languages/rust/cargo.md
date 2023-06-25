@@ -18,29 +18,6 @@
 
 - To remove a dependency, just delete its line from `Cargo.toml` and run `cargo build` (which should remove it from `Cargo.lock`)
 
-## Tests
-
-- When running tests, output is suppressed for successful tests, this can be disabled by passing the `--nocapture` option, which oddly has to be prefixed with `--` resulting in:
-
-```
-cargo test -- --nocapture
-```
-
-- `cargo test <test-function-name>`: Run a single test
-
-## Running Single Files
-
-`cargo new <project>` will have created a directory structure with `Cargo.toml` and `src/` directory.
-
-1. Add a `src/bin` directory and add single `<filename>.rs` files in it
-2. To run them, use `cargo run --bin <filename>`
-3. To run tests, use `cargo test --bin <filename>`
-
-## Installing
-
-- `cargo install --path .`: Install crate from current directory
-- `cargo install --path <path-to-crate>`: Install current directory
-
 ## Troubleshooting
 
 - `cargo clean` and try again
