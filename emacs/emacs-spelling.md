@@ -8,3 +8,8 @@
 - `M-$ i`: Also adds the word to the dictionary
 
 The variable `ispell-personal-dictionary` has personal dictionary path.
+
+## On Demand Spell Checking
+
+- `flyspell-buffer`: On demand check buffer
+- `flyspell-region`: On demand check region
