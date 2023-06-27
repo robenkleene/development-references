@@ -15,11 +15,13 @@
 - `M-e`: Edit the current incremental search
 - `C-g`: Cancel the current incremental search
 - `↩`: Go to the current match
+- `M-r`: Switch incremental search to regular expression
+- `M-%`: Start a query replace with the current search term
 
 ## Replace
 
 - `M-%`: Find & replace
-- `C-M-%`: Regular Expression Find & replace
+- `C-M-%`: Regular expression find & replace
 
 ### Active Replace
 
