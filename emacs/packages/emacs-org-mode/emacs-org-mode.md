@@ -2,7 +2,7 @@
 
 ## Outline
 
-### Editing
+### Items
 
 - `M-RET` / `C-RET`: New list item at current level before / after children (hold `⇧` to make the new item a todo)
 - `C-c C-x C-w` / `C-c C-x C-y`: Kill / paste subtree
