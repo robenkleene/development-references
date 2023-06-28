@@ -21,7 +21,9 @@ Note that the space after `w` is mandatory!
 
 ## Output in a New Buffer
 
-- There's no nice way to do this, it's easier to just create a new buffer (`:new`) paste the current document if you need it then run the command
+There's no nice way to do this, it's easier to just create a new buffer (`:new`) paste the current document if you need it then run the command
+
+- `vnew | 0r !git blame #`: Trick to get blame output side-by-side with command
 
 ## Special
 
