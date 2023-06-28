@@ -2,8 +2,10 @@
 
 ## Movement
 
-- `C-u C-SPC`: Go to pop mark
-- `C-SPC C-SPC`: Push mark
+- `C-u C-SPC`: Pop buffer local mark (go to previous mark, repeatable)
+- `C-x C-SPC`: Pop global mark
+- `C-SPC C-SPC`: Push mark (set a mark with no region)
+- `isearch` automatically sets a mark when entering a search result with `RET`.
 
 ## Setting Mark
 
