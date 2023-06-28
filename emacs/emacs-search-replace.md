@@ -17,6 +17,8 @@
 - `↩`: Go to the current match
 - `M-r`: Switch incremental search to regular expression
 - `M-%`: Start a query replace with the current search term (this will be a regular expression replace if the initial `isearch` was regular expression, either by starting it with `C-M-s` / `C-M-r`, or by hitting `M-r` to toggle to regular expressions)
+- `C-v` / `M-v`: Previous / next page of search results (requires `isearch-allow-motion`)
+- `M-<` / `M->`: Go to first / last match (requires `isearch-allow-motion`)
 
 ## Replace
 
