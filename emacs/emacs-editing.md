@@ -20,15 +20,13 @@
 
 ## Selection
 
-- `C-SPC`: Select
-- `C-x SPC`: Block select
 - `M-w`: Copy
 - `C-w`: Cut
 - `C-y`: Paste
 - `M-y`: Cycle through matches (after a `C-y`)
+- `C-SPC`: Select
+- `C-x SPC`: Block select
 - `C-x C-x`: Restore previous region
-- `C-M-]`: Select s-expression
-- `C-x h`: Select whole buffer
 
 ## Movement
 
