@@ -20,6 +20,13 @@
 - `C-v` / `M-v`: Previous / next page of search results (requires `isearch-allow-motion`)
 - `M-<` / `M->`: Go to first / last match (requires `isearch-allow-motion`)
 
+### Special
+
+- `M-s .`: Search for symbol at point
+- `M-s M-.`: Search for thing at point
+- `M-s w`: Word search
+- `M-s _`: Symbol search
+
 ## Replace
 
 - `M-%`: Find & replace
