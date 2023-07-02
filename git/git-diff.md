@@ -2,6 +2,7 @@
 
 - `git diff --relative`: Relative diff
 - `git diff --word-diff`: Diff by words
+- `git diff HEAD^1`: Only changes in most recent revision
 
 ## Branch Comparison Strategy
 
