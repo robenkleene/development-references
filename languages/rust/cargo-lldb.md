@@ -11,7 +11,9 @@ To run a test in `lldb` we first need the path to the compiled test binary, whic
 
 Note that `cargo tests` runs *2 test targets*, one for integration tests and one for unit tests, you'll need to get the target for the one that's running your test. It's usually the second one.
 
-1. Run `lldb target/debug/deps/<project-name>-d1d452730bf9464b`
+- Use `rust-lldb` for niceties like pretty printing.
+
+1. Run `rust-lldb target/debug/deps/<project-name>-d1d452730bf9464b`
 2. Set breakpoints, e.g., `b src/file.rs:20`
 3. In `lldb` run `run <test-name>` (or `run --test <test-name>`)
 
