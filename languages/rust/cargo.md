@@ -13,6 +13,7 @@
 
 - `cargo build`: Build project
 - Once the project has been built, the binary can be accessed at `./target/debug/<executable-name>`
+- `ls -t target/**/<target-name>* | head -n1`: Handy one-liner that will often return the most recently built target
 
 ## Removing
 
