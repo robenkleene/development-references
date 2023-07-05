@@ -2,6 +2,7 @@
 
 - `C-.` / `C-M-i` / `flyspell-auto-correct-word` (`C-.` and `C-M-i` don't work in terminal): Correct word at point
 - `C-;` / `flyspell-correct-word-before-point` (`C-;` doesn't work in terminal): Correct previous word
+- `C-c $` is the only spelling correction binding that works in terminal
 
 ## Add to Dictionary
 
