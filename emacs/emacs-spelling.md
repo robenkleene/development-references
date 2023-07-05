@@ -1,6 +1,7 @@
 # `emacs` Spelling
 
-- `C-.` / `flyspell-auto-correct-word` (`C-.` doesn't work in terminal): Correct word at point
+- `C-.` / `C-M-i` / `flyspell-auto-correct-word` (`C-.` and `C-M-i` don't work in terminal): Correct word at point
+- `C-;` / `flyspell-correct-word-before-point` (`C-;` doesn't work in terminal): Correct previous word
 
 ## Add to Dictionary
 
