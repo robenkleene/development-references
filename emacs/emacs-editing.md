@@ -18,6 +18,12 @@
 - `M-\` / `C-u M-\` : Delete whitespace forward / backward next non-whitespace character
 - `M-z` / `C-u M-z`: Delete to character forward / backward
 
+## Transpose
+
+- `C-t`: Characters
+- `M-t`: Words
+- `C-x C-t`: Lines
+
 ## Selection
 
 - `M-w`: Copy
