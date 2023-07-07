@@ -29,9 +29,10 @@ Note that `cargo tests` runs *2 test targets*, one for integration tests and one
 
 CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binaries, one is the CLI binary, and the other is the test binary.
 
-1. `(lldb) process attach --name <binary-name> --waitfor`
-2. Add the `get-task-allow` flag to the binary
-3. `cargo test`: Note you have to be sure this doesn't overwrite the binary by re-compiling, it's probably easier to specify an exact test (e.g., `cargo test <test-name> -- --nocapture`
+1. `rust-lldb`
+2. `(lldb) process attach --name <binary-name> --waitfor`
+3. Add the `get-task-allow` flag to the binary
+4. `cargo test`: Note you have to be sure this doesn't overwrite the binary by re-compiling, it's probably easier to specify an exact test (e.g., `cargo test <test-name> -- --nocapture`
 
 ### Adding `get-task-allow`
 
