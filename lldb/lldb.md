@@ -2,9 +2,6 @@
 
 - `lldb <path-to-program>`: Load program
 - `(lldb) file <path-to-program`: Load program
-- `(lldb) process launch`: Start program
-- `(lldb) process launch -i <file-path>`: Start program, passing `<file-path>` to the programs STDIN
-- `(lldb) process launch -i <file-path>`: Start program with STDIN and arguments
 - `(lldb) run`: Start program
 - `(lldb) r`: Start program
 - `^D`: Quit (this probably isn't `^C` so that `^C` can be used to interrupt commands)

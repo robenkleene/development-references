@@ -19,10 +19,18 @@ Note that `cargo tests` runs *2 test targets*, one for integration tests and one
 
 ### Troubleshooting
 
-If the project and tests are two different binaries, than I'm unable to figure out a way of testing them in `lldb`. Theoretically you should be able to run the project in `lldb` (e.g., `lldb target/debug/deps/rep-3e8096a557dd61b2`), and then run the test from the command line (e.g., `./target/debug/deps/cli-2732d4cfad37f160`), but in practice that doesn't actually work (breakpoints won't hit). 
-
 ## Installed
 
 1. `cargo install --path . --debug`
 2. `lldb .cargo/bin/reap`
 3. Set breakpoints, e.g., `b src/file.rs:20`
+
+## CLI Tests
+
+CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binaries, one is the CLI binary, and the other is the test binary.
+
+To test these, the following steps should work, but they don't (attaching fails with `unable to start the exception thread`):
+
+1. `lldb target/debug/<binary-name>`
+2. `(lldb) process attach --name <binary-name> --waitfor`
+3. `cargo test`
