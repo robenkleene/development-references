@@ -15,3 +15,4 @@
 - `M-h`: Mark paragraph
 - `C-M-h`: Mark `defun`
 - `C-x C-p`: Mark page
+- `M-@`: Mark word

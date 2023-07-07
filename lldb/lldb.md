@@ -7,7 +7,7 @@
 - `(lldb) process launch -i <file-path>`: Start program with STDIN and arguments
 - `(lldb) run`: Start program
 - `(lldb) r`: Start program
-- `⌃D`: Quit
+- `^D`: Quit (this probably isn't `^C` so that `^C` can be used to interrupt commands)
 
 ## Shorthand
 
