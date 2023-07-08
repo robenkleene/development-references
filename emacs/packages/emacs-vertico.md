@@ -8,4 +8,4 @@ To accept a match that doesn't exist, use `M-RET` (`vertico-exit-input`), or use
 
 ## `next-history-element`
 
-To insert the identifier at point into the minibuffer (e.g., to start a `rg` search, and use what's at point as the search term. Just use `M-n` after starting the search to trigger `next-history-element`. This feature is called "future history".
+To insert the identifier at point into the minibuffer (e.g., to start a `rg` search, and use what's at point as the search term. Just use `M-n` after starting the search to trigger `next-history-element`. (This feature is called "future history".)
