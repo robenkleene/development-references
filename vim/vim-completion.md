@@ -4,7 +4,7 @@
 
 ## Menu
 
-With the menu visible
+When the menu is visible:
 
 - `<C-y>`: Accept completion
 - `<C-e>`: Cancel completion
