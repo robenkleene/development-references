@@ -8,6 +8,7 @@ With the menu visible
 
 - `<C-y>`: Accept completion
 - `<C-e>`: Cancel completion
+- `<C-p>` / `<C-n>`: Select previous / next entry
 
 ## Types
 
