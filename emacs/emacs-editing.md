@@ -56,6 +56,10 @@
 - `M-q`: Wrap comment
 - `M-^`: Join line with line above
 
+## Whitespace
+
+- `M-\`: Delete whitespace until next word
+
 ## Spelling
 
 - `M-S-$`: Correct misspelled word
