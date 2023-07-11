@@ -29,12 +29,16 @@ Note that `cargo tests` runs *2 test targets*, one for integration tests and one
 
 CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binaries, one is the CLI binary, and the other is the test binary.
 
-1. `rust-lldb`
-2. `(lldb) process attach --name <binary-name> --waitfor`
-3. Add the `get-task-allow` flag to the binary
+1. Add the `get-task-allow` flag to the binary
+2. `rust-lldb`
+3. `(lldb) process attach --name <binary-name> --waitfor`
 4. `cargo test`: Note you have to be sure this doesn't overwrite the binary by re-compiling, it's probably easier to specify an exact test (e.g., `cargo test <test-name> -- --nocapture`
 
-### Adding `get-task-allow`
+### `get-task-allow`
+
+#### Adding
+
+`=(...)` is special `zsh` process substitution that creates a temporary file containing the output of the command, and then uses that temporary file as the parameter.
 
 ```
 codesign -s - -v -f --entitlements =(echo -n '<?xml version="1.0" encoding="UTF-8"?>
@@ -46,3 +50,7 @@ codesign -s - -v -f --entitlements =(echo -n '<?xml version="1.0" encoding="UTF-
     </dict>
 </plist>') <binary-path>
 ```
+
+#### Verifying
+
+`codesign -dvvv --entitlements=- <path-to-app>`
