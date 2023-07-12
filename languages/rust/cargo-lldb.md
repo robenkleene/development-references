@@ -32,7 +32,9 @@ CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binari
 1. Add the `get-task-allow` flag to the binary (this is the built binaries path, e.g., `target/debug/rep`, which doesn't appear in the `cargo test` compilation output)
 2. `rust-lldb`
 3. `(lldb) process attach --name <binary-name> --waitfor`
-4. `cargo test`: Note you have to be sure this doesn't overwrite the binary by re-compiling, it's also probably easier to specify an exact test (e.g., `cargo test <test-name> -- --nocapture`) *it actually doesn't seem to work unless an exact test is specified?*
+4. `cargo test <test-name>`
+    - *Note you have to be sure this doesn't overwrite the binary by re-compiling*
+    - `<test-name>` seems to be required for this to work for some reason
 5. When the test starts running the debugger will immediately pause execution, and then breakpoints can be entered, e.g. `b /Users/robenkleene/Developer/Projects/CLI/rep-grep/src/patcher.rs:24`
 
 ### `get-task-allow`

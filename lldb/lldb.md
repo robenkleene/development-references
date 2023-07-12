@@ -3,12 +3,11 @@
 - `lldb <path-to-program>`: Load program
 - `(lldb) file <path-to-program`: Load program
 - `(lldb) run`: Start program
-- `(lldb) r`: Start program
 - `^D`: Quit (this probably isn't `^C` so that `^C` can be used to interrupt commands)
 
 ## Shorthand
 
-- `r <parameters>`: Run passing parameters to the executable
+- `r <parameters>`: Run, optionally passing parameters to the executable
 - `n`: Step over
 - `s`: Step in
 - `c`: Continue
