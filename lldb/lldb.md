@@ -1,5 +1,6 @@
 # `lldb`
 
+- `↩`: Repeat last command
 - `lldb <path-to-program>`: Load program
 - `(lldb) file <path-to-program`: Load program
 - `(lldb) run`: Start program
