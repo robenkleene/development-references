@@ -35,7 +35,7 @@ CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binari
 4. `cargo test <test-name>`
     - *Note you have to be sure this doesn't overwrite the binary by re-compiling*
     - `<test-name>` seems to be required for this to work for some reason
-5. When the test starts running the debugger will immediately pause execution, and then breakpoints can be entered, e.g. `b /Users/robenkleene/Developer/Projects/CLI/rep-grep/src/patcher.rs:24`
+5. When the test starts running the debugger will immediately pause execution, and then breakpoints can be entered, e.g. `b /Users/robenkleene/Developer/Projects/CLI/rep-grep/src/patcher.rs:24`, then follow-up with `c` for continue to hit the breakpoint
 
 ### `get-task-allow`
 
