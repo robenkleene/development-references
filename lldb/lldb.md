@@ -6,16 +6,6 @@
 - `(lldb) run`: Start program
 - `^D`: Quit (this probably isn't `^C` so that `^C` can be used to interrupt commands)
 
-## Shorthand
-
-- `r <parameters>`: Run, optionally passing parameters to the executable
-- `n`: Step over
-- `s`: Step in
-- `c`: Continue
-- `↩`: Repeat the last command (e.g., `next`)
-- `b test.c:12`
-- `fr s`: Print current line
-
 ## Commands
 
 - `run <parameters>`: Run passing parameters to the executable
@@ -26,15 +16,6 @@
 - `source list`: Display source code for the current target process
 - `source info <file path>`: Display source line information for the current target process
 - `⌃C`: Seems to stop the process?
-
-## Variables
-
-- `frame variable` / `fr v`: Show all variables and arguments in the current frame
-- `frame variable --no-args` / `fr v a`: Show only all variables in the current frame
-- `frame variable <variable>` / `fr v <variable>`: Show value of frame `<variable>`
-- `target variable` / `ta v`: Show all global (and static) variables defined in the current source file
-- `target variable <variable>` / `ta v <variable>`: Show value of target `<variable>`
-- `print <variable>`: Print a variable
 
 ## Debug Builds
 
