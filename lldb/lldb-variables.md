@@ -6,4 +6,3 @@
 - `target variable` / `ta v`: Show all global (and static) variables defined in the current source file
 - `target variable <variable>` / `ta v <variable>`: Show value of target `<variable>`
 - `print <variable>` / `p` / `v`: Print a variable
-

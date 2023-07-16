@@ -3,7 +3,7 @@
 - `↩`: Repeat last command
 - `lldb <path-to-program>`: Load program
 - `(lldb) file <path-to-program`: Load program
-- `(lldb) run`: Start program
+y- `(lldb) run`: Start program
 - `^D`: Quit (this probably isn't `^C` so that `^C` can be used to interrupt commands)
 
 ## Commands
