@@ -2,6 +2,9 @@
 
 - `set -lx VAR world`: Local exported variable
 - `set -e VAR`: Erase variable
+- `set result (pbpaste)`: Set a variable
+    - Print this variable respecting line endings `printf "%s\n" $result`
+
 
 ## One Liner
 
