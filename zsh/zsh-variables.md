@@ -1,5 +1,9 @@
 # `zsh` Variables
 
+`man zshexpn`: Help on expansion
+
+## Flags
+
 - `${(q)foo"`: Escape special file system characters in variable
 - `${(qq)foo"`: Escape special file system characters in variable and wrap in single quotes
 - `${(qqq)foo"`: Escape special file system characters in variable and wrap in double quotes
