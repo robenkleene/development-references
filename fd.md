@@ -6,12 +6,17 @@
 - `-I` / `--no-ignore`: Include ignored files
 - `-i` / `--case-sensitive`: Make case sensitive
 - `-t d` / `-t f`: Specify only directories / files
+- `-X <command>` / `--exec-batch <command>`: Run a command on each file
 
 ## One Liners
 
 - `fd --hidden "release.yml" --exec fish -c "cd {//}; pwd; git status"`: Perform commands
 - `fd -e "md" . ./raster/`: Search a specific path without supplying a pattern (note the `.` as a pattern that matches everything)
 - `fd --type executable` / `fd -t executable`: Find all executable files
+
+## Deleting Files
+
+- `fd <term> -X rm`
 
 ## Troubleshooting
 
