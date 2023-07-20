@@ -2,6 +2,10 @@
 
 - `q`: Dismiss floating overlay
 
+## Bindings
+
+There's no way to scroll the popup window, instead you have to focus it, and then navigate within it.
+
 ## Troubleshooting
 
 For "other clients that match the filetype":
