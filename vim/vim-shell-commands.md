@@ -30,3 +30,12 @@ There's no nice way to do this, it's easier to just create a new buffer (`:new`)
 - `!clear`: Clear the external command buffer
 - `!!bash`: Execute current line in bash (note that this is a normal mode command, not a command line command)
 - `:!%`: Run current file
+
+## Parameter Expansion
+
+`:h backtick-expantion`
+
+E.g., "e `which z_fzf`"
+
+- Doesn't work with Fish shell
+- Doesn't work with interactive programs (hangs)
