@@ -18,6 +18,7 @@ Note that the space after `w` is mandatory!
 
 - `:r !ls`: Input the result of a shell command below the current line
 - `:0r !ls`: Input the result of a shell command at the beginning of the document
+- These don't work with interactive commands (their output is written to a temporary buffer)
 
 ## Output in a New Buffer
 
