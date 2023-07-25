@@ -5,7 +5,7 @@
 - `set result (pbpaste)`: Set a variable
 - `echo $result`: Print variable separated by spaces
 - `printf "%s\n" $result`: Print variable separated by line endings 
-- `set --show $MANPATH`: Deeper inspection into variables
+- `set --show MANPATH`: Deeper inspection into variables
 
 ## One Liner
 
