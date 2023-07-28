@@ -17,3 +17,9 @@ let vikings = HashMap::from([
     ("Iceland", 12),
 ]);
 ```
+
+## Vec
+
+```
+let vec = vec!["a", "b", "c"];
+```
