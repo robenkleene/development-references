@@ -11,4 +11,8 @@ These can be repeated without doing the leader key (i.e., they're assigned with 
 
 - `<prefix>C-o` / `rotate-window`: Rotate windows
 - `<prefix>␣` / `next-layout`: Rotate between layouts
-- `resize-pane -Z`: Make pane full screen
+
+## Special
+
+- `<prefix>z` / `resize-pane -Z`: Make pane full screen
+- `<prefix>L`: Go to last session
