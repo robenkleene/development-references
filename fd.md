@@ -16,7 +16,8 @@
 
 ## Deleting Files
 
-- `fd <term> -X rm`
+- `fd <term> -X rm`: Files
+- `fd <term> -X rm -r`: Directories
 
 ## Troubleshooting
 
