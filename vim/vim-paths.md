@@ -7,6 +7,11 @@
 - `%:e`: File extension
 - `%:r`: Filename without extension
 
+## Command-Line Mode
+
+- `<c-r>%`: Insert the path
+
 ## Insert Mode
 
-<c-r>=expand("%:p")
+- `<c-r>%`: Insert the path
+- `<c-r>=expand("%:p")`: Insert with a modifier
