@@ -40,3 +40,7 @@ E.g., "e `which z_fzf`"
 
 - Doesn't work with Fish shell
 - Doesn't work with interactive programs (hangs)
+
+## Pipes
+
+- Pipes can be used normally with `:!`, e.g., `:!realpath % | pbcopy` works
