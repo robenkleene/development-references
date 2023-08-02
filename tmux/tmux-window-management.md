@@ -5,6 +5,17 @@
 - `<prefix>"`: Split window horizontally
 - `<prefix>%`: Split window vertically
 
+## Navigation
+
+## Panes
+
+- `<prefix>x`: Kill pane
+- `<prefix>!`: Move current pane to new window
+
+## Window
+
+- `<prefix>&`: Kill window
+
 ## Resizing
 
 These can be repeated without doing the leader key (i.e., they're assigned with the `bind-key` `-r` flag).
@@ -20,6 +31,4 @@ These can be repeated without doing the leader key (i.e., they're assigned with 
 ## Special
 
 - `<prefix>z` / `resize-pane -Z`: Make pane full screen
-- `<prefix>L`: Go to last session
-- `<prefix>l`: Go to last window
-- `<prefix>;`: Go to last pane
+
