@@ -21,4 +21,5 @@ These can be repeated without doing the leader key (i.e., they're assigned with 
 
 - `<prefix>z` / `resize-pane -Z`: Make pane full screen
 - `<prefix>L`: Go to last session
-- `<prefix>;`: Last pane
+- `<prefix>l`: Go to last window
+- `<prefix>;`: Go to last pane
