@@ -7,14 +7,25 @@
 
 ## Navigation
 
+## Sessions
+
+- `<prefix>L`: Last session
+- `<prefix>s`: Session picker
+
+## Window
+
+- `<prefix>w`: Window picker
+- `<prefix>&`: Kill window
+- `<prefix>l`: Last window
+- `<prefix>c`: Create window
+- `<prefix>p`: Previous window
+- `<prefix>n`: Next window
+
 ## Panes
 
 - `<prefix>x`: Kill pane
 - `<prefix>!`: Move current pane to new window
-
-## Window
-
-- `<prefix>&`: Kill window
+- `<prefix>;`: Last pane
 
 ## Resizing
 

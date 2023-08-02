@@ -1,0 +1,7 @@
+# Python Literals
+
+## Array
+
+```
+arr = []
+```
