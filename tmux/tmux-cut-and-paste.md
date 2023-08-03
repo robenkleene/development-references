@@ -1,5 +1,9 @@
 # `tmux` Cut and Paste
 
+- `<prefix>=`: Show previous copies
+
+## Copy Mode
+
 - `Y`: Paste selection
 - `M-y`: Paste selection, also copying to clipboard
 
