@@ -26,6 +26,7 @@
 - `<prefix>x`: Kill pane
 - `<prefix>!`: Move current pane to new window
 - `<prefix>;`: Last pane
+- `<prefix>M-o`: Swap panes
 
 ## Resizing
 
