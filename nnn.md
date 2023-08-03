@@ -6,6 +6,10 @@
 - `␣` / `+`: Toggle selection
 - `nnn <file-path>`: Open `nnn` with file highlighted
 
+## Navigation
+
+- `C-u` / `C-d`: Page up / down
+
 ## Filter
 
 - `/`: Filter
