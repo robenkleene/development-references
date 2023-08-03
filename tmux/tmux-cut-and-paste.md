@@ -1,5 +1,7 @@
 # `tmux` Cut and Paste
 
+- `Y`: Paste selection
+
 - `tmux show-buffer`: Show the `tmux` buffer
 
 ## Default Mouse
