@@ -1,6 +1,9 @@
 # `tmux` Cut and Paste
 
 - `Y`: Paste selection
+- `M-y`: Paste selection, also copying to clipboard
+
+## Commands
 
 - `tmux show-buffer`: Show the `tmux` buffer
 
