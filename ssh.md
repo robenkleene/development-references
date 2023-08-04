@@ -18,3 +18,11 @@ To server static HTML files use:
 To forward a port after connecting, use the following command (the `-N` runs `ssh` without opening a shell):
 
     ssh -N -L 3000:localhost:3000 aresdev
+
+## Troubleshooting
+
+If `ssh` connections are slow connecting to macOS, turn of `IPv6 negotiation` (which times out on macOS).
+
+```
+AddressFamily inet
+```
