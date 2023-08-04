@@ -1,5 +1,9 @@
 # `gh`
 
+## Browse
+
+- `gh browse`: Open in repo browser
+
 ## Create
 
 - `gh repo create`: Create a new repo by following instructions
