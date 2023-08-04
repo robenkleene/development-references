@@ -31,8 +31,12 @@
 - `C-y`: Paste
 - `M-y`: Cycle through matches (after a `C-y`)
 - `C-SPC`: Select
-- `C-x SPC`: Block select
 - `C-x C-x`: Restore previous region
+
+### Rectangular
+
+- `C-x SPC`: Enter rectangular selection mode
+- `C-x r t`: Prepend each line in select
 
 ## Movement
 
