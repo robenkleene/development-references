@@ -1,4 +1,4 @@
-# `tmux` Cut and Paste
+# `tmux` Copy & Paste
 
 - `<prefix>=`: Show previous copies
 
@@ -6,6 +6,7 @@
 
 - `Y`: Paste selection
 - `M-y`: Paste selection, also copying to clipboard
+- `v`: Toggle rectangle mode (so typically hit `Space` to start a selection then `v` to toggle rectangle mode)
 
 ## Commands
 
