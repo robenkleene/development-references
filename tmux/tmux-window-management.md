@@ -9,6 +9,7 @@
 
 ## Sessions
 
+- `:new`: Create a new session
 - `<prefix>L`: Last session
 - `<prefix>s`: Session picker
 
