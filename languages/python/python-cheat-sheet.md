@@ -1,6 +1,6 @@
 # Python
 
-## Arrays / Lists
+## Array / List
 
 ### Literal
 
@@ -9,6 +9,8 @@ arr = []
 ```
 
 ### Append
+
+`arr.append(value)`
 
 ## Print
 
