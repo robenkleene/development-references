@@ -1,7 +1,0 @@
-# Python Literals
-
-## Array
-
-```
-arr = []
-```
