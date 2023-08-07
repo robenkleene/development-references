@@ -5,6 +5,8 @@
 - `→`: Accept completion
 - `^F`: Accept one word of completion
 - `⌥↑` / `⌥↓`: Quote / unquote variable
+- `⌥↑` / `⌥↓`: Cycle through parameters from history
+- `⌥.`: Cycle through parameters from history
 
 ## Commands
 
