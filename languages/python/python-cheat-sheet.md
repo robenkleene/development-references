@@ -1,16 +1,26 @@
 # Python
 
-## Array / List
+## Data Structures
 
-### Literal
+### Array / List
+
+Literal
 
 ```
 arr = []
 ```
 
-### Append
+#### Append
 
 `arr.append(value)`
+
+### Dict
+
+Literal
+
+```
+d = {'A': 1, 'B': 2}
+```
 
 ## Print
 
