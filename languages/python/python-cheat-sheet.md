@@ -12,7 +12,7 @@ arr = []
 
 #### Append
 
-`arr.append(value)`
+`arr.append(foo)`
 
 ### Dict
 
@@ -24,4 +24,9 @@ d = {'A': 1, 'B': 2}
 
 ## Print
 
+`print("Hello World")`
+
 ### Variable
+
+`print(f"foo = {foo}")`
+
