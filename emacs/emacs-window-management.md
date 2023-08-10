@@ -25,6 +25,13 @@
 - `C-x 3`: Split window vertically
 - `C-x +`: Make window equal size
 
+## Tabs
+
+- `C-x t 2`: Create new tab
+- `C-x t O` / `C-x t o`: Go to previous / next tab
+- `C-x t 0`: Close tab
+- `C-x t 1`: Close other tabs
+
 ## Other Window
 
 - `C-M-v` / `S-C-M-v`: Page down / up in other window (note page up doesn't work in terminal Emacs)
