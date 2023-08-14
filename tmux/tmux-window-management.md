@@ -22,6 +22,7 @@
 - `<prefix>c`: Create window
 - `<prefix>p`: Previous window
 - `<prefix>n`: Next window
+- `<prefix>.`: Move a window by specifying a window number
 
 ## Panes
 
