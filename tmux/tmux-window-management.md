@@ -25,6 +25,7 @@
 
 ## Panes
 
+- `:kill-pane -a`: Kill all panes except this one
 - `<prefix>x`: Kill pane
 - `<prefix>!`: Move current pane to new window
 - `<prefix>;`: Last pane
