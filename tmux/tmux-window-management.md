@@ -23,6 +23,7 @@
 - `<prefix>p`: Previous window
 - `<prefix>n`: Next window
 - `<prefix>.`: Move a window by specifying a window number
+- `swap-window -t -1` / `swap-window -t +1`: Swap window left / right
 
 ## Panes
 
