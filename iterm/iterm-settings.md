@@ -16,5 +16,6 @@
 
 ## Minimal Menu Bar
 
-- Set `Preferences > Appearance > General > Theme > Minimal`
+- Set `Preferences > Appearance > General > Theme > Minimal`: No separate title bar
+- Set `Preferences > Appearance > General > Theme > Compact`: Tight separate title bar
 - The title can be hidden by toggling on `Profiles > Window > Custom window title` and setting it to empty, but it's useful to show to tell when an SSH session is active.
