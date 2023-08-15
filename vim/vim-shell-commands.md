@@ -36,10 +36,12 @@ There's no nice way to do this, it's easier to just create a new buffer (`:new`)
 
 `:h backtick-expantion`
 
-E.g., "e `which z_fzf`"
+- ":e `today`.md": Works well
+
+### Gotchas
 
 - Doesn't work with Fish shell
-- Doesn't work with interactive programs (hangs)
+- Doesn't work with interactive programs, it hangs (e.g., "e `which z_fzf`" won't work
 
 ## Pipes
 
