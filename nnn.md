@@ -46,3 +46,19 @@
 
 - `a`: Select all
 - `A`: Invert selection
+
+## Shell Commands
+
+### Native Command Prompt
+
+- `]`: Enters the native command prompt
+- `^D`: Exit native command prompt
+- To run a command on the currently hovered file: `]` to enter the native command prompt, then `<command> $nnn`. E.g., `open $nnn` will open the currently hovered file.
+
+#### Variables & Substitutions
+
+- `$nnn`: Hovered file (e.g., `open $nnn`)
+- `$d<number>`: Directory in context `<number>` (e.g., `cp "$f1" "$d3"`)
+- `$f<number>`: Hovered file in context `<number>` (e.g., `cp "$f1" "$d3"`)
+- `%j`: Repeat command with each file in selection (e.g., `printf "Searching for string in %s\n" "%j"; grep "string" "%j"`)
+- `%J`: Append each file in selection to end of command (e.g., `tar uvf archive.tar %J`)
