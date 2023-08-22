@@ -37,6 +37,7 @@
 - `:args`: Show the contents of the `argslist`
 - `:next`: Next file
 - `:prev`: Previous file
+- `args <backtick>fd foo<backtick>`: Populate `arglist` with result of external command (using `backtick-expansion`)
 
 Once files have been opened as arguments, `##` can be used to represent them in `ex` commands, e.g.:
 
