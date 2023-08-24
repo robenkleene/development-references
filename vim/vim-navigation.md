@@ -37,7 +37,7 @@
 - `:args`: Show the contents of the `argslist`
 - `:next`: Next file
 - `:prev`: Previous file
-- `args <backtick>fd foo<backtick>`: Populate `arglist` with result of external command (using `backtick-expansion`)
+- `args <backtick>fd foo<backtick>`: Populate `arglist` with result of external command (using `backtick-expansion`). Note if the command contains a wildcard, e.g., `args <backtick>fd '*.js'<backtick>`, then you must wrap the search term in quotes to prevent `vim` from trying to expand the `*`.
 
 Once files have been opened as arguments, `##` can be used to represent them in `ex` commands, e.g.:
 
