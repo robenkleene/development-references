@@ -1,5 +1,7 @@
 # `rg`
 
+`rg` is case sensitive by default.
+
 - `-i` & `--ignore-case`: Ignore case
 - `-s` & `--case-sensitive`: Case sensitive
 - `-F`: Literal (no regular expression) search
