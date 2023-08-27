@@ -29,6 +29,10 @@
 - `--multiline-dotall`: Allow `.` to match newlines (alternatively, `(?s:.)` can be replace `.` to match new lines)
 - `rg -IN -m 1 ".*import.*"`: Print matching lines, max 1 per file, good for quickly remembering how to do something
 
+## Troubleshooting
+
+- To search for hyphens, precede the search term with `--`, e.g., `rg -- --bind`
+
 ## Special Characters
 
 ### ASCII Character Classes
