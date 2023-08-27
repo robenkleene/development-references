@@ -9,6 +9,10 @@ Command to do `less` like `git` pager:
 * `-R` / `--RAW-CONTROL-CHARS`: Allow color
 * `-S` / `--shop-long-lines`: Truncate long lines
 
+## Search
+
+`/\W-<flag`: Search for a short flag (`\W` matches a word boundary)
+
 ## Interactive
 
 - `-S`: Type and hit enter to toggle wrap
