@@ -7,6 +7,7 @@
     - This can take a prefix argument to get other parameters, for example `M-2 M-.` to get the second last
 - `M-.` / `M-_`: Insert last parameter of previous command
     - This can take a prefix argument to get other parameters, for example `M-2 M-.` to get the second last
+    - Subsequent presses go back through previous commands (e.g., `M-. M-.` gets the last parameter two commands ago)
 - `M-h`: Help for current command (runs `man`)
 - `C-q` or `^[q`: Push current line (clears the line, execute one command and then return the line)
 - `C-y`: Yank
@@ -22,6 +23,8 @@ bindkey -e "^[m" copy-earlier-word
 
 `copy-earlier-word`
 
+- Cycle through previous parameters.
+
 ## History
 
 - `^r`: Reverse history search
@@ -36,6 +39,8 @@ bindkey -e "^[m" copy-earlier-word
 When the menu is visible to select various options.
 
 ### Bindings
+
+`man zshzle` for what each widget does.
 
 - `zle -la`: List all available commands to bind
 - `bindkey -l`: List key maps

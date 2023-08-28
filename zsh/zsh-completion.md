@@ -4,14 +4,15 @@
 
 ### Commands
 
-- `!-1` / `!!`: Previous command
-- `!#`: Current command
+- `!-1` / `!!`: Previous command with parameters
+- `!-3`: Third last command with parameters
+- `!#`: Current command with parameters
 
 ### Parameters
 
 #### Current
 
-- `!#:0` / `!#0`: Current command
+- `!#:0` / `!#0`: Current command without parameters
 - `!#:$` / `!#$`: Insert previous parameter in current line (same as `M-C--` binding)
 - `!#:1` / `!#1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
 - `!#:*` / `!#*`: Insert all parameters in current line (`1` maps to the parameter spot)
