@@ -2,6 +2,7 @@
 
 ## Modifiers
 
+- `(om)`: Sort by modification time
 - `(n)`: Sort files numerically (e.g., `pdfjoin chapter*.pdf(n) -o all.pdf`)
 - `(P:--exclude:)`: Prefix a flag (e.g., `tar czvf foo.tar.gz * *.tmp(P:--exclude:)`)
 
