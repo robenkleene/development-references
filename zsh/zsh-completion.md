@@ -7,6 +7,7 @@
 - `!-1` / `!!`: Previous command with parameters
 - `!-3`: Third last command with parameters
 - `!#`: Current command with parameters
+- `!vi`: Complete a previous command that starts with `vi`
 
 ### Parameters
 
