@@ -9,6 +9,10 @@ Command to do `less` like `git` pager:
 * `-R` / `--RAW-CONTROL-CHARS`: Allow color
 * `-S` / `--shop-long-lines`: Truncate long lines
 
+## Bindings
+
+- `''`: Go to previous position (e.g., to return how you started after a search)
+
 ## Search
 
 `/\W-<flag`: Search for a short flag (`\W` matches a word boundary)
