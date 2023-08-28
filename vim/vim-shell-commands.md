@@ -8,6 +8,7 @@ Note that the space after `w` is mandatory!
 - `:w !bash`: File
 - `:%w !bash`: File
 - `:'<,'>w !bash`: Visual selection (note this only works for *line-wise* selection, sub-line selection will not work! This is because `:` `ex` commands are all line based)
+- `!}`: Filter to the end of the current block through shell command (here `}` is just used as the `vim` motion to the end of the block)
 
 ## Replacing Selection
 
