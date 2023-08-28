@@ -20,3 +20,8 @@ List all keys:
 Ascending order
 
 	${(o)assoc}
+
+## Numbers
+
+- `<42-69>`: Globs numbers between `42` and `69`
+- `{42..69}`: Expands to numbers between `42` and `69`
