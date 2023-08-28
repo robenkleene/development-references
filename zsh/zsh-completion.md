@@ -21,6 +21,6 @@
 - `!:0` / `!0`: Previous command
 - `!:$` / `!$`: Last argument from previous command (same as `M-.` / `M-_` bindings)
 - `!:*` / `!*`: All arguments from previous command
-- `!:1-$`: `n`'th argument to last from previous command
-- `!-i:n-$`: `n`'th argument to last from command `i` commands ago
+- `!:3-$`: Third to last from previous command
+- `!-3:3-$`: Third to last from three commands ago
 - `!:1-3`: First through third arguments of previous command
