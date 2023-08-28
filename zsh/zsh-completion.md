@@ -2,16 +2,25 @@
 
 ## Substitutions
 
-### History
+### Commands
 
-* `!-1` or `!!`: Expand previous command
+- `!-1` / `!!`: Previous command
+- `!#`: Current command
 
 ### Parameters
 
-* `!#:$`: Insert last parameter in current line
-* `!#:1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
-* `!!:n-$`: `n`'th argument to last from previous command
-* `!-i:n-$`: `n`'th argument to last from command `i` commands ago
-* `!!:1-$`: All argument from previous command
+#### Current
 
+- `!#:0` / `!#0`: Current command
+- `!#:$` / `!#$`: Insert previous parameter in current line (same as `M-C--` binding)
+- `!#:1` / `!#1`: Insert any previous parameter in current line (`1` maps to the parameter spot)
+- `!#:*` / `!#*`: Insert all parameters in current line (`1` maps to the parameter spot)
 
+#### Previous
+
+- `!:0` / `!0`: Previous command
+- `!:$` / `!$`: Last argument from previous command (same as `M-.` / `M-_` bindings)
+- `!:*` / `!*`: All arguments from previous command
+- `!:1-$`: `n`'th argument to last from previous command
+- `!-i:n-$`: `n`'th argument to last from command `i` commands ago
+- `!:1-3`: First through third arguments of previous command
