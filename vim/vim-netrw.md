@@ -5,6 +5,7 @@
 - `d`: Create directory
 - `D`: Delete file
 - `R`: Rename (or move) file
+- `%`: Create a new file at the current directory
 
 With `vim-vinegar`, `gh` to show hidden files.
 
