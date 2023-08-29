@@ -7,5 +7,5 @@
 
 ### Markdown
 
-- When `nvim` enters a new line with an indented list, it adds the new item indented appropriately. *Not sure where this feature is coming from maybe Tree-Sitter?*
+- When `nvim` enters a new line with an indented list, it adds the new item indented appropriately. *`vim` can also do this with the `set autoindent` option*
 - `nvim` disables spell checking in URLs
