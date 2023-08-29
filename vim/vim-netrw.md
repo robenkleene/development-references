@@ -4,7 +4,7 @@
 - `cd`: Changes working directory to current directory
 - `d`: Create directory
 - `D`: Delete file
-- `R`: Rename file
+- `R`: Rename (or move) file
 
 With `vim-vinegar`, `gh` to show hidden files.
 
