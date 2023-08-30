@@ -1,7 +1,7 @@
 # `vim` `netrw`
 
 - `:e`: Refresh the file list
-- `cd`: Changes working directory to current directory
+- `cd`: Changes local directory to current directory (this does an `:lcd` not `:cd`)
 - `d`: Create directory
 - `D`: Delete file
 - `R`: Rename (or move) file
