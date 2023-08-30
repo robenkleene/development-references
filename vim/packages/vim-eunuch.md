@@ -5,5 +5,6 @@
 
 ## Notes
 
+- This package seems unnecessary, why not just use `netrw`?
 - Use `:saveas <new-name>` to save a file under a new name and edit it
 - Use `:w <new-name>` to save a file under a new name and continue editing the same file
