@@ -1,5 +1,9 @@
 # `less`
 
+- To dump everything to the terminal, use `--no-init` and then hit `G q` to jump to the bottom and quit
+
+## Git Pager Settings
+
 Command to do `less` like `git` pager:
 
 	less -FXRS
