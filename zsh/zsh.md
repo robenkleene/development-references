@@ -1,5 +1,6 @@
 # `zsh`
 
+- `exec zsh` to reload
 - `^g`: Cancel
 
 ## Commands
