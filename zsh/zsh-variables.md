@@ -1,8 +1,12 @@
 # `zsh` Variables
 
-`man zshexpn`: Help on expansion
+- `typeset -p <variable>`: Print more info about a variable
 
-## Flags
+## Expansion
+
+- `man zshexpn`: Help on expansion
+
+### Flags
 
 - `${(q)foo}`: Escape special file system characters in variable
 - `${(qq)foo}`: Escape special file system characters in variable and wrap in single quotes
