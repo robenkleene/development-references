@@ -1,6 +1,6 @@
 # `rg`
 
-`rg` is case sensitive by default.
+`rg` is case sensitive by default, this is to be consistent with `grep` which is also case sensitive by default.
 
 - `-i` & `--ignore-case`: Ignore case
 - `-s` & `--case-sensitive`: Case sensitive
