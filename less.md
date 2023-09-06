@@ -24,3 +24,7 @@ Command to do `less` like `git` pager:
 ## Interactive
 
 - `-S`: Type and hit enter to toggle wrap
+
+## Tips
+
+To search for a flag, prefix it with a space, e.g., ` --foo`.
