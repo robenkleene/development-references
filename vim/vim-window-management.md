@@ -45,3 +45,13 @@
 * `:tabc[lose]`: Close tab
 * `gt`: Next tab
 * `gT`: Previous tab
+
+## Window Movement
+
+- `zz`: Center cursor in window
+- `z.`: Center cursor in window and move cursor to first non-blank character
+- `zt` / `zb`: Align cursor with top / bottom of window
+- `z<CR>` / `z-`: Align cursor with top / bottom of window and move cursor to first non-blank character
+- `zh` / `zl`: Move window left / right
+- `zH` / `zL`: Move window left / right by half a screen
+- `zs` / `ze`: Align cursor with left / right side of window
