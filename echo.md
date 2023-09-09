@@ -1,5 +1,13 @@
 # `echo`
 
-To print new lines, add the `-e` flag to interpret backslashes:
+- `echo foo`: Print with new line
+- `echo -n foo`: Print without new line
 
-  echo -e "foo\nbar"
+## Notes
+
+Add the `-e` flag to interpret backslashes:
+
+```
+echo -e "foo\nbar"
+```
+
