@@ -30,3 +30,9 @@
 - `!:3-$`: Third to last from previous command
 - `!-3:3-$`: Third to last from three commands ago
 - `!:1-3`: First through third arguments of previous command
+- `!:0-1`: Command and first parameter of previous command
+- `!:1`: First parameter of previous command
+
+#### Other
+
+- `!1`: The first command in history file (pretty odd and useless)
