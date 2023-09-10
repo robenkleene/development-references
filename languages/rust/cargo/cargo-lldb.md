@@ -9,7 +9,7 @@ To run a test in `lldb` we first need the path to the compiled test binary, whic
 
     target/debug/deps/<project-name>-d1d452730bf9464b
 
-Note that `cargo tests` runs *2 test targets*, one for integration tests and one for unit tests, you'll need to get the target for the one that's running your test. It's usually the second one.
+Note that `cargo tests` runs *two test targets*, one for integration tests and one for unit tests, you'll need to get the path to the target that's running the code you want to debug (e.g., either the test itself, or the project).
 
 - Use `rust-lldb` for niceties like pretty printing (I couldn't get this to work with a non-default `lldb` install location like on Linux).
 
@@ -27,7 +27,7 @@ Note that `cargo tests` runs *2 test targets*, one for integration tests and one
 
 ## CLI Tests
 
-CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binaries, one is the CLI binary, and the other is the test binary.
+CLI tests (e.g., using `Command::cargo_bin("rep")`) involve two different binaries, one is the CLI binary, and the other is the test binary. You can use the normal method above for the test binary, but for the CLI binary, you'll need to do some extra steps to add `get-task-allow`.
 
 1. Add the `get-task-allow` flag to the binary (this is the built binaries path, e.g., `target/debug/rep`, which doesn't appear in the `cargo test` compilation output)
 2. `rust-lldb`
