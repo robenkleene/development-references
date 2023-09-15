@@ -1,11 +1,19 @@
 # `vim` Paths
 
+No these will only work for commands that take a file path, e.g., `:e %:h` will work, but `:echo %` will not.
+
+`echo expand('%')` will also work. 
+
 - `%`: Relative path
 - `%:p`: Absolute path
 - `%:h`: Head (parent)
 - `%:t`: Tail (filename)
 - `%:e`: File extension
 - `%:r`: Filename without extension
+
+## Examples
+
+- `%:t`
 
 ## Command-Line Mode
 

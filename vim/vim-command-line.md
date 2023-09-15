@@ -26,7 +26,7 @@ The way to print environment variables like `$VIMRUNTIME` is to start a subshell
 - `<C-r><C-a>`: Insert WORD under cursor
 - `<C-r>%`: Insert name of current file
 - `<cfile>`: Another reference to the cursor file, this is particularly useful with `e <cfile>` to start create the file at the cursor (`<C-r><C-f>` can also be used in this case).
-
+- There's no undo for the command line unfortunately
 ## Types of Commands
 
 - `:normal dd`: Delete current line
