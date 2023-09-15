@@ -4,6 +4,8 @@ No these will only work for commands that take a file path, e.g., `:e %:h` will 
 
 `echo expand('%')` will also work. 
 
+`:h expand()` for more.
+
 - `%`: Relative path
 - `%:p`: Absolute path
 - `%:h`: Head (parent)
