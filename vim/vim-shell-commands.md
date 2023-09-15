@@ -37,6 +37,7 @@ There's no nice way to do this, it's easier to just create a new buffer (`:new`)
 `:h backtick-expantion`
 
 - ":e `today`.md": Works well
+- Backtick expansion often causes errors, for example ":Explore `git root`" doesn't work. A workaround is to use tab expansion to expand the backtick quote portion (e.g., ":Explore `git root`<tab>" will expand to the result of `git root`).
 
 ### Gotchas
 
