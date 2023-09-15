@@ -13,7 +13,7 @@ No these will only work for commands that take a file path, e.g., `:e %:h` will 
 
 ## Examples
 
-- `%:t`
+- `let @a = expand('%:t)`: Yank current filename to register `a`
 
 ## Command-Line Mode
 
