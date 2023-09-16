@@ -1,6 +1,6 @@
 # `assert_cmd`
 
-To debug by printing the output, with:
+To get the output of a test, with:
 
 ```
         let output = mov()
@@ -11,7 +11,7 @@ To debug by printing the output, with:
             .success().get_output();
 ```
 
-Change to:
+To get both `STDIN` and `STDOUT` of a test:
 
 ```
         let command = mov()
