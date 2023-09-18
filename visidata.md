@@ -1,0 +1,3 @@
+# Visidata
+
+- `^Q`: Quit
