@@ -12,7 +12,7 @@ From a file:
 
 ## Rich Text to Markdown
 
-    osascript -e 'the clipboard as «class RTF »' | perl -ne 'print chr foreach unpack(\"C*\",pack(\"H*\",substr($_,11,-3)))' | textutil -stdin -stdout -convert html -format rtf | pandoc -f html-native_divs-native_spans -t markdown --wrap=none
+    cat convert.rtf | pandoc -f rtf -t markdown
 
 ## Markdown to Org
 
