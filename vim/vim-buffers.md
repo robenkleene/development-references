@@ -7,3 +7,9 @@
 - `{count}CTRL-^`: Switch to count numbered buffer
 - `CTRL-^`: Edit alternate file
 - Note that the `CTRL-^` bindings also work with just `CTRL-6`
+
+## Recent Files
+
+- `:ol[dfiles]`: List old files
+- `'{count}`: Open a recent file (with `0` being the most recent)
+- `'0`: Open the most recent file
