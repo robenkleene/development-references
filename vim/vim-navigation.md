@@ -3,15 +3,21 @@
 ## `vim` Marks
 
 - `ma`: Make mark called `a`
-- ```a``: Go to `x` (line and column)
+- `<backtick>a`: Go to `a` (line and column)
 - `'x`: Go to `x` (line only)
 - `:marks`: List marks
+- `<backtick><backtick>`: Go to location before last motion
+- `''`: Go to line before last motion
 
 ### Special Marks
 
 - `.`: Last change
 - `[` and `]`: Beginning and end of last yank or change
 - `<` and `>`: Beginning and end of last visual selection
+
+## Edits
+
+- `g;` / `g,`: Go to previous / next edit
 
 ## Operating What's Under Cursor
 
