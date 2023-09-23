@@ -1,5 +1,9 @@
 # `fzf`
 
+- Just `fzf` alone lists files recursively by default
+
+## Flags
+
 - `--no-sort`: Prevents sorting matches as you type
 
 ## Bindings
