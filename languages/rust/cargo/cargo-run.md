@@ -1,5 +1,7 @@
 # `cargo` Run
 
+- `cargo run -- <arg1> <arg2>`: Run with arguments (the `--` is optional)
+
 ## Running Single Files
 
 `cargo new <project>` will have created a directory structure with `Cargo.toml` and `src/` directory.
