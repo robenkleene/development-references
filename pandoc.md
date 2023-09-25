@@ -17,3 +17,7 @@ From a file:
 ## Markdown to Org
 
 	pandoc -f markdown -t org
+
+## Vim
+
+    %w !pandoc -f markdown -o ~/Temp/exports/export.docx
