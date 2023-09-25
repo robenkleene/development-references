@@ -51,13 +51,14 @@ Once files have been opened as arguments, `##` can be used to represent them in 
 
 ## Language Specific
 
-* `]}` & `[{`: Go to next or previous brace (only works from inside a brace pair)
-* `]m` & `[m`: Go to next or previous method
+- `]}` & `[{`: Go to next or previous brace (only works from inside a brace pair)
+- `]m` & `[m`: Go to next or previous method
 
 ## View
 
-* `zz`: Center cursor
-* `zt`: Top cursor
-* `zb`: Bottom cursor
-* `zs`: Cursor end
-* `ze`: Cursor beginning
+- `zz`: Move screen centering cursor
+- `zt` / `zb`: Move screen positioning cursor at top /bottom
+- `zs` / `ze`: Move screen positioning cursor at beginning / end
+- `zh` / `zl`: Move screen positioning cursor left / right by one character
+- `zH` / `zL`: Move screen left / right by one screen
+
