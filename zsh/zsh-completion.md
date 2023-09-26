@@ -1,6 +1,10 @@
 # `zsh` Completion
 
-- `=(<command)`: Complete a path with tempfile that's a result of `<command>` (like `<(<command>)` but allows file to be accessed)
+Completion functions are loaded from a variable called `fpath`, so `echo $fpath` will show locations for completion functions.
+
+## Parameters
+
+- `=(<command>)`: Complete a path with tempfile that's a result of `<command>` (like `<(<command>)` but allows file to be accessed)
 - `=<command>`: Expand to full path of argument (like `which <command>`)
 
 ## Substitutions
