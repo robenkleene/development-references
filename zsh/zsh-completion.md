@@ -1,7 +1,5 @@
 # `zsh` Completion
 
-Completion functions are loaded from a variable called `fpath`, so `echo $fpath` will show locations for completion functions.
-
 ## Parameters
 
 - `=(<command>)`: Complete a path with tempfile that's a result of `<command>` (like `<(<command>)` but allows file to be accessed)
@@ -40,3 +38,11 @@ Completion functions are loaded from a variable called `fpath`, so `echo $fpath`
 #### Other
 
 - `!1`: The first command in history file (pretty odd and useless)
+
+## Completion Functions
+
+Completion functions are loaded from a variable called `fpath`, so `echo $fpath` will show locations for completion functions.
+
+### Troubleshooting
+
+After adding new completion functions, run `compinit` to rebuild the cache, otherwise they won't be available.
