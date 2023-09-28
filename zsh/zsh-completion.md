@@ -43,6 +43,7 @@
 
 - Completion functions are loaded from a variable called `fpath`, so `echo $fpath` will show locations for completion functions.
 - `echo $_comps[git]`: Echo the completion function name for a command
+- `whence -v $_comps[foo]` or `echo $functions_source[$_comps[foo]]`: Show the path to a completion function
 
 ### Troubleshooting
 
