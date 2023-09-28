@@ -41,8 +41,9 @@
 
 ## Completion Functions
 
-Completion functions are loaded from a variable called `fpath`, so `echo $fpath` will show locations for completion functions.
+- Completion functions are loaded from a variable called `fpath`, so `echo $fpath` will show locations for completion functions.
+- `echo $_comps[git]`: Echo the completion function name for a command
 
 ### Troubleshooting
 
-After adding new completion functions, run `compinit` to rebuild the cache, otherwise they won't be available.
+- After adding new completion functions, run `compinit` to rebuild the cache, otherwise they won't be available.
