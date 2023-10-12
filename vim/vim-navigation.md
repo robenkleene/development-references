@@ -26,21 +26,21 @@
 - `<C-w>gf`:  Open the file under the cursor in a new tab
 - `<C-w>f`:  Open the file under the cursor in a new split
 
-## Jump List
-
-- `:[ju]mps`: Show the `jumplist`
-- `<C-o>`: Go to the previous position in the `jumplist`
-- `<C-i>`: Go to the next position in the `jumplist`
-
 ## Buffers
 
 - `:ls`: List open buffers
 - `:b[uffer]`: go to buffer number 
 - `:bd`: Close buffer
 
-## `argslist`
+## Jump List
 
-- `:args`: Show the contents of the `argslist`
+- `:[ju]mps`: Show the `jumplist`
+- `<C-o>`: Go to the previous position in the `jumplist`
+- `<C-i>`: Go to the next position in the `jumplist`
+
+## Argument List
+
+- `:args`: Show the contents of the argument list
 - `:next`: Next file
 - `:prev`: Previous file
 - `args <backtick>fd foo<backtick>`: Populate `arglist` with result of external command (using `backtick-expansion`). Note if the command contains a wildcard, e.g., `args <backtick>fd '*.js'<backtick>`, then you must wrap the search term in quotes to prevent `vim` from trying to expand the `*`.
@@ -48,6 +48,13 @@
 Once files have been opened as arguments, `##` can be used to represent them in `ex` commands, e.g.:
 
 	:vimgrep /Lorem/ ##
+
+## Old Files
+
+- `:[ol]dfiles`: Recent files
+    - You can hit `:` in this list to enter an edit command, e.g., `e #<1` to edit old file number `1`
+- `:e #<1`: Edit most recent file
+- `:e #<2`: Edit second most recent file
 
 ## Language Specific
 
