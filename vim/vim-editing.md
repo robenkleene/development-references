@@ -1,5 +1,8 @@
 # `vim` Editing
 
+- `ZZ`: Quit and save
+- `ZQ`: Quit without saving
+
 ## Insert Mode
 
 - `cc`: Enter insert mode at correct indent level
