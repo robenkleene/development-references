@@ -1,3 +1,5 @@
+%
+
 # C Initialization
 
 Quoting the C standard [local variable initialized to zero in C - Stack Overflow](https://stackoverflow.com/questions/21152138/local-variable-initialized-to-zero-in-c):

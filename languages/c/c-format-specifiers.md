@@ -1,3 +1,5 @@
+%
+
 # C Format Specifiers
 
 Format specifiers.

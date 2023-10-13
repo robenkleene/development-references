@@ -1,3 +1,5 @@
+%
+
 # Bundler Troubleshooting
 
 ## Wrong Version of Ruby

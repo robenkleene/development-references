@@ -1,3 +1,5 @@
+%
+
 # C Struct
 
 Declare a `struct`:
