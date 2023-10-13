@@ -1,3 +1,5 @@
+%
+
 # MySQL
 
 - `mysql.server start`: Start

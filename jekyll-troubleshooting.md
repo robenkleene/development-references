@@ -1,3 +1,5 @@
+%
+
 # Jekyll Troubleshooting
 
 `libffi.so.8: cannot open shared object file`:

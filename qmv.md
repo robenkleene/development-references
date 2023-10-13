@@ -1,3 +1,5 @@
+%
+
 # `qmv`
 
 Opens a document in `$EDITOR` where the paths to move to can be edited.

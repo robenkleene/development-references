@@ -1,3 +1,5 @@
+%
+
 # `less`
 
 - To dump everything to the terminal, use `--no-init` and then hit `G q` to jump to the bottom and quit
