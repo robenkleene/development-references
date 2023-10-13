@@ -1,3 +1,5 @@
+%
+
 # `tmux` Status Indicators
 
 ## Window Status Indicators

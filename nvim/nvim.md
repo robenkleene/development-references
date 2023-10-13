@@ -1,3 +1,5 @@
+%
+
 # `nvim`
 
 ## General

@@ -1,3 +1,5 @@
+%
+
 # Command-Line `git` Scripting Example
 
 ## Setup

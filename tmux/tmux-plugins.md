@@ -1,3 +1,5 @@
+%
+
 # `tmux` Plugins
 
 ## Resurrect

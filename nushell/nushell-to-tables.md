@@ -1,3 +1,5 @@
+%
+
 # Nushell to Tables
 
 Making a table from a string:

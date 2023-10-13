@@ -1,3 +1,5 @@
+%
+
 # `tmux` Copy & Paste
 
 - `<prefix>=`: Show previous copies

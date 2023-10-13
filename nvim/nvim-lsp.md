@@ -1,3 +1,5 @@
+%
+
 # `nvim` LSP
 
 - `:lua vim.diagnostic.setqflist()`
