@@ -1,3 +1,5 @@
+%
+
 # `git` Cleanup
 
 - `git checkout -- .`: Revert all changed files

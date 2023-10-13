@@ -1,3 +1,5 @@
+%
+
 # `emacs` Terminology
 
 - **Frame**: We will use the term frame to mean a graphical window or terminal screen occupied by `emacs`.

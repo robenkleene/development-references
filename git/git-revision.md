@@ -1,3 +1,5 @@
+%
+
 # `git` Revision
 
 - `git rev-parse HEAD`: Print current revision

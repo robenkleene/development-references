@@ -1,3 +1,5 @@
+%
+
 # `emacs` Find & Replace
 
 - `M-s .` (`isearch-forward-symbol-at-point`): Search for symbol at point

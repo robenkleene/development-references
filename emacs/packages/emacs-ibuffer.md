@@ -1,3 +1,5 @@
+%
+
 # Emacs IBuffer
 
 - `u`: Unmark buffer

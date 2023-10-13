@@ -1,3 +1,5 @@
+%
+
 # `emacs` Flycheck
 
 ## Troubleshooting

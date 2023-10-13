@@ -1,3 +1,5 @@
+%
+
 # Org Mode Time Tracking
 
 - `C-c C-x C-i` / `C-c C-x C-o`: Clock in to current task / out of task

@@ -1,3 +1,5 @@
+%
+
 # `emacs` Window Management
 
 - `C-x C-space` or `C-x C-@`: Return to previous position

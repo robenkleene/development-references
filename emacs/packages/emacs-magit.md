@@ -1,3 +1,5 @@
+%
+
 # `magit`
 
 - `s`: `git add`

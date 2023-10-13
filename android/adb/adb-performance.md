@@ -1,3 +1,5 @@
+%
+
 # `adb` Performance
 
 ## Show HUD

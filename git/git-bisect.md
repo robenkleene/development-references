@@ -1,3 +1,5 @@
+%
+
 # `git` Bisect
 
 This is a good start for finding a good commit:

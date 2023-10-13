@@ -1,3 +1,5 @@
+%
+
 # Fish Kill Ring
 
 - Stored in `$fish_killring` list

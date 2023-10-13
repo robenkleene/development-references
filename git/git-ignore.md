@@ -1,3 +1,5 @@
+%
+
 # `git` Ignore
 
 - `git clean -dfX`: Delete all ignored files

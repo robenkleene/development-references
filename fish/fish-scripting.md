@@ -1,3 +1,5 @@
+%
+
 # Fish Scripting
 
 ## Variables

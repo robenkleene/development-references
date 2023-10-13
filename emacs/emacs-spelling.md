@@ -1,3 +1,5 @@
+%
+
 # `emacs` Spelling
 
 - `C-.` / `C-M-i` / `flyspell-auto-correct-word` (`C-.` and `C-M-i` don't work in terminal): Correct word at point

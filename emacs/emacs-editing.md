@@ -1,3 +1,5 @@
+%
+
 # `emacs` Editing
 
 * `M-;`: Comment or uncomment selected region

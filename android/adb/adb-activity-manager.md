@@ -1,3 +1,5 @@
+%
+
 # `adb` Process
 
 - `adb shell am`: List activity manager help

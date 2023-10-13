@@ -1,3 +1,5 @@
+%
+
 # `git` Add
 
 - `git add .`: Add all files that are ancestors of this directory

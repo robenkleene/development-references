@@ -1,3 +1,5 @@
+%
+
 # Emacs Kill Ring
 
 Kill commands append to the clipboard, until a movement command happens.

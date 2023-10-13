@@ -1,3 +1,5 @@
+%
+
 # Emacs Editing Tricks
 
 - `C-x C-q`: Toggle view only mode

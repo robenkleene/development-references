@@ -1,3 +1,5 @@
+%
+
 # `emacs` Navigation
 
 ## Buffers

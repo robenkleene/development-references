@@ -1,3 +1,5 @@
+%
+
 # Emacs Highlight
 
 - `M-s h .`: Highlight thing at point

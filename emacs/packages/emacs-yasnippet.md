@@ -1,3 +1,5 @@
+%
+
 # YASnippets
 
 - `yas-visit-snippet-file`: Edit snippet

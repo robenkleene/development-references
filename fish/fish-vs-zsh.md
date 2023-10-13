@@ -1,3 +1,5 @@
+%
+
 # Fish vs Zsh
 
 - `vim (pbpaste)` works in Fish but not `zsh`

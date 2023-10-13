@@ -1,3 +1,5 @@
+%
+
 # Smartparens
 
 - `M-D`: Unwrap s-expression, e.g., remove parenthesis or quotes

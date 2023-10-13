@@ -1,3 +1,5 @@
+%
+
 # `git` Convert to External Repository
 
 Useful for convert a single folder to a submodule or a Frameworks while preserving history.

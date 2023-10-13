@@ -1,3 +1,5 @@
+%
+
 # Emacs Narrowing
 
 - `C-x n n`: Start narrowing

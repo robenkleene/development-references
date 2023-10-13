@@ -1,3 +1,5 @@
+%
+
 # Homebrew
 
 - `brew update`: Update homebrew itself

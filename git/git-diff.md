@@ -1,3 +1,5 @@
+%
+
 # `git diff`
 
 - `git diff --relative`: Relative diff

@@ -1,3 +1,5 @@
+%
+
 # Emacs Untitled
 
 Notes for managing untitled files.

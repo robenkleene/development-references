@@ -1,3 +1,5 @@
+%
+
 # Fish Dirs
 
 - `prevd` / `nextd`: Navigate to previous / next directory from history

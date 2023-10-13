@@ -1,4 +1,6 @@
-# `adb` APK Lifecycle
+%
+
+# `adb` APK
 
 - Install: `adb install <apk-path>`
 - Uninstall: `adb uninstall <package-name>`
