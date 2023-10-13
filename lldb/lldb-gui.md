@@ -1,3 +1,5 @@
+%
+
 # `lldb` GUI
 
 To enter the GUI, just type `gui` at the `(lldb)` prompt.

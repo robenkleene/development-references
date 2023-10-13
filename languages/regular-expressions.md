@@ -1,3 +1,5 @@
+%
+
 # Regular Expressions
 
 These need to be escaped outside of character classes:

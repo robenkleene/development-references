@@ -1,3 +1,5 @@
+%
+
 # `lldb` Variables
 
 - `frame variable` / `fr v`: Show all variables and arguments in the current frame
