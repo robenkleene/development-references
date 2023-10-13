@@ -1,3 +1,5 @@
+%
+
 # `zsh` Variables
 
 - `typeset -p <variable>`: Print more info about a variable

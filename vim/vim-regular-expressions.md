@@ -1,3 +1,5 @@
+%
+
 # `vim` Regular Expressions
 
 - Find and replace whole words only, use `s/\<word\>/newword/g`. (Note that the `*` and `#` commands populate the current word with this, so you can get use those commands to populate the `/` register with the search term.)

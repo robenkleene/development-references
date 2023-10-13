@@ -1,3 +1,5 @@
+%
+
 # Vim Troubleshooting
 
 - `vim -u NONE`: Launch with no init

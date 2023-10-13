@@ -1,3 +1,5 @@
+%
+
 # `vim` Folds
 
 ## Folding

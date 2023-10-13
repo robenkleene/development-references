@@ -1,3 +1,5 @@
+%
+
 # GitGutter
 
 * `]c`: Next Change

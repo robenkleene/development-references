@@ -1,3 +1,5 @@
+%
+
 # `vim` Cut & Paste Subtlety
 
 When performing these steps:

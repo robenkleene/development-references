@@ -1,3 +1,5 @@
+%
+
 # `zsh` Help
 
 - `man zshall`: Everything

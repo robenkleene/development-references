@@ -1,3 +1,5 @@
+%
+
 # `vim` Paths
 
 No these will only work for commands that take a file path, e.g., `:e %:h` will work, but `:echo %` will not.

@@ -1,3 +1,5 @@
+%
+
 # Vim Insert Mode
 
 - `C-a`: Insert last inserted text

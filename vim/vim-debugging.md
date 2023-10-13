@@ -1,3 +1,5 @@
+%
+
 # `vim` Debugging
 
 ## Test a Key Code

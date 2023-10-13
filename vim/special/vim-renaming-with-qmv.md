@@ -1,3 +1,5 @@
+%
+
 # `vim` Renaming With `qmv`
 
 Renaming with `qmv` is usually straightforward, but if a find and replace needs to be performed it can be more complicated.

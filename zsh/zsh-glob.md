@@ -1,3 +1,5 @@
+%
+
 # `zsh` Glob
 
 ## Modifiers

@@ -1,3 +1,5 @@
+%
+
 # `zsh` Dirs
 
 - `dirs`: Display directory stack

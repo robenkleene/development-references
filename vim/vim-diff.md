@@ -1,3 +1,5 @@
+%
+
 # `vim` Diff
 
 - `windo diffthis`: Diff currently open files

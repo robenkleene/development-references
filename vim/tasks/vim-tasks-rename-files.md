@@ -1,3 +1,5 @@
+%
+
 # Vim Tasks Rename Files
 
 1. `fd -e md | vim -`: Get a list of files into vim

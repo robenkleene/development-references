@@ -1,3 +1,5 @@
+%
+
 # `vim` `makeprg`
 
 ## `errorformat`

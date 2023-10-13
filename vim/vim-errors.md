@@ -1,3 +1,5 @@
+%
+
 # Errors
 
 * `:lop[en]`: Show the location list

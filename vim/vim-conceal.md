@@ -1,3 +1,5 @@
+%
+
 # Vim Conceal
 
 - `set conceallevel=0`: Show everything

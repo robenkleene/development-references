@@ -1,3 +1,5 @@
+%
+
 # Vim Buffers
 
 - `:ls` / `:buffers` / `:files`: List buffers

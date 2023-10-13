@@ -1,3 +1,5 @@
+%
+
 # `vim` Tags
 
 * `<C-]>`: Jump to definition of the keyword under the cursor (this adds it to the `tagstack`)

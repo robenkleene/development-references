@@ -1,3 +1,5 @@
+%
+
 # `vim` Macros
 
 * `qa`: Start recording a macro into register `a`

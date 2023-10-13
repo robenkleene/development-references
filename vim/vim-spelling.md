@@ -1,3 +1,5 @@
+%
+
 # `vim` Spelling
 
 - `z=`: Replace current word

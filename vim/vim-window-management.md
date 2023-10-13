@@ -1,3 +1,5 @@
+%
+
 # `vim` Window Management
 
 ## Opening & Closing Windows
