@@ -2,6 +2,7 @@
 
 # `less`
 
+- `-i`: Ignore case (also use *inside of less* to toggle case-sensitivity)
 - To dump everything to the terminal, use `--no-init` and then hit `G q` to jump to the bottom and quit
 
 ## Git Pager Settings
