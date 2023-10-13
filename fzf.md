@@ -1,3 +1,5 @@
+%
+
 # `fzf`
 
 - Just `fzf` alone lists files recursively by default

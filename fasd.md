@@ -1,3 +1,5 @@
+%
+
 # `fasd`
 
 Delete an entry:

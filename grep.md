@@ -1,3 +1,5 @@
+%
+
 # `grep`
 
 - `-E` / `--extended-regexp`: Support or, e.g., `grep -E "open class|open var"`

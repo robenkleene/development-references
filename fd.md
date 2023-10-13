@@ -1,3 +1,5 @@
+%
+
 # `fd`
 
 `fd` uses smart case by default.
