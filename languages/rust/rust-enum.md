@@ -1,3 +1,5 @@
+%
+
 # Rust `enum`
 
 Setup:

@@ -1,3 +1,5 @@
+%
+
 # Rust Examples
 
 ## Map

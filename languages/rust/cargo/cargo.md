@@ -1,3 +1,5 @@
+%
+
 # Cargo
 
 - `cargo new <project>`: Create a new project

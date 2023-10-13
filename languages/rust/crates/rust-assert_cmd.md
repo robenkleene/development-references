@@ -1,3 +1,5 @@
+%
+
 # `assert_cmd`
 
 To get the output of a test, with:

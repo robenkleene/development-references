@@ -1,3 +1,5 @@
+%
+
 # Rust Print
 
 Print a variable:

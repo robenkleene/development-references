@@ -1,3 +1,5 @@
+%
+
 # Rust `wasm`
 
 The dependencies are `wasm-pack` (install via Homebrew) and  `cargo-generate`

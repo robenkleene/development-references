@@ -1,3 +1,5 @@
+%
+
 # `cargo` Run
 
 - `cargo run -- <arg1> <arg2>`: Run with arguments (the `--` is optional)

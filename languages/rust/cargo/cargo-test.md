@@ -1,3 +1,5 @@
+%
+
 # `cargo` Test
 
 - `cargo test <term>`: Run all tests that match term

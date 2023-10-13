@@ -53,3 +53,7 @@ From the command line `<C-c>` (or `ESC`) will close the command line window and 
 - `<TAB>`: Show the wild menu
 - `<UP>`: Move up a directory
 - `<DOWN>`: Move down a directory
+
+## Multiple Commands
+
+- `echo "hello" | echo "world"
