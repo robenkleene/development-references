@@ -1,4 +1,6 @@
-% AGVTOOL(9) Reference
+%
+
+# `agvtool`
 
 ## `plist` Mappings
 
