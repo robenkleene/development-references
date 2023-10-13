@@ -1,3 +1,5 @@
+%
+
 # `bash` Terminal
 
 Opening files:

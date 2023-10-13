@@ -1,3 +1,5 @@
+%
+
 ## `hg` Commit
 
 - `hg commit`: Commit (`hg` has no staging)

@@ -1,3 +1,5 @@
+%
+
 # `hg`
 
 - `hg status`

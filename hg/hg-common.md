@@ -1,3 +1,5 @@
+%
+
 # `hg` Common
 
 - `hg diff -r bottom^`: Diff master

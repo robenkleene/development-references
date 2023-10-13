@@ -1,3 +1,5 @@
+%
+
 # Bash Language
 
 - Quoting a variable when using it prevents word splitting:

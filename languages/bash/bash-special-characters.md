@@ -1,3 +1,5 @@
+%
+
 # Bash Special Characters
 
 - `;`: Command separator

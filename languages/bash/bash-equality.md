@@ -1,3 +1,5 @@
+%
+
 # Bash Equality
 
 These are equivalent:
