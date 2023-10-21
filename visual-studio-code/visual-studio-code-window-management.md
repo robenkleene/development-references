@@ -52,6 +52,12 @@ After using `⌘P` to fuzzy open a file:
 
 There does not appear to be a way to open a file from Quick Open in a horizontal split, as a workaround, first open the file in vertical split and then use `⌘⌥0` to swap the layout.
 
+## Preview
+
+- `⌘K ↩` / `View: Keep Editor`: Exit preview mode
+- Filenames in italics are in preview mode
+- To quickly preview lots of files from the sidebar, use `␣` to preserve the focus while previewing a file.
+
 ## Tips
 
 To quickly preview files in succession, when the Explorer has focus use `␣` to open the file. The Explorer will maintain focus and you can go to the next file with the arrow keys, and hit `␣` to open a different file.
