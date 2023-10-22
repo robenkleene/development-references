@@ -2,6 +2,7 @@
 
 - `⇧⌥F`: Find & replace in folder (when the Explorer has focus)
 - `⇧⌘H`: Find & replace in all files
+- `⌘↓`
 
 ## Find & Replace in Multiple Files
 
