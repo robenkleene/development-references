@@ -9,6 +9,7 @@
 - `⌥⌘M`: Show Problems
 - `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
+- `View: Toggle Maximized Panel`: Maximize the panel
 
 ### Sidebar
 
