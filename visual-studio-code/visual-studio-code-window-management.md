@@ -21,6 +21,10 @@
 - `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
 - `⌘K ⌘0`: Collapse folders in sidebar (note that this will not collapse search results unfortunately)
 
+### Tabs
+
+- `⇧⌘T`: Re-open last closed tab
+
 ### Splits
 
 - `⌘⌥0`: Toggle between horizontal and vertical splits
