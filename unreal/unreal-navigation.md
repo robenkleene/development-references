@@ -1,8 +1,12 @@
 # Unreal Navigation
 
 - `Right-Drag`: Pan
-- `Scroll`: Look
-- `Drag`: Move forward and back (also WASD movement work with the left mouse button held down)
+- `Scroll`: Look around
+- `Drag`: Move forward and back (also `WASD` movement work with the left mouse button held down)
+
+## Other
+
+- `F`: Focus selected item (or double-click item in the hierarchy)
 
 ## Tips
 
