@@ -28,6 +28,8 @@
 
 ### Splits
 
+- `View: Maximize Editor Group`: Zoom into a single split
+
 #### Creating
 
 - `⌘\`: Split the editor vertically
@@ -43,9 +45,6 @@
 - `⌘K ⌘←` / `⌘K ⌘↑` / `⌘K ⌘→` / `⌘K ⌘↓`: Focus left / top / bottom / right editor
 - `^⌘←` / `^⌘→`: Move a split left / right
 - `⇧⌘[` / `⇧⌘]`: Switch tabs and splits
-
-
-There's no shortcut to close splits, but "View: Single Column Editor Layout" is a command that does this.
 
 ## Explorer
 
