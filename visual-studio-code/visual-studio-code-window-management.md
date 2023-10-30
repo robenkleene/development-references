@@ -24,16 +24,26 @@
 ### Tabs
 
 - `⇧⌘T`: Re-open last closed tab
+- `⌃⌘↑` / `⌃⌘↓`: Switch between header and source files
 
 ### Splits
 
-- `⌘⌥0`: Toggle between horizontal and vertical splits
+#### Creating
+
 - `⌘\`: Split the editor vertically
 - `⌘K ⌘\`: Split editor horizontally
-- `⌥⌘←` / `⌥⌘→`: Focus left / right editor
-- `^⌘←` / `^⌘→`: Move a split left / right
 
-The tab navigation keys (`⇧⌘[` / `⇧⌘]`) also work to go between side-by-side splits.
+#### Moving
+
+- `⌘⌥0`: Toggle between horizontal and vertical splits
+- `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move split left / up / down / right
+
+#### Navigating
+
+- `⌘K ⌘←` / `⌘K ⌘↑` / `⌘K ⌘→` / `⌘K ⌘↓`: Focus left / top / bottom / right editor
+- `^⌘←` / `^⌘→`: Move a split left / right
+- `⇧⌘[` / `⇧⌘]`: Switch tabs and splits
+
 
 There's no shortcut to close splits, but "View: Single Column Editor Layout" is a command that does this.
 
