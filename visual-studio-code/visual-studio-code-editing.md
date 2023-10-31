@@ -16,3 +16,4 @@
 - `⌥⌘↑` / `⌥⌘↓`: Add cursor for line above / below
 - `⇧⌥I`: Multiple cursors with selection
 - `⎋`: Exit multiple cursors
+- `⌥↩`: Add cursor for each find match (can't be scoped to a selection unfortunately)
