@@ -10,6 +10,7 @@
 ## Refactor
 
 - `F2`: Rename symbol
+- `⌥↩`: Make cursors for each match
 
 ## Multiple Cursors
 
