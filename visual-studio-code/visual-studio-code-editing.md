@@ -10,9 +10,9 @@
 ## Refactor
 
 - `F2`: Rename symbol
-- `⇧⌥I`: Multiple cursors with selection
 
 ## Multiple Cursors
 
-- `⇧⌘I`: Toggle multiple cursors
+- `⌥⌘↑` / `⌥⌘↓`: Add cursor for line above / below
+- `⇧⌥I`: Multiple cursors with selection
 - `⎋`: Exit multiple cursors
