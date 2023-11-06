@@ -37,7 +37,7 @@
 
 #### Moving
 
-- `⌘⌥0`: Toggle between horizontal and vertical splits
+- `⌘⌥0`: Toggle layout between horizontal and vertical splits
 - `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move split left / up / down / right
 
 #### Navigating
