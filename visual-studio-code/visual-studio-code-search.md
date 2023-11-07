@@ -5,6 +5,7 @@
 - `⇧F4`: Previous search result
 - `⌘↓`: From the search field, focus search results
 - `⌘K M`: Change language mode
+- `⌥⌘R`: Toggle regular expressions
 
 ## Search Editor
 
