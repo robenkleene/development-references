@@ -5,6 +5,13 @@
 - `F9`: Toggle breakpoint
 - `⇧F9`: Insert inline breakpoint
 
+## Debugger
+
+- `F5`: Continue
+- `F10`: Step over
+- `F11`: Step in
+- `⇧F12`: Step out
+
 ## Tips
 
 - If you have a valid `launch.json` setup, just go to the debug tab `⇧⌘D` and click `Debug`. Breakpoints should just work.
