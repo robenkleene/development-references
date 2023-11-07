@@ -23,6 +23,7 @@
 
 ### Tabs
 
+- `⌃⇥`/ `⇧⌃⇥`: Cycle forward / backward through open tabs
 - `⇧⌘T`: Re-open last closed tab
 - `⌃⌘↑` / `⌃⌘↓`: Switch between header and source files
 
