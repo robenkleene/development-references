@@ -1,31 +1,47 @@
 # Visual Studio Code Window Management
 
+## Editors
+
 - `⌘1` Focus editor
+- `⌘K ⌘W`: Close all editors
+
+### Sidebar
+
+- `⌘B`: Toggle sidebar
 - `⌘0`: Focus currently active sidebar
+
+## Sidebars
+
+- `⇧⌘E`: Focus Explorer (files)
+    - There's a `File: Reveal Active File in Sidebar` command, but there's no default shortcut for it
+- `⇧⌃G`: Source control
+- `⇧⌘D`: Run and Debug
+- `⇧⌘X`: Extensions
+
+### Explorer
+
+Only works in Explorer
+
+- `⌘K E`: Focus open editors
+- `⌘K ⌘0`: Collapse folders in sidebar (note that this will not collapse search results unfortunately)
+- `⌘-click`: Select a file without opening it, or select a directory without expanding it
+
+## Workspace
+
+- `⌘K F` (`File > Close Folder`): Close folder in workspace (e.g., if there's only one open folder this will result in an empty document)
+
+## Tabs
+
+- `⌃⇥`/ `⇧⌃⇥`: Cycle forward / backward through open tabs
+- `⇧⌘T`: Re-open last closed tab
+- `⌃⌘↑` / `⌃⌘↓`: Switch between header and source files
 
 ## Bottom Panel
 
 - `⌃backtick`: Toggle Terminal
 - `⌥⌘M`: Show Problems
-- `⌘B`: Toggle sidebar
 - `⌘J`: Toggle bottom panel
 - `View: Toggle Maximized Panel`: Maximize the panel
-
-### Sidebar
-
-- `⇧⌘E`: Focus Explorer (files)
-    - There's a `File: Reveal Active File in Sidebar` command, but there's no default shortcut for it
-- `⌘K ⌘W`: Close all editors
-- `⌘K F` (`File > Close Folder`): Close folder in workspace (e.g., if there's only one open folder this will result in an empty document)
-- `⌘K E`: Focus open editors
-- `⌘-click` in sidebar: Select a file without opening it, or select a directory without expanding it
-- `⌘K ⌘0`: Collapse folders in sidebar (note that this will not collapse search results unfortunately)
-
-### Tabs
-
-- `⌃⇥`/ `⇧⌃⇥`: Cycle forward / backward through open tabs
-- `⇧⌘T`: Re-open last closed tab
-- `⌃⌘↑` / `⌃⌘↓`: Switch between header and source files
 
 ### Splits
 
