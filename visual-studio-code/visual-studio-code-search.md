@@ -6,6 +6,7 @@
 - `⌘↓`: From the search field, focus search results
 - `⌘K M`: Change language mode
 - `⌥⌘R`: Toggle regular expressions
+- `⇧⌘E`: Clear search results by switching to the explorer
 
 ## Search Editor
 
