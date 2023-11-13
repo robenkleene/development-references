@@ -5,12 +5,12 @@
 - `⌘1` Focus editor
 - `⌘K ⌘W`: Close all editors
 
-### Sidebar
+## Sidebar
 
 - `⌘B`: Toggle sidebar
 - `⌘0`: Focus currently active sidebar
 
-## Sidebars
+### Sidebar Tabs
 
 - `⇧⌘E`: Focus Explorer (files)
     - There's a `File: Reveal Active File in Sidebar` command, but there's no default shortcut for it
@@ -18,7 +18,7 @@
 - `⇧⌘D`: Run and Debug
 - `⇧⌘X`: Extensions
 
-### Explorer
+#### Explorer
 
 Only works in Explorer
 
@@ -38,9 +38,9 @@ Only works in Explorer
 
 ## Bottom Panel
 
+- `⌘J`: Toggle bottom panel
 - `⌃backtick`: Toggle Terminal
 - `⌥⌘M`: Show Problems
-- `⌘J`: Toggle bottom panel
 - `View: Toggle Maximized Panel`: Maximize the panel
 
 ### Splits
