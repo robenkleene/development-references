@@ -1,8 +1,7 @@
 # Visual Studio Code Search
 
 - `⌘↩`: Open Search Editor
-- `F4`: Next search result
-- `⇧F4`: Previous search result
+- `⇧F4` / `F4`: Previous / next search result
 - `⌘↓`: From the search field, focus search results
 - `⌘K M`: Change language mode
 - `⌥⌘R`: Toggle regular expressions

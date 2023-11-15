@@ -9,3 +9,5 @@
 - `F12`: Go to definition
 - `⇧F12`: Go to references
 - `⌃-` / `⇧⌃-`: Go to previous / next location (e.g., `⌃-` to return to reference after jump to definition)
+- `⇧F8` / `F8`: Previous / next problem (issue) in current file
+- `⇧⌥F8` / `⌥F8`: Previous / next problem (issue) across files
