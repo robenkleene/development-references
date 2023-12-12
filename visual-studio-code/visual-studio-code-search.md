@@ -6,6 +6,7 @@
 - `⌘K M`: Change language mode
 - `⌥⌘R`: Toggle regular expressions
 - `⇧⌘E`: Clear search results by switching to the explorer
+- `⇧⌘F`: Toggle search details (e.g., `Files to include`)
 
 ## Search Editor
 
