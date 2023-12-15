@@ -70,7 +70,8 @@ Only works in Explorer
 
 ## Terminals
 
-- `⇧^backtick`: Make new Terminal (there are not default keybindings to switch between these)
+- `⇧^backtick`: Make new Terminal
+- `⇧⌘[` / `⇧⌘]`: Switch terminals
 
 ## Quick Open
 
