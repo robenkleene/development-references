@@ -63,11 +63,21 @@ Or in partitioned shorthand:
 
 ## Rotation
 
+4x4 pure rotation matrices have the form:
+
 ![Matrix Rotation Shorthand](assets/matrix-rotation-shorthand.png)
+
+The **t** vector is zero, and the upper 3x3 matrix **R** contains cosines and sines of the rotation angle, measured in radians.
+
+Rotation about the x-axis by an angle `ϕ`:
 
 ![Matrix Rotation x-Axis](assets/matrix-rotation-x-axis.png)
 
+Rotation about the y-axis by an angle `θ` (notice this is transposed relative to the other two, the positive and negative sine terms have been reflected across the diagonal):
+
 ![Matrix Rotation y-Axis](assets/matrix-rotation-y-axis.png)
+
+Rotation about the z-axis by an angle `γ`:
 
 ![Matrix Rotation z-Axis](assets/matrix-rotation-z-axis.png)
 
