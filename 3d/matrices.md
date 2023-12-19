@@ -11,4 +11,10 @@
 
 ## Rotation
 
-Rotate 
+Rotate a 2x2 matrix in two dimensions:
+
+![2D Rotation](assets/matrix-rotation-2d.png)
+
+Rotation a 3x3 matrix:
+
+![3D Rotation](assets/matrix-rotation-3d.png)
