@@ -100,4 +100,5 @@ Shorthand:
 ### Notes
 
 - To invert a scaling matrix, substitute *s~x*, *s~y*, and *s~z* with their reciprocals (`1 / s~x`, `1 / s~y`, and `1 / s~z`)
-- When the scaling factors along all three axes are equal (`s~x = s~y = s~z`)
+- When the scaling factors along all three axes are equal (`s~x = s~y = s~z`), that's called "uniform scale". Spheres remain spheres under uniform scale, while under nonuniform scale they become ellipsoids.
+- When a uniform scale matrix and rotation matrix are concatenated, the order of multiplication is unimportant. This is only true for uniform scale.
