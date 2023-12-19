@@ -15,6 +15,12 @@ Rotate a 2x2 matrix in two dimensions:
 
 ![2D Rotation](assets/matrix-rotation-2d.png)
 
+This really a 3D rotation around the *z*-axis.
+
 Rotation a 3x3 matrix:
 
 ![3D Rotation](assets/matrix-rotation-3d.png)
+
+A 3x3 matrix cannot represent translations because translating a point **R** by a translation **T** requires adding the components of **t** to the components of **r** individually:
+
+![Matrix Translation Equation](assets/matrix-translation-equation.png)
