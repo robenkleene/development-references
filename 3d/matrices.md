@@ -9,6 +9,12 @@
 
 - If `P = A * B`, then `P` applies `A` and `B` (e.g., if `A` scales and `B` rotates then `P` scales and rotates)
 
+## Identity
+
+An identity matrix is a matrix that when multiplied by any other matrix, yields the same matrix. It's represented by the symbol **I**, and it's always a square matrix with `1` along the diagonal and `0` everywhere else:
+
+![Identity Matrix](assets/matrix-identity.png)
+
 ## Rotation
 
 Rotate a 2x2 matrix in two dimensions:
@@ -26,3 +32,5 @@ A 3x3 matrix cannot represent translations because translating a point **R** by 
 ![Matrix Translation Equation](assets/matrix-translation-equation.png)
 
 There's no way to arrange the components of **t** within a 3x3 matrix such that the result of multiplying it with the column vector **r** yields sums (like `r~x + t~x`).
+
+You can obtain sums like this with a 4x4 matrix.
