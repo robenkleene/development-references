@@ -89,6 +89,10 @@ Rotation about the z-axis by an angle `γ`:
 
 ## Scale
 
+The following matrix scales the point **r** by a factor of *s~x* along the x-axis, **S~y** along the y-axis, and *s~z* along the z-axis:
+
 ![Matrix Scale](assets/matrix-scale.png)
+
+Shorthand:
 
 ![Matrix Scale Shorthand](assets/matrix-scale-shorthand.png)
