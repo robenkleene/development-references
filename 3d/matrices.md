@@ -40,3 +40,11 @@ You can obtain sums like this with a 4x4 matrix. The upper 3x3 should contain th
 This yields `(1 * r~x) + (0 * r~y) + (0 * r~z) + (t~x * 1)`.
 
 When a point or vector is extended from three dimensions to four, we say it has been written in "homogeneous coordinates".
+
+## w Component
+
+The *w* component is the fourth coordinate of a three dimensional matrix (e.g., x, y, z, w).
+
+Points have their *w* component equal to `1`, while vectors have it equal to `0`. In this example, note how `w = 0` multiplies with **t**, eliminating the translation in the final result:
+
+![w Component Equation](assets/matrix-w-component-equation.png)
