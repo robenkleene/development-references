@@ -48,3 +48,5 @@ The *w* component is the fourth coordinate of a three dimensional matrix (e.g., 
 Points have their *w* component equal to `1`, while vectors have it equal to `0`. In this example, note how `w = 0` multiplies with **t**, eliminating the translation in the final result:
 
 ![w Component Equation](assets/matrix-w-component-equation.png)
+
+Dividing by `w = 1` has no effects on the coordinates of a point, where was dividing by `w = 0` yields infinity. A point at infinity in 4D can be rotated but not translated (because a translated point will always be at infinity).
