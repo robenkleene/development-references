@@ -96,3 +96,8 @@ The following matrix scales the point **r** by a factor of *s~x* along the x-axi
 Shorthand:
 
 ![Matrix Scale Shorthand](assets/matrix-scale-shorthand.png)
+
+### Notes
+
+- To invert a scaling matrix, substitute *s~x*, *s~y*, and *s~z* with their reciprocals (`1 / s~x`, `1 / s~y`, and `1 / s~z`)
+- When the scaling factors along all three axes are equal (`s~x = s~y = s~z`)
