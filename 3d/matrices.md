@@ -63,8 +63,12 @@ Or in partitioned shorthand:
 
 ## Rotation
 
-![Matrix Rotation](assets/matrix-rotation.png)
-
 ![Matrix Rotation Shorthand](assets/matrix-rotation-shorthand.png)
+
+![Matrix Rotation x-Axis](assets/matrix-rotation-x-axis.png)
+
+![Matrix Rotation y-Axis](assets/matrix-rotation-y-axis.png)
+
+![Matrix Rotation z-Axis](assets/matrix-rotation-z-axis.png)
 
 ## Scale
