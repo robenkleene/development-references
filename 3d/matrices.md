@@ -53,6 +53,18 @@ Dividing by `w = 1` has no effects on the coordinates of a point, where was divi
 
 ## Translation
 
+The following matrix translates a point by the vector **t**:
+
+![Matrix Translation 2](assets/matrix-translation-2.png)
+
+Or in partitioned shorthand:
+
+![Matrix Translation Shorthand](assets/matrix-translation-shorthand.png)
+
 ## Rotation
+
+![Matrix Rotation](assets/matrix-rotation.png)
+
+![Matrix Rotation Shorthand](assets/matrix-rotation-shorthand.png)
 
 ## Scale
