@@ -49,4 +49,10 @@ Points have their *w* component equal to `1`, while vectors have it equal to `0`
 
 ![w Component Equation](assets/matrix-w-component-equation.png)
 
-Dividing by `w = 1` has no effects on the coordinates of a point, where was dividing by `w = 0` yields infinity. A point at infinity in 4D can be rotated but not translated (because a translated point will always be at infinity).
+Dividing by `w = 1` has no effects on the coordinates of a point, where was dividing by `w = 0` yields infinity. A point at infinity in 4D can be rotated but not translated (because a translated point will always be at infinity). Pure direction vectors in 3D space act like a point at infinity in 4D homogeneous space.
+
+## Translation
+
+## Rotation
+
+## Scale
