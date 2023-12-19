@@ -33,4 +33,10 @@ A 3x3 matrix cannot represent translations because translating a point **R** by 
 
 There's no way to arrange the components of **t** within a 3x3 matrix such that the result of multiplying it with the column vector **r** yields sums (like `r~x + t~x`).
 
-You can obtain sums like this with a 4x4 matrix.
+You can obtain sums like this with a 4x4 matrix. The upper 3x3 should contain the identity matrix, so there's no rotation. Then we arrange the components of **t** across the bottom-most row.
+
+![Matrix Translation](assets/matrix-translation.png)
+
+This yields `(1 * r~x) + (0 * r~y) + (0 * r~z) + (t~x * 1)`.
+
+When a point or vector is extended from three dimensions to four, we say it has been written in "homogeneous coordinates".
