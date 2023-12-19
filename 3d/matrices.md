@@ -81,6 +81,12 @@ Rotation about the z-axis by an angle `γ`:
 
 ![Matrix Rotation z-Axis](assets/matrix-rotation-z-axis.png)
 
+### Notes
+
+- The `1` in the upper 3x3 always appears on the axis we're rotating about, while the sine and cosine terms are off-axis.
+- Positive rotations go from x to y (about z), from y to z (about x) and from z to x (about y). The z to x rotation wraps around, which is why it's transposed relative to the other two.
+- The inverse of a pure rotation is its transpose. This works because inverting a rotation is equivalent to rotating by the negative angle (e.g., `cos(−θ) = cos(θ) while sin(−θ) = − sin(θ)` negating the angle causes the two sine terms to effectively switch places, while the cosine terms stay put).
+
 ## Scale
 
 ![Matrix Scale](assets/matrix-scale.png)
