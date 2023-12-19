@@ -24,3 +24,5 @@ Rotation a 3x3 matrix:
 A 3x3 matrix cannot represent translations because translating a point **R** by a translation **T** requires adding the components of **t** to the components of **r** individually:
 
 ![Matrix Translation Equation](assets/matrix-translation-equation.png)
+
+There's no way to arrange the components of **t** within a 3x3 matrix such that the result of multiplying it with the column vector **r** yields sums (like `r~x + t~x`).
