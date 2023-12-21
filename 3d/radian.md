@@ -5,10 +5,10 @@
 - Radians are used instead of degrees because trigonometry calculations are inherently based on radians
 
 ```
-Degrees	Radians
-45	0.7853982
-90	1.5707964
-180	3.1415927
-270	4.712389
-360	6.2831855
+Degrees	Radians Calculation
+45	0.7853982	pi / 4
+90	1.5707964	pi / 2
+180	3.1415927	pi
+270	4.712389	pi * 1.5
+360	6.2831855	pi * 2
 ```
