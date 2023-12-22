@@ -13,3 +13,4 @@
 - `⇥` indents a list item, rather than inserting a tab character
 - File management with Dired is more effective
 - Easier to close a window when we're finished with it
+- With Emacs we can avoid the oddities with Vim's system clipboard interactions
