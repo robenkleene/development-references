@@ -40,7 +40,7 @@ Only works in Explorer
 
 - `⌘J`: Toggle bottom panel
 - `⌃backtick`: Toggle Terminal
-- `⌥⌘M`: Show Problems
+- `⇧⌘M`: Show Problems
 - `View: Toggle Maximized Panel`: Maximize the panel
 
 ### Splits
