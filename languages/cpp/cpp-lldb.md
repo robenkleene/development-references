@@ -1,3 +1,0 @@
-# `cpp` `lldb`
-
-- Try appending `toString()` to data structures that won't print nicely (e.g., `json.toString()`)

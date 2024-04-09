@@ -1,3 +1,0 @@
-# Jupyter
-
-- `--no-browser` flag, don't try to open the browser automatically
