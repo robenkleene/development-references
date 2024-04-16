@@ -1,5 +1,9 @@
 # Working Copy
 
+## Conflicts
+
+- Resolve conflicts using the tab bar tabs (e.g., `Content`)
+
 ## Hard Reset
 
 - In the branch history view, tap in individual commit and hit reset.
