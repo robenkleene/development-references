@@ -6,9 +6,9 @@
 **Inactive Background**: `240` (`#444444`) / **Active Text**
 **Non-Text**: **Selection**
 **Comment**: `244` (`#808080`)
-**Search Match**: Cyan / Black
-**Search Current Match**: Bright cyan / Black
-**Selection**: `240` (`#585858`) / White
+**Search Match**: `238` (`#444444`) / Black
+**Search Current Match**: `240` (`#585858`) / Black
+**Selection**: `238` (`#444444`)
 
 ## Notes
 
