@@ -1,14 +1,11 @@
 # Terminal Style Guide
 
-**Active Text**: `248` (`#A8A8A8`)
-**Inactive Text**: **Comment**
-**Active Background**: **Selection** / White
-**Inactive Background**: `240` (`#444444`) / **Active Text**
 **Non-Text**: **Selection**
 **Comment**: `244` (`#808080`)
-**Search Match**: `238` (`#444444`) / Black
-**Search Current Match**: `240` (`#585858`) / Black
-**Selection**: `238` (`#444444`)
+**Search Match**: `238` (`#444444`) / Cyan
+**Search Current Match**: `240` (`#585858`) / Cyan
+**Unselected Menu Item**: `240` (`#444444`) / **#A8A8A8**
+**Selection** / **Selected Menu Item**: `238` (`#444444`) / White (only for selected menu item, don't change the foreground color for text selection)
 
 ## Notes
 
