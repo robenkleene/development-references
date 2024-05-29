@@ -4,6 +4,8 @@
 - `⇧F5`: Stop debugging (detach)
 - `F9`: Toggle breakpoint
 - `⇧F9`: Insert inline breakpoint
+- `Toggle Activate Breakpoints` (two circles icon in the `Breakpoints` panel): Toggle breakpoints
+
 
 ## Debugger
 
