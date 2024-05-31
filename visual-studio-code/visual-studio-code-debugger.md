@@ -6,7 +6,6 @@
 - `⇧F9`: Insert inline breakpoint
 - `Toggle Activate Breakpoints` (two circles icon in the `Breakpoints` panel): Toggle breakpoints
 
-
 ## Debugger
 
 - `F5`: Continue
