@@ -32,6 +32,7 @@ Only works in Explorer
 
 ## Tabs
 
+- `⇧⌘T`: Close all tabs except this one
 - `⌃⇥`/ `⇧⌃⇥`: Cycle forward / backward through open tabs
 - `⇧⌘T`: Re-open last closed tab
 - `⌃⌘↑` / `⌃⌘↓`: Switch between header and source files
