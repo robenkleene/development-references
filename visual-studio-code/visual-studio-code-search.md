@@ -2,7 +2,7 @@
 
 - `⌘↩`: Open Search Editor
 - `⇧F4` / `F4`: Previous / next search result
-- `⌘↓`: From the search field, focus search results
+- `⌘↑` / `⌘↓`: Next / previous search field (also moves to, and through, search results)
 - `⌘K M`: Change language mode
 - `⌥⌘R`: Toggle regular expressions
 - `⇧⌘E`: Clear search results by switching to the explorer
