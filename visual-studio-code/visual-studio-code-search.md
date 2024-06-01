@@ -12,8 +12,11 @@
 
 - `⎋`: Focus search box
 - `⌥-` / `⌥=`: Decrease / increase the amount of context.
+- `⌥⌘L`: Toggle context lines
 - `⌥F12`: Peek result
 - `⌥12`: Jump to result
+- `⇧⌘⌫`: Delete search result
+- `⇧⌘R`: Re-run search (e.g., if too many search results were deleted)
 
 ## Multiple Cursors
 
