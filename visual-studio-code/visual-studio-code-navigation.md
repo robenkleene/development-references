@@ -12,3 +12,4 @@
 - `⇧F8` / `F8`: Previous / next problem (issue) in current file
 - `⇧⌥F8` / `⌥F8`: Previous / next problem (issue) across files
 - `⇧⌘\`: Jump to matching pair
+- `⌘K ⌘Q`: Jump to last edit location
