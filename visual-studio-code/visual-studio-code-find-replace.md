@@ -1,12 +1,13 @@
 # Visual Studio Code Find & Replace
 
 - `⇧⌥F`: Find & replace in folder (when the Explorer has focus)
-- `⇧⌘H`: Find & replace in all files
+- `⇧⌘H`: Find & replace
 - `⌘↓`: Go to first result
+- `⇧⌘J`: Toggle search details
 
 ## Find & Replace in Multiple Files
 
-1. `⇧⌘H`: Find & replace in all files
+1. `⇧⌘H`: Find & replace
 2. `⌘⌥↩`: Replace all occurrences
 
 ## Find & Replace in Selection
@@ -23,7 +24,7 @@
 
 1. Select the term to replace and `Find with Selection` (`⌘E`)
 2. Make a selection to replace in
-3. Toggle on `Find in selection` with `⌥⌘L` 
+3. Toggle on `Find in selection` with `⌥⌘L`
 4. Make a cursor for each match with `⌥↩`
 
 ### Notes
