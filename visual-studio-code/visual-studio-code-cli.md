@@ -1,6 +1,7 @@
 # Visual Studio Code CLI
 
 - `-r` / `--reuse-window`: Re-use an existing window
+- `-n` / `--new-window`: Create a new window
 
 ## Extensions
 
