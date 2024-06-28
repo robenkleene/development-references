@@ -15,3 +15,4 @@
 - Easier to close a window when we're finished with it
 - With Emacs we can avoid the oddities with Vim's system clipboard interactions
 - Emacs uses the directory of the current file by default when performing shell operations (e.g., to use a script to make a link to a relative file).
+- Emacs supports `(setq markdown-enable-math t)` for Latex math wrapped in `$` or `$$`
