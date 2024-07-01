@@ -1,5 +1,6 @@
 # Visual Studio Code Editing
 
+- `⌘K M`: Select language for current file
 - `⇧⌥F` / `Format Document`: Format document
 - `⇧⌘↩`: Insert new line above
 - `⌘↩`: Insert new line below
