@@ -17,6 +17,7 @@
 - `⇧⌃G`: Source control
 - `⇧⌘D`: Run and Debug
 - `⇧⌘X`: Extensions
+- `⌃backtick`: Focus terminal
 
 #### Explorer
 
