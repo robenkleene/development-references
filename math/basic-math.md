@@ -12,8 +12,7 @@
 
 We can also say `1` is the complement of `4` with respect to `5`, because it "completes" `4` to reach the whole amount of `5`
 
-In two's complement, it's called "complement" because `0000 0101` (binary for five) with the bits flipped and added one to get negative five `1111 1011`. When you add 
-`0000 0101` and `1111 1011`, they sum to `0000 0000`, representing zero, completing the arithmetic within the 8-bit range. So `0000 0101` and `1111 1011` are the complements of each other.
+In two's complement, it's called "complement" because `0000 0101` (binary for five) with the bits flipped and added one to get negative five `1111 1011`. When you add `0000 0101` and `1111 1011`, they sum to `0000 0000`, representing zero, completing the arithmetic within the 8-bit range. So `0000 0101` and `1111 1011` are the complements of each other.
 
 In Geometry: The complementary angle of an angle is what is needed to make a total of `90∘`. So, if you have an angle of `30∘`, its complement is `60∘` (since `30∘` + `60∘` = `90∘`).
 
