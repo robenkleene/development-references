@@ -8,6 +8,8 @@ There are four common types of tree traversal:
 
 ## Depth-First Recursive
 
+Recursively call into each node.
+
 ``` python
 def dfs_recu(curr: Node[T], goal: Optional[T] = None, visited: Optional[List[Node[T]]] = None) -> List[Node[T]]:
     visited = visited or [curr]
@@ -21,6 +23,8 @@ def dfs_recu(curr: Node[T], goal: Optional[T] = None, visited: Optional[List[Nod
 ```
 
 ## Depth-First Iterative
+
+Loop through a stack popping the top element, add each child node to the stack. This is the same as breadth-first iterative except using a LIFO [last-in first-out] stack instead of FIFO [first-in first-out] queue.
 
 ``` python
 def dfs_iter(start: Node[T], goal: Optional[T] = None) -> List[Node[T]]:
@@ -38,6 +42,8 @@ def dfs_iter(start: Node[T], goal: Optional[T] = None) -> List[Node[T]]:
 ```
 
 ## Breadth-First Iterative
+
+Loop through a queue removing the first element, and appending each child to the queue. This is the same as depth-first iterative except using a FIFO [first-in first-out] queue instead of LIFO [last-in first-out] stack.
 
 ``` python
 def bfs_iter(start: Node[T], goal: Optional[T] = None) -> List[Node[T]]:
