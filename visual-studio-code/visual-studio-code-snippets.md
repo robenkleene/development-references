@@ -1,6 +1,6 @@
 # Visual Studio Code Snippets
 
-`$0` designates the last placeholder, by default this is the end of the snippets. This means many snippets should look like `[[ ${0:true} ]]` in order to not have to tab again at the end of the snippet and instead got to the next placeholder in a recursive snippet.
+`$0` designates the last placeholder, by default this is the end of the snippets. This means snippets that are meant to be used recursively should look like `[[ ${0:true} ]]` in order to not have to tab again at the end of the snippet and instead got to the next placeholder in a recursive snippet, while snippets that are a full statement themselves should typically use `$1` (without `$0`) so the last tab brings the cursor to the end of the snippet.
 
 ## Creating
 
