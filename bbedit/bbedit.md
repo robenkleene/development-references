@@ -1,8 +1,6 @@
 # BBEdit
 
-## Filter Through Unix Command
-
-"Text > Run Unix Command..."
+- `⇧⌘U`: Show command palette
 
 ## Clippings
 
