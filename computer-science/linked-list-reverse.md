@@ -3,60 +3,23 @@
 ## Code
 
 ``` cpp
-#include <iostream>
-using namespace std;
-
-// Node structure
 struct Node {
     int data;
     Node* next;
     Node(int value) : data(value), next(nullptr) {}
 };
 
-// Function to reverse the linked list
 Node* reverseLinkedList(Node* head) {
-    Node* prev = nullptr; // Previous node pointer
-    Node* current = head; // Current node pointer
-    Node* next = nullptr; // Next node pointer
-
+    Node* prev = nullptr;
+    Node* current = head;
+    Node* next = nullptr;
     while (current != nullptr) {
-        next = current->next; // Save the next node
-        current->next = prev; // Reverse the link
-        prev = current;       // Move prev to current node
-        current = next;       // Move current to the next node
+        next = current->next;
+        current->next = prev;
+        prev = current;
+        current = next;
     }
-
-    return prev; // New head of the reversed list
-}
-
-// Function to print the linked list
-void printLinkedList(Node* head) {
-    Node* temp = head;
-    while (temp != nullptr) {
-        cout << temp->data << " -> ";
-        temp = temp->next;
-    }
-    cout << "nullptr" << endl;
-}
-
-// Main function to test the reversal
-int main() {
-    // Create a linked list: 1 -> 2 -> 3 -> 4 -> nullptr
-    Node* head = new Node(1);
-    head->next = new Node(2);
-    head->next->next = new Node(3);
-    head->next->next->next = new Node(4);
-
-    cout << "Original Linked List: ";
-    printLinkedList(head);
-
-    // Reverse the linked list
-    head = reverseLinkedList(head);
-
-    cout << "Reversed Linked List: ";
-    printLinkedList(head);
-
-    return 0;
+    return prev;
 }
 ```
 
