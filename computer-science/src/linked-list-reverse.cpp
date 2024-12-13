@@ -39,7 +39,7 @@ int main() {
     printLinkedList(head);
 
     head = reverseLinkedList(head);
-    cout << "Reversed Linked List: "; // 1 -> 2 -> 3 -> 4 -> nullptr
+    cout << "Reversed Linked List: "; // 4 -> 3 -> 2 -> 1 -> nullptr
 
     printLinkedList(head);
 
