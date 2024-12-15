@@ -21,7 +21,7 @@
 
 #### Explorer
 
-Only works in Explorer
+These only works in Explorer.
 
 - `⌘K E`: Focus open editors
 - `⌘K ⌘0`: Collapse folders in sidebar (note that this will not collapse search results unfortunately)
