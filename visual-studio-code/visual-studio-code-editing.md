@@ -8,6 +8,10 @@
 - `⌥↓` / `⌥↑`: Move line down / up
 - `⇧⌥↓` / `⇧⌥↑`: Copy line down / up
 
+## Selection
+
+- `⌃⇧→` / `⌃⇧←`: Grow / shrink selection (to select within delimiters)
+
 ## Refactor
 
 - `F2`: Rename symbol
