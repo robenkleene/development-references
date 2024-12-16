@@ -49,10 +49,11 @@ These only works in Explorer.
 
 - `View: Maximize Editor Group`: Zoom into a single split
 
-#### Creating
+#### Opening & Closing
 
 - `⌘\`: Split the editor vertically
 - `⌘K ⌘\`: Split editor horizontally
+- `⌘W`: Close current split
 
 #### Moving
 
