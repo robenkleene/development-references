@@ -5,7 +5,7 @@
 - `⌘↑` / `⌘↓`: Next / previous search field (also moves to, and through, search results)
 - `⌘K M`: Change language mode
 - `⌥⌘R`: Toggle regular expressions
-- `⇧⌘E`: Clear search results by switching to the explorer
+- `⇧⌘E`: Clear search results (by switching to the explorer)
 - `⇧⌘F`: Toggle search details (e.g., `Files to include`)
 
 ## Search Editor
