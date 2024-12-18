@@ -1,5 +1,6 @@
 # Visual Studio Code Navigation
 
+- `⌘P`: Open file (an absolute path can be pasted into here as well), by default this shows recent files first
 - `⌘T`: Go to symbol in project
 - `⌘⇧O`: Go to symbol in file
 - `⌘⇧O ↩`: A quick approach to going to the declaration for the current function
