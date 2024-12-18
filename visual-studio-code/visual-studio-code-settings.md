@@ -1,10 +1,8 @@
 # Visual Studio Code Settings
 
-- "Preferences: Configure Language Specific Settings..."
-
 ## Bindings
 
-Bindings can be added to the `Code/User/keybindings.json` by selecting "Code > Preferences > Keyboard Shortcuts" (`⌘K ⌘S`), and clicking the exiting short to add a new one. This works for either changing an existing shortcut, or adding a shortcut to a command that already has one.
+Bindings can be added to the `Code/User/keybindings.json` by selecting `Code > Preferences > Keyboard Shortcuts` (`⌘K ⌘S`), and clicking the exiting short to add a new one. This works for either changing an existing shortcut, or adding a shortcut to a command that already has one.
 
 ### Removing Bindings
 
@@ -25,3 +23,17 @@ To choose a formatter, use "Format Document With..." this appears to only be ava
 ## Colors
 
 To see the scope at the cursor, select "Developer: Inspect Editor Tokens and Scopes".
+
+## Language Specific Settings
+
+- `Preferences: Configure Language Specific Settings...`
+
+### Example
+
+Toggle on word wrap only for Markdown files:
+
+``` json
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    }
+```
