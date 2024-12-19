@@ -1,5 +1,7 @@
 # LRU
 
+An LRU cache needs a doubly-linked list because an arbitrary node can only be removed from a doubly-linked list (you can't get the previous node otherwise).
+
 ## Node Class
 
 It's a node to construct a doubly-linked list (because there's references to the next and previous nodes).
