@@ -48,6 +48,7 @@ These only works in Explorer.
 ### Splits
 
 - `View: Maximize Editor Group`: Zoom into a single split
+- `View: Close Editors in Other Groups`: Close all other splits
 
 #### Opening & Closing
 
