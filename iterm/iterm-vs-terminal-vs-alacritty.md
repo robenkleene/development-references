@@ -22,3 +22,7 @@
 ## Alacritty
 
 - Alacritty has no option to disable passing through the first mouse click (so clicking a window focuses it and sends the click event to the terminal). There are two key consequences of this: 1. We're always fixing the cursor position after clicking in the window to focus it, 2. It works differently than Emacs, which only focuses on first click, resulting in conflicting muscle memory between Emacs and the shell.
+
+## Scrolling
+
+- Of Ghostty, Alacritty, and iTerm2, iTerm2 is the only terminal where mouse wheel scrolling works properly in `tmux` (a single mouse wheel click starts copy mode or moves by `5` lines if already in copy mode)
