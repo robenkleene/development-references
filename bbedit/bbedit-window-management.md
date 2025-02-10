@@ -22,4 +22,6 @@ Splitting projects into multiple windows:
 
 ## Splits
 
-- Double-click or drag the little notch at the top of the scroll bars to split or unsplit the current window
+- `⌃⇥`: Switch split focus
+- `View > Text Display > Split Text View`
+- Double-click (or drag) the little notch at the top of the scroll bars to split or unsplit the current window
