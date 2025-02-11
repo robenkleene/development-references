@@ -1,5 +1,14 @@
 # Unreal Engine Navigation
 
+## Mouse
+
+- `RMB`: Look around & move
+- `LMB`: Look around
+- `⌥LMB`: Orbit
+- `Scroll`: Zoom
+
+## Trackpad
+
 - `Right-Drag`: Pan
 - `Scroll`: Look around
 - `Drag`: Move forward and back (also `WASD` movement work with the left mouse button held down)
