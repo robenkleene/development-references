@@ -1,4 +1,4 @@
-# Unreal Navigation
+# Unreal Engine Navigation
 
 - `Right-Drag`: Pan
 - `Scroll`: Look around
