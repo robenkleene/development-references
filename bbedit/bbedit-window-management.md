@@ -14,6 +14,7 @@ Splitting projects into multiple windows:
 
 - `⌥⌘[`: Previous Document
 - `⌥⌘]`: Next Document
+- `⌘D`: Fuzzy open file
 
 ## Disk Browsers
 
