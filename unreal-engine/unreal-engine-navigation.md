@@ -4,6 +4,7 @@
 
 - `RMB`: Look around & move
 - `LMB`: Look around
+- `MMB`: Pan
 - `⌥LMB`: Orbit
 - `Scroll`: Zoom
 
