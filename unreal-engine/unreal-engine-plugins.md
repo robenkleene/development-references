@@ -5,4 +5,4 @@
 ## Plugin Locations
 
 - `<project-path>/Plugins`
-- `/Users/Shared/Epic Games/<unreal-version>/Engine/Plugins`
+- `/Users/Shared/Epic Games/<unreal-engine-version>/Engine/Plugins`
