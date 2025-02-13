@@ -1,5 +1,7 @@
 # Unreal Engine Navigation
 
+- While holding a mouse button `WASD` can be used to move (hold `RMB` to move with mouse look)
+
 ## Mouse
 
 - `RMB`: Look around & move
