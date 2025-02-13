@@ -7,5 +7,6 @@
 
 ## Settings
 
+- Make a copy of the profile before changing
 - `Preferences > Profiles > Keyboard > Use Option as Meta Key`
 - `Preferences > Profiles > Text > Font: SF Mono Regular 12` (i.e., bump up the font size from 11)
