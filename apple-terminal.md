@@ -8,3 +8,4 @@
 ## Settings
 
 - `Preferences > Profiles > Keyboard > Use Option as Meta Key`
+- `Preferences > Profiles > Text > Font: SF Mono Regular 13` (i.e., bump up the font size from 12)
