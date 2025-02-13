@@ -6,3 +6,7 @@
 - Set `Preferences > Completion > Show text completions: Only manually` because it's distracting when writing prose otherwise
 - Toggle on `Preferences > Editor Defaults > Soft wrap text to: Page guide` because it's better for writing prose
 - Toggle on `Keyboard > Option-↑ and option-↓ move by paragraphs`
+
+## Font
+
+BBEdit will automatically use `Inconsolata` if it's installed. Set it to size `13` if it's being used.
