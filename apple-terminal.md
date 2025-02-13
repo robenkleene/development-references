@@ -5,7 +5,9 @@
 - `⌘R`: Disable mouse reporting (useful to use default mouse behavior when using command-line applications that support the mouse)
 - `^L`: Equivalent to clear
 
+## Profiles
 
+- `LMB` in the dock to choose `New Window With Profile`
 
 ## Settings
 
