@@ -1,3 +1,8 @@
 # Unreal Engine Material Editor
 
-- Hold `3` and then `LMB` click to add a constant color node
+## Shortcuts
+
+Hold the key and then `LMB` click to add.
+
+- `3`: Constant color
+- `M`: Multiply
