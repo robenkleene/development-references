@@ -9,7 +9,7 @@
 ## Languages
 
 - Set `Preferences > Languages > New Documents: Markdown`
-- Add Markdown and set `Editor: Soft wrap text to: Page guide` the provides the best balance of wrapping Markdown and not wrapping code
+- Under `Preferences > Languages > Custom Settings` Add Markdown and set `Editor: Soft wrap text to: Page guide` the provides the best balance of wrapping Markdown and not wrapping code
 
 ## Font
 
