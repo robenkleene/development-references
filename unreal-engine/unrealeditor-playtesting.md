@@ -1,4 +1,4 @@
-# Unreal Engine Play
+# UnrealEditor Play
 
 - Hit the play button at the top of the viewport
 

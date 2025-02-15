@@ -1,4 +1,4 @@
-# Unreal Engine Plugins
+# UnrealEditor Plugins
 
 - `Edit > Plugins`
 

@@ -1,4 +1,4 @@
-# Unreal Engine Camera
+# UnrealEditor Camera
 
 - To view through a camera, click the camera icon to the right of it in the `Sequencer`
 

@@ -1,4 +1,4 @@
-# Unreal Engine `cpp` Delete Class
+# UnrealEditor `cpp` Delete Class
 
 To delete a C++ class:
 

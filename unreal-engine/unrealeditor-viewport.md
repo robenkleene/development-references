@@ -1,4 +1,4 @@
-# Unreal Engine Viewport
+# UnrealEditor Viewport
 
 - `F`: Focus on selected object
 - Under the `Perspective` menu, choose `Cinematic Viewport`

@@ -1,4 +1,4 @@
-# Unreal Engine Material Editor
+# UnrealEditor Material Editor
 
 - `RMB`-drag: Pan
 - `⌥LMB`: Delete line connection

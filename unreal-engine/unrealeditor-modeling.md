@@ -1,4 +1,4 @@
-# Unreal Engine Modeling
+# UnrealEditor Modeling
 
 - `Q`: Select
 - `W`: Translate

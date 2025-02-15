@@ -1,4 +1,4 @@
-# Unreal Engine Engine Content
+# UnrealEditor Engine Content
 
 - `^␣`: Bring up `Content Drawer`
 - Toggle `Settings > Show Engine Content` to show the `Engine` folder
