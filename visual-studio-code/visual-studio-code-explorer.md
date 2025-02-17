@@ -5,3 +5,5 @@
 - `↩`: Rename selected file
 - `⌘⌫`: Delete current file
 - `⌥⇧⌘`, `right-click Copy Relative Path`: Copy path to file relative to the current file
+- `>File: Reveal Active File in Explorer View`: This only works if the file is in the current workspace
+- `⌥⌘R`: Reveal in Finder
