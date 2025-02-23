@@ -1,5 +1,7 @@
 # Xcode Editing
 
+- `⌃I`: Format code
+
 ## Multiple Cursors
 
 - `⌃⇧↑` / `⌃⇧↓`: Add / remove cursors below or above
