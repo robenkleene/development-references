@@ -18,6 +18,10 @@
 - `⇧⌘⌫`: Delete search result
 - `⇧⌘R`: Re-run search (e.g., if too many search results were deleted)
 
+## Notes
+
+- The icon next to `files to include` (use `⇧⌘F` to search all, then open the disclosure triangle for more options), is `Search only in Open Editors`
+
 ## Multiple Cursors
 
 - `⌥↩`: Enter multiple cursors for each search match (if this isn't working, it's usually because the search isn't setup correctly, it's a good practice to use `⌥E` then `⌥G` to check that it iterates through the expected matches).
