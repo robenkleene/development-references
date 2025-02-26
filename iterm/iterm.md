@@ -16,3 +16,7 @@
 1. Make a mouse selection
 2. Use the usual macOS text selection keys (e.g., `⇧⌘→` / `⇧⌘→`) to change the selection
 3. Use `⌘C` (or `Y`) to copy, and then `q` to exit copy mode
+
+## Hot Key Window
+
+- `General > Keys > Hotkey > Create a Dedicated Hotkey Window...`
