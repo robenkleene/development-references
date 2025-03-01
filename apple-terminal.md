@@ -14,3 +14,4 @@
 - Make a copy of the profile before changing
 - `Preferences > Profiles > Keyboard > Use Option as Meta Key`
 - `Preferences > Profiles > Shell > When the shell exits: Close if the shell exited cleanly`
+- Toggle off `Preferences > Profiles > Advanced > Audible Bell`
