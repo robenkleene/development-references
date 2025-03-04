@@ -10,7 +10,14 @@
 1. `⇧⌘H`: Find & replace
 2. `⌘⌥↩`: Replace all occurrences
 
+## Find & Replace Occurrences
+
+1. Select the text to replace
+2. Use `⌘D` to add cursors for each additional occurrence
+
 ## Find & Replace in Selection
+
+`Find & Replace Occurrences` is a usually a better approach if it's appropriate.
 
 ### Dialog
 
