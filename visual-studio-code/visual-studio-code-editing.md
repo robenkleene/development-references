@@ -1,6 +1,6 @@
 # Visual Studio Code Editing
 
-- `⌘I`: Trigger completion (e.g., if autocomplete is disabled)
+- `⌃␣`: Trigger completion (e.g., if autocomplete is disabled)
 - `⌘K M`: Select language for current file
 - `⇧⌥F` / `Format Document`: Format document
 - `⇧⌘↩`: Insert new line above
