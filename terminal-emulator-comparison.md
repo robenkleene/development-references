@@ -16,6 +16,7 @@
 - Some of the customizations, like hiding the window title completely, are pretty cool
 - Clicking the window once focuses, second registers mouse input
 - Supports URLs
+- Has custom file-system support, e.g., `ls` results can be opened in Finder and `make`-style build errors can be opened in Visual Studio Code automatically
 
 ## kitty
 
