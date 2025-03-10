@@ -13,7 +13,7 @@
 - iTerm can be configured to not open a new terminal window when it activates
 - Includes a hot key window
 - iTerm selection interferes with built-in selection in Vim, Emacs, and tmux
-- Some of the customizations, like hiding the window title completely, are pretty cool
+- Can be customized to have a minimal title bar
 - Clicking the window once focuses, second registers mouse input
 - Supports URLs
 - Has custom file-system support, e.g., `ls` results can be opened in Finder and `make`-style build errors can be opened in Visual Studio Code automatically
