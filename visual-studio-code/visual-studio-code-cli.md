@@ -1,6 +1,6 @@
 # Visual Studio Code CLI
 
-- `-r` / `--reuse-window`: Re-use an existing window
+- `-r` / `--reuse-window`: Re-use an existing window (e.g., `code -r .` will replace the currently open project with the current directory from the terminal)
 - `-n` / `--new-window`: Create a new window
 
 ## Extensions
