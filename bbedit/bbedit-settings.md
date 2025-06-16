@@ -6,6 +6,20 @@
 - Set `Preferences > Completion > Show text completions: Only manually` because it's distracting when writing prose otherwise
 - Toggle on `Preferences > Editor Defaults > Soft wrap text to: Page guide` because it's better for writing prose
 
+## Expert Settings
+
+Make `⌥⌫` delete the entire previous word instead of just the space:
+
+```
+defaults write com.barebones.bbedit Editor_ModernWordMovement -bool YES
+```
+
+Revert this setting with:
+
+```
+defaults delete com.barebones.bbedit Editor_ModernWordMovement
+```
+
 ## Languages
 
 - Set `Preferences > Languages > New Documents: Markdown`
@@ -13,4 +27,4 @@
 
 ## Font
 
-BBEdit will automatically use `Inconsolata` if it's installed.
+BBEdit will automatically use `Consolas` and `Inconsolata` if it's installed.
