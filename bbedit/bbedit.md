@@ -2,6 +2,10 @@
 
 - `⇧⌘U`: Show command palette
 
+## Bindings
+
+- `⇧⌥⌫`: Forward delete word
+
 ## Clippings
 
 Use `F5` for autocomplete to expand clippings.
