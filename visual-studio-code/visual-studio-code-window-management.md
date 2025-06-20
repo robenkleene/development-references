@@ -7,9 +7,10 @@
 
 ## Editor
 
-## Preview
-
 - `⇧⌘[` / `⇧⌘]`: Switch tabs and splits
+
+### Preview
+
 - `⌘K ↩` / `View: Keep Editor`: Exit preview mode
 - Filenames in italics are in preview mode
 - To quickly preview lots of files from the sidebar, use `␣` to preserve the focus while previewing a file.
@@ -37,9 +38,9 @@
 - `⌘⌥0`: Toggle layout between horizontal and vertical splits
 - `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move split left / up / down / right
 
-#### Notes
+#### Untitled Documents
 
-- to get an untitled window in a split, first use `⌘N` to create a new untitled file, then use `Move Editor into Below Group` to move it to a horizontal split.
+- To get an untitled window in a split, first use `⌘N` to create a new untitled file, then use `Move Editor into Below Group` to move it to a horizontal split.
 
 ## Sidebar
 
