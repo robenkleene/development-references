@@ -5,7 +5,6 @@
 - Toggle off `Preferences > Completion > Insert matching delimiters while typing` because otherwise it's hard to add Markdown code blocks with three backticks
 - Toggle on `Preferences > Text Files > Strip trailing whitespace` since BBEdit doesn't have a good way to show trailing whitespace, this helps prevent it
 - Set `Preferences > Completion > Show text completions: Only manually` because it's distracting when writing prose otherwise
-- Toggle on `Preferences > Editor Defaults > Soft wrap text to: Page guide` because it's better for writing prose
 
 ## Expert Settings
 
@@ -23,7 +22,6 @@ defaults delete com.barebones.bbedit Editor_ModernWordMovement
 
 ## Languages
 
-- Set `Preferences > Languages > New Documents: Markdown`
 - Under `Preferences > Languages > Custom Settings` Add Markdown and set `Editor: Soft wrap text to: Page guide` the provides the best balance of wrapping Markdown and not wrapping code
 
 ## Font
