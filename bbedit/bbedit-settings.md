@@ -3,8 +3,11 @@
 - Toggle off `Preferences > Application > Open documents into the front window when possible` because it's more flexible to use multiple windows
 - Toggle off `Preferences > Editing > Display instances of selected text` because it's distracting when writing prose
 - Toggle off `Preferences > Completion > Insert matching delimiters while typing` because otherwise it's hard to add Markdown code blocks with three backticks
-- Toggle on `Preferences > Text Files > Strip trailing whitespace` since BBEdit doesn't have a good way to show trailing whitespace, this helps prevent it
 - Set `Preferences > Completion > Show text completions: Only manually` because it's distracting when writing prose otherwise
+
+## Removed
+
+- Toggle on `Preferences > Text Files > Strip trailing whitespace` since BBEdit doesn't have a good way to show trailing whitespace, this helps prevent it *don't turn this on because will delete trailing whitespace when writing prose, e.g., saving before finishing a sentence*
 
 ## Expert Settings
 
