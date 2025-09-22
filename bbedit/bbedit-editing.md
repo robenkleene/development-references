@@ -1,6 +1,11 @@
 # BBEdit
 
-## Rectangular Selection
+## Selection
+
+- `⌘L`: Select line
+- `⌥⌘L`: Select paragraph
+
+### Rectangular Selection
 
 Block selection
 
