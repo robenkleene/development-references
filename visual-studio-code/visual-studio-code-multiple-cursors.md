@@ -9,4 +9,4 @@
 
 If the `Find` panel is active.
 
-- `⌥↩`: Add cursor for each find match (to scope to selection, toggle on `Find in Selection` (`⌥⌘L`)
+- `⌥↩`: Add cursor for each find match (to scope to a selection, toggle on `Find in Selection` [`⌥⌘L`])
