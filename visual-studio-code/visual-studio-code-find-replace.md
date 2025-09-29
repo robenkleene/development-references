@@ -3,7 +3,7 @@
 - `⇧⌥F`: Find & replace in folder (when the Explorer has focus)
 - `⇧⌘H`: Find & replace
 - `⌘↓`: Go to first result
-- `⇧⌘J`: Toggle search details
+- `⇧⌘J`: Toggle search details (e.g., the `File to include` glob)
 
 ## Find & Replace in Multiple Files
 
