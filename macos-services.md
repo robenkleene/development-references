@@ -7,3 +7,4 @@
 
 - Services don't work when the same keyboard shortcut is assigned for `Files and Folders` and `Text`.
 - The `⌘` key seems to be required for a shortcut to work.
+- `killall pbs;/System/Library/CoreServices/pbs -flush` can help Services show up in the `Keyboard > Services` preferences pane
