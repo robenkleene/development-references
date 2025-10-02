@@ -44,7 +44,8 @@
 
 ## Sidebar
 
-- `⌘B`: Toggle sidebar
+- `⌘B`: Toggle left sidebar
+- `⌥⌘B`: Toggle right sidebar 
 
 ### Sidebar Tabs
 
