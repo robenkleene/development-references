@@ -1,7 +1,7 @@
 # BBEdit Settings
 
 - Toggle off `Preferences > Application > Open documents into the front window when possible` because it's more flexible to use multiple windows
-- Toggle off `Preferences > Editing > Display instances of selected text` because it's distracting when writing prose
+- Keep on `Preferences > Editing > Display instances of selected text` it's distracting when writing prose, but it's really helpful to see where an instance of a selected log message appears in a log (unfortunately this can't be toggled on a per language basis)
 - Toggle off `Preferences > Completion > Insert matching delimiters while typing` because otherwise it's hard to add Markdown code blocks with three backticks
 - Set `Preferences > Completion > Show text completions: Only manually` because it's distracting when writing prose otherwise
 
