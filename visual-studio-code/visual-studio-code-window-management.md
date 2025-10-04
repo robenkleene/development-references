@@ -26,9 +26,10 @@
 ### Splits
 
 - `^⌘←` / `^⌘→`: Move a split left / right
-- `⌘K ⌘←` / `⌘K ⌘↑` / `⌘K ⌘→` / `⌘K ⌘↓`: Focus left / top / bottom / right editor
+- `⌘K ⌘←` / `⌘K ⌘↑` / `⌘K ⌘→` / `⌘K ⌘↓`: Focus left / top / bottom / right editor group (split)
 - `⌘\`: Split the editor vertically (the new split will have focus)
 - `⌘K ⌘\`: Split editor horizontally (the new split *will not* have focus)
+- `⌘\` `⌘N`: Make a new split, then open a new empty text file in the `Editor Group` for the split
 - `⌘W`: Close current split
 - `View: Maximize Editor Group`: Zoom into a single split
 - `View: Close Editors in Other Groups`: Close all other splits
