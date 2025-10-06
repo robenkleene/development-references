@@ -4,6 +4,8 @@
 - `⇧⌘H`: Find & replace
 - `⌘↓`: Go to first result
 - `⇧⌘J`: Toggle search details (e.g., the `File to include` glob)
+- `Search: Clear Search Results`: Clear search results
+- `⇧⌘E` `⌘1`: Clear search results by focusing the `Explorer` than focusing the `Editor` again
 
 ## Find & Replace in Multiple Files
 
