@@ -8,3 +8,9 @@
 - `⌘D`: Horizontal split
 - `⇧⌘D`: Vertical split
 - `⌘[` / `⌘]`: Previous / next split
+
+## Shell Integration
+
+Features that require shell integration to be enabled.
+
+- `⌘`-triple-click: Select output of last command
