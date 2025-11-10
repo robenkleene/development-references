@@ -5,5 +5,5 @@
 - `⌘T`: Go to symbol in project
 - `⌘.`: Accept quick fix
 - Hold `⌃⌥` to show inlay hints (with `offUnlessPressed` toggled on)
-- `⇧⌘O`: Symbols for current file (`:` will then group symbols by type)
+- `⇧⌘O`: Symbols for current file (`:` will then group symbols by type, `⌘↑` / `⌘↓` go up / down by group)
 - `⌘⇧O ↩`: Trick to going to the declaration for the current function
