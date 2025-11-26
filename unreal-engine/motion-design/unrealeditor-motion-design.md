@@ -5,4 +5,3 @@
 ## Install Location
 
 `/Users/Shared/Epic Games/<unreal-engine-version>/Engine/Plugins/Experimental/Avalanche`
-
