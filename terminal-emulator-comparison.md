@@ -12,7 +12,7 @@
 - `⌥`-click to disable mouse reporting while selecting text is more compatible with third-party keyboards than Terminal app which uses `fn` key
 - iTerm can be configured to not open a new terminal window when it activates
 - Includes a hot key window
-- iTerm selection interferes with built-in selection in Vim, Emacs, and tmux
+- iTerm selection interferes with built-in selection in Vim, Emacs, and `tmux`
 - Can be customized to have a minimal title bar
 - Clicking the window once focuses, second registers mouse input
 - Supports URLs
