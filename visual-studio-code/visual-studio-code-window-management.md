@@ -69,14 +69,14 @@
 ## Bottom Panel
 
 - `⌘J`: Toggle bottom panel
-- `⌃backtick`: Toggle Terminal
+- `⌃backtick`: Toggle terminal
 - `⇧⌘M`: Show Problems (issues)
 - `⇧⌘Y`: Show Debug Console
 - `View: Toggle Maximized Panel`: Maximize the panel
 
 ### Terminal
 
-- `⇧^backtick`: Make new Terminal
+- `⇧^backtick`: Make new terminal
 - `⇧⌘[` / `⇧⌘]`: Switch terminals
 
 ## Quick Open
