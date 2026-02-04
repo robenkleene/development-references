@@ -11,6 +11,7 @@
 ## Commands
 
 - `/clear`: Clear current context
+- `/compact`: Compact context
 - `/context`: Show current context
 - `/memory`: Show current references
 
