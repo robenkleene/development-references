@@ -13,3 +13,12 @@
 - `/clear`: Clear current context
 - `/context`: Show current context
 - `/memory`: Show current references
+
+## Spools
+
+`/spool` commands:
+
+- `clean`
+- `create`
+- `list`
+- `switch`
