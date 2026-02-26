@@ -1,5 +1,12 @@
 # Visual Studio Code Markdown
 
+## Tables
+
+|Foo Header|Bar Header|
+|-|-|
+|Foo Cell|Bar Cell|
+
+
 ## Math
 
 The Visual Studio Code default Markdown preview supports rendering math expressions, here are a couple of examples:
