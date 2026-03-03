@@ -6,6 +6,7 @@
 ## Extensions
 
 - `code --list-extensions`: List extensions
+- `git show | code -r -`: Open diff output in a new tab in the current window
 
 ## Opening at Line Number
 
