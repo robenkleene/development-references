@@ -76,8 +76,11 @@
 
 ### Terminal
 
+- `⌃backtick`: Toggle terminal
 - `⇧^backtick`: Make new terminal
+- `⌘\`: Split terminal
 - `⇧⌘[` / `⇧⌘]`: Switch terminals
+- Right-click directory and choose `Open in Integrated Terminal`
 
 ## Quick Open
 
