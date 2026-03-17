@@ -33,6 +33,7 @@
 - Least customization reguired
 - Dotfiles config sync
 - Supports URLs
+- Ghostty adds a lot of metadata to `env`
 
 ## Scrolling
 
