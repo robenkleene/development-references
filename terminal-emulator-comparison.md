@@ -1,11 +1,12 @@
 # Terminal Emulator Comparison
 
-## Terminal
+## Apple Terminal
 
 - Mouse reporting is more accurate
 - Only 256 colors
 - Clicking the window once focuses, second registers mouse input
 - Doesn't support URLs
+- Paste is slow, over a remote session, problematically so
 
 ## iTerm
 
@@ -34,6 +35,7 @@
 - Dotfiles config sync
 - Supports URLs
 - Ghostty adds a lot of metadata to `env`
+- Paste is fast, even over a remote session
 
 ## Scrolling
 
