@@ -6,7 +6,7 @@
 - Only 256 colors
 - Clicking the window once focuses, second registers mouse input
 - Doesn't support URLs
-- Paste is slow, over a remote session, problematically so
+- Paste is not slow in Apple Terminal, sometimes paste gets slow in remote sessions, but it's terminal emulator independent
 
 ## iTerm
 
@@ -35,7 +35,7 @@
 - Dotfiles config sync
 - Supports URLs
 - Ghostty adds a lot of metadata to `env`
-- Paste is fast, even over a remote session
+- Paste is not faster in Ghostty, sometimes paste gets slow in remote sessions, but it's terminal emulator independent
 
 ## Scrolling
 
