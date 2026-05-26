@@ -5,6 +5,12 @@
 - Toggle off `Preferences > Completion > Insert matching delimiters while typing` because otherwise it's hard to add Markdown code blocks with three backticks
 - Set `Preferences > Completion > Show text completions: Only manually` because it's distracting when writing prose otherwise
 
+## Window Size
+
+Make a new window at the default position and change it's size, then choose `Window > Save Default Text Window`.
+
+There does not appear to be a way to remove this.
+
 ## Removed
 
 - Toggle on `Preferences > Text Files > Strip trailing whitespace` since BBEdit doesn't have a good way to show trailing whitespace, this helps prevent it *don't turn this on because will delete trailing whitespace when writing prose, e.g., saving before finishing a sentence*
