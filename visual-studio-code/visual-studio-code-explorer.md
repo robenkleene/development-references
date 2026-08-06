@@ -1,5 +1,6 @@
 # Visual Studio Code Explorer
 
+- `←`: With a file selected, this will go to the enclosing folder, if it's a folder, it will close the folder, if the folder is already closed, it will go to the parent folder
 - `⌘↓`: Open current file
 - `⌃⌥⌘N`: Create a new file, this does not require the file browser to be focused
 - `↩`: Rename selected file
