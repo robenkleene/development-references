@@ -4,5 +4,5 @@
 
 ## Lists
 
-- `space`: Toggle disclosure triangle
+- `␣`: Toggle disclosure triangle
 - `⇧⌘↩`: Toggle selection
