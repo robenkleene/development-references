@@ -1,7 +1,13 @@
 # Visual Studio Code Multiple Cursors
 
+## Adding
+
 - `⌥⌘↑` / `⌥⌘↓`: Add cursor for line above / below
 - `⇧⌥I`: Multiple cursors with selection
+- `⌥⇧`-drag: Column selection
+
+## Editing or Exiting
+
 - `⎋`: Exit multiple cursors
 - `⌥LMB`: Add or remove a cursor
 
