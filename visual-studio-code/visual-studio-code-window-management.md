@@ -31,6 +31,7 @@
 - `⌘K ⌘\`: Split editor horizontally (the new split *will not* have focus)
 - `⌘W`: Close current split
 - `⌘\` `⌘N`: Make a new split, then open a new empty text file (in the `Editor Group` for the split)
+- `⌃⌘←` / `⌃⌘→`: Move split to next / previous window group (e.g., move the current tab into / out of a split)
 
 #### Navigating
 
