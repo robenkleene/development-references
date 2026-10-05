@@ -43,8 +43,8 @@
 #### Moving
 
 - `⌘⌥0`: Toggle layout between horizontal and vertical splits
-- `^⌘←` / `^⌘→`: Move a split left / right by making a new tab group
-- `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move a split to the tab group to the left / up / down / right
+- `^⌘←` / `^⌘→`: Move a split into the tab group to the left / right (creates a new tab group if one doesn't already exist)
+- `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move the entire tab group to the left / up / down / right
 
 #### Untitled Documents
 
