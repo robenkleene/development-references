@@ -14,6 +14,7 @@
 - `⌘K ↩` / `View: Keep Editor`: Exit preview mode
 - Filenames in italics in tabs are in preview mode (which means clicking another file in the `Explorer` while this tab is selected will open that file *in the same tab*, whereas normally it opens the file in a new tab [note that preview tabs will be also be used *by other tabs*, e.g., if you click a new file in a non-preview mode tab, with a preview mode tab open, the new file will open in the preview mode in the preview mode tab])
 - To quickly preview lots of files from the sidebar, use `␣` to preserve the focus while previewing a file.
+- `⌃-` / `⇧⌃-`: Go to previous / next location (e.g., `⌃-` to return to reference after jump to definition, this will also go to the previous file in preview mode)
 
 ### Tabs
 

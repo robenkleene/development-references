@@ -6,7 +6,7 @@
 - `⌘K ↩`: Take file out of preview mode, so choosing another file doesn't replace this one
 - `F12`: Go to definition
 - `⇧F12`: Go to references
-- `⌃-` / `⇧⌃-`: Go to previous / next location (e.g., `⌃-` to return to reference after jump to definition)
+- `⌃-` / `⇧⌃-`: Go to previous / next location (e.g., `⌃-` to return to reference after jump to definition, this will also go to the previous file in preview mode)
 - `⇧F8` / `F8`: Previous / next problem (issue) in current file
 - `⇧⌥F8` / `⌥F8`: Previous / next problem (issue) across files
 - `⇧⌘\`: Jump to matching pair
