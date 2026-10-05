@@ -36,7 +36,6 @@
 
 #### Navigating
 
-- `^⌘←` / `^⌘→`: Move a split left / right
 - `⌘K ⌘←` / `⌘K ⌘↑` / `⌘K ⌘→` / `⌘K ⌘↓`: Focus left / top / bottom / right editor group (split)
 - `View: Maximize Editor Group`: Zoom into a single split
 - `View: Close Editors in Other Groups`: Close all other splits
@@ -44,7 +43,8 @@
 #### Moving
 
 - `⌘⌥0`: Toggle layout between horizontal and vertical splits
-- `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move split left / up / down / right
+- `^⌘←` / `^⌘→`: Move a split left / right by making a new tab group
+- `⌘K ←` / `⌘K ↑` / `⌘K →` / `⌘K ↓`: Move a split to the tab group to the left / up / down / right
 
 #### Untitled Documents
 
